@@ -6,8 +6,75 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 10 Dec 2015 16:48:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2015 23:23:54 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>「いまどきのフロントエンド環境構築」でmakeについてのLTをした話</title>
+      <link>http://nocono.net/post/2015/kfug-makefile/</link>
+      <pubDate>Thu, 10 Dec 2015 23:23:54 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2015/kfug-makefile/</guid>
+      <description>
+
+&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kfug&#34;&gt;関西フロントエンドUG Advent Calendar 2015 - Qiita&lt;/a&gt; 10日目の記事です。&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;26&lt;/sub&gt; 関西フロントエンドUG開催の&lt;a href=&#34;http://kfug.connpass.com/event/17849/&#34;&gt;[JS/CSS] いまどきのフロントエンド環境構築&lt;/a&gt;という勉強会でmakeについての発表をしました。&lt;/p&gt;
+
+&lt;h2 id=&#34;発表資料:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;発表資料&lt;/h2&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/rFwL1kVFpB8tuw&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/make-56010270&#34; title=&#34;makeのススメ&#34; target=&#34;_blank&#34;&gt;makeのススメ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;発表することになった経緯:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;発表することになった経緯&lt;/h2&gt;
+
+&lt;p&gt;去年末、仕事をしていたチームで「Gruntを使ってみよう」という話になり、フロント側のタスクをGruntfileにせっせと記述する係をやっていました。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトではTypeScriptを採用していたので、Gruntプラグインを使用してTypeScriptのビルドタスクを作成しました。ところがtscコマンドを直に叩くと正常にコンパイルできるのに、作成したGruntタスクを実行するとコンパイルエラーとなる現象が発生。(バージョンの問題？)&lt;/p&gt;
+
+&lt;p&gt;エラーを解消できず、しかも元々必要なコマンドは最終的に全てMakefileに集約する方針だったため、結局tscコマンドをMakefileに直に書くことに。
+その時「そもそも最初からMakefileに書けばよかったんやなこれ・・・」と思い、その後はフロント側のタスクもなるべくGruntfileには書かずに直接Makefileに書いていました。&lt;/p&gt;
+
+&lt;p&gt;・・・という話を飲み会でしたら、&lt;a href=&#34;http://qiita.com/mikakane&#34;&gt;主催の人&lt;/a&gt;に「そのネタでLTやってください」って言われて発表することになりました。(しかもトリ)&lt;/p&gt;
+
+&lt;p&gt;「いまどきのフロントエンド環境構築」ってタイトルの勉強会のトリでmakeの話をするとかちょっとロックすぎないか？と心配でしたが、意外と「私もMakefileに書いています」なんて方もいて安心(?)しました。&lt;/p&gt;
+
+&lt;h2 id=&#34;フロントエンド技術の流行り廃りの激しさが辛い:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;フロントエンド技術の流行り廃りの激しさが辛い&lt;/h2&gt;
+
+&lt;p&gt;そもそも去年末の時点で「最近Grunt使いはじめた。」という話をしたら「えっ！いまさらGrunt！？Gulpじゃなくて！？」みたいな話になり、その話を他の人にしたら「え。Gulpももう遅れてる空気じゃない？」みたいなことを言われて&lt;em&gt;何使ったらいいんだようわぁああああああ！！！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;・・・っていう感じで恐ろしく流行り廃りが激しいじゃないですか。タスクランナーに限らずフロントエンドって。&lt;/p&gt;
+
+&lt;p&gt;実際この日も「Gulpもう疲れた」とか「Gulpプラグインがメンテされていないの多くて辛い」みたいな声が結構あったのが印象的でした。&lt;/p&gt;
+
+&lt;p&gt;「最近流行っているらしい」と聞くとついつい手を出したくなるところではありますが、&lt;strong&gt;本当に採用が妥当かどうか、周囲の盛り上がりに流されず判断する力が特に要求される&lt;/strong&gt;のがこの界隈なんだなーと、今年個人的に身を以て体感したのでした。&lt;/p&gt;
+
+&lt;h2 id=&#34;私とフロントエンド-この1年:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;私とフロントエンド この1年&lt;/h2&gt;
+
+&lt;p&gt;以前は仕事でフロント側の技術に触れる機会がほとんどなかったのですが、今年は&lt;a href=&#34;http://gruntjs.com/&#34;&gt;Grunt&lt;/a&gt;や&lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;TypeScript&lt;/a&gt;、&lt;a href=&#34;http://knockoutjs.com/&#34;&gt;knockout.js&lt;/a&gt;、&lt;a href=&#34;http://casperjs.org/&#34;&gt;CasperJS&lt;/a&gt;を先述の案件で使用し、また自身が開催した&lt;a href=&#34;summit.scala-kansai.org&#34;&gt;Scala関西Summitのサイト&lt;/a&gt;で&lt;a href=&#34;http://semantic-ui.com/&#34;&gt;SemanticUI&lt;/a&gt;や&lt;a href=&#34;http://gulpjs.com/&#34;&gt;Gulp&lt;/a&gt;を活用、そして今日はこのサイトを&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;に移行したりと、一気にいろんなフロントエンド技術にどっぷり浸かった1年でした。
+付いて行くのはしんどいものの、フロントエンドは結果が派手というか、動きがあったり綺麗なUIが短いコードでできあがったりするので楽しいですね。&lt;/p&gt;
+
+&lt;h2 id=&#34;私と関西フロントエンドug-この1年:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;私と関西フロントエンドUG この1年&lt;/h2&gt;
+
+&lt;p&gt;そんなフロントエンドの移り変わりの激しさに負けないためにも！と、&lt;a href=&#34;http://kfug.connpass.com/&#34;&gt;関西フロントエンドUG(KFUG)&lt;/a&gt;にはちょくちょく顔を出し、何回か登壇の機会もいただきました。ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;KFUGはまだスタートして1年ですがいろんな人が参加していて、なかなか楽しいコミュニティです。
+2016/03/05にはなんと&lt;a href=&#34;http://frontconf2016.webflow.io/&#34;&gt;frontend conference 2016&lt;/a&gt;開催ということで、こちらも楽しみ。&lt;/p&gt;
+
+&lt;p&gt;来年も引き続きちょくちょく顔を出していくつもりですので、みなさまよろしくお願いいたします。&lt;/p&gt;
+
+&lt;p&gt;さて、そんな盛り上がっている筈のKFUGですが、なんと&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kfug&#34;&gt;アドベントカレンダー&lt;/a&gt;が埋まっていないではないか！
+ということでネタはいくつかあるので、気が向いたらまた何か書きたいなと思います。&lt;/p&gt;
+
+&lt;p&gt;とりあえず、現時点での次は明後日の&lt;a href=&#34;http://qiita.com/shima_x_o&#34;&gt;shima_x_o&lt;/a&gt;ですね！お楽しみに〜！&lt;/p&gt;
+
+&lt;h2 id=&#34;関連サイト:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;関連サイト&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://kfug.connpass.com/event/17849/&#34;&gt;[JS/CSS] いまどきのフロントエンド環境構築 - connpass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://togetter.com/li/879700&#34;&gt;「いまどきのフロントエンド環境構築」のまとめ【俺得】 - Togetterまとめ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>WordPressからHugoに移行しました。</title>
@@ -1438,60 +1505,6 @@ Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定�
 興味がある方は是非チェックしておいてください。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFramework関西ビギナーズまとめwiki&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PlayFrameworkもくもく会 第1回開催しました。 #play_kb</title>
-      <link>http://nocono.net/post/2013/24/</link>
-      <pubDate>Thu, 20 Jun 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/24/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/23&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会を開催しました。&lt;br /&gt;
-&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;(水) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
-
-&lt;p&gt;2時間各自で自主勉強の後、30分成果報告の時間を設けました。&lt;br /&gt;
-情報交換をする事ができて、とても有意義な時間となりました。&lt;br /&gt;
-参加者のみなさんありがとうございました！&lt;/p&gt;
-
-&lt;p&gt;こんなライトな感じで定期的に開いていきたいなぁと思っています。&lt;br /&gt;
-平日よりも土日の方がみなさん参加しやすいかもですが、他の勉強会とのブッキングも多くなっちゃう気もするしどっちがいいんだろう？&lt;br /&gt;
-まぁその辺は様子見ながら決めていきたいです。&lt;/p&gt;
-
-&lt;p&gt;実はこっそりまとめwiki作りました。&lt;br /&gt;
-&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;開催記録、次回開催情報など載せていきます。&lt;br /&gt;
-情報チェックにご活用ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人的にやったことメモ:be552971788e8adf422dae2567065c29&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
-
-&lt;p&gt;公式マニュアルを参考にTwitterのOAuth認証処理を実装しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.playframework-ja.org/documentation/2.0.4/ScalaOAuth&#34;&gt;Documentation: ScalaOAuth — Playframework&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;処理自体はサンプルコードをコピペすれば動くのですが、文法的に分からないところを調べていたらあっさり2時間経過・・・。&lt;/p&gt;
-
-&lt;h3 id=&#34;参照したページや書籍:be552971788e8adf422dae2567065c29&#34;&gt;参照したページや書籍&lt;/h3&gt;
-
-&lt;p&gt;大分お世話になりました。&lt;br /&gt;
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;・暗黙の引数(inplict)&lt;br /&gt;
-&lt;a href=&#34;http://www.ne.jp/asahi/hishidama/home/tech/scala/def.html#h_implicit_parameter&#34;&gt;Scalaメソッド定義メモ(Hishidama&amp;rsquo;s Scala def Memo) &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;・flatMap&lt;br /&gt;
-&lt;a href=&#34;http://d.hatena.ne.jp/PvP/20110427/1303882687&#34;&gt;map と flatMap の違い - PvP&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;・例外処理&lt;br /&gt;
-&lt;a href=&#34;http://yuroyoro.hatenablog.com/entry/20100719/1279519961&#34;&gt;Scalaでの例外処理 - Either,Option,util.control.Exception - ( ꒪⌓꒪) ゆるよろ日記&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;その他:be552971788e8adf422dae2567065c29&#34;&gt;その他&lt;/h3&gt;
-
-&lt;p&gt;・&lt;a href=&#34;http://slick.typesafe.com/&#34;&gt;Slick&lt;/a&gt;というDBアクセスラッパーを教えて頂きました！&lt;br /&gt;
-・報告時点でOAuth認証がこけていたのですが、Twitter側のコールバックURL設定していなかっただけでした・・・。&lt;/p&gt;
 </description>
     </item>
     
