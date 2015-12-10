@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ゲラゲラ on nocono</title>
+    <link>http://nocono.net/tags/%E3%82%B2%E3%83%A9%E3%82%B2%E3%83%A9/</link>
+    <description>Recent content in ゲラゲラ on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 03 Oct 2012 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/%E3%82%B2%E3%83%A9%E3%82%B2%E3%83%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>「ゲラゲラ！」正式オープン！</title>
+      <link>http://nocono.net/post/2012/9/</link>
+      <pubDate>Wed, 03 Oct 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/9/</guid>
+      <description>
+
+&lt;p&gt;長らくβ運営中だった&lt;a href=&#34;http://geragera.jp/&#34;&gt;Twitter大喜利サイト「ゲラゲラ！」&lt;/a&gt;をリニューアルし、正式運営を開始しました！&lt;br /&gt;
+色々とご意見くださったみなさん、本当にありがとうございました！&lt;/p&gt;
+
+&lt;p&gt;「TwitterIDでログインし、大喜利のお題や回答を投稿。面白い回答には投票できる。」という基本的な遊び方は変わりませんが、より楽しんで頂けるように色々と変更を加えております。&lt;br /&gt;
+大きな変更点は以下の通りです。&lt;/p&gt;
+
+&lt;h2 id=&#34;サイトデザイン:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;サイトデザイン&lt;/h2&gt;
+
+&lt;p&gt;以前よりも明るい雰囲気となりました。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2012/geragera_sc.png&#34; alt=&#34;&amp;quot;スクリーンショット&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;マスコットキャラクター-の登場:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;マスコットキャラクター(？)の登場&lt;/h2&gt;
+
+&lt;p&gt;名前募集中です。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2012/face.png&#34; alt=&#34;&amp;quot;マスコットキャラクター&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;投票ボタンデザイン変更:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;投票ボタンデザイン変更&lt;/h2&gt;
+
+&lt;p&gt;ゲラゲラ笑える回答にはこのボタンを押してあげてね！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2012/geragera_btn.png&#34; alt=&#34;&amp;quot;ボタン&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;投稿者本人にツイートされたお題が公式アカウントでrtされるように変更:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;投稿者本人にツイートされたお題が公式アカウントでRTされるように変更&lt;/h2&gt;
+
+&lt;p&gt;お題投稿時に「ツイートする」をチェックしていると、公式アカウント&lt;a href=&#34;https://twitter.com/geragera_nocono&#34;&gt;@geragera_nocono&lt;/a&gt;にRTされるようになりました！&lt;br /&gt;
+投稿時にツイートしていなくても、投稿上部に表示される「ツイートする」ボタンを押すと同様にRTされます。&lt;/p&gt;
+
+&lt;h2 id=&#34;回答の個別ページ作成:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;回答の個別ページ作成&lt;/h2&gt;
+
+&lt;p&gt;各回答に個別のページが作成されるようになりました。&lt;br /&gt;
+ソーシャルボタンが付いていますので、面白い回答を見つけたら「いいね！」ボタンを押したり、Twitterでツイートしてみんなに教えてあげてくださいね！&lt;/p&gt;
+
+&lt;h2 id=&#34;投稿にrtボタン-お気に入りボタン表示:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;投稿にRTボタン、お気に入りボタン表示&lt;/h2&gt;
+
+&lt;p&gt;投稿者本人によってツイートされている投稿について、ここからRTやお気に入りに追加することができます。&lt;/p&gt;
+
+&lt;h2 id=&#34;人気の回答-新着回答-ポイントが付いた回答を表示:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;人気の回答・新着回答・ポイントが付いた回答を表示&lt;/h2&gt;
+
+&lt;p&gt;トップ画面及びサイドに表示しています。&lt;br /&gt;
+面白回答を見つけたらポイントを入れてあげてくださいね！&lt;/p&gt;
+
+&lt;h2 id=&#34;新着お題-回答が付いたお題を表示:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;新着お題・回答が付いたお題を表示&lt;/h2&gt;
+
+&lt;p&gt;トップ画面及びサイドに表示しています。&lt;br /&gt;
+お題探しに役立ててください。&lt;/p&gt;
+
+&lt;h2 id=&#34;ユーザーランキングを追加:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;ユーザーランキングを追加&lt;/h2&gt;
+
+&lt;p&gt;期間内の得票数でのランキングです。&lt;br /&gt;
+ランクイン目指してどんどん回答を投稿してくださいね。&lt;/p&gt;
+
+&lt;h2 id=&#34;ランキングに週間-月間を追加:6a1322aee4e58bdcf88063043cbd86e6&#34;&gt;ランキングに週間・月間を追加&lt;/h2&gt;
+
+&lt;p&gt;以前は24時間ランキングのみだったのですが、週間・月間を追加しました。&lt;/p&gt;
+
+&lt;p&gt;今後もどんどん改善していくつもりです。
+みなさん、引き続き&lt;a href=&#34;http://geragera.jp/&#34;&gt;「ゲラゲラ！」&lt;/a&gt;をどうぞよろしくお願いします！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>大喜利サイト『ゲラゲラ！』公開中</title>
+      <link>http://nocono.net/post/2012/7/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/7/</guid>
+      <description>&lt;p&gt;先日6/10より、以下のサービスのβテストを行っております。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://geragera.jp/&#34;&gt;&lt;img src=&#34;http://nocono.net/image/2012/geragera.png&#34; alt=&#34;大喜利サイト『ゲラゲラ！』公開中&#34; title=&#34;大喜利サイト『ゲラゲラ！』&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitterアカウントで参加可能な大喜利サイト&lt;a href=&#34;http://geragera.jp/&#34;&gt;『ゲラゲラ！』&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TwitterIDにてログインすることにより、大喜利のお題・回答が投稿できます。
+さらに他の人の回答に投票することが可能です。
+投稿の閲覧だけであればTwitterアカウントが無い方でもOK！
+PC、スマートフォンからご利用いただけます。&lt;/p&gt;
+
+&lt;p&gt;まだまだこれから少しづつ機能を追加していって発展させていければなと思っております。
+もしよろしければ遊びにきてくださいね！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

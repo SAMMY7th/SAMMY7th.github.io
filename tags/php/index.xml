@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on nocono</title>
+    <link>http://nocono.net/tags/php/</link>
+    <description>Recent content in Php on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 20 May 2015 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PHPとScalaと私 #phpkansai</title>
+      <link>http://nocono.net/post/2015/36/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2015/36/</guid>
+      <description>
+
+&lt;p&gt;この記事は「&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;PHPカンファレンス関西2015&lt;/a&gt;」のリレーブログのエントリーです。&lt;/p&gt;
+
+&lt;p&gt;「PHPカンファレンス関西2015」の開催日までリレー方式でブログを繋いでいきます。&lt;/p&gt;
+
+&lt;p&gt;昨日のエントリーは、mikakaneさんによる&lt;a href=&#34;http://mkkn.hatenablog.jp/entry/2015/05/19/101654&#34;&gt;PHPカンファレンス関西の楽しみ方 2015&lt;/a&gt;でした。&lt;/p&gt;
+
+&lt;h2 id=&#34;自己紹介:cf14ce910ef7db43192a91992e038019&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;大阪でフリーランスエンジニアをやっている、きの子こと、あべあさみと申します。
+最近はScalaやAndroidアプリ開発のお仕事を中心にお請けしており、&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala&lt;/a&gt;や&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;Javaのコミュニティ&lt;/a&gt;を主催しています。&lt;/p&gt;
+
+&lt;p&gt;PHPは、去年Yii2 Frameworkでのシステム開発に携わったことがきっかけで、本格的に取り組みはじめました。
+(&lt;a href=&#34;http://qiita.com/aa7th/items/cd226ce22682587fb9ac&#34;&gt;去年書いたYii2アドベントカレンダーの記事&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;PHPカンファレンス関西は、スタッフとしては今年が初参加です。
+参加者としては2年前からお邪魔していて、懇親会LTをやらせていただいたりするなど、いち参加者として楽しんでいました。&lt;/p&gt;
+
+&lt;p&gt;スタッフをやってみたいなーという気持ちは前からあったのですが、そんな中「&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西 Summit 2015&lt;/a&gt;」というScalaの大規模イベントを開催することになりました。
+僭越ながら実行委員長を務めているのですが、私自身に大規模イベントの運営経験が全くなく、
+PHPカンファレンスのスタッフ参加はいい経験になると考え自ら申し出たところ、みんな快く私を迎え入れてくれました。&lt;/p&gt;
+
+&lt;p&gt;私はセッション関連担当として動いているのですが、一番大きな仕事は、
+メイントラック13:00からの「&lt;a href=&#34;http://conference.kphpug.jp/2015/timetable/&#34;&gt;ビッグウェーブ到来！？ – 関数プログラミング導入の要点 –&lt;/a&gt;」の&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;粕谷さん&lt;/a&gt;へ登壇を依頼したことです。
+今日のブログではこちらの依頼の経緯を書きます。&lt;/p&gt;
+
+&lt;h2 id=&#34;なぜphpのイベントでscalaエンジニアのセッションが:cf14ce910ef7db43192a91992e038019&#34;&gt;なぜPHPのイベントでScalaエンジニアのセッションが？&lt;/h2&gt;
+
+&lt;p&gt;粕谷さんは&lt;a href=&#34;http://hatenacorp.jp/&#34;&gt;株式会社はてな&lt;/a&gt;のScalaエンジニアさんで、Scalaコミュニティでとても有名な方です。
+PHPについてはほとんどご存知ないとのこと。
+というわけで、「なぜ粕谷さんがPHPカンファレンス関西で登壇を！？」と驚かれた方もいらっしゃると思います。&lt;/p&gt;
+
+&lt;p&gt;関数プログラミングとは、LispやHaskellなどの関数型言語のプログラミングスタイルです。
+Scalaも関数型言語として注目を集めている言語です。&lt;/p&gt;
+
+&lt;p&gt;PHPは関数型言語ではありませんが、5.3より新機能として&lt;a href=&#34;http://php.net/manual/ja/functions.anonymous.php&#34;&gt;クロージャ&lt;/a&gt;が追加され、関数プログラミングが可能となりました。
+しかし、その手法はまだPHP界隈では浸透していません。
+そのような背景もあり、スタッフ内で「PHPのコンテキストで、関数型プログラミングの話を聞きたい！」という声があがりました。&lt;/p&gt;
+
+&lt;p&gt;その話をしてみたところ、粕谷さんが「面白そう！」と言ってくださったので、登壇をお願いする運びとなりました。
+内容としてはPHPに特化した話ではありませんが、関数プログラミングとは一体なんだろう？という初歩のお話となる予定です。&lt;/p&gt;
+
+&lt;h2 id=&#34;おもうこと:cf14ce910ef7db43192a91992e038019&#34;&gt;おもうこと&lt;/h2&gt;
+
+&lt;p&gt;スタッフになって印象的だったのが、みんなPHP以外の言語の話も聞きたいと言っていることでした。
+打ち合わせ後にスタッフで飲みに行くと、当然PHPの話で盛り上がるのですが、
+「PHPはいろんな言語のよさを取り入れて進化してきたし、これからもそう。だから、他の言語の話も聞きたいよね！」と、PHP以外の言語の話でも盛り上がるのです。&lt;/p&gt;
+
+&lt;p&gt;その言葉の通り、私が参加した2013年、2014年では、PHP以外の言語(RubyやJavaなど)のセッションがありました。
+PHPコミュニティの枠にとらわれることなく、他言語のエッセンスを貪欲に取り入れるため、PHP以外のコミュニティで活躍される方を積極的にお招きする姿勢は、とても素晴らしいと思います。&lt;/p&gt;
+
+&lt;p&gt;今回は、関数プログラミングについてまだよく知らない！という方に向けて。
+Scala(というよりは、関数型言語全般でしょうか)から、関数プログラミングのエッセンスを少しお届けいたします。
+ぜひぜひ取り入れてくださいね。&lt;/p&gt;
+
+&lt;p&gt;もちろん、関数型プログラミングの話だけではなく、PHP7や各種フレームワークのお話etc.etc.
+PHP界隈のみなさまによるPHPのセッションが盛りだくさん！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;PHPカンファレンス関西2015&lt;/a&gt;！
+PHPerなみなさまも、そうでないみなさまも、ぜひお楽しみに！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/timetable/&#34;&gt;タイムテーブルはこちら&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;さて！このリレーブログ、当日までまだまだ続きます！
+明日の担当は&lt;a href=&#34;http://tanakahisateru.hatenablog.jp/&#34;&gt;田中ひさてる&lt;/a&gt;さんでーす！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA13 PHP開発環境設定メモ</title>
+      <link>http://nocono.net/post/2013/29/</link>
+      <pubDate>Fri, 13 Dec 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/29/</guid>
+      <description>
+
+&lt;p&gt;先日とうとう、IntelliJ IDEA13 ULTIMATEを購入しました。
+これで「えっ。&lt;a href=&#34;http://nocono.net/17&#34;&gt;JetBrains勉強会&lt;/a&gt;とか開いておきながらCommunity Edition(無償版)なの・・・？」 と言われる日々とはもうおサラバです。&lt;/p&gt;
+
+&lt;p&gt;というわけで、早速PHP開発の設定を行ったのでメモ。&lt;/p&gt;
+
+&lt;p&gt;環境&lt;br /&gt;
+Mac OS X 10.8.5&lt;br /&gt;
+PHP 5.4.22&lt;br /&gt;
+IntelliJ IDEA 13.0&lt;/p&gt;
+
+&lt;p&gt;PHPStorm7もおそらく同じだと思います。
+参考になれば幸いです。
+&lt;h2&gt;IntelliJ IDEA 初期設定&lt;/h2&gt;
+IDEA自体の初期設について。一応さくっと。
+Macの方はPreferences -&amp;gt; keymap で KeymapsをMac OS X 10.5+に変更するといい感じです。
+Eclipseからの移行の方ならEclipseがいいかも。 (いつの間にかEclipse (Mac OS X)なんてキーマップがある・・・！)
+残念ながらVimキーマップはありません。「どうしてもVimっぽく使いたい！」という方は&lt;a href=&#34;https://github.com/JetBrains/ideavim&#34; target=&#34;_blank&#34;&gt;ideaVim&lt;/a&gt;というプラグインを試してみてください。&lt;/p&gt;
+
+&lt;p&gt;あとはとりあえずPreferences -&amp;gt; Editor -&amp;gt; Appearanceの 「Show line number」「Show whitespaces」をONにしておいて、インターフェイスが黒い方がいい方はPreferences -&amp;gt; Appearance -&amp;gt; ThemeをDarculaに設定しておけばOK。&lt;/p&gt;
+
+&lt;p&gt;初期設定に関しては以下のクイックスタートが参考になります。
+&lt;a title=&#34;IntelliJ IDEA クイックスタート | サムライズム&#34; href=&#34;http://samuraism.com/products/jetbrains/intellij-idea/quickstart&#34; target=&#34;_blank&#34;&gt;IntelliJ IDEA クイックスタート | サムライズム&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #999999;&#34;&gt;（余談ですが13からは「Allow placement of caret after end of line」がデフォルトOFFになったそうですね。よかったよかった。)&lt;/span&gt;
+&lt;h2&gt;PHP設定&lt;/h2&gt;
+ここから、PHP関連のメモです。&lt;/p&gt;
+
+&lt;p&gt;ローカルにPHP5.3+Apatcheの環境があるのですが、5.4を使ってみることにしました。
+Homebrewでさくっとインストール。php.iniはとりあえずタイムゾーンだけ「Asia/Tokyo」に設定。&lt;/p&gt;
+
+&lt;p&gt;次はIntelliJ IDEAのPHP設定です。&lt;/p&gt;
+
+&lt;p&gt;Preferences -&amp;gt; PHP を開いて、PHP language levelを設定。
+次にInterpreterの右の「…」をクリック。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Preferences-4.png&#34; alt=&#34;Preferences&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下記の画面が立ち上がるので、左上の「+」を押してInterpretersを追加。
+Nameに適当な名前をいれて、PHP homeにPHPへのパスを入力。
+使用するPHPバージョンがちゃんと下に表示されればOKです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Interpreters.png&#34; alt=&#34;Interpreters&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;次にサーバー設定。
+ビルトインサーバーで実行ができるよう設定します。&lt;/p&gt;
+
+&lt;p&gt;Run -&amp;gt; Edit Configurations を選択してRun/Debug Configurationsを起動。
+左上の「+」をクリックして、Add New ConfigurationからPHP Buit-in Web Serverを選択。
+(PHP Buit-in Web Serverが表示されていないようなら、一番下の30 more itemsをクリック。)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/addnew1.png&#34; alt=&#34;addnew1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nameには適当な名前を入力。
+Hostはlocalhost、ポート番号はデフォルトの80は他で使用しているため、8000に変更。
+Document rootには動かしたいプロジェクトのドキュメントルートのパスを入力。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Run_Debug2.png&#34; alt=&#34;Run_Debug2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これでOKボタンを押下するとサーバーが追加され、実行(Run)できるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/run3.png&#34; alt=&#34;run3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ApacheなどのWebサーバーを準備しなくてもPHPの動作確認環境を作ることができました。
+便利便利。
+&lt;h2&gt;Xdebug設定&lt;/h2&gt;
+せっかくIDEを使うのだから、ブレイクポイントで実行を停めたい！ステップ実行したい！！
+調べると、どうやらXdebugを使うといいらしい。ということでデバッガの設定もしました。&lt;/p&gt;
+
+&lt;p&gt;インストールはこちらもHomebrewでさくっと。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install php54-xdebug
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;/usr/local/etc/php/5.4/conf.d/ext-xdebug.ini&lt;/code&gt;に&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;xdebug.remote_enable=1
+xdebug.remote_port=9001
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;を追記。
+（デフォルトのポート番号(9000)は何かとよく使うので9001に変更しておきました。）&lt;/p&gt;
+
+&lt;p&gt;ここで、&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;xdebug.remote_autostart=1
+xdebug.profiler_enable=1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;を設定するかどうかで迷いました。
+デバッグとかプロファイラとかって必要な時だけOnにしたい気がするんだけど、どうしたら・・・と思い、とりあえずPHPサーバー起動時のオプション引数にしておいて、デバッグOnのもの、プロファイラもOnのもの・・・と複数サーバーを作成してみたのですが。&lt;/p&gt;
+
+&lt;p&gt;なんと、JetBrains公式にデバッガ、プロファイラのOn/Offを切り替えるブックマークレット生成ページがありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&#34;Zend Debugger &amp;amp; Xdebug bookmarklets generator for PhpStorm &#34; href=&#34;http://www.jetbrains.com/phpstorm/marklets/&#34; target=&#34;_blank&#34;&gt;Zend Debugger &amp;amp; Xdebug bookmarklets generator for PhpStorm &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;というわけで、ここで生成したブックマークレットをブックマークに登録しておいて、必要に応じてOnOff切り替えることにしました。めでたしめでたし。&lt;/p&gt;
+
+&lt;p&gt;Xdebugのインストールが完了した段階でIDEAのInterpretersを確認すると、Xdebugのバージョンが表示されていました。
+自動検出してくれるらしいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Interpreters4.png&#34; alt=&#34;Interpreters4&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;次はデバッガの設定。
+Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定。
+デフォルト値が9000なので、ポート番号を変更していない場合は特に設定の必要無し。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Preferences5.png&#34; alt=&#34;Preferences5&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これで完了です。
+ポート番号を変えたりしていなければ、特に設定することはないってことですね。
+(ここはIDEではなくプロジェクトの設定なので、違うプロジェクトを作る毎に設定する必要があるので注意。)&lt;/p&gt;
+
+&lt;p&gt;これでデバッグセッションが開始されている状態でStart Listen for PHP Debug Connectionsボタンを押すと、デバッグ情報を受信するようになって、ブレイクポイントで実行を停めたり変数の中身を見たりできます。&lt;/p&gt;
+
+&lt;p&gt;未接続状態
+&lt;img src=&#34;http://nocono.net/image/2013/run6.png&#34; alt=&#34;run6&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;接続状態
+&lt;img src=&#34;http://nocono.net/image/2013/run7.png&#34; alt=&#34;run7&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;データベース(MySQL)接続も設定したのでそれも書くつもりだったのですが、長くなってしまったのでとりあえずここまで。&lt;/p&gt;
+
+&lt;p&gt;PHPもJavaと同じIDEで快適に開発できるというのはやっぱり嬉しい！
+せっかく買ったのだし、しっかり活用していきたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考にしたサイト:ce69564a9af371ad660aa857107bd8d7&#34;&gt;参考にしたサイト&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;Configuring XDebug | JetBrains
+&lt;/a&gt;&lt;a title=&#34;[PhpStorm]ビルトインウェブサーバでPHPアプリを動かす | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/13/09/13-194959.php&#34; target=&#34;_blank&#34;&gt;[PhpStorm]ビルトインウェブサーバでPHPアプリを動かす | バシャログ。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/12/10/25-110245.php&#34; target=&#34;_blank&#34;&gt;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&lt;/a&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

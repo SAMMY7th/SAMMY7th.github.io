@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    PlayFrameworkで開発してみた | nocono
+  </title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta name="description" content="先日公開を開始した『ゲラゲラ！』は『Play framework』を使用して開発しました。
+">
+  <meta name="keywords" content="Java,PlayFramework,">
+
+
+  <meta property="og:title" content="PlayFrameworkで開発してみた | nocono">
+
+  <meta property="og:type" content="article">
+  <meta name="og:description" content="先日公開を開始した『ゲラゲラ！』は『Play framework』を使用して開発しました。
+">
+  <meta name="keywords" content="Java,PlayFramework,">
+  <meta property="og:url" content="http://nocono.net/post/2012/8/">
+
+  <meta property="og:image" content="/images/thumbnail.png">
+  <meta property="og:site_name" content="nocono">
+  <meta property="fb:app_id" content="170143633116841">
+  <meta property="fb:page_id" content="386921578022414">
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nocono.net/post/2012/8/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  
+  <link href="http://nocono.net/index.xml" rel="alternate" type="application/rss+xml" title="nocono" />
+  <link href="http://nocono.net/index.xml" rel="feed" type="application/rss+xml" title="nocono" />
+
+  
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "2b9fffc6-b3fe-4988-a0ef-4f9dcce98eaa", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="http://nocono.net/"><img src="/images/logo.png" class="logo"></a></h1>
+        
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://twitter.com/aa7th" target="_blank">Twitter</a></li>
+          
+          <li><a href="https://github.com/SAMMY7th" target="_blank">GitHub</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>PlayFrameworkで開発してみた</h1>
+      <div class="meta">
+        2012/06/29 &nbsp;
+        
+          #<a href="/tags/java">Java</a>&nbsp;
+        
+          #<a href="/tags/playframework">PlayFramework</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      
+
+<p>先日公開を開始した『<a href="http://geragera.jp/" title="ゲラゲラ！">ゲラゲラ！</a>』は『<a href="https://www.playframework.com/" title="Play framework">Play framework</a>』を使用して開発しました。</p>
+
+<h2 id="play-frameworkとは:f5241d3893893fe6fff8f57bd2dbf29a">Play frameworkとは</h2>
+
+<p>よく「Java版Ruby on Rails」という表現で紹介されているJavaのWEBアプリフレームワークです。<br />
+私はRoRの経験が無いので比べることができないのですが、とにかくスピーディーに簡単にWEB開発が行えるようにというコンセプトのもと作られています。
+ Java及びScalaで記述することができます。</p>
+
+<p>最近herokuにて採用されたこともあり、徐々に知名度が上がっているようです。<br />
+私もherokuがきっかけでPlayの存在を知りました。<br />
+面白そう！と思ったのでとりあえず<a href="https://www.playframework.com/documentation/ja/1.2.x/home" title="Play Learn">公式ページのチュートリアル</a>(ブログ作成)にチャレンジしてみたのですが、煩わしい設定も無いし、何よりコード量の少なさにびっくり！<br />
+私はJavaフレームワークといえばStrutsという人間だったので、この簡素さには感動しました。</p>
+
+<p>以下、play1.x系のざっくりとした開発手順です。<br />
+ほんとにざっくりですが、雰囲気だけでも伝われば幸いです。</p>
+
+<hr />
+
+<h2 id="プロジェクト準備:f5241d3893893fe6fff8f57bd2dbf29a">プロジェクト準備</h2>
+
+<p>ターミナルからコマンドを1行叩くだけです。<br />
+IDEを使用する場合、Eclipse、IntelliJ IDEA、Netbeansのプロジェクトがコマンド1行で生成できます。</p>
+
+<h2 id="モデルクラス作成:f5241d3893893fe6fff8f57bd2dbf29a">モデルクラス作成</h2>
+
+<p>@Entityアノテーションを付与すると、publicプロパティが自動的にデータベースにマッピングされます。<br />
+play.db.jpa.Model(JPAヘルパを自動的に提供してくれるクラス)を継承しておくと、主キーとなるidを生成してくれたり、便利なデータ操作メソッドが使えるようになったりします。</p>
+
+<p>このO/RマッピングにはHibernateフレームワークが使用されており、モデルクラスの定義内容を元にデータベースへのスキーマ作成を行ってくれます。<br />
+項目変更が生じた場合もモデルクラスさえ変更すればOK!</p>
+
+<h2 id="コントローラークラス作成:f5241d3893893fe6fff8f57bd2dbf29a">コントローラークラス作成</h2>
+
+<p>アクションを定義していきます。<br />
+画面側は必要に応じて、このアクションを呼び出して様々な処理を実行することになります。<br />
+データ取得・加工して呼び出し先の画面に受けわたす、または画面から渡されたデータをチェック・加工・DBへ格納するなど、画面とデータベースの橋渡しをします。</p>
+
+<p>renderメソッドを呼び出すと、アクションと同名の画面(html)が呼び出されます。
+ここの紐付けに設定ファイルなどは特に必要ありません。</p>
+
+<h2 id="画面-html-作成:f5241d3893893fe6fff8f57bd2dbf29a">画面(html)作成</h2>
+
+<p>画面(html)の動的な部分はGroovy言語を使用して記述します。<br />
+モデルオブジェクトも画面で使用するためにごちゃごちゃと変換する必要もなく、直感的に操作・出力することができます。</p>
+
+<p>共通デザインを共有するためのテンプレートデコレータ機能、自作タグ作成機能などもあります。</p>
+
+<h2 id="パス設定-httpルーティング:f5241d3893893fe6fff8f57bd2dbf29a">パス設定(HTTPルーティング)</h2>
+
+<p>各アクションを呼び出すためのURIパターンを定義します。</p>
+
+<h2 id="動作確認:f5241d3893893fe6fff8f57bd2dbf29a">動作確認</h2>
+
+<p>JUnitによる単体テスト、Seleniumによるブラウザテストを行えます。</p>
+
+<p>実際の動作を確認するにはrunコマンドでアプリケーションを実行します。<br />
+Play!は設定次第でホットコード置換が可能です。<br />
+逐一アプリケーションを停止させなくてもコードの修正が行えます。</p>
+
+<p>データベースはインメモリH2データベースを使用できるため、データベースを用意せず動作確認を行うことができます。<br />
+また、ymlファイルで事前にテストデータを準備することができます。</p>
+
+<hr />
+
+<p>他にもモジュール追加によるCRUDの使用、認証機能の追加などWEBアプリケーションを作成するにあたって便利な機能が揃っています。<br />
+<a href="https://www.playframework.com/documentation/ja/1.2.x/home" title="Play Learn">チュートリアル</a>を一通り勉強すると大体分かると思いますので、興味のある方は是非チャレンジしてみてください。</p>
+
+<p>ちなみに私は<a href="https://www.playframework.com/documentation/ja/1.2.x/home" title="Play 1.x">Play1.x系</a>を使用していますが、最新は<a href="https://www.playframework.com/documentation/ja/2.2.x/Home" title="Play 2.x">2.x系</a>になります。<br />
+<s>まだベータ版ですが、</s>こちらで開発を行っている方も多いようです。<br />
+ただ1.x系もまだ当分はサポートされるとのことですので、安定版がよいかたは1.x系をどうぞ。</p>
+
+<p><em>追記：</em> 2.x系は既に正式リリースされているとのことです。<br />
+日本語サイトしか見ておらず気付きませんでした・・・。<br />
+ご指摘ありがとうございました！</p>
+
+      <div id="ninja_buttons" class="ninja_onebutton">
+      <script type="text/javascript">
+      
+      (function(d){
+      if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1)=='undefined'){
+          document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/51cc7b75f814fac5b641e2eec46683c1'><\/sc"+"ript>");
+      }else{
+          window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1.ONETAGButton_Load();}
+      })(document);
+      
+      </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+      </div>
+    </article>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:300px;height:250px"
+         data-ad-client="ca-pub-4146428227434718"
+         data-ad-slot="7830002008"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    
+ <aside><div id="disqus_thread"></div></aside> 
+
+<script type="text/javascript">
+     
+    var disqus_shortname = 'nocono';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </main>
+
+  <nav class="pagination">
+    
+      <span class="previous">&larr; <a href="http://nocono.net/post/2012/7/" rel="prev">大喜利サイト『ゲラゲラ！』公開中</a></span>
+    
+    
+      <span class="next"><a href="http://nocono.net/post/2012/9/" rel="next">「ゲラゲラ！」正式オープン！</a> &rarr;</span>
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      <img src="/images/profile.png" width="64" height="64"><br>
+      Written by きの子
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39000940-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

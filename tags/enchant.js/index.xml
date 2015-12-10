@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enchant.Js on nocono</title>
+    <link>http://nocono.net/tags/enchant/index.js/</link>
+    <description>Recent content in Enchant.Js on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 05 Jul 2013 17:07:00 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/enchant.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【俺聞け5】enchant.jsで作ったゲームのような何かを公開しました</title>
+      <link>http://nocono.net/post/2013/26/</link>
+      <pubDate>Fri, 05 Jul 2013 17:07:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/26/</guid>
+      <description>
+
+&lt;p&gt;&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;29&lt;/sub&gt;(土)に開催された&lt;a href=&#34;http://www.msng.info/archives/2013/07/orekike5-5.php?fb_source=pubv1&#34;&gt;俺聞け5&lt;/a&gt;というイベントで、「私とFlashとHTML5&amp;amp;JavaScript」というタイトルで発表をしてきました。&lt;/p&gt;
+
+&lt;p&gt;その中にお披露目しました、&lt;a href=&#34;http://enchantjs.com/ja/&#34;&gt;enchant.js&lt;/a&gt;で作ったゲーム（？）は&lt;a href=&#34;http://orekike-kinoko.herokuapp.com&#34;&gt;こちら！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://orekike-kinoko.herokuapp.com&#34;&gt;&lt;img src=&#34;http://nocono.net/image/2013/orekike.png&#34; alt=&#34;&amp;quot;俺聞け発表用&amp;quot;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;単にきのこ取って大きくなるだけで、目的とかクリアとかありません・・・！&lt;br /&gt;
+スマホでも操作できるようにしましたので、ぜひぜひ遊んでやってくださいませ。&lt;/p&gt;
+
+&lt;h2 id=&#34;肝心の発表内容:1fd210ca6cdfcabc688bd15ea0db40b5&#34;&gt;肝心の発表内容&lt;/h2&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/23931995&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/noconoasami/5flashhtml5java-script&#34; title=&#34;【俺聞け5】私とflashとhtml5&amp;amp;java script&#34; target=&#34;_blank&#34;&gt;【俺聞け5】私とflashとhtml5&amp;amp;java script&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML5とJavaScriptでFlashのようなリッチコンテンツを作るためのフレームワークが色々でてきております。&lt;br /&gt;
+その中から、&lt;a href=&#34;http://enchantjs.com/ja/&#34;&gt;enchant.js&lt;/a&gt;というゲーム用のフレームワークをご紹介しました。&lt;/p&gt;
+
+&lt;p&gt;簡単に動くものが作れるので、テンション上がって楽しいです。&lt;br /&gt;
+次はちゃんとしたミニゲームを作りたいな。&lt;/p&gt;
+
+&lt;p&gt;enchant.jsの話に絞ろうかなぁとも考えたのですが、やはり個人的に思い入れがあるので&lt;a href=&#34;http://www.adobe.com/jp/products/flash.html&#34;&gt;Flash&lt;/a&gt;の話も詰め込んでしまいました。&lt;br /&gt;
+あの直感的に描画・開発ができるインターフェイスは秀逸ですので、Flashで作ってHTML5&amp;amp;JavaScript(&lt;a href=&#34;http://www.createjs.com/#!/CreateJS&#34;&gt;CreateJS&lt;/a&gt;)に書き出すという方向で生き残っていって欲しいです。&lt;br /&gt;
+頑張れFlash！&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:1fd210ca6cdfcabc688bd15ea0db40b5&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;発表の頭でゲーム(？)をお披露目したのですが、割とみなさん笑ってくださってよかったです。&lt;br /&gt;
+スベらなくて一安心・・・！&lt;/p&gt;
+
+&lt;p&gt;他の方の発表もとても面白いものばかりでした。&lt;br /&gt;
+&lt;ul&gt;
+  &lt;li&gt;携帯小説の実写化は涙ぐましい営業努力の末だった。&lt;/li&gt;
+  &lt;li&gt;クローキング怖い。&lt;/li&gt;
+  &lt;li&gt;声を大きく！&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;俺聞けは今回で3回目の参加、発表は2回目でしたが、毎回発見があるとても大好きなイベントです。&lt;br /&gt;
+次回も楽しみ！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

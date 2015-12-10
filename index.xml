@@ -6,22 +6,1481 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 03 Dec 2015 19:36:57 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2015 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>記事生成のテスト</title>
-      <link>http://nocono.net/post/hugo_test/</link>
-      <pubDate>Thu, 03 Dec 2015 19:36:57 +0900</pubDate>
+      <title>9/5(土) 関西DDD.java スタートアップスペシャルに参加しました #kandddj</title>
+      <link>http://nocono.net/post/2015/37/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0900</pubDate>
       
-      <guid>http://nocono.net/post/hugo_test/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+      <guid>http://nocono.net/post/2015/37/</guid>
+      <description>
 
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kansaiddd.connpass.com/event/17737/&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;(土) 関西DDD.java スタートアップスペシャル&lt;/a&gt; に参加しました。
+会場は楽天株式会社 大阪支社さん。&lt;/p&gt;
 
-&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+&lt;p&gt;内容は、&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/4798121967/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4798121967&amp;linkCode=as2&amp;tag=nocono-22&#34;&gt;エリック・エヴァンスのドメイン駆動設計 (IT Architects’Archive ソフトウェア開発の実践)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=nocono-22&amp;l=as2&amp;o=9&amp;a=4798121967&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
+の各章について、ギルドワークスの増田さん (&lt;a href=&#34;https://twitter.com/masuda220&#34;&gt;@masuda220&lt;/a&gt;) にお話をしていただくというものでした。&lt;/p&gt;
 
-&lt;p&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=4798121967&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;予定では16時からは質疑応答でしたが、なんと18時までセッション延長。
+全17章についての概要と、また、増田さんがDDDを実践した中で感じたこともたくさんお話しいただき、とても濃密な内容でした。&lt;/p&gt;
+
+&lt;p&gt;私自身は今、DDDのプロジェクトに参加して3ヶ月程になるのですが、DDD本はまだ読んでおらず・・・。
+仕事でふんわりとDDDがどういうものか体感はしているものの、言葉の大切さ、チーム内全員の共有の大切さなど、恥ずかしながらあまり意識できていなかったので、このタイミングで増田さんのお話をきけて本当によかったです。&lt;/p&gt;
+
+&lt;p&gt;ご登壇者の増田さん、また主催の&lt;a href=&#34;https://twitter.com/haljik&#34;&gt;@haljik&lt;/a&gt;さんをはじめとするスタッフのみなさま、有意義な時間をありがとうございました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/HBt7N8mSnzNLIQ&#34; width=&#34;340&#34; height=&#34;290&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/masuda220/ss-52462322&#34; title=&#34;ドメイン駆動設計」の複雑さに立ち向かう&#34; target=&#34;_blank&#34;&gt;ドメイン駆動設計」の複雑さに立ち向かう&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/masuda220&#34; target=&#34;_blank&#34;&gt;増田 亨&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/870183&#34;&gt;20150915 関西DDD.java スタートアップスペシャル - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;イベント中にとったメモ:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;イベント中にとったメモ&lt;/h2&gt;
+
+&lt;p&gt;セッションを聞きながら取った雑なメモですが、公開します。
+このメモを見返しながら、はりきって購入したDDD本と格闘したいと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;考え方と背景:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;考え方と背景&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;まえがきだけでも十分&lt;/li&gt;
+&lt;li&gt;ドメイン駆動設計とは
+
+&lt;ul&gt;
+&lt;li&gt;現場の技術者が失敗した・困ったことが載ってる&lt;/li&gt;
+&lt;li&gt;技術者の奮闘の物語&lt;/li&gt;
+&lt;li&gt;格闘して得た教訓の境地。共感できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;想定読者
+
+&lt;ul&gt;
+&lt;li&gt;オブジェクト指向とエクストリームプログラミングに知識がある人
+
+&lt;ul&gt;
+&lt;li&gt;ハードル高い&lt;/li&gt;
+&lt;li&gt;勉強になった本
+
+&lt;ul&gt;
+&lt;li&gt;エクストリームプログラミング&lt;/li&gt;
+&lt;li&gt;Wabi Sabiをよみとく&lt;/li&gt;
+&lt;li&gt;リファクタリング&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;変化に適応する技術&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;オブジェクト指向の変更容易性
+
+&lt;ul&gt;
+&lt;li&gt;メッセージングはErlang&lt;/li&gt;
+&lt;li&gt;抽象データ型
+
+&lt;ul&gt;
+&lt;li&gt;intとか基本型で日付・・・コンピュータ&lt;/li&gt;
+&lt;li&gt;誕生日とか、人間の発想に近い独自定義クラス。ドメイン。&lt;/li&gt;
+&lt;li&gt;人間の発想・目でないと設計できないメソッドとかをみつけにいくのがドメイン駆動設計&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;適応型の開発
+
+&lt;ul&gt;
+&lt;li&gt;他(予測型や反復型)との違いは着地点
+
+&lt;ul&gt;
+&lt;li&gt;予測型だと厳密だし、反復型だと、反復を繰り返しながら着地点を決めていく&lt;/li&gt;
+&lt;li&gt;適応型はざっくりと定義するけど、最終形は事前に定義したり固定したりしない
+
+&lt;ul&gt;
+&lt;li&gt;リリースして、顧客のフィードバックをうけたりしながら日々変化&lt;/li&gt;
+&lt;li&gt;しょうがなく変化するのではなく、自分達で着地点を探しながら変化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;エクストリームプログラミング
+
+&lt;ul&gt;
+&lt;li&gt;ギリギリ余計な複雑さをもちこまない
+
+&lt;ul&gt;
+&lt;li&gt;コードによる確認&lt;/li&gt;
+&lt;li&gt;ちょっととなりの人やネットで確認することだってできる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;OO+XPはドメイン駆動設計といってもいいかもしれない&lt;/li&gt;
+&lt;li&gt;ドメイン駆動設計が強調している点
+
+&lt;ul&gt;
+&lt;li&gt;モデルとコードの歩調をあわせる
+
+&lt;ul&gt;
+&lt;li&gt;難しい&lt;/li&gt;
+&lt;li&gt;最初は一致していなくてもいいから、ちょっとずつ改善していく&lt;/li&gt;
+&lt;li&gt;今あるコードがどれぐらいモデルと一致しているか？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ドキュメントではなく言葉で
+
+&lt;ul&gt;
+&lt;li&gt;コミュニケーション命&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;俯瞰
+
+&lt;ul&gt;
+&lt;li&gt;3部で成果がだせて4部&lt;/li&gt;
+&lt;li&gt;2部は3部・4部の基本。2部だけでは意味がない。成果がでない。&lt;/li&gt;
+&lt;li&gt;1部の内容をチームで共有することがポイント&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;着目のしかた
+
+&lt;ul&gt;
+&lt;li&gt;1章・モデルの成長の様子がストーリーとしてわかりやすい&lt;/li&gt;
+&lt;li&gt;7章・2部まとめ。&lt;/li&gt;
+&lt;li&gt;8・ブレイクするーがおきたときにどういう現象がおきるか？&lt;/li&gt;
+&lt;li&gt;13・深いモデルに向かっていくストーリー&lt;/li&gt;
+&lt;li&gt;15・どういうところから手をつけて、蒸留に向かう様子が段階的に&lt;/li&gt;
+&lt;li&gt;結論・3年後・5年後にヒアリングして、どうかわっていたのか。
+
+&lt;ul&gt;
+&lt;li&gt;ドメイン駆動に向かうエネルギー&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;第1部:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;第1部&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;カタカナ言葉は伝達で問題を起こしやすい
+
+&lt;ul&gt;
+&lt;li&gt;日本語にした方がわかりやすいよね&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ドメイン
+
+&lt;ul&gt;
+&lt;li&gt;ドメインではないもの
+
+&lt;ul&gt;
+&lt;li&gt;私達開発者の活動&lt;/li&gt;
+&lt;li&gt;コンピューターの挙動&lt;/li&gt;
+&lt;li&gt;ソフトウェアを使う人達には関係のないことば&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ユーザーに思いを馳せて言葉をほりにいく。探しにいく。&lt;/li&gt;
+&lt;li&gt;なんでそういう活動をしているのか。関心ごとになるのか。
+
+&lt;ul&gt;
+&lt;li&gt;そういうことを理解しにいってはじめて、わかる&lt;/li&gt;
+&lt;li&gt;そうとう広い範囲&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;例えば受注管理という言葉がある
+
+&lt;ul&gt;
+&lt;li&gt;営業マンにとって、月初と月末の受注は全然ちがうもの&lt;/li&gt;
+&lt;li&gt;会社的に、月末にたてた受注は次の月初にさくっとキャンセルされたらアラートしてほしい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;利用する人達の活動と関心を要約
+
+&lt;ul&gt;
+&lt;li&gt;めっちゃたいへん&lt;/li&gt;
+&lt;li&gt;重要な点にしぼって要約して理解しよう
+
+&lt;ul&gt;
+&lt;li&gt;それがモデリング&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ユーザーがもってる関心を全て抜き出したらたいへん
+
+&lt;ul&gt;
+&lt;li&gt;要約ということが非常に大事&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;膨大な情報をいかにかみくだいて予約するか
+
+&lt;ul&gt;
+&lt;li&gt;要約する力
+
+&lt;ul&gt;
+&lt;li&gt;本質的ではないことを削る
+
+&lt;ul&gt;
+&lt;li&gt;相当な論理力が必要&lt;/li&gt;
+&lt;li&gt;みんなで話し合うと、一人で発見するよりみつけやすい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;重要・重要ではないことにしるしをつけるぐらいはできる
+
+&lt;ul&gt;
+&lt;li&gt;それを説明するの、めっちゃたいへん。ハードル高い
+
+&lt;ul&gt;
+&lt;li&gt;それをチームでチャレンジして共有できたときのパワーすごい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ドメインモデル
+
+&lt;ul&gt;
+&lt;li&gt;本質だけを抜き出したものを表現したもの&lt;/li&gt;
+&lt;li&gt;蒸留して重要な関心ごとを鋭く説明したもの&lt;/li&gt;
+&lt;li&gt;重要な関心毎(ドメインモデル)をコードの骨格としてつかいなさい(3章)&lt;/li&gt;
+&lt;li&gt;各章、浅い理解だと役にたたない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;知識をかみくだく(1章)
+
+&lt;ul&gt;
+&lt;li&gt;1章の読み方は、変化と成長&lt;/li&gt;
+&lt;li&gt;モデルが成長
+
+&lt;ul&gt;
+&lt;li&gt;ストーリーのイメージをチームで共有&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コードで実験&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2章
+
+&lt;ul&gt;
+&lt;li&gt;ユビキタス言語
+
+&lt;ul&gt;
+&lt;li&gt;ユビキタスは同一という意味ではない&lt;/li&gt;
+&lt;li&gt;大切なのは、ソフトウェアを利用する人たちと共通の言葉を使うということではない&lt;/li&gt;
+&lt;li&gt;営業マンにとっての受注と、要求設計書での受注は違う意味
+
+&lt;ul&gt;
+&lt;li&gt;失注したときの痛みとか&lt;/li&gt;
+&lt;li&gt;そこに気が付きにいこう&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同じ意味っぽい別の言葉に敏感に
+
+&lt;ul&gt;
+&lt;li&gt;リクエストとか要請とか依頼とか違う意味。緊急度とか&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ユビキタス言語の中で、特に重要度がたかいものがドメインに&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;声に出してモデリング
+
+&lt;ul&gt;
+&lt;li&gt;記録としゃべってることって違う&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;説明のためのモデル
+
+&lt;ul&gt;
+&lt;li&gt;背景知識をつたえるためのモデル&lt;/li&gt;
+&lt;li&gt;ドメイン駆動としてのモデルではない&lt;/li&gt;
+&lt;li&gt;なんでこれが2章の最後にぽんっとでてくるのかはわからない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;チーム内で、一つの言葉を同じ意味で
+
+&lt;ul&gt;
+&lt;li&gt;チームが同じ意味で同じ言葉を使っているか&lt;/li&gt;
+&lt;li&gt;3部とか4部とかの土台として脈々とでてくる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;言葉のたいせつさ&lt;/li&gt;
+&lt;li&gt;コードを書く人間がどんどん噛み砕いて積極的にユビキタス言語をつくりにいく
+
+&lt;ul&gt;
+&lt;li&gt;ここをさぼると自分の首をしめる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;モデルと実装が一致しない
+
+&lt;ul&gt;
+&lt;li&gt;原因は、優秀な人は頭の中で翻訳しちゃってる
+
+&lt;ul&gt;
+&lt;li&gt;3ヶ月たったら説明できない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;常に、モデルをうまくコードで表現することをがんばらなければならない&lt;/li&gt;
+&lt;li&gt;モデルとコードが一致していないと、ねじれたソフトウェアになっちゃう&lt;/li&gt;
+&lt;li&gt;モデルとコードを一致させるテクニックを学ばなければならない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;3部:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;3部&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;役に立つモデル
+
+&lt;ul&gt;
+&lt;li&gt;とにかくリファクタリング&lt;/li&gt;
+&lt;li&gt;言葉のたいせつさ
+
+&lt;ul&gt;
+&lt;li&gt;言葉でしゃべったときの違和感に敏感になる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;設計自体が変更しにくいと成長しにくい
+
+&lt;ul&gt;
+&lt;li&gt;できるだけ変更しやすいソフトウェアをつくる&lt;/li&gt;
+&lt;li&gt;モデルとコードとの一致性を高めるために、柔軟にしておく。ここが勝負。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8章 ブレイクスルー
+
+&lt;ul&gt;
+&lt;li&gt;ブレイクスルーの経験を思い出す&lt;/li&gt;
+&lt;li&gt;「理解した」ときの経験&lt;/li&gt;
+&lt;li&gt;感覚を思い出した上でこの本を読むこと
+
+&lt;ul&gt;
+&lt;li&gt;この本からブレイクスルーを理解するのはむずかしいよ！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;9章 暗黙的な概念を明示的にする
+
+&lt;ul&gt;
+&lt;li&gt;超、肝になる部分&lt;/li&gt;
+&lt;li&gt;言葉について、ちゃんと精査している？&lt;/li&gt;
+&lt;li&gt;業務についての本を読む&lt;/li&gt;
+&lt;li&gt;発見にたいして、何度でも挑戦する&lt;/li&gt;
+&lt;li&gt;9章はとにかく読みこむ&lt;/li&gt;
+&lt;li&gt;制約のなさに便利さではなく気持ち悪さを感じること
+
+&lt;ul&gt;
+&lt;li&gt;たとえば、何億年も前の誕生日が設定できたらおかしいよね&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;10章 しなやかな設計
+
+&lt;ul&gt;
+&lt;li&gt;言語によっては言語仕様の一部
+
+&lt;ul&gt;
+&lt;li&gt;関数型言語だったらイミュータブルあたりまえでしょ？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Javaは古い設計引きずってる
+
+&lt;ul&gt;
+&lt;li&gt;10章の内容をJavaで実践するには結構がんばらないといけない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Java以外の言語の方が実践しやすい
+
+&lt;ul&gt;
+&lt;li&gt;Kotlinとか、良い言語かどうかじゃなくて。やろうとしていることはすごく勉強になる。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;10章は総合レッスン&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;11章 分析パターン
+
+&lt;ul&gt;
+&lt;li&gt;パターンにあわせにいくのは違うってことがわかればよい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;13章
+
+&lt;ul&gt;
+&lt;li&gt;どういうタイミングで深い取り組みがおこなわれるか&lt;/li&gt;
+&lt;li&gt;リファクタリングのきっかけ
+
+&lt;ul&gt;
+&lt;li&gt;言葉に違和感を感じた時&lt;/li&gt;
+&lt;li&gt;コードの理解が間違っていたと気づいたとき&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;リファクタリングのタイミングを間違えない
+
+&lt;ul&gt;
+&lt;li&gt;動いているコードをなおしにいく&lt;/li&gt;
+&lt;li&gt;選抜チームで取り組む
+
+&lt;ul&gt;
+&lt;li&gt;考え方として大切&lt;/li&gt;
+&lt;li&gt;深いモデルに挑戦する&lt;/li&gt;
+&lt;li&gt;自分と違った知見をもつ人と話すことはすごく勉強になる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ユビキタス言語
+
+&lt;ul&gt;
+&lt;li&gt;言葉で説明できないことを、コードで表現することはまずできない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;3部まとめ
+
+&lt;ul&gt;
+&lt;li&gt;モデルとコードを一致させる
+
+&lt;ul&gt;
+&lt;li&gt;言葉、コード、チーム&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;4部:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;4部&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;意思決定がむずかしい
+
+&lt;ul&gt;
+&lt;li&gt;チーム間交渉など政治的な要因もある
+
+&lt;ul&gt;
+&lt;li&gt;そういうのも含めて考えなければならない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;巨大で複雑なシステムの成長を続ける
+
+&lt;ul&gt;
+&lt;li&gt;この意識を、チーム間・関係者間でいかに共有するか&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ここでも、言葉をつかった発見を強調
+
+&lt;ul&gt;
+&lt;li&gt;全体的なものを動かすためには、コードを書く人間による言葉によるコミュニケーションがポイント&lt;/li&gt;
+&lt;li&gt;現場でコードを書く人間が中核にかならずいること
+
+&lt;ul&gt;
+&lt;li&gt;そうすれば、戦略がコードに反映される&lt;/li&gt;
+&lt;li&gt;コードをいじる人間が戦略を考えるべき&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;すこしずつ、全体の秩序を改善していく
+
+&lt;ul&gt;
+&lt;li&gt;そうすればブレイクスルーが！！！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;14章
+
+&lt;ul&gt;
+&lt;li&gt;こういうパターンのときにはこういう設計をしなさいね的なことがかいてあるよ&lt;/li&gt;
+&lt;li&gt;たとえばチーム間の言葉の不整合がおきたときに・・・
+
+&lt;ul&gt;
+&lt;li&gt;言葉の違いを受け入れる？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;チーム間の力関係&lt;/li&gt;
+&lt;li&gt;受託開発なら、契約先が違うとかも壁
+
+&lt;ul&gt;
+&lt;li&gt;そういうことも考慮して戦略を考えなければならない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;チームが同じ言葉を使っているかどうかということが境界&lt;/li&gt;
+&lt;li&gt;かかわっているひとたちの言葉が一致している？不一致を見つける努力をしている？？
+
+&lt;ul&gt;
+&lt;li&gt;それが継続的な統合&lt;/li&gt;
+&lt;li&gt;ドメイン駆動の文脈で読み取りにいかなければ、エヴァンスが伝えたいことはわからない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;費用対効果など
+
+&lt;ul&gt;
+&lt;li&gt;政治的な問題も含めて、どういうところから手を付ければいいかの助言が載っている&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;こういう問題に対して、コードを書く人間がかかわらなければならない&lt;/li&gt;
+&lt;li&gt;こういうことに、アーキテクトチームが長期的なプランをかいたところで、成果はでない&lt;/li&gt;
+&lt;li&gt;コードを書く人間が中心になることによって、はじめて成果がでる&lt;/li&gt;
+&lt;li&gt;コアドメイン
+
+&lt;ul&gt;
+&lt;li&gt;長期的になったらふくらむ&lt;/li&gt;
+&lt;li&gt;ほんとにコアなところをみつけにいく&lt;/li&gt;
+&lt;li&gt;肝になるのは要約&lt;/li&gt;
+&lt;li&gt;ドメイン駆動設計を読むこと自体がコアドメインを見つける特訓に！！！！！！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;中核を探す準備&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;16章
+
+&lt;ul&gt;
+&lt;li&gt;規模が大きくなったときに、森を見る力。俯瞰する力。&lt;/li&gt;
+&lt;li&gt;俯瞰しないと、全体的にどうするかという話ができない&lt;/li&gt;
+&lt;li&gt;どんだけ複雑で大きくても、A41枚に収まる範囲までにしぼること
+
+&lt;ul&gt;
+&lt;li&gt;じゃないと俯瞰できない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;メタファはわかりやすいけど危険&lt;/li&gt;
+&lt;li&gt;たとえば、顧客タイプと顧客にわける
+
+&lt;ul&gt;
+&lt;li&gt;もうひとつ上のレイヤにわけたりはする&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;17章
+
+&lt;ul&gt;
+&lt;li&gt;コードを変更する人間が戦略を理解して、実際に実行する&lt;/li&gt;
+&lt;li&gt;コードを書く人間が意思決定すること&lt;/li&gt;
+&lt;li&gt;言葉の違いに敏感にry)&lt;/li&gt;
+&lt;li&gt;「まちづくりの新しい理論」という本が参考になる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PHPとScalaと私 #phpkansai</title>
+      <link>http://nocono.net/post/2015/36/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2015/36/</guid>
+      <description>
+
+&lt;p&gt;この記事は「&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;PHPカンファレンス関西2015&lt;/a&gt;」のリレーブログのエントリーです。&lt;/p&gt;
+
+&lt;p&gt;「PHPカンファレンス関西2015」の開催日までリレー方式でブログを繋いでいきます。&lt;/p&gt;
+
+&lt;p&gt;昨日のエントリーは、mikakaneさんによる&lt;a href=&#34;http://mkkn.hatenablog.jp/entry/2015/05/19/101654&#34;&gt;PHPカンファレンス関西の楽しみ方 2015&lt;/a&gt;でした。&lt;/p&gt;
+
+&lt;h2 id=&#34;自己紹介:cf14ce910ef7db43192a91992e038019&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;大阪でフリーランスエンジニアをやっている、きの子こと、あべあさみと申します。
+最近はScalaやAndroidアプリ開発のお仕事を中心にお請けしており、&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala&lt;/a&gt;や&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;Javaのコミュニティ&lt;/a&gt;を主催しています。&lt;/p&gt;
+
+&lt;p&gt;PHPは、去年Yii2 Frameworkでのシステム開発に携わったことがきっかけで、本格的に取り組みはじめました。
+(&lt;a href=&#34;http://qiita.com/aa7th/items/cd226ce22682587fb9ac&#34;&gt;去年書いたYii2アドベントカレンダーの記事&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;PHPカンファレンス関西は、スタッフとしては今年が初参加です。
+参加者としては2年前からお邪魔していて、懇親会LTをやらせていただいたりするなど、いち参加者として楽しんでいました。&lt;/p&gt;
+
+&lt;p&gt;スタッフをやってみたいなーという気持ちは前からあったのですが、そんな中「&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西 Summit 2015&lt;/a&gt;」というScalaの大規模イベントを開催することになりました。
+僭越ながら実行委員長を務めているのですが、私自身に大規模イベントの運営経験が全くなく、
+PHPカンファレンスのスタッフ参加はいい経験になると考え自ら申し出たところ、みんな快く私を迎え入れてくれました。&lt;/p&gt;
+
+&lt;p&gt;私はセッション関連担当として動いているのですが、一番大きな仕事は、
+メイントラック13:00からの「&lt;a href=&#34;http://conference.kphpug.jp/2015/timetable/&#34;&gt;ビッグウェーブ到来！？ – 関数プログラミング導入の要点 –&lt;/a&gt;」の&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;粕谷さん&lt;/a&gt;へ登壇を依頼したことです。
+今日のブログではこちらの依頼の経緯を書きます。&lt;/p&gt;
+
+&lt;h2 id=&#34;なぜphpのイベントでscalaエンジニアのセッションが:cf14ce910ef7db43192a91992e038019&#34;&gt;なぜPHPのイベントでScalaエンジニアのセッションが？&lt;/h2&gt;
+
+&lt;p&gt;粕谷さんは&lt;a href=&#34;http://hatenacorp.jp/&#34;&gt;株式会社はてな&lt;/a&gt;のScalaエンジニアさんで、Scalaコミュニティでとても有名な方です。
+PHPについてはほとんどご存知ないとのこと。
+というわけで、「なぜ粕谷さんがPHPカンファレンス関西で登壇を！？」と驚かれた方もいらっしゃると思います。&lt;/p&gt;
+
+&lt;p&gt;関数プログラミングとは、LispやHaskellなどの関数型言語のプログラミングスタイルです。
+Scalaも関数型言語として注目を集めている言語です。&lt;/p&gt;
+
+&lt;p&gt;PHPは関数型言語ではありませんが、5.3より新機能として&lt;a href=&#34;http://php.net/manual/ja/functions.anonymous.php&#34;&gt;クロージャ&lt;/a&gt;が追加され、関数プログラミングが可能となりました。
+しかし、その手法はまだPHP界隈では浸透していません。
+そのような背景もあり、スタッフ内で「PHPのコンテキストで、関数型プログラミングの話を聞きたい！」という声があがりました。&lt;/p&gt;
+
+&lt;p&gt;その話をしてみたところ、粕谷さんが「面白そう！」と言ってくださったので、登壇をお願いする運びとなりました。
+内容としてはPHPに特化した話ではありませんが、関数プログラミングとは一体なんだろう？という初歩のお話となる予定です。&lt;/p&gt;
+
+&lt;h2 id=&#34;おもうこと:cf14ce910ef7db43192a91992e038019&#34;&gt;おもうこと&lt;/h2&gt;
+
+&lt;p&gt;スタッフになって印象的だったのが、みんなPHP以外の言語の話も聞きたいと言っていることでした。
+打ち合わせ後にスタッフで飲みに行くと、当然PHPの話で盛り上がるのですが、
+「PHPはいろんな言語のよさを取り入れて進化してきたし、これからもそう。だから、他の言語の話も聞きたいよね！」と、PHP以外の言語の話でも盛り上がるのです。&lt;/p&gt;
+
+&lt;p&gt;その言葉の通り、私が参加した2013年、2014年では、PHP以外の言語(RubyやJavaなど)のセッションがありました。
+PHPコミュニティの枠にとらわれることなく、他言語のエッセンスを貪欲に取り入れるため、PHP以外のコミュニティで活躍される方を積極的にお招きする姿勢は、とても素晴らしいと思います。&lt;/p&gt;
+
+&lt;p&gt;今回は、関数プログラミングについてまだよく知らない！という方に向けて。
+Scala(というよりは、関数型言語全般でしょうか)から、関数プログラミングのエッセンスを少しお届けいたします。
+ぜひぜひ取り入れてくださいね。&lt;/p&gt;
+
+&lt;p&gt;もちろん、関数型プログラミングの話だけではなく、PHP7や各種フレームワークのお話etc.etc.
+PHP界隈のみなさまによるPHPのセッションが盛りだくさん！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;PHPカンファレンス関西2015&lt;/a&gt;！
+PHPerなみなさまも、そうでないみなさまも、ぜひお楽しみに！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/timetable/&#34;&gt;タイムテーブルはこちら&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;さて！このリレーブログ、当日までまだまだ続きます！
+明日の担当は&lt;a href=&#34;http://tanakahisateru.hatenablog.jp/&#34;&gt;田中ひさてる&lt;/a&gt;さんでーす！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>関西Java女子部を開催しました #javajok #javajo</title>
+      <link>http://nocono.net/post/2014/35/</link>
+      <pubDate>Mon, 08 Dec 2014 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2014/35/</guid>
+      <description>
+
+&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2014/tech_women&#34;&gt;Tech Women Advent Calendar 2014 8日目&lt;/a&gt;の記事です。&lt;br /&gt;
+昨日は@kanu1102さんの「&lt;a href=&#34;http://kanu.hatenadiary.com/entry/2014/12/07/023845&#34;&gt;この夏わたしはGitに出会い、恋をした&lt;/a&gt;」でした。&lt;/p&gt;
+
+&lt;h2 id=&#34;自己紹介:6371353a5ff48e714176994a59bfdf29&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;きの子(@aa7th)と申します。&lt;br /&gt;
+大阪でフリーランスエンジニアをやっております。(昨日は「&lt;a href=&#34;http://nocono.net/34&#34;&gt;フリーランスエンジニアになって3年が経ちました&lt;/a&gt;」という記事を投稿しました。)&lt;/p&gt;
+
+&lt;p&gt;今日の記事は、最近はじめた&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;関西Java女子部&lt;/a&gt;(#javajok)というコミュニティの紹介です。&lt;/p&gt;
+
+&lt;h2 id=&#34;関西java女子部とは:6371353a5ff48e714176994a59bfdf29&#34;&gt;関西Java女子部とは&lt;/h2&gt;
+
+&lt;p&gt;今年の1月に東京で発足した「Java女子部 (#javajo)」の関西支部(?)です。&lt;/p&gt;
+
+&lt;p&gt;Java女子部では&lt;a href=&#34;https://www.facebook.com/groups/javajo/&#34;&gt;Facebookグループ&lt;/a&gt;で交流をしています。&lt;br /&gt;
+私は以前の関ジャバでの&lt;a href=&#34;https://twitter.com/skrb&#34;&gt;@skrb&lt;/a&gt;さんによる宣伝がきっかけで参加しました。&lt;br /&gt;
+FBグループには関西の方も結構いらっしゃって「関西でもやりたいね」という話になり、「関西Java女子部」という名前で開催の運びとなりました。&lt;/p&gt;
+
+&lt;p&gt;というわけで、大元は東京の「Java女子部」ではありますが、関西は関西で独自に動いている。そんな感じの運営となっております。&lt;/p&gt;
+
+&lt;h2 id=&#34;11-3-月-祝-第1回-関西java女子部:6371353a5ff48e714176994a59bfdf29&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(月・祝) 第1回 関西Java女子部&lt;/h2&gt;
+
+&lt;p&gt;記念すべき&lt;a href=&#34;http://javajok.connpass.com/event/9511/&#34;&gt;第1回の関西Java女子部 部活&lt;/a&gt;は11/3(月)大阪本町の&lt;a href=&#34;http://www.osakan-space.com/&#34;&gt;オオサカンスペース&lt;/a&gt;様にて開催いたしました。&lt;/p&gt;
+
+&lt;p&gt;内容は「自習」としました。
+各自勉強したいことを時間内に「自習」し、わからないことがあれば教え合うというスタイルです。&lt;/p&gt;
+
+&lt;p&gt;これは私からみなさんに提案し、同意が得られたので採用しました。&lt;br /&gt;
+この形を提案したのは、以下のような理由からです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JavaといってもJava EE、Java SE、Android・・・興味がある分野はみんな様々&lt;/li&gt;
+&lt;li&gt;レベルもバラバラ&lt;/li&gt;
+&lt;li&gt;発表やハンズオンなど、コンテンツを毎回用意するのはおそらく凄く手間&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;よって、レベルも興味がある分野もバラバラなメンバーで定期的に集まるには、自習形式がよいのでは。と判断しました。&lt;br /&gt;
+(この形式は、私が以前参加していたXcode勉強会関西ビギナーズを参考にしました。)&lt;/p&gt;
+
+&lt;p&gt;この日の参加者は8人。&lt;br /&gt;
+東京のJava女子部からもお二人参加してくださいました。&lt;br /&gt;
+私自身もどんな雰囲気になるか想像できなかったのですが、和気あいあいとした勉強会となりました。&lt;/p&gt;
+
+&lt;p&gt;最初に一人一人自己紹介をし、今日何を勉強するかを共有。&lt;br /&gt;
+この時点ですでに、みなさん積極的に「その内容であれば私、お教えできるかもしれないので何かあれば質問してくださいね。」と手を挙げてくださいました。&lt;/p&gt;
+
+&lt;p&gt;自己紹介後はさっそく、各自自習。&lt;br /&gt;
+時折雑談を交えつつ、困ったときには質問をしながら作業をすすめました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15087135404_4b253243ed_z.jpg&#34; alt=&#34;もくもく会の様子&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;15時にはみんなでおやつを食べました。&lt;br /&gt;
+東京の方々のお土産、おいしかったです！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521211549_d0305e445b_z.jpg&#34; alt=&#34;おやつ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;おやつを楽しみながらの雑談タイム。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521212219_080692f3db_z.jpg&#34; alt=&#34;もぐもぐ会の様子&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;おやつの後は、自習再開。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521681018_49556752f4_z.jpg&#34; alt=&#34;もくもく会の様子&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最後には、各々作業報告を行いました。&lt;/p&gt;
+
+&lt;p&gt;ちなみに私は、普段やらないJava EEにチャレンジしたものの、そんなに進まなかった・・・というちょっとしょっぱい感じで終わってしまいました・・・。&lt;/p&gt;
+
+&lt;p&gt;他のみなさんは、Java FXで簡単なアプリを動かしたり、Android開発環境を整えた方、次の日の勉強会用のLT資料を作っていた方、本を読んで基礎から勉強されていた方・・・などなど、短い時間の中でみなさん思い思いの作業をされていました。&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:6371353a5ff48e714176994a59bfdf29&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;初めての開催なので不安もあったのですが、特に私の方で気を配らなくとも、みなさんお互い声を掛け合い雑談されていて一安心しました。&lt;br /&gt;
+始終、女子ならではの柔らかい空気の勉強会でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/741074&#34;&gt;2014/11/3(月) 第1回 関西Java女子部 - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;11-21-金-java-se-8勉強会-関西女子部もラムダ式に挑戦:6371353a5ff48e714176994a59bfdf29&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;(金) ◆Java SE 8勉強会◆関西女子部もラムダ式に挑戦！&lt;/h2&gt;
+
+&lt;p&gt;この後、11/21には@skrbさんを講師にお迎えした、&lt;a href=&#34;http://javajok.connpass.com/event/9772/&#34;&gt;Java SE8ラムダ式ハンズオン&lt;/a&gt;を開催しました。&lt;br /&gt;
+これはこの日元々ご来阪の予定であった@skrbさんから声をかけていただいた事で実現したイベントです。&lt;/p&gt;
+
+&lt;p&gt;ただ、この日は女性限定として席が余ってしまってはもったいないと考え、開催3日前からは参加者の知人限定で男性のエントリーもOKとしました。&lt;br /&gt;
+今後も内容によってはこのように、男性の方にも参加いただけるようにしたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;これから:6371353a5ff48e714176994a59bfdf29&#34;&gt;これから&lt;/h2&gt;
+
+&lt;p&gt;このように、東京で発足したJava女子部がきっかけで始まった関西Java女子部。マイペースにやっております。&lt;/p&gt;
+
+&lt;p&gt;普段勉強会へ足を運ばない女子や、男性ばかりの勉強会にはちょっと参加し辛いという方にも、気軽に来てもらえるものを目指したいです。&lt;br /&gt;
+そして既に積極的に色んな勉強会に足を運んでいる女子も何人かいますので、「他の勉強会にも一緒に参加してみようかな？」と思っていただければ、ちょっと嬉しいです。&lt;/p&gt;
+
+&lt;p&gt;参加レベルを問わない自習形式は好評でしたので、しばらくはこの形を基本とするつもりですが、先日のラムダ式ハンズオンのような特別企画もまたできればよいなと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;個人的な女子部への想い:6371353a5ff48e714176994a59bfdf29&#34;&gt;個人的な女子部への想い&lt;/h2&gt;
+
+&lt;p&gt;ここからは、更に個人的な想いになります。&lt;/p&gt;
+
+&lt;p&gt;私は過去に、2年半の正社員経験、3年間の派遣社員経験があります。&lt;br /&gt;
+でも、その中でIT勉強会というものの存在を聞いたことがありませんでした。&lt;br /&gt;
+同じ職場にはもちろん何人ものプログラマさんがいましたが、参加したことがあるという話を聞いたことがありませんでした。&lt;/p&gt;
+
+&lt;p&gt;勉強会の存在を知ったのは、会社を辞めた後、フリーランスになってからです。&lt;br /&gt;
+土日に有志による勉強会がこんなに開かれ、たくさんの技術者さん達が参加しており、しかも皆楽しそうであることにもの凄い衝撃を覚えました。&lt;/p&gt;
+
+&lt;p&gt;別に勉強会は参加しなければならないものでもありませんし、していれば偉いというものでもありません。&lt;br /&gt;
+が、社外のエンジニアの人達と交流する事はとてもよい刺激になります。&lt;/p&gt;
+
+&lt;p&gt;私はプログラミングが好きでこの職業に就いた割には仕事を面白いと感じられず、でもそういうものだと思いながら会社に通っていました。&lt;br /&gt;
+ですので、もしも会社員時代にこういう場に参加して、社外のエンジニアさん達と交流していたら何か違ったかもなぁ・・・と常々思っています。&lt;br /&gt;
+(逆に、だから今フリーランスなので後悔しているわけではないですが。)&lt;/p&gt;
+
+&lt;p&gt;なので過去の私のような、会社が全てになってしまっている方に。まずは1回だけでいいから、是非勉強会に足を運んでみてほしいという気持ちがあります。&lt;br /&gt;
+ちょっとお節介な想いではありますが。&lt;/p&gt;
+
+&lt;p&gt;女性限定=女性参加の敷居が低いという利点を活かし、昔の私のように悶々と仕事をしている女の子の助けになるようなことがあれば。&lt;br /&gt;
+それはとても素敵なことだなと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;最後に:6371353a5ff48e714176994a59bfdf29&#34;&gt;最後に&lt;/h2&gt;
+
+&lt;p&gt;長くなってしまいましたが、こんな感じでやっております関西Java女子部。&lt;br /&gt;
+ぜひぜひみなさまよろしくお願いします！&lt;br /&gt;
+(時間がせまっていて締めが雑くなった・・・！)&lt;/p&gt;
+
+&lt;p&gt;明日は @hiroponiusさんです！&lt;br /&gt;
+もうあと10分ぐらいで明日だけど！！&lt;/p&gt;
+
+&lt;h2 id=&#34;関連リンク:6371353a5ff48e714176994a59bfdf29&#34;&gt;関連リンク&lt;/h2&gt;
+
+&lt;p&gt;今後の開催状況などはこちらでチェックしてくださいね。&lt;br /&gt;
+&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;関西Java女子部 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/groups/javajo/&#34;&gt;Java女子部 FBグループ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>フリーランスエンジニアになって3年が経ちました</title>
+      <link>http://nocono.net/post/2014/34/</link>
+      <pubDate>Sun, 07 Dec 2014 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2014/34/</guid>
+      <description>
+
+&lt;p&gt;この記事は&lt;a href=&#34;http://www.adventar.org/calendars/344&#34;&gt;フリーランス Advent Calendar 2014&lt;/a&gt; 7日目の記事です。&lt;br /&gt;
+前回は@kokona_sanさんの&lt;a href=&#34;http://a-webcafe.net/freelance_advent2014/&#34;&gt;フリーランスになって1年目のひよっこが思うこと&lt;/a&gt;でした。&lt;/p&gt;
+
+&lt;h2 id=&#34;自己紹介:e10e37422505fae4585bdbbcb30f5718&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;大阪でフリーランスエンジニアをしている、きの子(@aa7th)と申します。&lt;br /&gt;
+Java/ScalaのPlayFrameworkでのWebシステム開発、Androidアプリ開発などをお請けしています。&lt;br /&gt;
+今年はPHPのYii2FrameworkでのWebシステム開発や、C#のWindowクライアントアプリ開発のお仕事も頂きました。&lt;/p&gt;
+
+&lt;h2 id=&#34;1年目のこと:e10e37422505fae4585bdbbcb30f5718&#34;&gt;1年目のこと&lt;/h2&gt;
+
+&lt;p&gt;色々と書きたいことはあるのですが、まずはこちらをご覧下さい。&lt;br /&gt;
+約2年前の「&lt;a href=&#34;http://orekike.com/&#34;&gt;俺聞け&lt;/a&gt;」というイベントで発表したときの発表資料です。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/42433147&#34; width=&#34;340&#34; height=&#34;290&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/1-4-42433147&#34; title=&#34;フリーランスエンジニアになって1年が経ちました - 俺聞け4&#34; target=&#34;_blank&#34;&gt;フリーランスエンジニアになって1年が経ちました - 俺聞け4&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;重要なのは最後の方です。3大ニュースの3つ目です。&lt;/p&gt;
+
+&lt;p&gt;1年目(正確には数ヶ月)で貯金が尽きました。&lt;/p&gt;
+
+&lt;p&gt;貯金と言っても元々大した額があったわけではないです。&lt;br /&gt;
+派遣時代最後の1年が高稼働だったので、頑張らなくても勝手にある程度貯まっていた。&lt;br /&gt;
+程度のものでした。&lt;/p&gt;
+
+&lt;p&gt;しかしそれが、凄い勢いで減っていきました。&lt;br /&gt;
+最初の頃は収入0、あっても数万円という月が続くこともざらにあり、それなのに税金が高い。とにかく高い。前年の収入を元に計算されているので当然なのですが、恥ずかしながら辞める前に全く計算していませんでした・・・。&lt;br /&gt;
+また、保険は最初2年は社会保険に任意継続で加入していましたが、これも派遣会社が負担してくれていた分が自己負担になり倍額に。&lt;/p&gt;
+
+&lt;p&gt;そして更に一人暮らしなので、家賃や光熱費も毎月必要なわけです。&lt;br /&gt;
+いやぁあああああ！&lt;/p&gt;
+
+&lt;p&gt;そんなこんなでお金がなくなりました。&lt;br /&gt;
+そもそもなんでちゃんと計算していなかったの。と言われてしまうと、そこはもう私の認識が色々甘かったとしか言いようがありません。&lt;/p&gt;
+
+&lt;p&gt;・・・という内容の発表をしたところ、これがもうバカうけ。&lt;br /&gt;
+会場の皆さん、爆笑しながら拍手！&lt;br /&gt;
+3大ニュースの発表だったのに3つ目のインパクトが強すぎ、完全に「フリーランスになって貯金がなくなった人」と認識される始末。&lt;/p&gt;
+
+&lt;p&gt;しかしこれは私と同じく個人事業をしている人にとってはかなり共感していただける内容だったようです。&lt;br /&gt;
+発表後、主催の&lt;a href=&#34;https://twitter.com/msng&#34;&gt;@msng&lt;/a&gt;さんの「息しているだけでお金って減っていくからね。」というコメントが印象に残っています。&lt;/p&gt;
+
+&lt;h2 id=&#34;3年経った今どうなった:e10e37422505fae4585bdbbcb30f5718&#34;&gt;3年経った今どうなった？&lt;/h2&gt;
+
+&lt;p&gt;さて、1年目の話がすっかり長くなってしまいました。&lt;br /&gt;
+では今はどうなっているのか。&lt;/p&gt;
+
+&lt;p&gt;結論から言うと、1年目、2年目、3年目と順調に収入は伸びています。&lt;br /&gt;
+自己紹介で最初に述べました通り、色々な案件を頂いております。&lt;/p&gt;
+
+&lt;p&gt;ちなみに私の場合、システムを作りたいクライアント様から直で受託するのではなく、元請けのシステム会社様からの業務委託を請けるパターンがほとんどです。&lt;br /&gt;
+なので、クライアント様とは「チームを組んで一緒に仕事をしている」という感覚が強いですね。&lt;/p&gt;
+
+&lt;h2 id=&#34;最初と今で何が変化したのか:e10e37422505fae4585bdbbcb30f5718&#34;&gt;最初と今で何が変化したのか&lt;/h2&gt;
+
+&lt;p&gt;継続してお仕事をくださるお得意様が数社様できました。&lt;/p&gt;
+
+&lt;p&gt;ありがたいことに、一緒に仕事をした会社様から、また他の案件で声をかけていただけることが多くなってきました。&lt;/p&gt;
+
+&lt;p&gt;また、フリーランス仲間達との横の繋がりができたことも大きいです。&lt;br /&gt;
+お互い、自分が請けられない状況や内容の案件の話が来た場合に、紹介しあうことも多いです。場合によっては組んで仕事をすることもあります。&lt;/p&gt;
+
+&lt;p&gt;そんな感じでお得意様とのお仕事をこなしつつ、紹介頂いた会社さまとお仕事をしながら、生計を立てています。&lt;/p&gt;
+
+&lt;h2 id=&#34;目標の変化:e10e37422505fae4585bdbbcb30f5718&#34;&gt;目標の変化&lt;/h2&gt;
+
+&lt;p&gt;今と前では目標も変化してきました。&lt;/p&gt;
+
+&lt;p&gt;冒頭のスライドでは「自分で作ったサービスで生計を立てる」ことが目標と書いていますが、今その気持ちは大分薄いです。&lt;br /&gt;
+周囲にはそういう、自分達でサービスを作っている人達が何人がいるのですが、そういう人達はやはりマネタイズの能力に長けています。&lt;br /&gt;
+が、私はどうも「どうお金にするか」を考えることは向いていないようです。&lt;br /&gt;
+(勢いで「作りたい！」と思ったものは合間にちょこちょこ作ってみたいし、もしもそれで稼げれば、それはそれでラッキーだなとは思います。)&lt;/p&gt;
+
+&lt;p&gt;それよりも今、私の周囲には技術的に尖った人(新しい技術の情報を常に吸収している人。スキルが長けている人)がたくさんいます。&lt;br /&gt;
+そういった人達とチームを組んでお仕事をすることが楽しいです。&lt;/p&gt;
+
+&lt;p&gt;プログラマーはざっくり分けると&lt;/p&gt;
+
+&lt;p&gt;A. プログラミングが好きだからソフトを作っている&lt;br /&gt;
+B. ソフトを作るのが好きだからプログラミングをやっている&lt;/p&gt;
+
+&lt;p&gt;の2パターンの人がいると思うのですが、私の場合は限りなくBに近いAかなぁという気がしています。&lt;/p&gt;
+
+&lt;p&gt;今後また変化はあるかもしれませんが、少なくとも今の私にとって、周囲の会社さんのお手伝いをしながら暇なときは思いつきでくだらないサービスを作る。というスタイルはとても合っています。&lt;/p&gt;
+
+&lt;h2 id=&#34;フリーランスになる人にアドバイスするとしたら:e10e37422505fae4585bdbbcb30f5718&#34;&gt;フリーランスになる人にアドバイスするとしたら&lt;/h2&gt;
+
+&lt;h3 id=&#34;できれば-実績として見せられるものを用意しておく:e10e37422505fae4585bdbbcb30f5718&#34;&gt;(できれば)実績として見せられるものを用意しておく&lt;/h3&gt;
+
+&lt;p&gt;冒頭のスライドでも紹介しましたが、フリーランス1年目の時に私は「&lt;a href=&#34;http://geragera.jp/&#34;&gt;ゲラゲラ！&lt;/a&gt;」というサービスをPlay1(Java)で作りました。(今も稼働しています。)&lt;br /&gt;
+残念ながらユーザーは少ないサービスですが、「こういうものを(Javaで)作れます」とお見せしたりするのにとても役立っています。&lt;/p&gt;
+
+&lt;p&gt;ここまでやらなくても、エンジニアの方なら技術ブログを書くとか、GitHubに何か簡単なプログラムを公開するとかでよいと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;あちこち顔を出す:e10e37422505fae4585bdbbcb30f5718&#34;&gt;あちこち顔を出す&lt;/h3&gt;
+
+&lt;p&gt;先程も書いた通り、今私がフリーランスとしてやってこれているのは、フリーランスや小さいシステム会社さんとの横の繋がりができたことが大きいです。&lt;br /&gt;
+私も最初数ヶ月は家に引きこもって仕事をしていたのですが、ある時からコワーキングスペースで仕事をするようになりました。&lt;br /&gt;
+そこには他にもフリーランスで仕事をしているデザイナさんやエンジニアさんも多く、そこで横の繋がりが一気に広がりました。&lt;/p&gt;
+
+&lt;p&gt;また、IT系の勉強会やイベントにも積極的に顔を出していますし、&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;自身でも開催をしています。&lt;/a&gt;&lt;br /&gt;
+その繋がりでお仕事をいただくということもあります。&lt;/p&gt;
+
+&lt;h3 id=&#34;契約の際は契約内容をしっかり確認すること:e10e37422505fae4585bdbbcb30f5718&#34;&gt;契約の際は契約内容をしっかり確認すること&lt;/h3&gt;
+
+&lt;p&gt;これは本当に大事。&lt;br /&gt;
+知り合いだとついこの辺りをgdgdにしてしまいがちなのですが、何かトラブルが起きた場合に大変困ります。&lt;br /&gt;
+契約書をしっかり確認し、自分の請けた仕事の範囲、責任の範囲ははっきりと確認しておくべきです。&lt;br /&gt;
+特に瑕疵担保責任について明確にしておかないと、エラいことになりかねません。&lt;br /&gt;
+(瑕疵担保責任が何かについては割愛します。調べてね！)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;満たすべき要件は何で、何を納めれば仕事完了か。&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+これが不明瞭だと、どんどん仕様が変更されたり追加されたりした時に、やるやらないで揉めることも考えられます。&lt;/p&gt;
+
+&lt;p&gt;・・・・・・・ほんとに気をつけようね！(自分に言い聞かせるように)&lt;/p&gt;
+
+&lt;h2 id=&#34;これから:e10e37422505fae4585bdbbcb30f5718&#34;&gt;これから&lt;/h2&gt;
+
+&lt;p&gt;そんなわけで、お陰さまでこの3年間で色んな会社様とお仕事を通じて繋がることができました。&lt;br /&gt;
+私はフリーランスになる前に、2社経験して辞めました。(1社は派遣だけど)&lt;br /&gt;
+そこで私は会社勤めには向いていないんじゃないかなぁと思っていたのですが、ここで働くのはもしかしたら楽しいかもしれない。と思える会社さんにも出会うことができました。&lt;/p&gt;
+
+&lt;p&gt;でもやっぱり、私は続けられる限りはフリーランスを続けると思います。&lt;br /&gt;
+収入は安定はしないけど何とかなってきているし、仕事場所、時間の自由度の高さは魅力的です。&lt;br /&gt;
+そして何より、色んな会社さんやフリーランス仲間達と、色々なお仕事をすることが楽しいです。&lt;/p&gt;
+
+&lt;p&gt;というわけで、来年はなんと4年目！&lt;br /&gt;
+引き続きこの調子で、がんばっていきたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;質問の回答:e10e37422505fae4585bdbbcb30f5718&#34;&gt;質問の回答&lt;/h2&gt;
+
+&lt;p&gt;さてさて、このアドベントカレンダーでは前日の人からの質問があります。&lt;br /&gt;
+前日の@kokona_sanさんからのご質問は&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;「話の通じにくいクライアントさんだったとき、どう対処されていますか？」&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;です。&lt;/p&gt;
+
+&lt;p&gt;難しい質問ですねー・・・。&lt;br /&gt;
+まぁトラブルが起きることも想定して、(先程も述べた) &lt;strong&gt;&lt;em&gt;契約内容を事前に明確にしておく。&lt;/em&gt;&lt;/strong&gt; ですかね。&lt;/p&gt;
+
+&lt;p&gt;でもそもそも、話の通じにくいクライアントさんとは契約に至らないパターンの方が多いかなーと思います。(話がまとまらない)&lt;/p&gt;
+
+&lt;p&gt;こ、こんな回答でよろしかったでしょうか・・・？&lt;/p&gt;
+
+&lt;h2 id=&#34;次の方への質問:e10e37422505fae4585bdbbcb30f5718&#34;&gt;次の方への質問&lt;/h2&gt;
+
+&lt;p&gt;明日は (´ ºムº `) さんです。なんてお呼びすればよいのでしょうか、何とも言えない表情をされていらっしゃいます。&lt;/p&gt;
+
+&lt;p&gt;私からの質問は&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;「タスク管理はどうしていますか？もしも使っているツールなどがあれば教えてください。」&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;です。&lt;/p&gt;
+
+&lt;p&gt;ちなみに私自身は、仕事上でやる事多くてうわぁあああ！ってなりそうな時には&lt;a href=&#34;https://itunes.apple.com/jp/app/the-hit-list/id432764806?mt=12&#34;&gt;The Hit List&lt;/a&gt;を使っています。(タスク管理よりも、見積もり時のタスク洗い出しに便利)&lt;br /&gt;
+プライベートのTODOは&lt;a href=&#34;https://ja.todoist.com/&#34;&gt;Todoist&lt;/a&gt;をいれたものの、結局あんまり使っていなくて・・・。&lt;/p&gt;
+
+&lt;p&gt;他の人がどうされているのかが気になるところです。&lt;br /&gt;
+ぜひ教えてくださいませ！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ScalaMatsuriに行ってきました。 #ScalaMatsuri</title>
+      <link>http://nocono.net/post/2014/33/</link>
+      <pubDate>Mon, 15 Sep 2014 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2014/33/</guid>
+      <description>
+
+&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土)、9/7(日)に開催された、&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri&lt;/a&gt;に参加してきました。&lt;/p&gt;
+
+&lt;h2 id=&#34;なんでわざわざ大阪から:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;なんでわざわざ大阪から？&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://live.nicovideo.jp/watch/lv191315006&#34;&gt;ニコ生中継&lt;/a&gt;もある中、大阪から東京まで行って参加した理由は下記の通りです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自分がやってる勉強会(&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala関西ビギナーズ&lt;/a&gt;。以下、ScalaKB)の宣伝をしたかった。&lt;/li&gt;
+&lt;li&gt;東京コミュニティのみなさんにお会いしてみたかった。&lt;/li&gt;
+&lt;li&gt;去年行くか悩んでいるうちにチケットが完売していて、後悔した。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;9-6-土-1日目:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) 1日目&lt;/h2&gt;
+
+&lt;p&gt;1日目はカンファレンス形式でした。
+Scala設計者であるオダスキー先生の基調講演にはじまり、数々のセッションがありました。&lt;/p&gt;
+
+&lt;p&gt;休憩時間中には、Twitterではやり取りしたことがあったけどお会いしたことが無かった方々とご挨拶することができました。
+また、Scalaに関する質問などにもとても丁寧に答えていただけました。
+本当にありがとうございました。&lt;/p&gt;
+
+&lt;p&gt;懇親会ではLT登壇させていただきました。
+&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;ScalaKB&lt;/a&gt;の宣伝と、みんなも勉強会開催しようぜ！という内容です。
+(自己紹介スライドにフリーランスエンジニアとだけ書いてスキルを書いてなかったので、一部の方にScalaで仕事しているフリーランスだと誤解されてしまいまいた。Scalaで仕事したことないです、ごめんなさい・・・！)&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/39084199&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/noconoasami/scala-matsurilt&#34; title=&#34;Introduction of Scala Kansai Beginners (ScalaMatsuri2014LT)&#34; target=&#34;_blank&#34;&gt;Introduction of Scala Kansai Beginners (ScalaMatsuri2014LT)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;ちょっと調子に乗って喋りすぎてしまい、あえなく時間オーバー・・・。
+でも一番言いたかった「初心者でも、自分が学びたければ勉強会開いていいんだよ！」ということを言えたので良しとしたいです。&lt;/p&gt;
+
+&lt;h2 id=&#34;9-7-日-2日目:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;(日) 2日目&lt;/h2&gt;
+
+&lt;p&gt;2日目はアンカンファレンス。
+バラエティに富んだセッションが開催されました。&lt;/p&gt;
+
+&lt;p&gt;参加したものについて、簡単に感想など。&lt;/p&gt;
+
+&lt;h3 id=&#34;skinny-framework:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;Skinny Framework&lt;/h3&gt;
+
+&lt;p&gt;最近チャレンジしはじめたSkinnyFrameworkのワークショップ。
+開発者の &lt;a href=&#34;https://twitter.com/seratch_ja&#34;&gt;@seratch_ja&lt;/a&gt; さんが概要を説明してくださいました。
+限られた時間の中で、ちょっとした注意点などにも触れてくださり勉強になりました。&lt;/p&gt;
+
+&lt;h3 id=&#34;sbt被害者の会:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;sbt被害者の会&lt;/h3&gt;
+
+&lt;p&gt;途中からお邪魔しました。
+酷い名前(笑)ですが、内容としては「今後どんどんよくなっていく筈だよ！」という方向でした。多分。&lt;/p&gt;
+
+&lt;h3 id=&#34;scala-js:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;Scala.js&lt;/h3&gt;
+
+&lt;p&gt;ちょっと前まではネタ扱いでしたが、最近はちらほら実用的になってきた！という噂を聞くScala.js。
+出力されるJSサイズがぐいぐい減っており、改善されているのだとか。今後に期待。&lt;/p&gt;
+
+&lt;h3 id=&#34;the-simple-parts:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;The Simple Parts&lt;/h3&gt;
+
+&lt;p&gt;オダスキー先生のセッション。
+OOPとFPの複合として、新しく「Modular言語」という呼び方を提案したいとのこと。
+Scalaの思想について丁寧に説明してくださいました。&lt;/p&gt;
+
+&lt;h3 id=&#34;playとscala入門:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;PlayとScala入門&lt;/h3&gt;
+
+&lt;p&gt;implicitについて。
+implicitはまだまだ理解が足りないので、とてもありがたかったです。&lt;/p&gt;
+
+&lt;h3 id=&#34;パネルディスカッション:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;パネルディスカッション&lt;/h3&gt;
+
+&lt;p&gt;コンパイル時間は「気にしない」という声が多数・・・みなさん訓練されているなぁと思いました。
+Herokuで時間がかかってコンパイルタイムアウトになるから困るとTwitterで呟いたら、「そもそもHerokuで頑張るのが(現状では)間違っている」というご指摘をうけました。
+えー（´・ω・｀）&lt;/p&gt;
+
+&lt;h2 id=&#34;その他感想:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;その他感想&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2日目夜に東京勢の懇親会に混ぜていただきました。Scala愛が感じられる飲み会でした。楽しかったです。&lt;/li&gt;
+&lt;li&gt;1日目も2日目もお弁当(2日目は朝まで！)が出ましたすごい。&lt;/li&gt;
+&lt;li&gt;東京ではお昼ご飯提供は割とよくあると後で聞きました。東京凄い。&lt;/li&gt;
+&lt;li&gt;東京のScalaの盛り上がりと比較すると、本当に関西まだまだだなと思いました。&lt;/li&gt;
+&lt;li&gt;関西盛り上げていこうと思いました。&lt;/li&gt;
+&lt;li&gt;仕事でScala使えるよう、自身の勉強も普及活動も頑張りたいです。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;東京の熱気にあてられて、モチベーションがかなりあがりました。
+やっぱり現地行ってよかったです！&lt;/p&gt;
+
+&lt;p&gt;ScalaKBを不定期ながらも続けてきたことも、私にとって大きなプラスになっていると実感しました。
+私がScalaをやる気の間は今後も続けていきたいですし、ここで培ったコミュニティ運営スキルを活かして、もっと日本のScalaコミュニティ自体にも貢献できればと思います。&lt;/p&gt;
+
+&lt;p&gt;素晴らしい場を設けてくださった運営スタッフの皆様、スピーカーの皆様、相手してくださった参加者の皆様、本当にありがとうございました！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>第3回 Scala関西ビギナーズを開催しました。</title>
+      <link>http://nocono.net/post/2014/32/</link>
+      <pubDate>Sat, 06 Sep 2014 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2014/32/</guid>
+      <description>&lt;p&gt;2014/02/08 第3回Scala関西ビギナーズを開催いたしました。&lt;/p&gt;
+
+&lt;p&gt;・・・めっちゃ前ですごめんなさい。&lt;/p&gt;
+
+&lt;p&gt;言い訳になりますが、この前後が半端無く忙しく記事を書きそびれておりました。
+が、今更ですが、スライドまとめ記事ぐらいは作っておかねばと思いこの記事を書いています。&lt;/p&gt;
+
+&lt;p&gt;以下、公開されている、この日の発表スライドです。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/31881432&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/noconoasami/scala-31881432&#34; title=&#34;Scala再入門 @2014/02/08 Scala関西ビギナーズ第3回&#34; target=&#34;_blank&#34;&gt;Scala再入門 @2014/02/08 Scala関西ビギナーズ第3回&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Java使いにとっての関数(@amkt922)&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30971583&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/amkt922/java-30971583&#34; title=&#34;Java使いにとっての関数&#34; target=&#34;_blank&#34;&gt;Java使いにとっての関数&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/amkt922&#34; target=&#34;_blank&#34;&gt;amkt922&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Scalaでクイックソートを書いてみる(@daiksy)&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30968327&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/daiksy/scala-30968327&#34; title=&#34;Scala関西ビギナーズ&#34; target=&#34;_blank&#34;&gt;Scala関西ビギナーズ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/daiksy&#34; target=&#34;_blank&#34;&gt;Daisuke Kasuya&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&#34;&gt;Scala 3分クッキング&lt;/a&gt;(@mumoshu)&lt;br /&gt;
+&lt;a href=&#34;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&#34;&gt;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;sprayについて (@hamazy)&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30969524&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/hamazy/spray-intro&#34; title=&#34;Spray intro&#34; target=&#34;_blank&#34;&gt;Spray intro&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/hamazy&#34; target=&#34;_blank&#34;&gt;Suguru Hamazaki&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;この日は何と英語での発表が多いという、ちょっと変わった会になりました。
+当日の模様はTogetterにもまとめられていますので、こちらもご覧になってください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/627137&#34;&gt;第3回Scala関西ビギナーズまとめ - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;さて。もうすでに告知を開始しておりますが、9/20(土)には&lt;a href=&#34;http://connpass.com/event/8127/&#34;&gt;第4回 Scala関西ビギナーズ&lt;/a&gt;を開催したします！
+まだ少し席に空きがありますので、ぜひお越しになってくださいね！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2013年振り返りと2014年抱負</title>
+      <link>http://nocono.net/post/2014/31/</link>
+      <pubDate>Tue, 07 Jan 2014 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2014/31/</guid>
+      <description>
+
+&lt;p&gt;もう7日になってしまいましたが、あけましておめでとうございます。&lt;/p&gt;
+
+&lt;p&gt;新年1発目のエントリーということで、2013年振り返りと2014年抱負を書いてみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;2013年振り返り:ea8492b34791ddaedc8373ecd6020d2d&#34;&gt;2013年振り返り&lt;/h2&gt;
+
+&lt;p&gt;去年始めに&lt;a href=&#34;http://nocono.net/15&#34;&gt;2013年の抱負&lt;/a&gt;を書いたものの、残念ながら胸を張って「守れた！」とは言えない結果に・・・。&lt;/p&gt;
+
+&lt;p&gt;勉強会については、&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/17&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt; 第二回 JetBrainsユーザーグループ in 大阪&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/22&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt; Scala関西ビギナーズ第2回&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki/play_kb_2&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; PlayFramework関西ビギナーズ第2回&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;に加え、ScalaやPlayのもくもく会を数回開催しました。&lt;br /&gt;
+登壇者の方はもちろん、参加者みなさんのおかげでどれも充実した勉強会となりました。&lt;/p&gt;
+
+&lt;p&gt;アウトプット云々に関しては、最近やっと、このブログに技術記事を書くようになりました。&lt;br /&gt;
+ダイエットもちょっと守れたよ！1kg減ったからね！(年始で戻った気がしますが。)&lt;/p&gt;
+
+&lt;p&gt;一番ダメだったのは「効率良く仕事をする」でしょうか。&lt;br /&gt;
+時間の使い方に関しては今後も大きな課題です。&lt;/p&gt;
+
+&lt;p&gt;例年から大きく変わったことと言えば、2013年後半はAndroidアプリ開発のお仕事が中心だったことです。&lt;br /&gt;
+以前からやっていたJavaをもとに、スキルを広げることができたことは大きな収穫でした。&lt;br /&gt;
+仕事を任せてくださったクライアント様に心から感謝。&lt;/p&gt;
+
+&lt;h2 id=&#34;2014年抱負:ea8492b34791ddaedc8373ecd6020d2d&#34;&gt;2014年抱負&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技術力の向上。&lt;/li&gt;
+&lt;li&gt;時間の使い方を改善する。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;技術力の向上なんて抱負に挙げるまでもなく目指すべきなのですが、敢えて書きました。&lt;br /&gt;
+周囲のエンジニアの方々に比べて、自分のスキルの低さが恥ずかしいなぁという思いが最近特に強いからです。&lt;br /&gt;
+色々手を付けすぎて知識が広く浅い状態になっているので、Java/Scala(Web、Androidアプリ)を中心として改めてスキルアップを図っていきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;そのためにも時間の使い方についてはもっと考えないと・・・！&lt;br /&gt;
+というわけで、とりあえずRedmineでタスク管理することにしました。&lt;br /&gt;
+続かない気がするので、並行してもっといいツールを探していきたいです。&lt;/p&gt;
+
+&lt;p&gt;おかげさまで何とフリーランス生活も3年目に突入です。&lt;br /&gt;
+本当に周囲の方々のおかげです。ありがとうございます！&lt;br /&gt;
+より一層精進いたしますので、今後ともどうぞよろしくお願いします。&lt;/p&gt;
+
+&lt;p&gt;あべ あさみ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vagrant1.4.0 &#43; CentOS でprivate_networkがエラーになった</title>
+      <link>http://nocono.net/post/2013/30/</link>
+      <pubDate>Tue, 24 Dec 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/30/</guid>
+      <description>&lt;p&gt;遅ればせながら、巷で大流行中の&lt;a href=&#34;http://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;にチャレンジ！&lt;/p&gt;
+
+&lt;p&gt;・・・したところ、見事エラーに。
+原因はVagrant1.4.0のバグでした。&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;いまこれにひっかかっていた Vagrant 1.4.0 で private_network を指定しているとエラーになる件 - akishin999の日記 (id:akishin999 / &lt;a href=&#34;https://twitter.com/akishin&#34;&gt;@akishin&lt;/a&gt;) &lt;a href=&#34;http://t.co/WEod6vz4E0&#34;&gt;http://t.co/WEod6vz4E0&lt;/a&gt;
+
+— SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/statuses/412879410392358912&#34;&gt;2013, 12月 17&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;CentOSだけダメだったみたいです。
+最新版にこだわりはなかったので、とりあえずダウングレードして対応しました。&lt;/p&gt;
+
+&lt;p&gt;・・・が、2日後には直ってた。
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;Vagrant 1.4.1 has been released. Bug fixes with one big improvement: Docker provisioner works on RedHat guests! &lt;a href=&#34;http://t.co/EmB5qlwpBa&#34;&gt;http://t.co/EmB5qlwpBa&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;— Mitchell Hashimoto (@mitchellh) &lt;a href=&#34;https://twitter.com/mitchellh/statuses/413373337889275904&#34;&gt;2013, 12月 18&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;チャレンジした日が悪かった。何か悔しい。&lt;/p&gt;
+
+&lt;p&gt;Vagrantはバージョンによる落とし穴が結構あるそうで、VirtualBoxのバージョンの組み合わせによっても色々あるという噂が・・・。
+バージョンアップは慎重に行った方がよさそう。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA13 PHP開発環境設定メモ</title>
+      <link>http://nocono.net/post/2013/29/</link>
+      <pubDate>Fri, 13 Dec 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/29/</guid>
+      <description>
+
+&lt;p&gt;先日とうとう、IntelliJ IDEA13 ULTIMATEを購入しました。
+これで「えっ。&lt;a href=&#34;http://nocono.net/17&#34;&gt;JetBrains勉強会&lt;/a&gt;とか開いておきながらCommunity Edition(無償版)なの・・・？」 と言われる日々とはもうおサラバです。&lt;/p&gt;
+
+&lt;p&gt;というわけで、早速PHP開発の設定を行ったのでメモ。&lt;/p&gt;
+
+&lt;p&gt;環境&lt;br /&gt;
+Mac OS X 10.8.5&lt;br /&gt;
+PHP 5.4.22&lt;br /&gt;
+IntelliJ IDEA 13.0&lt;/p&gt;
+
+&lt;p&gt;PHPStorm7もおそらく同じだと思います。
+参考になれば幸いです。
+&lt;h2&gt;IntelliJ IDEA 初期設定&lt;/h2&gt;
+IDEA自体の初期設について。一応さくっと。
+Macの方はPreferences -&amp;gt; keymap で KeymapsをMac OS X 10.5+に変更するといい感じです。
+Eclipseからの移行の方ならEclipseがいいかも。 (いつの間にかEclipse (Mac OS X)なんてキーマップがある・・・！)
+残念ながらVimキーマップはありません。「どうしてもVimっぽく使いたい！」という方は&lt;a href=&#34;https://github.com/JetBrains/ideavim&#34; target=&#34;_blank&#34;&gt;ideaVim&lt;/a&gt;というプラグインを試してみてください。&lt;/p&gt;
+
+&lt;p&gt;あとはとりあえずPreferences -&amp;gt; Editor -&amp;gt; Appearanceの 「Show line number」「Show whitespaces」をONにしておいて、インターフェイスが黒い方がいい方はPreferences -&amp;gt; Appearance -&amp;gt; ThemeをDarculaに設定しておけばOK。&lt;/p&gt;
+
+&lt;p&gt;初期設定に関しては以下のクイックスタートが参考になります。
+&lt;a title=&#34;IntelliJ IDEA クイックスタート | サムライズム&#34; href=&#34;http://samuraism.com/products/jetbrains/intellij-idea/quickstart&#34; target=&#34;_blank&#34;&gt;IntelliJ IDEA クイックスタート | サムライズム&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #999999;&#34;&gt;（余談ですが13からは「Allow placement of caret after end of line」がデフォルトOFFになったそうですね。よかったよかった。)&lt;/span&gt;
+&lt;h2&gt;PHP設定&lt;/h2&gt;
+ここから、PHP関連のメモです。&lt;/p&gt;
+
+&lt;p&gt;ローカルにPHP5.3+Apatcheの環境があるのですが、5.4を使ってみることにしました。
+Homebrewでさくっとインストール。php.iniはとりあえずタイムゾーンだけ「Asia/Tokyo」に設定。&lt;/p&gt;
+
+&lt;p&gt;次はIntelliJ IDEAのPHP設定です。&lt;/p&gt;
+
+&lt;p&gt;Preferences -&amp;gt; PHP を開いて、PHP language levelを設定。
+次にInterpreterの右の「…」をクリック。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Preferences-4.png&#34; alt=&#34;Preferences&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下記の画面が立ち上がるので、左上の「+」を押してInterpretersを追加。
+Nameに適当な名前をいれて、PHP homeにPHPへのパスを入力。
+使用するPHPバージョンがちゃんと下に表示されればOKです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Interpreters.png&#34; alt=&#34;Interpreters&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;次にサーバー設定。
+ビルトインサーバーで実行ができるよう設定します。&lt;/p&gt;
+
+&lt;p&gt;Run -&amp;gt; Edit Configurations を選択してRun/Debug Configurationsを起動。
+左上の「+」をクリックして、Add New ConfigurationからPHP Buit-in Web Serverを選択。
+(PHP Buit-in Web Serverが表示されていないようなら、一番下の30 more itemsをクリック。)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/addnew1.png&#34; alt=&#34;addnew1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nameには適当な名前を入力。
+Hostはlocalhost、ポート番号はデフォルトの80は他で使用しているため、8000に変更。
+Document rootには動かしたいプロジェクトのドキュメントルートのパスを入力。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Run_Debug2.png&#34; alt=&#34;Run_Debug2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これでOKボタンを押下するとサーバーが追加され、実行(Run)できるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/run3.png&#34; alt=&#34;run3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ApacheなどのWebサーバーを準備しなくてもPHPの動作確認環境を作ることができました。
+便利便利。
+&lt;h2&gt;Xdebug設定&lt;/h2&gt;
+せっかくIDEを使うのだから、ブレイクポイントで実行を停めたい！ステップ実行したい！！
+調べると、どうやらXdebugを使うといいらしい。ということでデバッガの設定もしました。&lt;/p&gt;
+
+&lt;p&gt;インストールはこちらもHomebrewでさくっと。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install php54-xdebug
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;/usr/local/etc/php/5.4/conf.d/ext-xdebug.ini&lt;/code&gt;に&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;xdebug.remote_enable=1
+xdebug.remote_port=9001
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;を追記。
+（デフォルトのポート番号(9000)は何かとよく使うので9001に変更しておきました。）&lt;/p&gt;
+
+&lt;p&gt;ここで、&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;xdebug.remote_autostart=1
+xdebug.profiler_enable=1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;を設定するかどうかで迷いました。
+デバッグとかプロファイラとかって必要な時だけOnにしたい気がするんだけど、どうしたら・・・と思い、とりあえずPHPサーバー起動時のオプション引数にしておいて、デバッグOnのもの、プロファイラもOnのもの・・・と複数サーバーを作成してみたのですが。&lt;/p&gt;
+
+&lt;p&gt;なんと、JetBrains公式にデバッガ、プロファイラのOn/Offを切り替えるブックマークレット生成ページがありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&#34;Zend Debugger &amp;amp; Xdebug bookmarklets generator for PhpStorm &#34; href=&#34;http://www.jetbrains.com/phpstorm/marklets/&#34; target=&#34;_blank&#34;&gt;Zend Debugger &amp;amp; Xdebug bookmarklets generator for PhpStorm &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;というわけで、ここで生成したブックマークレットをブックマークに登録しておいて、必要に応じてOnOff切り替えることにしました。めでたしめでたし。&lt;/p&gt;
+
+&lt;p&gt;Xdebugのインストールが完了した段階でIDEAのInterpretersを確認すると、Xdebugのバージョンが表示されていました。
+自動検出してくれるらしいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Interpreters4.png&#34; alt=&#34;Interpreters4&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;次はデバッガの設定。
+Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定。
+デフォルト値が9000なので、ポート番号を変更していない場合は特に設定の必要無し。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Preferences5.png&#34; alt=&#34;Preferences5&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これで完了です。
+ポート番号を変えたりしていなければ、特に設定することはないってことですね。
+(ここはIDEではなくプロジェクトの設定なので、違うプロジェクトを作る毎に設定する必要があるので注意。)&lt;/p&gt;
+
+&lt;p&gt;これでデバッグセッションが開始されている状態でStart Listen for PHP Debug Connectionsボタンを押すと、デバッグ情報を受信するようになって、ブレイクポイントで実行を停めたり変数の中身を見たりできます。&lt;/p&gt;
+
+&lt;p&gt;未接続状態
+&lt;img src=&#34;http://nocono.net/image/2013/run6.png&#34; alt=&#34;run6&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;接続状態
+&lt;img src=&#34;http://nocono.net/image/2013/run7.png&#34; alt=&#34;run7&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;データベース(MySQL)接続も設定したのでそれも書くつもりだったのですが、長くなってしまったのでとりあえずここまで。&lt;/p&gt;
+
+&lt;p&gt;PHPもJavaと同じIDEで快適に開発できるというのはやっぱり嬉しい！
+せっかく買ったのだし、しっかり活用していきたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考にしたサイト:ce69564a9af371ad660aa857107bd8d7&#34;&gt;参考にしたサイト&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;Configuring XDebug | JetBrains
+&lt;/a&gt;&lt;a title=&#34;[PhpStorm]ビルトインウェブサーバでPHPアプリを動かす | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/13/09/13-194959.php&#34; target=&#34;_blank&#34;&gt;[PhpStorm]ビルトインウェブサーバでPHPアプリを動かす | バシャログ。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/12/10/25-110245.php&#34; target=&#34;_blank&#34;&gt;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&lt;/a&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8/3(土) PlayFrameworkビギナーズ第2回 開催のお知らせ #play_kb</title>
+      <link>http://nocono.net/post/2013/28/</link>
+      <pubDate>Thu, 11 Jul 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/28/</guid>
+      <description>&lt;p&gt;PlayFrameworkビギナーズ第2回を開催いたします！&lt;br /&gt;
+（Scalaビギナーズやらもくもく会やら開いているので意外に思われるかもしれませんが、まだ2回目です・・・！）&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(土) 13:30〜17:30 オオサカンスペースさんにて。&lt;/p&gt;
+
+&lt;p&gt;詳細及び参加登録&lt;br /&gt;
+ &lt;a href=&#34;http://www.zusaar.com/event/891003&#34;&gt;http://www.zusaar.com/event/891003&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてScalaビギナーズですっかりお馴染みランチ会も開催します。&lt;br /&gt;
+&lt;a href=&#34;http://www.zusaar.com/event/897004&#34;&gt;http://www.zusaar.com/event/897004&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;内容はまだ固まっていないのですが、Scalaビギナーズ同様、セッション・LT数本とハンズオンの時間にする予定です。&lt;/p&gt;
+
+&lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
+しばらくお待ちください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayFrameworkもくもく会第2回(7/6)開催しました #play_kb</title>
+      <link>http://nocono.net/post/2013/27/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/27/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/25&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会2回目を開催しました。&lt;br /&gt;
+&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
+
+&lt;p&gt;今回は土曜の朝(9:30〜)という早い時間から開催しました。&lt;br /&gt;
+平日よりはみんな参加しやすいかなぁと考えたのですが、そうでもなかったようで・・・。&lt;br /&gt;
+でも土曜朝から集中して勉強するのは、1日を有効活用したような気分になれてとてもいいなと思いました。&lt;br /&gt;
+今後も土曜の朝に定期的に開いていくつもりです。&lt;br /&gt;
+（時間は少し遅くするかも・・・）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;br /&gt;
+↑開催記録、次回開催情報など載せていきます。&lt;br /&gt;
+情報チェックにご活用ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;個人的にやったことメモ:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
+
+&lt;p&gt;WebSocketにチャレンジしました。&lt;/p&gt;
+
+&lt;p&gt;最初は公式のサンプル(websocket-chat)を参考にしたのですが、Akkaの部分がよくわからず・・・。&lt;br /&gt;
+ひとまずWebSocketだけでシンプルなテストプロジェクトを作りました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play2_websocket_test&#34;&gt;https://github.com/SAMMY7th/play2_websocket_test&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4798125415/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4798125415&amp;linkCode=as2&amp;tag=drunkershigh-22&#34;&gt;Scala逆引きレシピ (PROGRAMMER’S RECiPE)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=drunkershigh-22&amp;l=as2&amp;o=9&amp;a=4798125415&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
+第13章にあるコードを、ほとんどそのまま使わせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;コントローラでいつものActionではなくWebSocketを使って、インプット(Iteratee)とアウトプット（Enumerator）をタプルに詰めて返却してあげれば、あとはいい感じにしてくれるようです。&lt;br /&gt;
+なるほどなー。&lt;/p&gt;
+
+&lt;h3 id=&#34;参照したページや書籍:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;参照したページや書籍&lt;/h3&gt;
+
+&lt;p&gt;今回もお世話になりました。&lt;br /&gt;
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;その他:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;その他&lt;/h3&gt;
+
+&lt;p&gt;・Kindleで100円のScala入門書を買って勉強している方がいました。
+  @ITの連載とほぼほぼ同じようですが、Kindleをお持ちの方にはよさそう。&lt;br /&gt;
+  &lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00BOBYZTQ&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>【俺聞け5】enchant.jsで作ったゲームのような何かを公開しました</title>
+      <link>http://nocono.net/post/2013/26/</link>
+      <pubDate>Fri, 05 Jul 2013 17:07:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/26/</guid>
+      <description>
+
+&lt;p&gt;&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;29&lt;/sub&gt;(土)に開催された&lt;a href=&#34;http://www.msng.info/archives/2013/07/orekike5-5.php?fb_source=pubv1&#34;&gt;俺聞け5&lt;/a&gt;というイベントで、「私とFlashとHTML5&amp;amp;JavaScript」というタイトルで発表をしてきました。&lt;/p&gt;
+
+&lt;p&gt;その中にお披露目しました、&lt;a href=&#34;http://enchantjs.com/ja/&#34;&gt;enchant.js&lt;/a&gt;で作ったゲーム（？）は&lt;a href=&#34;http://orekike-kinoko.herokuapp.com&#34;&gt;こちら！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://orekike-kinoko.herokuapp.com&#34;&gt;&lt;img src=&#34;http://nocono.net/image/2013/orekike.png&#34; alt=&#34;&amp;quot;俺聞け発表用&amp;quot;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;単にきのこ取って大きくなるだけで、目的とかクリアとかありません・・・！&lt;br /&gt;
+スマホでも操作できるようにしましたので、ぜひぜひ遊んでやってくださいませ。&lt;/p&gt;
+
+&lt;h2 id=&#34;肝心の発表内容:1fd210ca6cdfcabc688bd15ea0db40b5&#34;&gt;肝心の発表内容&lt;/h2&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/23931995&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/noconoasami/5flashhtml5java-script&#34; title=&#34;【俺聞け5】私とflashとhtml5&amp;amp;java script&#34; target=&#34;_blank&#34;&gt;【俺聞け5】私とflashとhtml5&amp;amp;java script&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML5とJavaScriptでFlashのようなリッチコンテンツを作るためのフレームワークが色々でてきております。&lt;br /&gt;
+その中から、&lt;a href=&#34;http://enchantjs.com/ja/&#34;&gt;enchant.js&lt;/a&gt;というゲーム用のフレームワークをご紹介しました。&lt;/p&gt;
+
+&lt;p&gt;簡単に動くものが作れるので、テンション上がって楽しいです。&lt;br /&gt;
+次はちゃんとしたミニゲームを作りたいな。&lt;/p&gt;
+
+&lt;p&gt;enchant.jsの話に絞ろうかなぁとも考えたのですが、やはり個人的に思い入れがあるので&lt;a href=&#34;http://www.adobe.com/jp/products/flash.html&#34;&gt;Flash&lt;/a&gt;の話も詰め込んでしまいました。&lt;br /&gt;
+あの直感的に描画・開発ができるインターフェイスは秀逸ですので、Flashで作ってHTML5&amp;amp;JavaScript(&lt;a href=&#34;http://www.createjs.com/#!/CreateJS&#34;&gt;CreateJS&lt;/a&gt;)に書き出すという方向で生き残っていって欲しいです。&lt;br /&gt;
+頑張れFlash！&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:1fd210ca6cdfcabc688bd15ea0db40b5&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;発表の頭でゲーム(？)をお披露目したのですが、割とみなさん笑ってくださってよかったです。&lt;br /&gt;
+スベらなくて一安心・・・！&lt;/p&gt;
+
+&lt;p&gt;他の方の発表もとても面白いものばかりでした。&lt;br /&gt;
+&lt;ul&gt;
+  &lt;li&gt;携帯小説の実写化は涙ぐましい営業努力の末だった。&lt;/li&gt;
+  &lt;li&gt;クローキング怖い。&lt;/li&gt;
+  &lt;li&gt;声を大きく！&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;俺聞けは今回で3回目の参加、発表は2回目でしたが、毎回発見があるとても大好きなイベントです。&lt;br /&gt;
+次回も楽しみ！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>7/6(土)PlayFrameworkもくもく会第2回を開催します #play_kb</title>
+      <link>http://nocono.net/post/2013/25/</link>
+      <pubDate>Fri, 05 Jul 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/25/</guid>
+      <description>&lt;p&gt;前回盛り上がりましたPlayFrameworkもくもく会、早速2回目を開催します〜！&lt;/p&gt;
+
+&lt;p&gt;2013/07/06 9:30〜12:00、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
+
+&lt;p&gt;平日夜だと会社員の方が参加しづらいし、かといって土曜午後はいろんな勉強会が集中しているし、日曜はおうちでゴロゴロしたいし・・・と悩んだ結果、土曜朝開催にしてみました。&lt;/p&gt;
+
+&lt;p&gt;参加登録はこちから&lt;br /&gt;
+&lt;a href=&#34;http://www.zusaar.com/event/879003&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第2回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今後、もくもく会開催のお知らせは以下のページにて行います。&lt;br /&gt;
+興味がある方は是非チェックしておいてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFramework関西ビギナーズまとめwiki&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayFrameworkもくもく会 第1回開催しました。 #play_kb</title>
+      <link>http://nocono.net/post/2013/24/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/24/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/23&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会を開催しました。&lt;br /&gt;
+&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;(水) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
+
+&lt;p&gt;2時間各自で自主勉強の後、30分成果報告の時間を設けました。&lt;br /&gt;
+情報交換をする事ができて、とても有意義な時間となりました。&lt;br /&gt;
+参加者のみなさんありがとうございました！&lt;/p&gt;
+
+&lt;p&gt;こんなライトな感じで定期的に開いていきたいなぁと思っています。&lt;br /&gt;
+平日よりも土日の方がみなさん参加しやすいかもですが、他の勉強会とのブッキングも多くなっちゃう気もするしどっちがいいんだろう？&lt;br /&gt;
+まぁその辺は様子見ながら決めていきたいです。&lt;/p&gt;
+
+&lt;p&gt;実はこっそりまとめwiki作りました。&lt;br /&gt;
+&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;開催記録、次回開催情報など載せていきます。&lt;br /&gt;
+情報チェックにご活用ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;個人的にやったことメモ:be552971788e8adf422dae2567065c29&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
+
+&lt;p&gt;公式マニュアルを参考にTwitterのOAuth認証処理を実装しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.playframework-ja.org/documentation/2.0.4/ScalaOAuth&#34;&gt;Documentation: ScalaOAuth — Playframework&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;処理自体はサンプルコードをコピペすれば動くのですが、文法的に分からないところを調べていたらあっさり2時間経過・・・。&lt;/p&gt;
+
+&lt;h3 id=&#34;参照したページや書籍:be552971788e8adf422dae2567065c29&#34;&gt;参照したページや書籍&lt;/h3&gt;
+
+&lt;p&gt;大分お世話になりました。&lt;br /&gt;
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;・暗黙の引数(inplict)&lt;br /&gt;
+&lt;a href=&#34;http://www.ne.jp/asahi/hishidama/home/tech/scala/def.html#h_implicit_parameter&#34;&gt;Scalaメソッド定義メモ(Hishidama&amp;rsquo;s Scala def Memo) &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;・flatMap&lt;br /&gt;
+&lt;a href=&#34;http://d.hatena.ne.jp/PvP/20110427/1303882687&#34;&gt;map と flatMap の違い - PvP&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;・例外処理&lt;br /&gt;
+&lt;a href=&#34;http://yuroyoro.hatenablog.com/entry/20100719/1279519961&#34;&gt;Scalaでの例外処理 - Either,Option,util.control.Exception - ( ꒪⌓꒪) ゆるよろ日記&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;その他:be552971788e8adf422dae2567065c29&#34;&gt;その他&lt;/h3&gt;
+
+&lt;p&gt;・&lt;a href=&#34;http://slick.typesafe.com/&#34;&gt;Slick&lt;/a&gt;というDBアクセスラッパーを教えて頂きました！&lt;br /&gt;
+・報告時点でOAuth認証がこけていたのですが、Twitter側のコールバックURL設定していなかっただけでした・・・。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6/19(水)PlayFrameworkもくもく会を開催します #play_kb</title>
+      <link>http://nocono.net/post/2013/23/</link>
+      <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/23/</guid>
+      <description>&lt;p&gt;あの幻のPlayFramework関西ビギナーズがもくもく会になって帰ってきた！&lt;/p&gt;
+
+&lt;p&gt;2013/06/19 19:00〜21:30、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
+
+&lt;p&gt;参加登録はこちから&lt;br /&gt;
+&lt;a href=&#34;http://atnd.org/events/40379&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1ヶ月に1〜2回のペースで開きたいなぁ。&lt;/p&gt;
 </description>
     </item>
     

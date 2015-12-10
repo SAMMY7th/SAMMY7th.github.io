@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nocono on nocono</title>
+    <link>http://nocono.net/tags/nocono/</link>
+    <description>Recent content in Nocono on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 07 Jan 2014 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/nocono/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2013年振り返りと2014年抱負</title>
+      <link>http://nocono.net/post/2014/31/</link>
+      <pubDate>Tue, 07 Jan 2014 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2014/31/</guid>
+      <description>
+
+&lt;p&gt;もう7日になってしまいましたが、あけましておめでとうございます。&lt;/p&gt;
+
+&lt;p&gt;新年1発目のエントリーということで、2013年振り返りと2014年抱負を書いてみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;2013年振り返り:ea8492b34791ddaedc8373ecd6020d2d&#34;&gt;2013年振り返り&lt;/h2&gt;
+
+&lt;p&gt;去年始めに&lt;a href=&#34;http://nocono.net/15&#34;&gt;2013年の抱負&lt;/a&gt;を書いたものの、残念ながら胸を張って「守れた！」とは言えない結果に・・・。&lt;/p&gt;
+
+&lt;p&gt;勉強会については、&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/17&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt; 第二回 JetBrainsユーザーグループ in 大阪&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/22&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt; Scala関西ビギナーズ第2回&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki/play_kb_2&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; PlayFramework関西ビギナーズ第2回&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;に加え、ScalaやPlayのもくもく会を数回開催しました。&lt;br /&gt;
+登壇者の方はもちろん、参加者みなさんのおかげでどれも充実した勉強会となりました。&lt;/p&gt;
+
+&lt;p&gt;アウトプット云々に関しては、最近やっと、このブログに技術記事を書くようになりました。&lt;br /&gt;
+ダイエットもちょっと守れたよ！1kg減ったからね！(年始で戻った気がしますが。)&lt;/p&gt;
+
+&lt;p&gt;一番ダメだったのは「効率良く仕事をする」でしょうか。&lt;br /&gt;
+時間の使い方に関しては今後も大きな課題です。&lt;/p&gt;
+
+&lt;p&gt;例年から大きく変わったことと言えば、2013年後半はAndroidアプリ開発のお仕事が中心だったことです。&lt;br /&gt;
+以前からやっていたJavaをもとに、スキルを広げることができたことは大きな収穫でした。&lt;br /&gt;
+仕事を任せてくださったクライアント様に心から感謝。&lt;/p&gt;
+
+&lt;h2 id=&#34;2014年抱負:ea8492b34791ddaedc8373ecd6020d2d&#34;&gt;2014年抱負&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技術力の向上。&lt;/li&gt;
+&lt;li&gt;時間の使い方を改善する。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;技術力の向上なんて抱負に挙げるまでもなく目指すべきなのですが、敢えて書きました。&lt;br /&gt;
+周囲のエンジニアの方々に比べて、自分のスキルの低さが恥ずかしいなぁという思いが最近特に強いからです。&lt;br /&gt;
+色々手を付けすぎて知識が広く浅い状態になっているので、Java/Scala(Web、Androidアプリ)を中心として改めてスキルアップを図っていきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;そのためにも時間の使い方についてはもっと考えないと・・・！&lt;br /&gt;
+というわけで、とりあえずRedmineでタスク管理することにしました。&lt;br /&gt;
+続かない気がするので、並行してもっといいツールを探していきたいです。&lt;/p&gt;
+
+&lt;p&gt;おかげさまで何とフリーランス生活も3年目に突入です。&lt;br /&gt;
+本当に周囲の方々のおかげです。ありがとうございます！&lt;br /&gt;
+より一層精進いたしますので、今後ともどうぞよろしくお願いします。&lt;/p&gt;
+
+&lt;p&gt;あべ あさみ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>リニューアルしました</title>
+      <link>http://nocono.net/post/2013/21/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/21/</guid>
+      <description>&lt;p&gt;当ページのCMSを&lt;a href=&#34;http://lokka.org&#34;&gt;Lokka&lt;/a&gt;から&lt;a href=&#34;http://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;に変更しました。&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/15&#34;&gt;前からやろうやろうと思っていたのですが&lt;/a&gt;、ついつい後回しに・・・。&lt;/p&gt;
+
+&lt;p&gt;Lokkaを使っていたのはHerokuでお金かけずにブログ運営したかったからです。&lt;br /&gt;
+Lokkaはシンプルでカスタマイズがしやすく名前も可愛い。&lt;br /&gt;
+・・・といいところもたくさんあるのですが、使い勝手の良さはWordPressの方が上。&lt;br /&gt;
+というわけで乗り換えてしまいました。&lt;br /&gt;
+サーバーもHerokuからさくらVPSにお引っ越し。&lt;/p&gt;
+
+&lt;p&gt;これを期に、今度こそ更新頻度を上げていきたいな・・・！&lt;br /&gt;
+がんばります。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2013年抱負</title>
+      <link>http://nocono.net/post/2013/15/</link>
+      <pubDate>Fri, 04 Jan 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/15/</guid>
+      <description>
+
+&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
+
+&lt;p&gt;年始なので、今年の抱負でも書いてみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;効率良く仕事をする:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;効率良く仕事をする&lt;/h2&gt;
+
+&lt;p&gt;ついダラダラやりがちなので、ちゃんとメリハリ付けてこなして行きたいです。&lt;/p&gt;
+
+&lt;h2 id=&#34;勉強をする:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;勉強をする&lt;/h2&gt;
+
+&lt;p&gt;毎日ちょっとずつでも技術書読んだり、FizzBuzz解いたりする時間を作りたい。&lt;br /&gt;
+なかなか難しいですが。&lt;/p&gt;
+
+&lt;p&gt;去年始めた勉強会開催は、私自身得るものが多いので今年も続けていきたいです。&lt;br /&gt;
+「勉強会を開く事」が目的とならないように気をつけます。&lt;/p&gt;
+
+&lt;h2 id=&#34;ブログを更新する:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;ブログを更新する&lt;/h2&gt;
+
+&lt;p&gt;イベント参加記録になりつつあるこのブログ・・・。&lt;br /&gt;
+もっと色々書きたいです。&lt;br /&gt;
+アウトプット大事。&lt;/p&gt;
+
+&lt;p&gt;それよりWordPressで作り替えるのが先かなー・・・。&lt;/p&gt;
+
+&lt;h2 id=&#34;早寝早起き:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;早寝早起き&lt;/h2&gt;
+
+&lt;p&gt;お肌のためにも。&lt;br /&gt;
+早起きというより、エンジンかかるのが遅いのを何とかしたいです。&lt;/p&gt;
+
+&lt;h2 id=&#34;ダイエット:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;ダイエット&lt;/h2&gt;
+
+&lt;p&gt;去年は6Kg痩せたけど2Kg戻りました。&lt;br /&gt;
+最近増加傾向にあるのでこのままだとマズい・・・。&lt;/p&gt;
+
+&lt;p&gt;お菓子減らせばいいだけなんですけどね・・・うん・・・・。&lt;br /&gt;
+(お菓子食べながら)&lt;/p&gt;
+
+&lt;p&gt;要するに「規則正しい生活を送る」ってことですね。&lt;/p&gt;
+
+&lt;p&gt;今年は去年以上に実りのある年にするよう精進していきます。&lt;br /&gt;
+どうぞよろしくお願いします。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2012年振り返り</title>
+      <link>http://nocono.net/post/2012/14/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/14/</guid>
+      <description>
+
+&lt;p&gt;早いもので2012年がもうすぐ終わります。&lt;br /&gt;
+今年は私にとって激動の年でした。&lt;/p&gt;
+
+&lt;h3 id=&#34;1月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;1月&lt;/h3&gt;
+
+&lt;p&gt;フリーエンジニアとなり、業務委託でお仕事。&lt;br /&gt;
+常駐だったので仕事自体は派遣時代と大差はなかったです。&lt;br /&gt;
+とはいえ契約書作成など初めてのことも多く、いい経験になりました。&lt;/p&gt;
+
+&lt;h3 id=&#34;2月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;2月&lt;/h3&gt;
+
+&lt;p&gt;のんびり。&lt;br /&gt;
+明日こそ掃除しようと思いながら漫画を読んだりゲームをしたりする日々。&lt;/p&gt;
+
+&lt;h3 id=&#34;3月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;3月&lt;/h3&gt;
+
+&lt;p&gt;なんとか家を片付ける。&lt;br /&gt;
+ぼちぼち勉強開始。&lt;br /&gt;
+GAEでTwitterBOTを作ったりして遊ぶ。&lt;br /&gt;
+herokuやPlayFramework、Scalaを知ったのはこの頃。&lt;/p&gt;
+
+&lt;h3 id=&#34;4月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;4月&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/5&#34;&gt;プログラマーズナイト&lt;/a&gt;に参加。&lt;br /&gt;
+世間では勉強会というものが頻繁に開かれていて、積極的に参加しているエンジニアさん達がいることを初めて知る。&lt;br /&gt;
+&lt;a href=&#34;http://geragera.jp/&#34;&gt;ゲラゲラ&lt;/a&gt;開発開始。&lt;/p&gt;
+
+&lt;h3 id=&#34;5月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;5月&lt;/h3&gt;
+
+&lt;p&gt;引き続きゲラゲラ開発。&lt;br /&gt;
+PlayFrameworkよりjQueryやCSSに苦戦。&lt;br /&gt;
+「nocono」(このサイト)開設。&lt;br /&gt;
+つてでWordPressカスタマイズの案件をちらほら頂く。&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/6&#34;&gt;プレゼン勉強会&lt;/a&gt;に参加。&lt;br /&gt;
+これが私の運命を大きく変えることに。&lt;/p&gt;
+
+&lt;h3 id=&#34;6月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;6月&lt;/h3&gt;
+
+&lt;p&gt;ゲラゲラ公開。&lt;br /&gt;
+プレゼン勉強会と同じく@msngさん主催の俺聞けに参加。&lt;br /&gt;
+コワーキングスペースの存在を知る。&lt;br /&gt;
+6末には勢いでこのスペースに通い始める。&lt;/p&gt;
+
+&lt;h3 id=&#34;7月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;7月&lt;/h3&gt;
+
+&lt;p&gt;コワーキングスペースのお陰で交流範囲が一気に広がる。&lt;br /&gt;
+楽しくて仕方が無い日々のはじまりはじまり。&lt;br /&gt;
+しかし浮かれすぎて、7末に酔っぱらって机を蹴って骨折。&lt;/p&gt;
+
+&lt;h3 id=&#34;8月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;8月&lt;/h3&gt;
+
+&lt;p&gt;自宅療養・・・。&lt;br /&gt;
+業務委託のお仕事を開始する予定だったのが延期。&lt;br /&gt;
+WordPressの案件を自宅で進める日々。&lt;/p&gt;
+
+&lt;h3 id=&#34;9月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;9月&lt;/h3&gt;
+
+&lt;p&gt;日常生活に支障ない範囲まで回復。&lt;br /&gt;
+コワーキングスペースに再び通い始める。&lt;/p&gt;
+
+&lt;h3 id=&#34;10月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;10月&lt;/h3&gt;
+
+&lt;p&gt;怪我が全治。&lt;br /&gt;
+お仕事はあるけど生活できる程ではなく、貯金を崩す状態が続く。&lt;br /&gt;
+まぁなんとかなるだろう。&lt;/p&gt;
+
+&lt;h3 id=&#34;11月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;11月&lt;/h3&gt;
+
+&lt;p&gt;・・・って、なんとかならねぇーーーー！！！！！&lt;br /&gt;
+流石に焦り始める。&lt;br /&gt;
+そんな中、初めての勉強会主催。&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/11&#34;&gt;PlayFramework関西ビギナーズ&lt;/a&gt;開催。&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/12&#34;&gt;関数型言語勉強会&lt;/a&gt;にてLTをさせて頂く。&lt;br /&gt;
+11月末、無事に長期お仕事を頂き、ほっと一安心。&lt;/p&gt;
+
+&lt;h3 id=&#34;12月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;12月&lt;/h3&gt;
+
+&lt;p&gt;2月以降、一番仕事した月。&lt;br /&gt;
+&lt;a href=&#34;http://nocono.net/13&#34;&gt;Scala関西ビギナーズ&lt;/a&gt;主催。&lt;/p&gt;
+
+&lt;p&gt;本日12/31、今年出会った仲間達と一緒に年越しパーティー中！&lt;/p&gt;
+
+&lt;p&gt;勢いではじめてしまったフリーランス生活。&lt;br /&gt;
+想像以上にとても楽しく、幸せな年になりました。&lt;br /&gt;
+これも一重に周囲の皆さんのお陰です。いや本当に！&lt;/p&gt;
+
+&lt;p&gt;なんかもっと色々書きたいことがあった気がするのですが、そろそろ周りの騒ぎに混ざってきます。&lt;/p&gt;
+
+&lt;p&gt;今年私に関わってくださった皆様に感謝！&lt;br /&gt;
+来年もどうぞよろしくお願いします！！&lt;/p&gt;
+
+&lt;p&gt;あべ あさみ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「nocono」サイトオープン！</title>
+      <link>http://nocono.net/post/2012/open_info/</link>
+      <pubDate>Sat, 05 May 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/open_info/</guid>
+      <description>&lt;p&gt;はじめまして！
+「nocono」という名義でエンジニア活動を行っている、SAMMYと申します。&lt;/p&gt;
+
+&lt;p&gt;先日までSI業界にてお仕事していたのですが、コンシューマ向けのシステム開発に携わりたいと会社を辞め、しかも思い切って独立してみました・・・！
+つい勢いだけでやってしまったのですが、何といくつかWEB制作などのお仕事をお請けすることができ、フリーランスとしては順調に活動しているところです。
+(ほんと、ありがたいお話です。)&lt;/p&gt;
+
+&lt;p&gt;また一方で現在、個人でWEBサービス・スマホアプリ(主にiOS向け)を開発中です。
+格好の悪いことに、まだ何もお見せできるものが無いのですが・・・(汗)&lt;/p&gt;
+
+&lt;p&gt;何かちゃんとした「商品」が出来上がってから所謂「公式サイト」を作成しようと考えていたのですが、お仕事をお請けする際に屋号・ドメインが無いと不便だなぁと思い、とりあえずこのようなサイトを作ってみました。&lt;/p&gt;
+
+&lt;p&gt;しかし不手際で、一部の方々にまだサイト開設もメール設定も終わっていない状態で名刺をお渡しするという事態に・・・。
+本当に失礼を致しました・・・。現在、メールも届くようになっております。&lt;/p&gt;
+
+&lt;p&gt;さて、このサイトでは、開発した物の紹介、開発中の技術メモ、また全然関係ない日常のことetc.を書いて行こうかと思っています。要するに普通のブログですね(笑)
+あまり気張らずマイペースに書いていければと思います。&lt;/p&gt;
+
+&lt;p&gt;それでは、まだまだ未熟者ではありますが、どうぞよろしくお願いします！&lt;/p&gt;
+
+&lt;p&gt;m(_ _)m&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

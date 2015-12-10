@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    PHPとScalaと私 #phpkansai | nocono
+  </title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta name="description" content="この記事は「PHPカンファレンス関西2015」のリレーブログのエントリーです。
+
+「PHPカンファレンス関西2015」の開催日までリレー方式でブログを繋いでいきます。
+
+昨日のエントリーは、mikakaneさんによるPHPカンファレンス関西の楽しみ方 2015でした。
+">
+  <meta name="keywords" content="IT勉強会,PHP,">
+
+
+  <meta property="og:title" content="PHPとScalaと私 #phpkansai | nocono">
+
+  <meta property="og:type" content="article">
+  <meta name="og:description" content="この記事は「PHPカンファレンス関西2015」のリレーブログのエントリーです。
+
+「PHPカンファレンス関西2015」の開催日までリレー方式でブログを繋いでいきます。
+
+昨日のエントリーは、mikakaneさんによるPHPカンファレンス関西の楽しみ方 2015でした。
+">
+  <meta name="keywords" content="IT勉強会,PHP,">
+  <meta property="og:url" content="http://nocono.net/post/2015/36/">
+
+  <meta property="og:image" content="/images/thumbnail.png">
+  <meta property="og:site_name" content="nocono">
+  <meta property="fb:app_id" content="170143633116841">
+  <meta property="fb:page_id" content="386921578022414">
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nocono.net/post/2015/36/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  
+  <link href="http://nocono.net/index.xml" rel="alternate" type="application/rss+xml" title="nocono" />
+  <link href="http://nocono.net/index.xml" rel="feed" type="application/rss+xml" title="nocono" />
+
+  
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "2b9fffc6-b3fe-4988-a0ef-4f9dcce98eaa", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="http://nocono.net/"><img src="/images/logo.png" class="logo"></a></h1>
+        
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://twitter.com/aa7th" target="_blank">Twitter</a></li>
+          
+          <li><a href="https://github.com/SAMMY7th" target="_blank">GitHub</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>PHPとScalaと私 #phpkansai</h1>
+      <div class="meta">
+        2015/05/20 &nbsp;
+        
+          #<a href="/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A">IT勉強会</a>&nbsp;
+        
+          #<a href="/tags/php">PHP</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      
+
+<p>この記事は「<a href="http://conference.kphpug.jp/2015/">PHPカンファレンス関西2015</a>」のリレーブログのエントリーです。</p>
+
+<p>「PHPカンファレンス関西2015」の開催日までリレー方式でブログを繋いでいきます。</p>
+
+<p>昨日のエントリーは、mikakaneさんによる<a href="http://mkkn.hatenablog.jp/entry/2015/05/19/101654">PHPカンファレンス関西の楽しみ方 2015</a>でした。</p>
+
+<h2 id="自己紹介:cf14ce910ef7db43192a91992e038019">自己紹介</h2>
+
+<p>大阪でフリーランスエンジニアをやっている、きの子こと、あべあさみと申します。
+最近はScalaやAndroidアプリ開発のお仕事を中心にお請けしており、<a href="http://bit.ly/scala_kb">Scala</a>や<a href="http://javajok.connpass.com/">Javaのコミュニティ</a>を主催しています。</p>
+
+<p>PHPは、去年Yii2 Frameworkでのシステム開発に携わったことがきっかけで、本格的に取り組みはじめました。
+(<a href="http://qiita.com/aa7th/items/cd226ce22682587fb9ac">去年書いたYii2アドベントカレンダーの記事</a>)</p>
+
+<p>PHPカンファレンス関西は、スタッフとしては今年が初参加です。
+参加者としては2年前からお邪魔していて、懇親会LTをやらせていただいたりするなど、いち参加者として楽しんでいました。</p>
+
+<p>スタッフをやってみたいなーという気持ちは前からあったのですが、そんな中「<a href="http://summit.scala-kansai.org/">Scala関西 Summit 2015</a>」というScalaの大規模イベントを開催することになりました。
+僭越ながら実行委員長を務めているのですが、私自身に大規模イベントの運営経験が全くなく、
+PHPカンファレンスのスタッフ参加はいい経験になると考え自ら申し出たところ、みんな快く私を迎え入れてくれました。</p>
+
+<p>私はセッション関連担当として動いているのですが、一番大きな仕事は、
+メイントラック13:00からの「<a href="http://conference.kphpug.jp/2015/timetable/">ビッグウェーブ到来！？ – 関数プログラミング導入の要点 –</a>」の<a href="https://twitter.com/daiksy">粕谷さん</a>へ登壇を依頼したことです。
+今日のブログではこちらの依頼の経緯を書きます。</p>
+
+<h2 id="なぜphpのイベントでscalaエンジニアのセッションが:cf14ce910ef7db43192a91992e038019">なぜPHPのイベントでScalaエンジニアのセッションが？</h2>
+
+<p>粕谷さんは<a href="http://hatenacorp.jp/">株式会社はてな</a>のScalaエンジニアさんで、Scalaコミュニティでとても有名な方です。
+PHPについてはほとんどご存知ないとのこと。
+というわけで、「なぜ粕谷さんがPHPカンファレンス関西で登壇を！？」と驚かれた方もいらっしゃると思います。</p>
+
+<p>関数プログラミングとは、LispやHaskellなどの関数型言語のプログラミングスタイルです。
+Scalaも関数型言語として注目を集めている言語です。</p>
+
+<p>PHPは関数型言語ではありませんが、5.3より新機能として<a href="http://php.net/manual/ja/functions.anonymous.php">クロージャ</a>が追加され、関数プログラミングが可能となりました。
+しかし、その手法はまだPHP界隈では浸透していません。
+そのような背景もあり、スタッフ内で「PHPのコンテキストで、関数型プログラミングの話を聞きたい！」という声があがりました。</p>
+
+<p>その話をしてみたところ、粕谷さんが「面白そう！」と言ってくださったので、登壇をお願いする運びとなりました。
+内容としてはPHPに特化した話ではありませんが、関数プログラミングとは一体なんだろう？という初歩のお話となる予定です。</p>
+
+<h2 id="おもうこと:cf14ce910ef7db43192a91992e038019">おもうこと</h2>
+
+<p>スタッフになって印象的だったのが、みんなPHP以外の言語の話も聞きたいと言っていることでした。
+打ち合わせ後にスタッフで飲みに行くと、当然PHPの話で盛り上がるのですが、
+「PHPはいろんな言語のよさを取り入れて進化してきたし、これからもそう。だから、他の言語の話も聞きたいよね！」と、PHP以外の言語の話でも盛り上がるのです。</p>
+
+<p>その言葉の通り、私が参加した2013年、2014年では、PHP以外の言語(RubyやJavaなど)のセッションがありました。
+PHPコミュニティの枠にとらわれることなく、他言語のエッセンスを貪欲に取り入れるため、PHP以外のコミュニティで活躍される方を積極的にお招きする姿勢は、とても素晴らしいと思います。</p>
+
+<p>今回は、関数プログラミングについてまだよく知らない！という方に向けて。
+Scala(というよりは、関数型言語全般でしょうか)から、関数プログラミングのエッセンスを少しお届けいたします。
+ぜひぜひ取り入れてくださいね。</p>
+
+<p>もちろん、関数型プログラミングの話だけではなく、PHP7や各種フレームワークのお話etc.etc.
+PHP界隈のみなさまによるPHPのセッションが盛りだくさん！</p>
+
+<p><a href="http://conference.kphpug.jp/2015/">PHPカンファレンス関西2015</a>！
+PHPerなみなさまも、そうでないみなさまも、ぜひお楽しみに！</p>
+
+<p><a href="http://conference.kphpug.jp/2015/timetable/">タイムテーブルはこちら</a></p>
+
+<p>さて！このリレーブログ、当日までまだまだ続きます！
+明日の担当は<a href="http://tanakahisateru.hatenablog.jp/">田中ひさてる</a>さんでーす！</p>
+
+      <div id="ninja_buttons" class="ninja_onebutton">
+      <script type="text/javascript">
+      
+      (function(d){
+      if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1)=='undefined'){
+          document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/51cc7b75f814fac5b641e2eec46683c1'><\/sc"+"ript>");
+      }else{
+          window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1.ONETAGButton_Load();}
+      })(document);
+      
+      </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+      </div>
+    </article>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:300px;height:250px"
+         data-ad-client="ca-pub-4146428227434718"
+         data-ad-slot="7830002008"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    
+ <aside><div id="disqus_thread"></div></aside> 
+
+<script type="text/javascript">
+     
+    var disqus_shortname = 'nocono';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </main>
+
+  <nav class="pagination">
+    
+      <span class="previous">&larr; <a href="http://nocono.net/post/2014/35/" rel="prev">関西Java女子部を開催しました #javajok #javajo</a></span>
+    
+    
+      <span class="next"><a href="http://nocono.net/post/2015/37/" rel="next">9/5(土) 関西DDD.java スタートアップスペシャルに参加しました #kandddj</a> &rarr;</span>
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      <img src="/images/profile.png" width="64" height="64"><br>
+      Written by きの子
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39000940-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

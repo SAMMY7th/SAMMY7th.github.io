@@ -1,12 +1,12 @@
 /* Image Center Alignment */
 article img {
   display: block;
-  margin: 0 auto;
+  margin: 0 0;
   text-align: center;
 }
 
 /* ShareThis Buttons */
-#share-this {
+#ninja_buttons {
   margin: 40px 0 40px 0;
 }
 
@@ -27,4 +27,8 @@ nav.pagination span.next {
 }
 nav.pagination a {
   color: #29abe2;
+}
+
+img.logo {
+  margin: 10px 0 0 0;
 }

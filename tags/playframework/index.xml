@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playframework on nocono</title>
+    <link>http://nocono.net/tags/playframework/</link>
+    <description>Recent content in Playframework on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 11 Jul 2013 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/playframework/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>8/3(土) PlayFrameworkビギナーズ第2回 開催のお知らせ #play_kb</title>
+      <link>http://nocono.net/post/2013/28/</link>
+      <pubDate>Thu, 11 Jul 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/28/</guid>
+      <description>&lt;p&gt;PlayFrameworkビギナーズ第2回を開催いたします！&lt;br /&gt;
+（Scalaビギナーズやらもくもく会やら開いているので意外に思われるかもしれませんが、まだ2回目です・・・！）&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(土) 13:30〜17:30 オオサカンスペースさんにて。&lt;/p&gt;
+
+&lt;p&gt;詳細及び参加登録&lt;br /&gt;
+ &lt;a href=&#34;http://www.zusaar.com/event/891003&#34;&gt;http://www.zusaar.com/event/891003&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてScalaビギナーズですっかりお馴染みランチ会も開催します。&lt;br /&gt;
+&lt;a href=&#34;http://www.zusaar.com/event/897004&#34;&gt;http://www.zusaar.com/event/897004&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;内容はまだ固まっていないのですが、Scalaビギナーズ同様、セッション・LT数本とハンズオンの時間にする予定です。&lt;/p&gt;
+
+&lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
+しばらくお待ちください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayFrameworkもくもく会第2回(7/6)開催しました #play_kb</title>
+      <link>http://nocono.net/post/2013/27/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/27/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/25&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会2回目を開催しました。&lt;br /&gt;
+&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
+
+&lt;p&gt;今回は土曜の朝(9:30〜)という早い時間から開催しました。&lt;br /&gt;
+平日よりはみんな参加しやすいかなぁと考えたのですが、そうでもなかったようで・・・。&lt;br /&gt;
+でも土曜朝から集中して勉強するのは、1日を有効活用したような気分になれてとてもいいなと思いました。&lt;br /&gt;
+今後も土曜の朝に定期的に開いていくつもりです。&lt;br /&gt;
+（時間は少し遅くするかも・・・）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;br /&gt;
+↑開催記録、次回開催情報など載せていきます。&lt;br /&gt;
+情報チェックにご活用ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;個人的にやったことメモ:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
+
+&lt;p&gt;WebSocketにチャレンジしました。&lt;/p&gt;
+
+&lt;p&gt;最初は公式のサンプル(websocket-chat)を参考にしたのですが、Akkaの部分がよくわからず・・・。&lt;br /&gt;
+ひとまずWebSocketだけでシンプルなテストプロジェクトを作りました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play2_websocket_test&#34;&gt;https://github.com/SAMMY7th/play2_websocket_test&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4798125415/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4798125415&amp;linkCode=as2&amp;tag=drunkershigh-22&#34;&gt;Scala逆引きレシピ (PROGRAMMER’S RECiPE)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=drunkershigh-22&amp;l=as2&amp;o=9&amp;a=4798125415&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
+第13章にあるコードを、ほとんどそのまま使わせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;コントローラでいつものActionではなくWebSocketを使って、インプット(Iteratee)とアウトプット（Enumerator）をタプルに詰めて返却してあげれば、あとはいい感じにしてくれるようです。&lt;br /&gt;
+なるほどなー。&lt;/p&gt;
+
+&lt;h3 id=&#34;参照したページや書籍:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;参照したページや書籍&lt;/h3&gt;
+
+&lt;p&gt;今回もお世話になりました。&lt;br /&gt;
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;その他:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;その他&lt;/h3&gt;
+
+&lt;p&gt;・Kindleで100円のScala入門書を買って勉強している方がいました。
+  @ITの連載とほぼほぼ同じようですが、Kindleをお持ちの方にはよさそう。&lt;br /&gt;
+  &lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00BOBYZTQ&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>7/6(土)PlayFrameworkもくもく会第2回を開催します #play_kb</title>
+      <link>http://nocono.net/post/2013/25/</link>
+      <pubDate>Fri, 05 Jul 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/25/</guid>
+      <description>&lt;p&gt;前回盛り上がりましたPlayFrameworkもくもく会、早速2回目を開催します〜！&lt;/p&gt;
+
+&lt;p&gt;2013/07/06 9:30〜12:00、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
+
+&lt;p&gt;平日夜だと会社員の方が参加しづらいし、かといって土曜午後はいろんな勉強会が集中しているし、日曜はおうちでゴロゴロしたいし・・・と悩んだ結果、土曜朝開催にしてみました。&lt;/p&gt;
+
+&lt;p&gt;参加登録はこちから&lt;br /&gt;
+&lt;a href=&#34;http://www.zusaar.com/event/879003&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第2回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今後、もくもく会開催のお知らせは以下のページにて行います。&lt;br /&gt;
+興味がある方は是非チェックしておいてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFramework関西ビギナーズまとめwiki&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayFrameworkもくもく会 第1回開催しました。 #play_kb</title>
+      <link>http://nocono.net/post/2013/24/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/24/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/23&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会を開催しました。&lt;br /&gt;
+&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;(水) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
+
+&lt;p&gt;2時間各自で自主勉強の後、30分成果報告の時間を設けました。&lt;br /&gt;
+情報交換をする事ができて、とても有意義な時間となりました。&lt;br /&gt;
+参加者のみなさんありがとうございました！&lt;/p&gt;
+
+&lt;p&gt;こんなライトな感じで定期的に開いていきたいなぁと思っています。&lt;br /&gt;
+平日よりも土日の方がみなさん参加しやすいかもですが、他の勉強会とのブッキングも多くなっちゃう気もするしどっちがいいんだろう？&lt;br /&gt;
+まぁその辺は様子見ながら決めていきたいです。&lt;/p&gt;
+
+&lt;p&gt;実はこっそりまとめwiki作りました。&lt;br /&gt;
+&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;開催記録、次回開催情報など載せていきます。&lt;br /&gt;
+情報チェックにご活用ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;個人的にやったことメモ:be552971788e8adf422dae2567065c29&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
+
+&lt;p&gt;公式マニュアルを参考にTwitterのOAuth認証処理を実装しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.playframework-ja.org/documentation/2.0.4/ScalaOAuth&#34;&gt;Documentation: ScalaOAuth — Playframework&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;処理自体はサンプルコードをコピペすれば動くのですが、文法的に分からないところを調べていたらあっさり2時間経過・・・。&lt;/p&gt;
+
+&lt;h3 id=&#34;参照したページや書籍:be552971788e8adf422dae2567065c29&#34;&gt;参照したページや書籍&lt;/h3&gt;
+
+&lt;p&gt;大分お世話になりました。&lt;br /&gt;
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;・暗黙の引数(inplict)&lt;br /&gt;
+&lt;a href=&#34;http://www.ne.jp/asahi/hishidama/home/tech/scala/def.html#h_implicit_parameter&#34;&gt;Scalaメソッド定義メモ(Hishidama&amp;rsquo;s Scala def Memo) &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;・flatMap&lt;br /&gt;
+&lt;a href=&#34;http://d.hatena.ne.jp/PvP/20110427/1303882687&#34;&gt;map と flatMap の違い - PvP&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;・例外処理&lt;br /&gt;
+&lt;a href=&#34;http://yuroyoro.hatenablog.com/entry/20100719/1279519961&#34;&gt;Scalaでの例外処理 - Either,Option,util.control.Exception - ( ꒪⌓꒪) ゆるよろ日記&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;その他:be552971788e8adf422dae2567065c29&#34;&gt;その他&lt;/h3&gt;
+
+&lt;p&gt;・&lt;a href=&#34;http://slick.typesafe.com/&#34;&gt;Slick&lt;/a&gt;というDBアクセスラッパーを教えて頂きました！&lt;br /&gt;
+・報告時点でOAuth認証がこけていたのですが、Twitter側のコールバックURL設定していなかっただけでした・・・。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6/19(水)PlayFrameworkもくもく会を開催します #play_kb</title>
+      <link>http://nocono.net/post/2013/23/</link>
+      <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/23/</guid>
+      <description>&lt;p&gt;あの幻のPlayFramework関西ビギナーズがもくもく会になって帰ってきた！&lt;/p&gt;
+
+&lt;p&gt;2013/06/19 19:00〜21:30、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
+
+&lt;p&gt;参加登録はこちから&lt;br /&gt;
+&lt;a href=&#34;http://atnd.org/events/40379&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1ヶ月に1〜2回のペースで開きたいなぁ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2012/11/17(土)  PlayFramework関西ビギナーズ 第1回</title>
+      <link>http://nocono.net/post/2012/11/</link>
+      <pubDate>Tue, 27 Nov 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/11/</guid>
+      <description>
+
+&lt;p&gt;2012/11/17(土)&lt;a href=&#34;http://www.osakan-space.com/events/2401&#34;&gt;「PlayFramework関西ビギナーズ 第1回」&lt;/a&gt;を開催しました。&lt;br /&gt;
+場所は&lt;a href=&#34;http://www.osakan-space.com/&#34;&gt;オオサカンスペース&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&#34;playframework1-x基礎講座:0d5879b806136f0fa50ee21553892511&#34;&gt;PlayFramework1.x基礎講座&lt;/h2&gt;
+
+&lt;p&gt;私によるPlay!1系基礎講座。&lt;br /&gt;
+1時間の予定が2時間喋ってしましました・・・。(準備がギリギリ過ぎて、内容を削る時間がなかった・・・)&lt;br /&gt;
+プログラムを無視してしまい、本当に申し訳ありません。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15230588&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/noconoasami/playframework1x&#34; title=&#34;PlayFramework1.x基礎編&#34; target=&#34;_blank&#34;&gt;PlayFramework1.x基礎編&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;最初はスライドに沿ってPlayFramework概要をお話して、その後ライブコーディングで簡単なWEBアプリを作成する様子を見て頂きました。&lt;br /&gt;
+&lt;br &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_begginers&#34;&gt;作成したアプリのコード(github)&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://play-begginers.herokuapp.com/&#34;&gt;herokuにデプロイしたもの&lt;/a&gt;&lt;br /&gt;
+&lt;br &gt;&lt;/p&gt;
+
+&lt;p&gt;詰め込み過ぎだったなぁと反省したのですが、Play!自体の雰囲気は分かってもらえたかと。&lt;/p&gt;
+
+&lt;p&gt;なぜ1系の話をしたかなのですが、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;2系はまだ新しいフレームワークで、1系の方が実績がある&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;まだバグの話もちらほら聞くので、1系を使うという選択肢もあると判断しました。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;2系をJavaで使用している人の話をあまり聞いたことがない&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;でも実際はJavaでの実例も多いようで・・・勉強不足でした。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;私自身が1系しか使ったことがない&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Scala勉強してからチャレンジしようと思って、2系に触れていませんでした。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上の理由から今回、1系の講座をしました。&lt;br /&gt;
+・・・が、世間的には今からやるなら2系という流れのようで。&lt;br /&gt;
+1系はサポートもかなり手薄になるようです。&lt;br /&gt;
+使用バージョンはその辺も踏まえて選定することをお薦めします。&lt;/p&gt;
+
+&lt;p&gt;2系をやっている方が1系の話をおもしろがってくれたりしたので、結果オーライ・・・かな？&lt;/p&gt;
+
+&lt;h2 id=&#34;play-2の話:0d5879b806136f0fa50ee21553892511&#34;&gt;Play!2の話&lt;/h2&gt;
+
+&lt;p&gt;フリュー株式会社のお二人にPlay!2についてお話をして頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt;さん&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15228257&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/mumoshu/start-playing-15228257&#34; title=&#34;[Start] Playing&#34; target=&#34;_blank&#34;&gt;[Start] Playing&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/mumoshu&#34; target=&#34;_blank&#34;&gt;Yusuke KUOKA&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;@daiksy&lt;/a&gt;さん&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15114794&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/daiksy/dev-love-forslideshare&#34; title=&#34;Dev love関西 forslideshare&#34; target=&#34;_blank&#34;&gt;Dev love関西 forslideshare&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/daiksy&#34; target=&#34;_blank&#34;&gt;Daisuke Kasuya&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;mumoshuさんはPlay!及びScalaの概要、daiksyさんは開発事例についての発表でした。&lt;br /&gt;
+実際に開発の現場で使用している方々の声を聞けたのは本当によかったです。&lt;br /&gt;
+またフリューさんはPlay!もScalaも誰も知らないという状態からプロジェクトを初めて、朝勉強会やペアプロでメンバー全員が短期間で一定レベルに達したとのこと。&lt;br /&gt;
+とても興味深いお話でした。&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:0d5879b806136f0fa50ee21553892511&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;開催して本当によかった！！！！！！！！&lt;br /&gt;
+この一言に尽きます。&lt;br /&gt;
+「2回目も開いてほしい！」とのお言葉を複数の方から頂いて嬉しかったです！&lt;/p&gt;
+
+&lt;h2 id=&#34;反省点:0d5879b806136f0fa50ee21553892511&#34;&gt;反省点&lt;/h2&gt;
+
+&lt;p&gt;反省点もいくつかあります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;参加費(¥500)がATND告知ページに載っていなかった&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;後で指摘を受けて気付きました・・・。&lt;br /&gt;
+申し訳ありません。今後気をつけます。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;事前に告知したプログラムを無視してしまった&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;これもご迷惑をおかけしました・・・。&lt;br /&gt;
+インストールできなかった方も何人かいらっしゃったようで、ハンズオンの時間を取れなかったのは申し訳なかったです。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;反省点は今後に活かして、また第2回開催したいです。&lt;/p&gt;
+
+&lt;p&gt;開催前は不安で仕方なかったのですが、とても雰囲気のいい勉強会になりました。&lt;br /&gt;
+登壇者、サポート、参加者の方々に恵まれたお陰です！本当にありがとうございました！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yukar.in/note/ckFjzB&#34;&gt;当日の様子(PlayFramework関西ビギナーズ 第1回 #play_kansai_beginners)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayFrameworkで開発してみた</title>
+      <link>http://nocono.net/post/2012/8/</link>
+      <pubDate>Fri, 29 Jun 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/8/</guid>
+      <description>
+
+&lt;p&gt;先日公開を開始した『&lt;a href=&#34;http://geragera.jp/&#34; title=&#34;ゲラゲラ！&#34;&gt;ゲラゲラ！&lt;/a&gt;』は『&lt;a href=&#34;https://www.playframework.com/&#34; title=&#34;Play framework&#34;&gt;Play framework&lt;/a&gt;』を使用して開発しました。&lt;/p&gt;
+
+&lt;h2 id=&#34;play-frameworkとは:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;Play frameworkとは&lt;/h2&gt;
+
+&lt;p&gt;よく「Java版Ruby on Rails」という表現で紹介されているJavaのWEBアプリフレームワークです。&lt;br /&gt;
+私はRoRの経験が無いので比べることができないのですが、とにかくスピーディーに簡単にWEB開発が行えるようにというコンセプトのもと作られています。
+ Java及びScalaで記述することができます。&lt;/p&gt;
+
+&lt;p&gt;最近herokuにて採用されたこともあり、徐々に知名度が上がっているようです。&lt;br /&gt;
+私もherokuがきっかけでPlayの存在を知りました。&lt;br /&gt;
+面白そう！と思ったのでとりあえず&lt;a href=&#34;https://www.playframework.com/documentation/ja/1.2.x/home&#34; title=&#34;Play Learn&#34;&gt;公式ページのチュートリアル&lt;/a&gt;(ブログ作成)にチャレンジしてみたのですが、煩わしい設定も無いし、何よりコード量の少なさにびっくり！&lt;br /&gt;
+私はJavaフレームワークといえばStrutsという人間だったので、この簡素さには感動しました。&lt;/p&gt;
+
+&lt;p&gt;以下、play1.x系のざっくりとした開発手順です。&lt;br /&gt;
+ほんとにざっくりですが、雰囲気だけでも伝われば幸いです。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;プロジェクト準備:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;プロジェクト準備&lt;/h2&gt;
+
+&lt;p&gt;ターミナルからコマンドを1行叩くだけです。&lt;br /&gt;
+IDEを使用する場合、Eclipse、IntelliJ IDEA、Netbeansのプロジェクトがコマンド1行で生成できます。&lt;/p&gt;
+
+&lt;h2 id=&#34;モデルクラス作成:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;モデルクラス作成&lt;/h2&gt;
+
+&lt;p&gt;@Entityアノテーションを付与すると、publicプロパティが自動的にデータベースにマッピングされます。&lt;br /&gt;
+play.db.jpa.Model(JPAヘルパを自動的に提供してくれるクラス)を継承しておくと、主キーとなるidを生成してくれたり、便利なデータ操作メソッドが使えるようになったりします。&lt;/p&gt;
+
+&lt;p&gt;このO/RマッピングにはHibernateフレームワークが使用されており、モデルクラスの定義内容を元にデータベースへのスキーマ作成を行ってくれます。&lt;br /&gt;
+項目変更が生じた場合もモデルクラスさえ変更すればOK!&lt;/p&gt;
+
+&lt;h2 id=&#34;コントローラークラス作成:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;コントローラークラス作成&lt;/h2&gt;
+
+&lt;p&gt;アクションを定義していきます。&lt;br /&gt;
+画面側は必要に応じて、このアクションを呼び出して様々な処理を実行することになります。&lt;br /&gt;
+データ取得・加工して呼び出し先の画面に受けわたす、または画面から渡されたデータをチェック・加工・DBへ格納するなど、画面とデータベースの橋渡しをします。&lt;/p&gt;
+
+&lt;p&gt;renderメソッドを呼び出すと、アクションと同名の画面(html)が呼び出されます。
+ここの紐付けに設定ファイルなどは特に必要ありません。&lt;/p&gt;
+
+&lt;h2 id=&#34;画面-html-作成:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;画面(html)作成&lt;/h2&gt;
+
+&lt;p&gt;画面(html)の動的な部分はGroovy言語を使用して記述します。&lt;br /&gt;
+モデルオブジェクトも画面で使用するためにごちゃごちゃと変換する必要もなく、直感的に操作・出力することができます。&lt;/p&gt;
+
+&lt;p&gt;共通デザインを共有するためのテンプレートデコレータ機能、自作タグ作成機能などもあります。&lt;/p&gt;
+
+&lt;h2 id=&#34;パス設定-httpルーティング:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;パス設定(HTTPルーティング)&lt;/h2&gt;
+
+&lt;p&gt;各アクションを呼び出すためのURIパターンを定義します。&lt;/p&gt;
+
+&lt;h2 id=&#34;動作確認:f5241d3893893fe6fff8f57bd2dbf29a&#34;&gt;動作確認&lt;/h2&gt;
+
+&lt;p&gt;JUnitによる単体テスト、Seleniumによるブラウザテストを行えます。&lt;/p&gt;
+
+&lt;p&gt;実際の動作を確認するにはrunコマンドでアプリケーションを実行します。&lt;br /&gt;
+Play!は設定次第でホットコード置換が可能です。&lt;br /&gt;
+逐一アプリケーションを停止させなくてもコードの修正が行えます。&lt;/p&gt;
+
+&lt;p&gt;データベースはインメモリH2データベースを使用できるため、データベースを用意せず動作確認を行うことができます。&lt;br /&gt;
+また、ymlファイルで事前にテストデータを準備することができます。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;他にもモジュール追加によるCRUDの使用、認証機能の追加などWEBアプリケーションを作成するにあたって便利な機能が揃っています。&lt;br /&gt;
+&lt;a href=&#34;https://www.playframework.com/documentation/ja/1.2.x/home&#34; title=&#34;Play Learn&#34;&gt;チュートリアル&lt;/a&gt;を一通り勉強すると大体分かると思いますので、興味のある方は是非チャレンジしてみてください。&lt;/p&gt;
+
+&lt;p&gt;ちなみに私は&lt;a href=&#34;https://www.playframework.com/documentation/ja/1.2.x/home&#34; title=&#34;Play 1.x&#34;&gt;Play1.x系&lt;/a&gt;を使用していますが、最新は&lt;a href=&#34;https://www.playframework.com/documentation/ja/2.2.x/Home&#34; title=&#34;Play 2.x&#34;&gt;2.x系&lt;/a&gt;になります。&lt;br /&gt;
+&lt;s&gt;まだベータ版ですが、&lt;/s&gt;こちらで開発を行っている方も多いようです。&lt;br /&gt;
+ただ1.x系もまだ当分はサポートされるとのことですので、安定版がよいかたは1.x系をどうぞ。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;追記：&lt;/em&gt; 2.x系は既に正式リリースされているとのことです。&lt;br /&gt;
+日本語サイトしか見ておらず気付きませんでした・・・。&lt;br /&gt;
+ご指摘ありがとうございました！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
