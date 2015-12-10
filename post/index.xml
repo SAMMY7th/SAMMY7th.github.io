@@ -6,8 +6,36 @@
     <description>Recent content in Posts on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 06 Sep 2015 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2015 16:48:57 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WordPressからHugoに移行しました。</title>
+      <link>http://nocono.net/post/2015/wp-to-hugo/</link>
+      <pubDate>Thu, 10 Dec 2015 16:48:57 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2015/wp-to-hugo/</guid>
+      <description>
+
+&lt;p&gt;当サイトの運用システムを、WordPressから&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Go製の静的サイトジェネレータ)に変更しました。ホスティング先は&lt;a href=&#34;https://pages.github.com/&#34;&gt;GithubPages&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;最初は&lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;にしようとしていたのですが、Hugoが記事生成早くていいよと教えていただいたので試しに使って、よさ気だったのでそのまま移行しました。&lt;/p&gt;
+
+&lt;p&gt;コマンドラインで更新作業ができるのはよいですね。
+今年はブログ書かなさすぎたけど、更新も楽になったことだし来年こそはがんばろう・・・。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考にしたサイト:b5edfa6373c50342486587e36ad49b10&#34;&gt;参考にしたサイト&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;Hugo + GitHub Pagesでブログを作る#1 | TANKSUZUKI.COM&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;テーマも使用させていただいております。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&#34;&gt;Tips for configuring an A record with your DNS provider - User Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>9/5(土) 関西DDD.java スタートアップスペシャルに参加しました #kandddj</title>
@@ -1464,23 +1492,6 @@ Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定�
 
 &lt;p&gt;・&lt;a href=&#34;http://slick.typesafe.com/&#34;&gt;Slick&lt;/a&gt;というDBアクセスラッパーを教えて頂きました！&lt;br /&gt;
 ・報告時点でOAuth認証がこけていたのですが、Twitter側のコールバックURL設定していなかっただけでした・・・。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>6/19(水)PlayFrameworkもくもく会を開催します #play_kb</title>
-      <link>http://nocono.net/post/2013/23/</link>
-      <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/23/</guid>
-      <description>&lt;p&gt;あの幻のPlayFramework関西ビギナーズがもくもく会になって帰ってきた！&lt;/p&gt;
-
-&lt;p&gt;2013/06/19 19:00〜21:30、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
-
-&lt;p&gt;参加登録はこちから&lt;br /&gt;
-&lt;a href=&#34;http://atnd.org/events/40379&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;1ヶ月に1〜2回のペースで開きたいなぁ。&lt;/p&gt;
 </description>
     </item>
     
