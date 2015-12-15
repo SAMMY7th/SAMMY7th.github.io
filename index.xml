@@ -6,8 +6,164 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 10 Dec 2015 23:23:54 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Dec 2015 03:28:39 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【2015年振り返り】アウトプットしていたら仕事がたくさんやってきた！</title>
+      <link>http://nocono.net/post/2015/freelance/</link>
+      <pubDate>Wed, 16 Dec 2015 03:28:39 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2015/freelance/</guid>
+      <description>
+
+&lt;p&gt;この記事は&lt;a href=&#34;http://www.adventar.org/calendars/780&#34;&gt;フリーランス Advent Calendar 2015 - Adventar&lt;/a&gt;15日目の記事です。
+前の記事はmypacecreatorさんの&lt;a href=&#34;http://mypacecreator.net/blog/archives/2934&#34;&gt;フリーランス ここまでの5年間、ここからの5年間 -フリーランス Advent Calendar 2015 14日目- – マイペースクリエイターの覚え書き&lt;/a&gt;でした。&lt;/p&gt;
+
+&lt;p&gt;16日ですけど15日目です。
+・・・遅刻しましたごめんなさい。＿○／|＿&lt;/p&gt;
+
+&lt;h2 id=&#34;自己紹介:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;大阪でフリーランスエンジニアをやっているきの子(&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;@aa7th&lt;/a&gt;)と申します。
+フリーランスAdvent Calendarには去年も参加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nocono.net/post/2014/34/&#34;&gt;フリーランスエンジニアになって3年が経ちました | nocono&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらの記事が予想よりも色々な方から反響をいただき、驚きました。
+初めてお会いした方に&lt;/p&gt;
+
+&lt;p&gt;「ああ！あの、&lt;strong&gt;フリーランスになって貯金がなくなった方ですか！？&lt;/strong&gt;」&lt;/p&gt;
+
+&lt;p&gt;と言われたりなんてこともありました。&lt;/p&gt;
+
+&lt;p&gt;・・・私どうやら、フリーランスになって貯金がなくなったエンジニアとして知名度を上げてしまったようですね。
+(ノ∀｀)アチャー。&lt;/p&gt;
+
+&lt;p&gt;過去の話！過去の話ですから！！今は大丈夫ですよ！！&lt;/p&gt;
+
+&lt;h2 id=&#34;今日のテーマ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;今日のテーマ&lt;/h2&gt;
+
+&lt;p&gt;特にネタも思い浮かばず、とりあえず今年1年を振り返ってみました。
+その結果、&lt;strong&gt;「積極的に勉強会を開催・登壇(=アウトプット)するようにしていてよかったな」&lt;/strong&gt; と思ったのでそのことを書きます。&lt;/p&gt;
+
+&lt;h2 id=&#34;今年1年やった仕事:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;今年1年やった仕事&lt;/h2&gt;
+
+&lt;p&gt;まずは、いただいた仕事について。&lt;/p&gt;
+
+&lt;h3 id=&#34;scalaによる開発案件:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Scalaによる開発案件&lt;/h3&gt;
+
+&lt;p&gt;今年のメインのお仕事が、&lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt;というプログラミング言語による開発案件のお手伝いでした。&lt;/p&gt;
+
+&lt;p&gt;元々Scalaを始めたのは、&lt;a href=&#34;https://www.playframework.com/&#34;&gt;PlayFramework&lt;/a&gt;1.2/Javaを気に入ったものの、Play2からはScala向けのフレームワークとなり、「Playを使い続けるにはScalaを勉強しないと・・・！」と考えたからでした。
+そのため&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;勉強会を自ら開催したり&lt;/a&gt;、拙いながらも登壇したりして(自分を追い込んで)みたものの、仕事で使うきっかけがなく、少し勉強しては忘れるということを繰り返していました。&lt;/p&gt;
+
+&lt;p&gt;ところが去年末、いつも勉強会に来てくださっている方からScalaのお仕事を頂けることになり、半年間程チームの一員として開発案件に参加。
+はじめて、どっぷりScalaを書くことになりました。&lt;/p&gt;
+
+&lt;p&gt;更にこのお仕事の終わり頃、私がScala勉強会を主催していることを知っていた他の企業様から「Scalaの案件を手伝ってほしい」とお声かけいただき、今度はそちらへジョイン！&lt;/p&gt;
+
+&lt;p&gt;というわけで、今年はようやく念願のScalaでお仕事ができた1年でした。
+これらのお仕事では、Scalaはもちろんスクラムによるチーム開発もはじめて経験し、本当に得るものが多かったです。&lt;/p&gt;
+
+&lt;p&gt;(後者の案件はまだ継続中です。引き続き頑張ります！)&lt;/p&gt;
+
+&lt;h3 id=&#34;android開発者養講座の講師:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Android開発者養講座の講師&lt;/h3&gt;
+
+&lt;p&gt;今年の前半は先述のScala案件と並行し、&lt;a href=&#34;http://techinstitute.jp/&#34;&gt;TechInstitute&lt;/a&gt;というAndroid開発者養成講座に講師の1人として参加していました。&lt;/p&gt;
+
+&lt;p&gt;東京と大阪で開催され、大阪ではシーリスの有山さんをはじめとする関西Andorid界隈で有名なみなさんが講師として参加。
+私は最初の方の基礎講座で担当講師として前に立ち、その後はチューターとして他の先生方のサポートを行っていました。&lt;/p&gt;
+
+&lt;p&gt;なぜそんな豪華講師陣の中に私が呼ばれたのかというと、同じく講師として参加した友人に「よく勉強会で登壇しているし、向いているんじゃない？どう？」と声を掛けてもらったのがきっかけでした。&lt;/p&gt;
+
+&lt;p&gt;講師業ははじめてだったのですが、用意されたテキストを元に生徒のみんなにどう伝えれるのがいいか私なりに考えて授業の準備をしたり、講師陣で今後どう進めるべきか日々チャットで議論をしたりと、普段の開発の仕事とはまた違う経験ができました。
+これも先述のScala案件同様、得るものが多かったです。&lt;/p&gt;
+
+&lt;p&gt;※余談ですが、TechInstituteのテキストは公開されています。Androidの勉強用にいい教材ですので、興味がある方はぜひご覧になってみてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://techinstitute.jp/material/02/&#34;&gt;Tech Institute アプリ開発者養成講座テキスト&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;まとめ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;というわけで今年は、&lt;strong&gt;念願のScala開発&lt;/strong&gt; と、そして&lt;strong&gt;プログラミング講師&lt;/strong&gt;というこれまた珍しいお仕事をさせていただきました。
+そしてこれらが全て、勉強会を主催したり登壇したりしていたことがきっかけで頂いたお仕事でした。&lt;/p&gt;
+
+&lt;p&gt;勉強会の主催や登壇といったコミュニティ活動はもはや趣味のようなもので、楽しんでやっていることです。
+&lt;strong&gt;営業らしい営業をしているつもりはないのに、なんと立派な営業になっている！&lt;/strong&gt;
+なにこれすごい。&lt;/p&gt;
+
+&lt;p&gt;フリーランスとして、こういった&lt;strong&gt;アウトプットは大事&lt;/strong&gt;だとは元々思っていましたが、それをより実感したのが今年でした。&lt;/p&gt;
+
+&lt;p&gt;来年はコミュニティ活動だけじゃなくて、もっと自学に力をいれて、技術ブログやGithubでアウトプットする頻度をあげて、&lt;strong&gt;インプットとアウトプットのいいサイクルを作る&lt;/strong&gt;ことが目標です。
+アウトプット力をどんどん高めていくぜ！&lt;/p&gt;
+
+&lt;p&gt;Scalaにしろ講師業にしろ、こういった実績のない仕事を頂けると自分のスキル幅が大きく広げることができ、本当にありがたいです。
+こいつに任せて大丈夫だろうかという不安がある中、それでも任せていただけて感謝しております。
+いい経験ができて本当によかったです。関係者のみなさまありがとうございました。&lt;/p&gt;
+
+&lt;h2 id=&#34;おまけ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;おまけ&lt;/h2&gt;
+
+&lt;p&gt;私は元々はあがり症で、昔は人前で話す時めちゃくちゃ緊張して失敗することも多かったのですが、勉強会で登壇を重ねるうちに緊張することも減りました。トークスキルも上がっているようです。嬉しい。
+「登壇なんて自分には無理」と思う人もいるかもしれませんが、何事も経験なので機会があれば手を挙げてやってみるといいと思うよ！&lt;/p&gt;
+
+&lt;h2 id=&#34;質問の回答:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;質問の回答&lt;/h2&gt;
+
+&lt;p&gt;このアドベントカレンダーには質問が用意されていますので、そのうち何個かに答えてみます。&lt;/p&gt;
+
+&lt;h3 id=&#34;q-机やイスにこだわりありますか:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. 机やイスにこだわりありますか？&lt;/h3&gt;
+
+&lt;p&gt;ないです。
+机はIKEAで買ったデスクでちゃんとした物なのですが、椅子はピアノ用に購入したしょぼいやつ・・・。&lt;/p&gt;
+
+&lt;p&gt;こんなの&lt;/p&gt;
+
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B000VSYCUU&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;以前は背もたれ付きのちゃんとしたやつを置いていたのですが、部屋が狭いので邪魔だなと思い捨てました。
+椅子はもう少しこだわった方がいい気がしないでもない・・・。けど、ピアノ椅子に特に不満もないし、もうこれでいいかって気もします。&lt;/p&gt;
+
+&lt;h3 id=&#34;q-これがないと-というお気に入りツール-環境はありますか:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. これがないと！というお気に入りツール・環境はありますか？&lt;/h3&gt;
+
+&lt;h4 id=&#34;just-mobile-lazy-couch:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Just Mobile Lazy Couch&lt;/h4&gt;
+
+&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B005QFAYBO&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;キーボードに傾斜をつけたくて買いました。
+ノートPCの下に隙間ができるので熱が篭らず、冷却効果も。&lt;/p&gt;
+
+&lt;p&gt;コンパクトで持ち運びしやすく、気に入っています。
+もはやノートPCの下にはこれを置かないと落ち着かない・・・。&lt;/p&gt;
+
+&lt;h4 id=&#34;alfred:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Alfred&lt;/h4&gt;
+
+&lt;p&gt;Mac用のランチャーアプリです。有料版を使っています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.alfredapp.com/&#34;&gt;Alfred - Productivity App for Mac OS X&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一回Spotlight+Flashlightに乗り換えたのですが、Enterで結果コピーができたりと細かい使い心地がこちらの方がよかったので戻ってきました。
+クリップボード履歴機能などもついています。&lt;/p&gt;
+
+&lt;p&gt;AlfredはWorkflowという機能が超便利です。(Workflowについての説明は割愛するので、ご存知ない方はググってみてください。)
+最近は簡単なメモを保存するシェルスクリプトを作って登録したりして、便利な使い方を模索中。&lt;/p&gt;
+
+&lt;h3 id=&#34;q-フリーランスになりたい-と相談されることありますか-また答えは:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. 「フリーランスになりたい」と相談されることありますか？また答えは？&lt;/h3&gt;
+
+&lt;p&gt;たまにありますが、一概に「これが正解！」というのはないので、「やってみたらいいと思います」っていう回答ですね。&lt;/p&gt;
+
+&lt;p&gt;もちろん&lt;a href=&#34;http://nocono.net/post/2014/34/&#34;&gt;去年書いたみたいな感じ&lt;/a&gt;で、自分の経験を元にしたアドバイスはできるんですが、運とかタイミングとかもあるので、やってみないとわからないっていうのはあると思っています。
+そういう意味では、フリーランスになる上で一番必要なのって、度胸なのかもしれないですね。&lt;/p&gt;
+
+&lt;p&gt;・&lt;br /&gt;
+・&lt;br /&gt;
+・&lt;/p&gt;
+
+&lt;p&gt;さて、16日目の記事は・・・うぉおお！もうある！！！
+フィットネスインストラクター青貝夕子ちゃんの記事ですね、どうぞ！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yoga-aogaiyuko.com/2015/12/16/%e3%83%95%e3%83%aa%e3%83%bc%e3%81%ae%e3%83%95%e3%82%a3%e3%83%83%e3%83%88%e3%83%8d%e3%82%b9%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e3%82%84%e3%81%a3%e3%81%a6%e3%81%be/&#34;&gt;フリーのフィットネスインストラクターやってます | ヨガインストラクター青貝夕子&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「いまどきのフロントエンド環境構築」でmakeについてのLTをした話</title>
@@ -1483,28 +1639,6 @@ Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定�
 
 &lt;p&gt;俺聞けは今回で3回目の参加、発表は2回目でしたが、毎回発見があるとても大好きなイベントです。&lt;br /&gt;
 次回も楽しみ！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>7/6(土)PlayFrameworkもくもく会第2回を開催します #play_kb</title>
-      <link>http://nocono.net/post/2013/25/</link>
-      <pubDate>Fri, 05 Jul 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/25/</guid>
-      <description>&lt;p&gt;前回盛り上がりましたPlayFrameworkもくもく会、早速2回目を開催します〜！&lt;/p&gt;
-
-&lt;p&gt;2013/07/06 9:30〜12:00、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
-
-&lt;p&gt;平日夜だと会社員の方が参加しづらいし、かといって土曜午後はいろんな勉強会が集中しているし、日曜はおうちでゴロゴロしたいし・・・と悩んだ結果、土曜朝開催にしてみました。&lt;/p&gt;
-
-&lt;p&gt;参加登録はこちから&lt;br /&gt;
-&lt;a href=&#34;http://www.zusaar.com/event/879003&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第2回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今後、もくもく会開催のお知らせは以下のページにて行います。&lt;br /&gt;
-興味がある方は是非チェックしておいてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFramework関西ビギナーズまとめwiki&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
