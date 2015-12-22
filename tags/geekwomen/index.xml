@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geekwomen on nocono</title>
+    <link>http://nocono.net/tags/geekwomen/</link>
+    <description>Recent content in Geekwomen on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 23 Dec 2015 04:16:00 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/geekwomen/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>女性エンジニアは少ないなんて言わないよなるべく</title>
+      <link>http://nocono.net/post/2015/geek_women/</link>
+      <pubDate>Wed, 23 Dec 2015 04:16:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2015/geek_women/</guid>
+      <description>&lt;p&gt;この記事は&lt;a href=&#34;http://www.adventar.org/calendars/875&#34;&gt;Geek Women Advent Calendar 2015 - Adventar&lt;/a&gt; 22日目です。
+21日目は&lt;a href=&#34;http://s-shimotori.hatenablog.com/entry/2015/12/21/001646&#34;&gt;S_Shimotori&lt;/a&gt;さんの記事でした。&lt;/p&gt;
+
+&lt;p&gt;こんにちは、きの子(&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;@aa7th&lt;/a&gt;)と申します。
+大阪でフリーランスエンジニアをやっております。
+最近は主にScalaのお仕事をしています。
+関西で&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala勉強会&lt;/a&gt;や&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;Java女子部&lt;/a&gt;を主催しており、今年は&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit&lt;/a&gt;を開催したりもしました。&lt;/p&gt;
+
+&lt;p&gt;さて。このエンジニアという職業、女性が少ないとよく言われます。&lt;/p&gt;
+
+&lt;p&gt;比率的には大体1〜2割でしょうか。
+下手したら数十人エンジニアがいるのに全員男性なんて会社さんも話には聞きます。&lt;/p&gt;
+
+&lt;p&gt;少ないです。確かに少ないんですけど、でも私は&lt;strong&gt;普段なるべく「少ない」って言わないようにしています。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;なぜなら&lt;strong&gt;「女性エンジニアは少ない」ということを、より世の中に印象づけることになる気がするからです。&lt;/strong&gt;
+(この記事では仕方なく「少ない」って書いていますが・・・。)&lt;/p&gt;
+
+&lt;p&gt;「女性でプログラマの方って珍しいですよね！」と言われた時は大体、「そうですか？まぁまぁいますよー。」とか「(女子プログラマの)知り合い結構いますけどねー」と返すことにしています。&lt;/p&gt;
+
+&lt;p&gt;ところで最近こちらの記事が話題になっていますね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.newsweekjapan.jp/stories/business/2015/12/post-4248.php&#34;&gt;「リケジョ」を育てる気がない日本の教育現場 | ビジネス | 最新記事 | ニューズウィーク日本版 オフィシャルサイト&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;この記事では、理数分野に女性が少ない原因は、脳の性差ではなく社会的なジェンダー（性）の問題なのではないかということを、国際学力調査の結果から論理的に説明してくれています。
+更に &lt;em&gt;『つまり問題の根底には、「男子はこうあるべし、女子はこうあるべし」という性規範がある。』『中高の理数教科の担当教員に女性が少ないことも、こうした思い込みを助長している。』&lt;/em&gt; とあり、要は&lt;strong&gt;理系女子が少ないのは思い込みのせい&lt;/strong&gt;だと述べています。&lt;/p&gt;
+
+&lt;p&gt;理系に進む女子が少ないことが女性エンジニアの比率が少ない原因なのは間違いないです。
+ただそれ以上に、「女性は理系に向かない」と同じく&lt;strong&gt;「エンジニアは女性向きの職業ではない」という世間の思い込みが、女性エンジニアがなかなか増えない大きい原因なのではないでしょうか。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;もちろん実際は労働環境などの要因もあるとは思いますが、そもそも環境的にプログラミングや電子工作は女子向けではないという思い込みにより、興味を持つきっかけを阻害されているというのは、結構あるんじゃないかなと思っています。&lt;/p&gt;
+
+&lt;p&gt;女性が少ない分野であるという印象により女性が増えないのだとすれば、印象を少しでも変えたいところです。
+かといって比率的に「多い」と言うのはおかしいですよね。
+というわけで、&lt;em&gt;「女性エンジニアの方珍しいですよね。」&lt;/em&gt; という問いかけに対しては、&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;「まぁまぁいる。」「なんとなく増えてきている気がする。知らんけど。」&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;という感じでぼやかして答え、相手にもぼんやりと&lt;strong&gt;「へー。自分が知らないだけで、まぁまぁいるのかー。」と印象づけることができればよい&lt;/strong&gt;と思っています。嘘ではないです。多くはないけど、まぁまぁいます女性エンジニア。&lt;/p&gt;
+
+&lt;p&gt;女性ITコミュニティやこの&lt;a href=&#34;http://www.adventar.org/calendars/875&#34;&gt;Geek Women Advent Calendar 2015 - Adventar&lt;/a&gt;も、女性エンジニアの存在の認知度向上に貢献できている筈。
+私もJava女子部の運営に携わっていますので、こういう活動を見て「女性のエンジニアも結構いるんだなぁ」と思ってもらえれば嬉しいです。&lt;/p&gt;
+
+&lt;p&gt;年明けにもこんなイベントをやりますので、ぜひ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://javajok.connpass.com/event/24419/&#34;&gt;【関東/関西/九州同時開催】女性エンジニア大集合!新春LT×座談会@大阪 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの記事のタイトルは某槇原さんの曲名をパロって「女性エンジニアは少ないなんて言わないよ絶対」にしようと思ったけど、現状少ないのは事実だし、とネタでも「絶対」と言い切る度胸はなく「なるべく」にしました(チキン)。
+これを「絶対」と言い切れる日がやって来ればいいなー。&lt;/p&gt;
+
+&lt;p&gt;次の記事は&lt;a href=&#34;http://www.adventar.org/users/7451&#34;&gt;cocodrips&lt;/a&gt;さん担当です。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
