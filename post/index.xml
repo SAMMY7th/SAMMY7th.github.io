@@ -6,8 +6,49 @@
     <description>Recent content in Posts on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 30 Dec 2015 18:41:15 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2016 21:29:46 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016/01/09(土) JAWS-UG 関西女子会に参加しました #‪jawsugkgirls‬</title>
+      <link>http://nocono.net/post/2016/01/jaws-ug-girls/</link>
+      <pubDate>Tue, 12 Jan 2016 21:29:46 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/01/jaws-ug-girls/</guid>
+      <description>
+
+&lt;p&gt;1/9開催されたJAWS-UG女子会のイベントに参加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jawsugkgirls.doorkeeper.jp/events/35309&#34;&gt;【2016年新年会企画！】いまJAWS-UG 関西女子会がアツイと話題に！ 女子たちの新年会2016☆【LTもOK】 - JAWS-UG 関西女子会 | Doorkeeper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;運営の &lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;どりぃ (@p52_rocca)&lt;/a&gt; ちゃんが声をかけくれてイベントを知りました。
+この日はAWS関係ないエンジニアもデザイナーも大歓迎！とのことで、楽しそうなのでお邪魔してみることに。&lt;/p&gt;
+
+&lt;h2 id=&#34;lt:1b9e940a7b836109f659006e676eff44&#34;&gt;LT&lt;/h2&gt;
+
+&lt;p&gt;自分が運営している、関西Java女子部とScala関西勉強会の宣伝LTをやらせていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/EkGEqga7J2423q&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/javascala-56853986&#34; title=&#34;関西Java女子部とScala関西勉強会のご紹介&#34; target=&#34;_blank&#34;&gt;関西Java女子部とScala関西勉強会のご紹介&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;資料中にある、翌日開催のJava女子部イベントの日にちが間違っていた・・・。なんてこった。(1/9ではなく1/10開催でした。)&lt;/p&gt;
+
+&lt;p&gt;簡単な紹介ではありましたが、Java女子部もScala関西も興味をもっていただけました。よかったよかった。&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:1b9e940a7b836109f659006e676eff44&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;プログラマ、インフラエンジニア、デザイナー、広報などなど、いろんな職種の方がいらっしゃって、いろんな話が聞けました。
+仕事の話からおそ松さんの話まで、お酒飲みつつ盛り上がりました。&lt;/p&gt;
+
+&lt;p&gt;JAWS-UGの活動内容も興味深かったです。3月開催の &lt;a href=&#34;http://jawsdays2015.jaws-ug.jp/&#34;&gt;JAWS DAYS 2015&lt;/a&gt; は、往路は無料の高速バスが出るとのこと。すごいなー。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jaws-days.doorkeeper.jp/events/20653&#34;&gt;JAWS DAYS 2015 Road Trip 大阪・名古屋 - JAWS DAYS | Doorkeeper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;前回みなさんで高速バスで移動する模様の写真も見せていただき、楽しそうだなぁと思いました。&lt;/p&gt;
+
+&lt;p&gt;JAWS-UG女子会はじめてお伺いしましたが、とてもアットホームで楽しかったです！
+ありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>関西Java女子部「Javaでwebアプリケーション入門」を開催しました #javajok</title>
@@ -1673,30 +1714,6 @@ Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定�
 &lt;li&gt;&lt;a title=&#34;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/12/10/25-110245.php&#34; target=&#34;_blank&#34;&gt;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&lt;/a&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;
 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>8/3(土) PlayFrameworkビギナーズ第2回 開催のお知らせ #play_kb</title>
-      <link>http://nocono.net/post/2013/28/</link>
-      <pubDate>Thu, 11 Jul 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/28/</guid>
-      <description>&lt;p&gt;PlayFrameworkビギナーズ第2回を開催いたします！&lt;br /&gt;
-（Scalaビギナーズやらもくもく会やら開いているので意外に思われるかもしれませんが、まだ2回目です・・・！）&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(土) 13:30〜17:30 オオサカンスペースさんにて。&lt;/p&gt;
-
-&lt;p&gt;詳細及び参加登録&lt;br /&gt;
- &lt;a href=&#34;http://www.zusaar.com/event/891003&#34;&gt;http://www.zusaar.com/event/891003&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;そしてScalaビギナーズですっかりお馴染みランチ会も開催します。&lt;br /&gt;
-&lt;a href=&#34;http://www.zusaar.com/event/897004&#34;&gt;http://www.zusaar.com/event/897004&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;内容はまだ固まっていないのですが、Scalaビギナーズ同様、セッション・LT数本とハンズオンの時間にする予定です。&lt;/p&gt;
-
-&lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
-しばらくお待ちください。&lt;/p&gt;
 </description>
     </item>
     

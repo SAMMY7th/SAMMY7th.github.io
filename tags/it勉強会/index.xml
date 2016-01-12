@@ -6,8 +6,49 @@
     <description>Recent content in It勉強会 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 30 Dec 2015 18:41:15 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2016 21:29:46 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016/01/09(土) JAWS-UG 関西女子会に参加しました #‪jawsugkgirls‬</title>
+      <link>http://nocono.net/post/2016/01/jaws-ug-girls/</link>
+      <pubDate>Tue, 12 Jan 2016 21:29:46 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/01/jaws-ug-girls/</guid>
+      <description>
+
+&lt;p&gt;1/9開催されたJAWS-UG女子会のイベントに参加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jawsugkgirls.doorkeeper.jp/events/35309&#34;&gt;【2016年新年会企画！】いまJAWS-UG 関西女子会がアツイと話題に！ 女子たちの新年会2016☆【LTもOK】 - JAWS-UG 関西女子会 | Doorkeeper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;運営の &lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;どりぃ (@p52_rocca)&lt;/a&gt; ちゃんが声をかけくれてイベントを知りました。
+この日はAWS関係ないエンジニアもデザイナーも大歓迎！とのことで、楽しそうなのでお邪魔してみることに。&lt;/p&gt;
+
+&lt;h2 id=&#34;lt:1b9e940a7b836109f659006e676eff44&#34;&gt;LT&lt;/h2&gt;
+
+&lt;p&gt;自分が運営している、関西Java女子部とScala関西勉強会の宣伝LTをやらせていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/EkGEqga7J2423q&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/javascala-56853986&#34; title=&#34;関西Java女子部とScala関西勉強会のご紹介&#34; target=&#34;_blank&#34;&gt;関西Java女子部とScala関西勉強会のご紹介&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;資料中にある、翌日開催のJava女子部イベントの日にちが間違っていた・・・。なんてこった。(1/9ではなく1/10開催でした。)&lt;/p&gt;
+
+&lt;p&gt;簡単な紹介ではありましたが、Java女子部もScala関西も興味をもっていただけました。よかったよかった。&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:1b9e940a7b836109f659006e676eff44&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;プログラマ、インフラエンジニア、デザイナー、広報などなど、いろんな職種の方がいらっしゃって、いろんな話が聞けました。
+仕事の話からおそ松さんの話まで、お酒飲みつつ盛り上がりました。&lt;/p&gt;
+
+&lt;p&gt;JAWS-UGの活動内容も興味深かったです。3月開催の &lt;a href=&#34;http://jawsdays2015.jaws-ug.jp/&#34;&gt;JAWS DAYS 2015&lt;/a&gt; は、往路は無料の高速バスが出るとのこと。すごいなー。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jaws-days.doorkeeper.jp/events/20653&#34;&gt;JAWS DAYS 2015 Road Trip 大阪・名古屋 - JAWS DAYS | Doorkeeper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;前回みなさんで高速バスで移動する模様の写真も見せていただき、楽しそうだなぁと思いました。&lt;/p&gt;
+
+&lt;p&gt;JAWS-UG女子会はじめてお伺いしましたが、とてもアットホームで楽しかったです！
+ありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>関西Java女子部「Javaでwebアプリケーション入門」を開催しました #javajok</title>
@@ -1291,96 +1332,6 @@ Scalaビギナーズ第2回、いよいよ開催致します！&lt;br /&gt;
 
 &lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
 しばらくお待ちください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>第二回 JetBrainsユーザーグループ in 大阪開催しました #jbugj - ブログ・アンケート記入でIntelliJライセンスプレゼント</title>
-      <link>http://nocono.net/post/2013/17/</link>
-      <pubDate>Fri, 01 Feb 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/17/</guid>
-      <description>
-
-&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt;(水)、「&lt;a href=&#34;http://www.zusaar.com/event/489010&#34;&gt;第二回 JetBrainsユーザーグループ in 大阪&lt;/a&gt;」を&lt;a href=&#34;http://www.chuokaikei.co.jp&#34;&gt;中央会計様セミナールーム&lt;/a&gt;にて開催しました。&lt;/p&gt;
-
-&lt;p&gt;「IntelliJ IDEA軽いしいいよなー。勉強会開いて、詳しい人に色々教えてもらおっと。」ぐらいのノリで企画した勉強会だったのですが、東京で第一回目のユーザーグループを開催した&lt;a href=&#34;https://twitter.com/yusuke&#34;&gt;@yusuke&lt;/a&gt;さんにお声かけ頂き、大阪でも同じ形で開催する運びとなりました。&lt;/p&gt;
-
-&lt;p&gt;今回も言語の縛りは無しでJetBrainsの製品全体の勉強会とし、既にユーザーの方々にIntelliJ IDEA、PhpStorm、WebStormのセッションをお願いしました。&lt;br /&gt;
-「お気に入りの機能や活用法などを教えてください。」とオーダーしたのですが、みなさん紹介したい機能が多すぎて絞るのが大変だったようです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://samuraism.jp/diary/2012/12/12/1355281680000.html&#34;&gt;@yusukeさんのブログ記事&lt;/a&gt;にもある通り、使っている人からの評判はいいのに知名度が低いJetBrains製品達。&lt;br /&gt;
-開発環境は人それぞれ好みもあるので万人にオススメというわけではありませんが、存在すら知らないのはもったいない！&lt;br /&gt;
-この勉強会をきっかけにJetBrains製品に興味を持ったよ！という方が少しでもいらっしゃれば嬉しいです。&lt;/p&gt;
-
-&lt;p&gt;そして第1回目と同じく、JetBrainsからは参加者へIntelliJ IDEAの3ヶ月試用ライセンス、2名限定でフルライセンス、そしてキーボードショートカットステッカーなどを提供して頂きました。&lt;br /&gt;
-試用ライセンス、抽選のフルライセンスプレゼント応募方法については当記事の最後の方に書いてあります。&lt;br /&gt;
-当日参加できなかった方も応募可能ですので、お見逃しなく！&lt;/p&gt;
-
-&lt;h2 id=&#34;発表の模様-資料:8ab06f9a4093dbea0d581b89e7fcf8e6&#34;&gt;発表の模様・資料&lt;/h2&gt;
-
-&lt;p&gt;・本日開催経緯と趣旨&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/16254238&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/noconoasami/20130130-16254238&#34; title=&#34;2013/01/30 JetBrainsユーザーグループ第二回 in 大阪 開催経緯と趣旨 #jbugj&#34; target=&#34;_blank&#34;&gt;2013/01/30 JetBrainsユーザーグループ第二回 in 大阪 開催経緯と趣旨 #jbugj&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/7_sO3-GFjP8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;・IntelliJ IDEA製品群、ライセンス形態について&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15598979&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/yusukey/intellij-idea-jbugj&#34; title=&#34;IntelliJ IDEA製品群、ライセンス形態について #jbugj&#34; target=&#34;_blank&#34;&gt;IntelliJ IDEA製品群、ライセンス形態について #jbugj&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/yusukey&#34; target=&#34;_blank&#34;&gt;Yusuke Yamamoto&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/ruFSI7VNmzU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;・IntelliJ IDEA ウォークスルー&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/XeIJugk7SVQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;・IDEALIZE YOU&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/16254028&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/mumoshu/idealize-you&#34; title=&#34;IDEALIZE YOU&#34; target=&#34;_blank&#34;&gt;IDEALIZE YOU&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/mumoshu&#34; target=&#34;_blank&#34;&gt;Yusuke KUOKA&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/RDEhX2cg9zA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;・PhpStormを使おう &amp;ndash;高槻からは快速急行が早くなります&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/16251730&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/tanakahisateru/jetbrains2-phpstorm&#34; title=&#34;PhpStormを使おう --高槻からは快速急行が早くなります #jbugj&#34; target=&#34;_blank&#34;&gt;PhpStormを使おう --高槻からは快速急行が早くなります #jbugj&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/tanakahisateru&#34; target=&#34;_blank&#34;&gt;Hisateru Tanaka&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-
-
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/1g8MhDACwMM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;・WebStormでできること&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/16257652&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/kamiyam/webstorm&#34; title=&#34;WebStormでできること&#34; target=&#34;_blank&#34;&gt;WebStormでできること&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/kamiyam&#34; target=&#34;_blank&#34;&gt;kamiyam .&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-
-
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/b4qGjHexAtg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&#34;intellij-ideaフルライセンスプレゼント抽選要項:8ab06f9a4093dbea0d581b89e7fcf8e6&#34;&gt;IntelliJ IDEAフルライセンスプレゼント抽選要項&lt;/h2&gt;
-
-&lt;p&gt;フルライセンスの抽選対象はユーザー会についてブログに書いて頂いた方が対象となります。&lt;br /&gt;
-下にあるアンケート/応募フォームに、記事のURLを記入してアンケートに答えて下さると応募完了です。&lt;br /&gt;
-ユーザー会に参加していなくても上の動画、スライドをご覧になった上で感想を書いて頂ければ対象とします。ツイートした際にハッシュタグが自動的に入るよう、ブログエントリのタイトルに #jbugj を入れて頂けると助かります。&lt;br /&gt;
-締め切りは2月6日(水)23:59です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/viewform?formkey=dGhqaHNoN25DbGIwYzhrRy1yLWwxTEE6MA#gid=0&#34;&gt;2013/01/30 #jbugj アンケート/応募フォーム&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;IntelliJ IDEAじゃなくてRubyMineとかAppCodeとか別のが欲しい！というのも可能です。&lt;br /&gt;
-コメント欄にその旨記入しておいてください。&lt;/p&gt;
-
-&lt;p&gt;【関連記事】&lt;br /&gt;
-&lt;a href=&#34;http://samuraism.jp/diary/2013/02/04/1359981120000.html&#34;&gt;第二回JetBrainsユーザーグループ開催！ - ブログ・アンケート記入でIntelliJライセンスプレゼント #jbugj - 侍ズム #samuraism&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://togetter.com/li/448022&#34;&gt;第二回 JetBrainsユーザーグループ in 大阪 #jbugj - Togetter&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://blog.takapra.com/index.php/2013/01/31/jetbrains-osaka/&#34;&gt;参加しました「第二回 JetBrainsユーザーグループ in 大阪 #jbugj」 » アプレンティス プラクティス&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://tanakahisateru.hatenablog.jp/&#34;&gt;なんたらノート第三期ベータ&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://ntaiji.hatenablog.com/entry/2013/01/31/230636&#34;&gt;｢第二回 JetBrainsユーザーグループ in 大阪｣に参加しました - あ、それやります！&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://d.hatena.ne.jp/duran/20130131&#34;&gt;生きてます - duran’s blog&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://d.hatena.ne.jp/japanetfutan/20130202&#34;&gt;2013-02-02 - 銀の弾丸、はじめました&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://androidcat.seesaa.net/article/318053229.html&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt;(水) 第二回 JetBrainsユーザーグループ in 大阪 #jbugj のメモ: androidcat&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://neta-abc.blogspot.jp/2013/02/webstorm.html&#34;&gt;ネタ帳 A.B.C: WebStormの補完時に画像のプレビューを表示する方法&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://yugolf.hatenablog.com/entry/2013/02/05/210006&#34;&gt;第二回JetBrainsユーザーグループin大阪を視聴しました。 #jbugj - yugolf&amp;rsquo;s diary&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
