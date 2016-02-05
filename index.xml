@@ -6,8 +6,59 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Jan 2016 22:48:58 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2016 15:46:38 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ScalaMatsuri2016 でLT登壇しました</title>
+      <link>http://nocono.net/post/2016/02/scala_matsuri_lt/</link>
+      <pubDate>Fri, 05 Feb 2016 15:46:38 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/02/scala_matsuri_lt/</guid>
+      <description>
+
+&lt;p&gt;2016/01/30(土)、31(日)の二日間に渡って開催されたScalaMatsuri2016に参加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri 2016｜日本最大級の Scala のカンファレンス&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lt登壇しました:1198ee0537586b806bea60f246a1a08f&#34;&gt;LT登壇しました&lt;/h2&gt;
+
+&lt;p&gt;31日のアンカンファレンスのコミュニティLTで、関西のScalaコミュニティについてお話させていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/9O9SO1J8rxQbdV&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalamatsuri2016scala&#34; title=&#34;【ScalaMatsuri2016】関西のScalaコミュニティ紹介&#34; target=&#34;_blank&#34;&gt;【ScalaMatsuri2016】関西のScalaコミュニティ紹介&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;スライド中にもある通り、Scala関西Summit2016やります！
+時期は9月か10月を予定しています。(8月暑かったからね！)&lt;/p&gt;
+
+&lt;p&gt;この日は色んな方から「また行きます」「今度はいきたい！」とお声かけいただきました。
+ご期待に沿えるようなイベントになるよう頑張ります。&lt;/p&gt;
+
+&lt;p&gt;そしてなんと、福岡でもScala勉強会が開催されるとのこと！
+去年Scala関西Summitで登壇してくださった懸さんが、Scala関西の盛り上がりを見て福岡でもやりたいねという話になったとおっしゃってくださって、とても嬉しかったです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://scala.connpass.com/event/26674/&#34;&gt;Scala福岡2016 - connpass&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;私も参加させていただきます！楽しみ！！(福岡は親戚の家があって長期滞在が可能な上に、元々その時期に行く予定があったので即参加を決めました。)&lt;/p&gt;
+
+&lt;h2 id=&#34;イベント自体の感想:1198ee0537586b806bea60f246a1a08f&#34;&gt;イベント自体の感想&lt;/h2&gt;
+
+&lt;p&gt;めちゃくちゃ盛りだくさんでした。内容の感想はメモや資料を振り返りながら別途まとめたいです。&lt;/p&gt;
+
+&lt;p&gt;内容と関係ないところだと、プロの方による同時通訳がすごかった・・・！
+私の発表も同時通訳で英訳してくれていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;同時通訳の人、きの子さんの「わいわいやってる」とか「ゆるゆるしてる」みたいなのをそれっぽく翻訳しててすごかった&lt;/p&gt;&amp;mdash; だいくしー@忍者 (@daiksy) &lt;a href=&#34;https://twitter.com/daiksy/status/693639985686138881&#34;&gt;2016, 1月 31&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;これを聞けなかったのが心残りです。&lt;/p&gt;
+
+&lt;p&gt;2日目終了後は、おえさんに誘っていただいて海外ゲストのみなさんとの懇親会にも参加してすごく良い刺激をいっぱい受けました。本当に貴重で、有意義な機会を頂きました。&lt;/p&gt;
+
+&lt;p&gt;すばらしいイベントをありがとうございました。スタッフのみなさんお疲れ様でした！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2016/01/09(土) JAWS-UG 関西女子会に参加しました #‪jawsugkgirls‬</title>
@@ -1568,152 +1619,6 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 
 &lt;p&gt;Vagrantはバージョンによる落とし穴が結構あるそうで、VirtualBoxのバージョンの組み合わせによっても色々あるという噂が・・・。
 バージョンアップは慎重に行った方がよさそう。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IntelliJ IDEA13 PHP開発環境設定メモ</title>
-      <link>http://nocono.net/post/2013/29/</link>
-      <pubDate>Fri, 13 Dec 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/29/</guid>
-      <description>
-
-&lt;p&gt;先日とうとう、IntelliJ IDEA13 ULTIMATEを購入しました。
-これで「えっ。&lt;a href=&#34;http://nocono.net/17&#34;&gt;JetBrains勉強会&lt;/a&gt;とか開いておきながらCommunity Edition(無償版)なの・・・？」 と言われる日々とはもうおサラバです。&lt;/p&gt;
-
-&lt;p&gt;というわけで、早速PHP開発の設定を行ったのでメモ。&lt;/p&gt;
-
-&lt;p&gt;環境&lt;br /&gt;
-Mac OS X 10.8.5&lt;br /&gt;
-PHP 5.4.22&lt;br /&gt;
-IntelliJ IDEA 13.0&lt;/p&gt;
-
-&lt;p&gt;PHPStorm7もおそらく同じだと思います。
-参考になれば幸いです。
-&lt;h2&gt;IntelliJ IDEA 初期設定&lt;/h2&gt;
-IDEA自体の初期設について。一応さくっと。
-Macの方はPreferences -&amp;gt; keymap で KeymapsをMac OS X 10.5+に変更するといい感じです。
-Eclipseからの移行の方ならEclipseがいいかも。 (いつの間にかEclipse (Mac OS X)なんてキーマップがある・・・！)
-残念ながらVimキーマップはありません。「どうしてもVimっぽく使いたい！」という方は&lt;a href=&#34;https://github.com/JetBrains/ideavim&#34; target=&#34;_blank&#34;&gt;ideaVim&lt;/a&gt;というプラグインを試してみてください。&lt;/p&gt;
-
-&lt;p&gt;あとはとりあえずPreferences -&amp;gt; Editor -&amp;gt; Appearanceの 「Show line number」「Show whitespaces」をONにしておいて、インターフェイスが黒い方がいい方はPreferences -&amp;gt; Appearance -&amp;gt; ThemeをDarculaに設定しておけばOK。&lt;/p&gt;
-
-&lt;p&gt;初期設定に関しては以下のクイックスタートが参考になります。
-&lt;a title=&#34;IntelliJ IDEA クイックスタート | サムライズム&#34; href=&#34;http://samuraism.com/products/jetbrains/intellij-idea/quickstart&#34; target=&#34;_blank&#34;&gt;IntelliJ IDEA クイックスタート | サムライズム&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color: #999999;&#34;&gt;（余談ですが13からは「Allow placement of caret after end of line」がデフォルトOFFになったそうですね。よかったよかった。)&lt;/span&gt;
-&lt;h2&gt;PHP設定&lt;/h2&gt;
-ここから、PHP関連のメモです。&lt;/p&gt;
-
-&lt;p&gt;ローカルにPHP5.3+Apatcheの環境があるのですが、5.4を使ってみることにしました。
-Homebrewでさくっとインストール。php.iniはとりあえずタイムゾーンだけ「Asia/Tokyo」に設定。&lt;/p&gt;
-
-&lt;p&gt;次はIntelliJ IDEAのPHP設定です。&lt;/p&gt;
-
-&lt;p&gt;Preferences -&amp;gt; PHP を開いて、PHP language levelを設定。
-次にInterpreterの右の「…」をクリック。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Preferences-4.png&#34; alt=&#34;Preferences&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;下記の画面が立ち上がるので、左上の「+」を押してInterpretersを追加。
-Nameに適当な名前をいれて、PHP homeにPHPへのパスを入力。
-使用するPHPバージョンがちゃんと下に表示されればOKです。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Interpreters.png&#34; alt=&#34;Interpreters&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;次にサーバー設定。
-ビルトインサーバーで実行ができるよう設定します。&lt;/p&gt;
-
-&lt;p&gt;Run -&amp;gt; Edit Configurations を選択してRun/Debug Configurationsを起動。
-左上の「+」をクリックして、Add New ConfigurationからPHP Buit-in Web Serverを選択。
-(PHP Buit-in Web Serverが表示されていないようなら、一番下の30 more itemsをクリック。)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/addnew1.png&#34; alt=&#34;addnew1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nameには適当な名前を入力。
-Hostはlocalhost、ポート番号はデフォルトの80は他で使用しているため、8000に変更。
-Document rootには動かしたいプロジェクトのドキュメントルートのパスを入力。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Run_Debug2.png&#34; alt=&#34;Run_Debug2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;これでOKボタンを押下するとサーバーが追加され、実行(Run)できるようになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/run3.png&#34; alt=&#34;run3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;ApacheなどのWebサーバーを準備しなくてもPHPの動作確認環境を作ることができました。
-便利便利。
-&lt;h2&gt;Xdebug設定&lt;/h2&gt;
-せっかくIDEを使うのだから、ブレイクポイントで実行を停めたい！ステップ実行したい！！
-調べると、どうやらXdebugを使うといいらしい。ということでデバッガの設定もしました。&lt;/p&gt;
-
-&lt;p&gt;インストールはこちらもHomebrewでさくっと。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install php54-xdebug
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;/usr/local/etc/php/5.4/conf.d/ext-xdebug.ini&lt;/code&gt;に&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;xdebug.remote_enable=1
-xdebug.remote_port=9001
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;を追記。
-（デフォルトのポート番号(9000)は何かとよく使うので9001に変更しておきました。）&lt;/p&gt;
-
-&lt;p&gt;ここで、&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;xdebug.remote_autostart=1
-xdebug.profiler_enable=1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;を設定するかどうかで迷いました。
-デバッグとかプロファイラとかって必要な時だけOnにしたい気がするんだけど、どうしたら・・・と思い、とりあえずPHPサーバー起動時のオプション引数にしておいて、デバッグOnのもの、プロファイラもOnのもの・・・と複数サーバーを作成してみたのですが。&lt;/p&gt;
-
-&lt;p&gt;なんと、JetBrains公式にデバッガ、プロファイラのOn/Offを切り替えるブックマークレット生成ページがありました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a title=&#34;Zend Debugger &amp;amp; Xdebug bookmarklets generator for PhpStorm &#34; href=&#34;http://www.jetbrains.com/phpstorm/marklets/&#34; target=&#34;_blank&#34;&gt;Zend Debugger &amp;amp; Xdebug bookmarklets generator for PhpStorm &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;というわけで、ここで生成したブックマークレットをブックマークに登録しておいて、必要に応じてOnOff切り替えることにしました。めでたしめでたし。&lt;/p&gt;
-
-&lt;p&gt;Xdebugのインストールが完了した段階でIDEAのInterpretersを確認すると、Xdebugのバージョンが表示されていました。
-自動検出してくれるらしいです。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Interpreters4.png&#34; alt=&#34;Interpreters4&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;次はデバッガの設定。
-Preferences -&amp;gt; PHP -&amp;gt; Debug でXdebugのポート番号を設定。
-デフォルト値が9000なので、ポート番号を変更していない場合は特に設定の必要無し。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2013/Preferences5.png&#34; alt=&#34;Preferences5&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;これで完了です。
-ポート番号を変えたりしていなければ、特に設定することはないってことですね。
-(ここはIDEではなくプロジェクトの設定なので、違うプロジェクトを作る毎に設定する必要があるので注意。)&lt;/p&gt;
-
-&lt;p&gt;これでデバッグセッションが開始されている状態でStart Listen for PHP Debug Connectionsボタンを押すと、デバッグ情報を受信するようになって、ブレイクポイントで実行を停めたり変数の中身を見たりできます。&lt;/p&gt;
-
-&lt;p&gt;未接続状態
-&lt;img src=&#34;http://nocono.net/image/2013/run6.png&#34; alt=&#34;run6&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;接続状態
-&lt;img src=&#34;http://nocono.net/image/2013/run7.png&#34; alt=&#34;run7&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;データベース(MySQL)接続も設定したのでそれも書くつもりだったのですが、長くなってしまったのでとりあえずここまで。&lt;/p&gt;
-
-&lt;p&gt;PHPもJavaと同じIDEで快適に開発できるというのはやっぱり嬉しい！
-せっかく買ったのだし、しっかり活用していきたいと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;参考にしたサイト:ce69564a9af371ad660aa857107bd8d7&#34;&gt;参考にしたサイト&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;Configuring XDebug | JetBrains
-&lt;/a&gt;&lt;a title=&#34;[PhpStorm]ビルトインウェブサーバでPHPアプリを動かす | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/13/09/13-194959.php&#34; target=&#34;_blank&#34;&gt;[PhpStorm]ビルトインウェブサーバでPHPアプリを動かす | バシャログ。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a title=&#34;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&#34; href=&#34; http://c-brains.jp/blog/wsg/12/10/25-110245.php&#34; target=&#34;_blank&#34;&gt;PhpStorm で、Xdebugのリモートデバッグ環境を作る | バシャログ。&lt;/a&gt;&lt;a title=&#34;Configuring XDebug | JetBrains&#34; href=&#34;http://www.jetbrains.com/phpstorm/webhelp/configuring-xdebug.html&#34; target=&#34;_blank&#34;&gt;
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

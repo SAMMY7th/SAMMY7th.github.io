@@ -6,8 +6,59 @@
     <description>Recent content in Scala on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Sep 2014 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2016 15:46:38 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ScalaMatsuri2016 でLT登壇しました</title>
+      <link>http://nocono.net/post/2016/02/scala_matsuri_lt/</link>
+      <pubDate>Fri, 05 Feb 2016 15:46:38 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/02/scala_matsuri_lt/</guid>
+      <description>
+
+&lt;p&gt;2016/01/30(土)、31(日)の二日間に渡って開催されたScalaMatsuri2016に参加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri 2016｜日本最大級の Scala のカンファレンス&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lt登壇しました:1198ee0537586b806bea60f246a1a08f&#34;&gt;LT登壇しました&lt;/h2&gt;
+
+&lt;p&gt;31日のアンカンファレンスのコミュニティLTで、関西のScalaコミュニティについてお話させていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/9O9SO1J8rxQbdV&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalamatsuri2016scala&#34; title=&#34;【ScalaMatsuri2016】関西のScalaコミュニティ紹介&#34; target=&#34;_blank&#34;&gt;【ScalaMatsuri2016】関西のScalaコミュニティ紹介&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;スライド中にもある通り、Scala関西Summit2016やります！
+時期は9月か10月を予定しています。(8月暑かったからね！)&lt;/p&gt;
+
+&lt;p&gt;この日は色んな方から「また行きます」「今度はいきたい！」とお声かけいただきました。
+ご期待に沿えるようなイベントになるよう頑張ります。&lt;/p&gt;
+
+&lt;p&gt;そしてなんと、福岡でもScala勉強会が開催されるとのこと！
+去年Scala関西Summitで登壇してくださった懸さんが、Scala関西の盛り上がりを見て福岡でもやりたいねという話になったとおっしゃってくださって、とても嬉しかったです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://scala.connpass.com/event/26674/&#34;&gt;Scala福岡2016 - connpass&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;私も参加させていただきます！楽しみ！！(福岡は親戚の家があって長期滞在が可能な上に、元々その時期に行く予定があったので即参加を決めました。)&lt;/p&gt;
+
+&lt;h2 id=&#34;イベント自体の感想:1198ee0537586b806bea60f246a1a08f&#34;&gt;イベント自体の感想&lt;/h2&gt;
+
+&lt;p&gt;めちゃくちゃ盛りだくさんでした。内容の感想はメモや資料を振り返りながら別途まとめたいです。&lt;/p&gt;
+
+&lt;p&gt;内容と関係ないところだと、プロの方による同時通訳がすごかった・・・！
+私の発表も同時通訳で英訳してくれていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;同時通訳の人、きの子さんの「わいわいやってる」とか「ゆるゆるしてる」みたいなのをそれっぽく翻訳しててすごかった&lt;/p&gt;&amp;mdash; だいくしー@忍者 (@daiksy) &lt;a href=&#34;https://twitter.com/daiksy/status/693639985686138881&#34;&gt;2016, 1月 31&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;これを聞けなかったのが心残りです。&lt;/p&gt;
+
+&lt;p&gt;2日目終了後は、おえさんに誘っていただいて海外ゲストのみなさんとの懇親会にも参加してすごく良い刺激をいっぱい受けました。本当に貴重で、有意義な機会を頂きました。&lt;/p&gt;
+
+&lt;p&gt;すばらしいイベントをありがとうございました。スタッフのみなさんお疲れ様でした！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ScalaMatsuriに行ってきました。 #ScalaMatsuri</title>
