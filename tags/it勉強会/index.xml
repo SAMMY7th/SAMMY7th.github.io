@@ -6,8 +6,34 @@
     <description>Recent content in It勉強会 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Feb 2016 15:46:38 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 May 2016 19:31:16 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala福岡でLT登壇しました</title>
+      <link>http://nocono.net/post/2016/05/scala_fukuoka/</link>
+      <pubDate>Sun, 29 May 2016 19:31:16 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/05/scala_fukuoka/</guid>
+      <description>
+
+&lt;p&gt;2016/05/28(土)、Scala福岡に参加、LT登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/8toJdBcukeUkth&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalabacklogbot&#34; title=&#34;ScalaでBacklogの通知bot作ったで&#34; target=&#34;_blank&#34;&gt;ScalaでBacklogの通知bot作ったで&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;最後ネタとしてGASをおすすめされた話をいれましたが、AWS Lambdaの使い方さえ覚えてしまえば、ちょっとしたbotをScalaで作ってAWS Lambdaで運用するのは全然アリだと思います。
+コードを見せての説明をもっとちゃんとしたかったけど、準備不足感が否めなかった・・・。
+でもScalaまだチャレンジしたことないという方も多かったみたいなので、ちょっとでも雰囲気が伝わったなら幸いです。&lt;/p&gt;
+
+&lt;h2 id=&#34;scala福岡-感想:d0e8cfd9014d01d4e958bd2e06c01141&#34;&gt;Scala福岡 感想&lt;/h2&gt;
+
+&lt;p&gt;Scala福岡アツかった！
+登録数83人という参加人数はもちろんですが、Scalaへの注目度の高さや、すでにScalaを使っている人の熱量とか勢いがすごいなぁと感じました。&lt;/p&gt;
+
+&lt;p&gt;Scala福岡は主催のnulab 懸さんがScala関西Summitの盛り上がりを見て福岡もやりたい！と思ってくださったのきっかけとのことで、「Scala関西SummitがあったからScala福岡開催できました。ありがとうございます。」と言ってくださったのが嬉しかったです。
+今回は逆に私が福岡の盛り上がりを見て刺激を受けました。スタッフ・登壇者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ScalaMatsuri2016 でLT登壇しました</title>
@@ -1264,104 +1290,6 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 &lt;a href=&#34;http://atnd.org/events/40379&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;1ヶ月に1〜2回のペースで開きたいなぁ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Scala関西ビギナーズ第2回を開催しました #scala_kb</title>
-      <link>http://nocono.net/post/2013/22/</link>
-      <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/22/</guid>
-      <description>
-
-&lt;p&gt;2013/4/13(土)、&lt;a href=&#34;http://atnd.org/events/37820&#34;&gt;Scala関西ビギナーズ第2回&lt;/a&gt;を開催しました。&lt;br /&gt;
-場所は第1回目と同じくオオサカンスペースさん。&lt;/p&gt;
-
-&lt;p&gt;この日は早朝に大きい地震が発生したのですが、昼頃には交通機関も復旧して無事に開催することができました。&lt;/p&gt;
-
-&lt;h2 id=&#34;ランチタイム:5f2e1c2b03760079fb9604596db1163b&#34;&gt;ランチタイム&lt;/h2&gt;
-
-&lt;p&gt;前回と同じく、勉強会の前に「&lt;a href=&#34;http://tabelog.com/osaka/A2701/A270106/27010930/&#34;&gt;レストランSCALA&lt;/a&gt;」へランチに行きました。&lt;br /&gt;
-本来やっていない土曜ランチタイムを貸し切りで開けて頂きました。お店の方、今回もありがとうございます・・・！&lt;/p&gt;
-
-&lt;p&gt;今回は勉強会本編不参加で、ランチだけという方も何人か。&lt;br /&gt;
-たまたま同じ日にオオサカンスペースでハッカソンをやっていたメンバーも加わり、賑やかなランチ会となりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;セッション:5f2e1c2b03760079fb9604596db1163b&#34;&gt;セッション&lt;/h2&gt;
-
-&lt;p&gt;「オブジェクト指向について本気出して考えてみた」 Abe Asami&lt;/p&gt;
-
-&lt;p&gt;私のセッション。&lt;br /&gt;
-タイトルは思いつきで付けただけで、「本気・・・？」という突っ込みはなしの方向で・・・。&lt;/p&gt;
-
-&lt;p&gt;スライドを作る余力がなく、用意したコードをもとに、クラス、オブジェクト、抽象クラス、トレイトについて発表をしました。&lt;br /&gt;
-Javaが分かっていること前提の説明になってしまったのが反省点。&lt;/p&gt;
-
-&lt;p&gt;コードはこちら
-&lt;a href=&#34;https://github.com/SAMMY7th/scala_vol2&#34;&gt;https://github.com/SAMMY7th/scala_vol2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/18736993&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/kitora/ss-18736993&#34; title=&#34;命令プログラミングから関数プログラミングへ&#34; target=&#34;_blank&#34;&gt;命令プログラミングから関数プログラミングへ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/kitora&#34; target=&#34;_blank&#34;&gt;Naoki Kitora&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/kitora_naoki&#34;&gt;@kitora_naoki&lt;/a&gt;さんのセッション。&lt;/p&gt;
-
-&lt;p&gt;「問題を定義して抽象化・一般化」して関数を作る。&lt;br /&gt;
-あぁ、関数型プログラミングって数学なんだなぁと実感しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/18717003&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/mollifier/scala-lt-18717003&#34; title=&#34;Scala 初めての人が Heroku で Web アプリを公開するまで&#34; target=&#34;_blank&#34;&gt;Scala 初めての人が Heroku で Web アプリを公開するまで&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/mollifier&#34; target=&#34;_blank&#34;&gt;mollifier &lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mollifier&#34;&gt;@mollifier&lt;/a&gt;さんのLT。&lt;br /&gt;
-Play2+ScalaをHerokuで動かすまで。&lt;br /&gt;
-Scalaのバージョン管理ができるsvmは初めて知りました。&lt;br /&gt;
-Herokuの解説がなんかよくわかんないけどツボにはまって、大変笑わせて頂きました・・・！&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/18718164&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/mumoshu/basics-of-akka&#34; title=&#34;Basics of Akka&#34; target=&#34;_blank&#34;&gt;Basics of Akka&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/mumoshu&#34; target=&#34;_blank&#34;&gt;Yusuke KUOKA&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt;さんのセッション。&lt;/p&gt;
-
-&lt;p&gt;AkkaはPlayFrameworkのマニュアルで見て名前だけ知っていました。&lt;br /&gt;
-分散・並列処理のためのフレームワーク。&lt;br /&gt;
-Javaなどではマルチスレッド処理には悩まされることも多いので、そこの敷居が下がるのは魅力的ですね。&lt;/p&gt;
-
-&lt;h2 id=&#34;課題:5f2e1c2b03760079fb9604596db1163b&#34;&gt;課題&lt;/h2&gt;
-
-&lt;p&gt;今回はお題の答えを出力するプログラムを各々で書いて、その後答え合わせの時間を設けました。&lt;/p&gt;
-
-&lt;h3 id=&#34;お題１:5f2e1c2b03760079fb9604596db1163b&#34;&gt;お題１&lt;/h3&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;&lt;p&gt;たかし君が階段をのぼります。課題：たかし君は階段を1段ずつ、または2段ずつ(1段飛ばし)でのぼるかをまぜてのぼることができます。1000段のぼるには、何通りののぼり方がありますか。 &lt;a href=&#34;https://twitter.com/search/%23scala_kansai_beginners&#34;&gt;#scala_kansai_beginners&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子)さん (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/322959113111875585&#34;&gt;2013年4月13日&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;フィボナッチ数列で解くことを想定していたのですが、私がそれを言っていなくて大変なことに・・・。&lt;del datetime=&#34;2013-06-06T06:15:13+00:00&#34;&gt;(・ω&amp;lt;) ﾃﾍﾍﾟﾛ&lt;/del&gt;&lt;br /&gt;
-しかも凄い計算量に・・・。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/mumoshu/5378916&#34;&gt;@mumoshuさんの解答例&lt;/a&gt;
-&lt;a href=&#34;https://gist.github.com/tanakahisateru/5377618&#34;&gt;@tanakahisateruさんの解答例&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;お題2:5f2e1c2b03760079fb9604596db1163b&#34;&gt;お題2&lt;/h3&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;&lt;p&gt;第2問：&lt;a href=&#34;http://t.co/4ebWVnfXyu&#34; title=&#34;http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0225&#34;&gt;judge.u-aizu.ac.jp/onlinejudge/de…&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search/%23scala_kansai_beginners&#34;&gt;#scala_kansai_beginners&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子)さん (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/322972756201324544&#34;&gt;2013年4月13日&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;入力した複数の単語でしりとりが可能かどうかを判定する問題。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/a-yasui/5377780&#34;&gt;@a-yasuiさんの解答例&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://gist.github.com/mumoshu/5377629&#34;&gt;@mumoshuさんの解答例&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;感想:5f2e1c2b03760079fb9604596db1163b&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;個人的に、課題タイムの@kitora_naokiさんからの「処理を追わない方がいい」というアドバイスがとてもありがたかったです。&lt;br /&gt;
-課題の解答についてみんなで話し合う時間を設けたのはとても良かったかなと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;反省:5f2e1c2b03760079fb9604596db1163b&#34;&gt;反省&lt;/h2&gt;
-
-&lt;p&gt;ブログ書くのが遅くなりすぎた。&lt;/p&gt;
-
-&lt;p&gt;もう6月だなんて・・・。&lt;/p&gt;
-
-&lt;h2 id=&#34;当日の様子:5f2e1c2b03760079fb9604596db1163b&#34;&gt;当日の様子&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/488269&#34;&gt;2013/04/13(土) Scala関西ビギナーズ 第2回 まとめ #scala_kansai_beginners - Togetter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

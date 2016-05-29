@@ -6,8 +6,34 @@
     <description>Recent content in Scala on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Feb 2016 15:46:38 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 May 2016 19:31:16 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala福岡でLT登壇しました</title>
+      <link>http://nocono.net/post/2016/05/scala_fukuoka/</link>
+      <pubDate>Sun, 29 May 2016 19:31:16 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/05/scala_fukuoka/</guid>
+      <description>
+
+&lt;p&gt;2016/05/28(土)、Scala福岡に参加、LT登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/8toJdBcukeUkth&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalabacklogbot&#34; title=&#34;ScalaでBacklogの通知bot作ったで&#34; target=&#34;_blank&#34;&gt;ScalaでBacklogの通知bot作ったで&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;最後ネタとしてGASをおすすめされた話をいれましたが、AWS Lambdaの使い方さえ覚えてしまえば、ちょっとしたbotをScalaで作ってAWS Lambdaで運用するのは全然アリだと思います。
+コードを見せての説明をもっとちゃんとしたかったけど、準備不足感が否めなかった・・・。
+でもScalaまだチャレンジしたことないという方も多かったみたいなので、ちょっとでも雰囲気が伝わったなら幸いです。&lt;/p&gt;
+
+&lt;h2 id=&#34;scala福岡-感想:d0e8cfd9014d01d4e958bd2e06c01141&#34;&gt;Scala福岡 感想&lt;/h2&gt;
+
+&lt;p&gt;Scala福岡アツかった！
+登録数83人という参加人数はもちろんですが、Scalaへの注目度の高さや、すでにScalaを使っている人の熱量とか勢いがすごいなぁと感じました。&lt;/p&gt;
+
+&lt;p&gt;Scala福岡は主催のnulab 懸さんがScala関西Summitの盛り上がりを見て福岡もやりたい！と思ってくださったのきっかけとのことで、「Scala関西SummitがあったからScala福岡開催できました。ありがとうございます。」と言ってくださったのが嬉しかったです。
+今回は逆に私が福岡の盛り上がりを見て刺激を受けました。スタッフ・登壇者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ScalaMatsuri2016 でLT登壇しました</title>

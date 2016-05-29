@@ -6,8 +6,34 @@
     <description>Recent content in Posts on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Feb 2016 15:46:38 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 May 2016 19:31:16 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala福岡でLT登壇しました</title>
+      <link>http://nocono.net/post/2016/05/scala_fukuoka/</link>
+      <pubDate>Sun, 29 May 2016 19:31:16 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/05/scala_fukuoka/</guid>
+      <description>
+
+&lt;p&gt;2016/05/28(土)、Scala福岡に参加、LT登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/8toJdBcukeUkth&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalabacklogbot&#34; title=&#34;ScalaでBacklogの通知bot作ったで&#34; target=&#34;_blank&#34;&gt;ScalaでBacklogの通知bot作ったで&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;最後ネタとしてGASをおすすめされた話をいれましたが、AWS Lambdaの使い方さえ覚えてしまえば、ちょっとしたbotをScalaで作ってAWS Lambdaで運用するのは全然アリだと思います。
+コードを見せての説明をもっとちゃんとしたかったけど、準備不足感が否めなかった・・・。
+でもScalaまだチャレンジしたことないという方も多かったみたいなので、ちょっとでも雰囲気が伝わったなら幸いです。&lt;/p&gt;
+
+&lt;h2 id=&#34;scala福岡-感想:d0e8cfd9014d01d4e958bd2e06c01141&#34;&gt;Scala福岡 感想&lt;/h2&gt;
+
+&lt;p&gt;Scala福岡アツかった！
+登録数83人という参加人数はもちろんですが、Scalaへの注目度の高さや、すでにScalaを使っている人の熱量とか勢いがすごいなぁと感じました。&lt;/p&gt;
+
+&lt;p&gt;Scala福岡は主催のnulab 懸さんがScala関西Summitの盛り上がりを見て福岡もやりたい！と思ってくださったのきっかけとのことで、「Scala関西SummitがあったからScala福岡開催できました。ありがとうございます。」と言ってくださったのが嬉しかったです。
+今回は逆に私が福岡の盛り上がりを見て刺激を受けました。スタッフ・登壇者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ScalaMatsuri2016 でLT登壇しました</title>
@@ -1589,36 +1615,6 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 より一層精進いたしますので、今後ともどうぞよろしくお願いします。&lt;/p&gt;
 
 &lt;p&gt;あべ あさみ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vagrant1.4.0 &#43; CentOS でprivate_networkがエラーになった</title>
-      <link>http://nocono.net/post/2013/30/</link>
-      <pubDate>Tue, 24 Dec 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/30/</guid>
-      <description>&lt;p&gt;遅ればせながら、巷で大流行中の&lt;a href=&#34;http://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;にチャレンジ！&lt;/p&gt;
-
-&lt;p&gt;・・・したところ、見事エラーに。
-原因はVagrant1.4.0のバグでした。&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;いまこれにひっかかっていた Vagrant 1.4.0 で private_network を指定しているとエラーになる件 - akishin999の日記 (id:akishin999 / &lt;a href=&#34;https://twitter.com/akishin&#34;&gt;@akishin&lt;/a&gt;) &lt;a href=&#34;http://t.co/WEod6vz4E0&#34;&gt;http://t.co/WEod6vz4E0&lt;/a&gt;
-
-— SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/statuses/412879410392358912&#34;&gt;2013, 12月 17&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;CentOSだけダメだったみたいです。
-最新版にこだわりはなかったので、とりあえずダウングレードして対応しました。&lt;/p&gt;
-
-&lt;p&gt;・・・が、2日後には直ってた。
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;Vagrant 1.4.1 has been released. Bug fixes with one big improvement: Docker provisioner works on RedHat guests! &lt;a href=&#34;http://t.co/EmB5qlwpBa&#34;&gt;http://t.co/EmB5qlwpBa&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;— Mitchell Hashimoto (@mitchellh) &lt;a href=&#34;https://twitter.com/mitchellh/statuses/413373337889275904&#34;&gt;2013, 12月 18&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;チャレンジした日が悪かった。何か悔しい。&lt;/p&gt;
-
-&lt;p&gt;Vagrantはバージョンによる落とし穴が結構あるそうで、VirtualBoxのバージョンの組み合わせによっても色々あるという噂が・・・。
-バージョンアップは慎重に行った方がよさそう。&lt;/p&gt;
 </description>
     </item>
     
