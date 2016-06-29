@@ -6,8 +6,41 @@
     <description>Recent content in Scala on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 May 2016 19:31:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jun 2016 11:11:27 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala関西Summit 2016を開催します</title>
+      <link>http://nocono.net/post/2016/06/scalaks2016/</link>
+      <pubDate>Wed, 29 Jun 2016 11:11:27 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/06/scalaks2016/</guid>
+      <description>
+
+&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;(土)、関西のScala大規模カンファレンス「Scala関西Summit2016」を開催します。
+場所は &lt;a href=&#34;https://www.sansokan.jp&#34;&gt;大阪産業創造館&lt;/a&gt; です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西 Summit 2016 - 関西のScala大規模イベント10/8(土)開催&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;当イベントの開催は今年で2回目です。
+初開催である去年の &lt;a href=&#34;http://summit.scala-kansai.org/2015/&#34;&gt;Scala関西Summit2015&lt;/a&gt;  は関係者含め160人の方にご参加いただきました。
+初開催にも関わらず、関西だけではなく関東から九州まで幅広い地域の方がお越しくださり、盛況のうちに幕を閉じました。&lt;/p&gt;
+
+&lt;p&gt;今年も、Scalaにまだチャレンジしたことがない方にも、もうすでに活用している方にとっても有意義なイベントとなるよう、開催に向けて準備を進めております。ご期待ください！&lt;/p&gt;
+
+&lt;p&gt;また現在、スポンサー企業様、スピーカー様を募集中です。
+&lt;a href=&#34;http://summit.scala-kansai.org#sponsors&#34;&gt;スポンサー募集&lt;/a&gt; は7/15(水)、 &lt;a href=&#34;http://summit.scala-kansai.org#speakers&#34;&gt;スピーカー募集&lt;/a&gt; は7/31(日)が締め切りとなっております。
+ぜひ奮ってご応募くださいませ！&lt;/p&gt;
+
+&lt;h2 id=&#34;おまけ:be405929ffe8bde1b8f8f5598ac5c5bf&#34;&gt;おまけ&lt;/h2&gt;
+
+&lt;p&gt;Scala関西Summitとは別イベントですが、7/10(日)にはScala関西勉強会も開催します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://connpass.com/event/32061/&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;(日) 第3回 Scala関西勉強会 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初心者〜上級者向けまで揃った、なかなか充実したプログラムとなっております。まだまだ参加者募集中ですので、お気軽にどうぞ！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Scala福岡でLT登壇しました</title>

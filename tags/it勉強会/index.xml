@@ -6,8 +6,41 @@
     <description>Recent content in It勉強会 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 May 2016 19:31:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jun 2016 11:11:27 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala関西Summit 2016を開催します</title>
+      <link>http://nocono.net/post/2016/06/scalaks2016/</link>
+      <pubDate>Wed, 29 Jun 2016 11:11:27 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/06/scalaks2016/</guid>
+      <description>
+
+&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;(土)、関西のScala大規模カンファレンス「Scala関西Summit2016」を開催します。
+場所は &lt;a href=&#34;https://www.sansokan.jp&#34;&gt;大阪産業創造館&lt;/a&gt; です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西 Summit 2016 - 関西のScala大規模イベント10/8(土)開催&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;当イベントの開催は今年で2回目です。
+初開催である去年の &lt;a href=&#34;http://summit.scala-kansai.org/2015/&#34;&gt;Scala関西Summit2015&lt;/a&gt;  は関係者含め160人の方にご参加いただきました。
+初開催にも関わらず、関西だけではなく関東から九州まで幅広い地域の方がお越しくださり、盛況のうちに幕を閉じました。&lt;/p&gt;
+
+&lt;p&gt;今年も、Scalaにまだチャレンジしたことがない方にも、もうすでに活用している方にとっても有意義なイベントとなるよう、開催に向けて準備を進めております。ご期待ください！&lt;/p&gt;
+
+&lt;p&gt;また現在、スポンサー企業様、スピーカー様を募集中です。
+&lt;a href=&#34;http://summit.scala-kansai.org#sponsors&#34;&gt;スポンサー募集&lt;/a&gt; は7/15(水)、 &lt;a href=&#34;http://summit.scala-kansai.org#speakers&#34;&gt;スピーカー募集&lt;/a&gt; は7/31(日)が締め切りとなっております。
+ぜひ奮ってご応募くださいませ！&lt;/p&gt;
+
+&lt;h2 id=&#34;おまけ:be405929ffe8bde1b8f8f5598ac5c5bf&#34;&gt;おまけ&lt;/h2&gt;
+
+&lt;p&gt;Scala関西Summitとは別イベントですが、7/10(日)にはScala関西勉強会も開催します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://connpass.com/event/32061/&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;(日) 第3回 Scala関西勉強会 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初心者〜上級者向けまで揃った、なかなか充実したプログラムとなっております。まだまだ参加者募集中ですので、お気軽にどうぞ！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Scala福岡でLT登壇しました</title>
@@ -1273,23 +1306,6 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 
 &lt;p&gt;・&lt;a href=&#34;http://slick.typesafe.com/&#34;&gt;Slick&lt;/a&gt;というDBアクセスラッパーを教えて頂きました！&lt;br /&gt;
 ・報告時点でOAuth認証がこけていたのですが、Twitter側のコールバックURL設定していなかっただけでした・・・。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>6/19(水)PlayFrameworkもくもく会を開催します #play_kb</title>
-      <link>http://nocono.net/post/2013/23/</link>
-      <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/23/</guid>
-      <description>&lt;p&gt;あの幻のPlayFramework関西ビギナーズがもくもく会になって帰ってきた！&lt;/p&gt;
-
-&lt;p&gt;2013/06/19 19:00〜21:30、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
-
-&lt;p&gt;参加登録はこちから&lt;br /&gt;
-&lt;a href=&#34;http://atnd.org/events/40379&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;1ヶ月に1〜2回のペースで開きたいなぁ。&lt;/p&gt;
 </description>
     </item>
     
