@@ -6,8 +6,86 @@
     <description>Recent content in Scala on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Aug 2016 10:06:28 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Oct 2016 17:18:54 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala関西Summit 2016を明日に控えて</title>
+      <link>http://nocono.net/post/2016/10/scalaks2016eve/</link>
+      <pubDate>Fri, 07 Oct 2016 17:18:54 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/10/scalaks2016eve/</guid>
+      <description>
+
+&lt;p&gt;いよいよ明日10/8(土) &lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2016&lt;/a&gt; 開催となります。&lt;/p&gt;
+
+&lt;p&gt;Scala関西Summitは今年で2回目の開催です。
+本当は去年開催後にいろいろ思いの丈をブログに書きたかったのですが、筆が進まず完全にタイミングを逃してしまいました。&lt;/p&gt;
+
+&lt;p&gt;イベントの話は同じくスタッフの &lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;だいくしー(@daiksy)&lt;/a&gt; さんがブログできれいにまとめて下さっていまして、特に私が書くこともないかな！と感じたというのもあります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://daiksy.hatenablog.jp/entry/2015/08/02/141118&#34;&gt;Scala関西Summit 2015の裏側！ - 大規模カンファレンスの作り方 - - だいくしー(@daiksy)のはてなブログ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;そんなわけで今までこのイベントについてブログで語ったことがないのですが、なんとなく自分のモチベーションをあげるためにも、今更ではありますが去年開催に至った経緯と心意気(?)を書いてみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;開催経緯:af1f2a0375fee4195f23ba61de439e57&#34;&gt;開催経緯&lt;/h2&gt;
+
+&lt;p&gt;まず、去年開催に至った経緯をまとめてみます。&lt;/p&gt;
+
+&lt;p&gt;元々私は2012年から &lt;a href=&#34;https://github.com/SAMMY7th/scala_kb/wiki&#34;&gt;Scalaの勉強会&lt;/a&gt; を不定期で開催しています。&lt;/p&gt;
+
+&lt;p&gt;そんな中2014年には東京で開催されたScalaMatsuriに参加したのですが、その後の懇親会で東京のみなさんが「関西のScalaの人たちってあまり知らないね」「関西にも乗り込んでみたいね」という話をしていました。
+それを聞いて、関西以外の遠方のみなさんにも来ていただけるようなイベントを開催したいと具体的に考えるようになりました。&lt;/p&gt;
+
+&lt;p&gt;以前から懇意にしていたPHPカンファレンス関西のスタッフの人達にその話をしてみたところ、やってみなよ！と言ってもらえました。
+その際に会場選定についてなどのノウハウをいろいろ伺い、PHPカンファレンス関西を参考にすれば実際に開催が可能であると判断しました。&lt;/p&gt;
+
+&lt;p&gt;この話をだいくしーさんに持ちかけたところ、だいくしーさんも乗り気でやってみたい！という話になりました。そこから、普段のScala関西勉強会を手伝ってくれたり、積極的に登壇をしてくれていたメンバーを中心に声をかけてスタッフを増やしていき、去年8月の &lt;a href=&#34;http://summit.scala-kansai.org/2015/index.html&#34;&gt;Scala関西Summit 2015&lt;/a&gt; を開催するに至りました。&lt;/p&gt;
+
+&lt;h2 id=&#34;私がscalaコミュニティを運営する理由:af1f2a0375fee4195f23ba61de439e57&#34;&gt;私がScalaコミュニティを運営する理由&lt;/h2&gt;
+
+&lt;p&gt;スポンサーさんを募って大きいイベントを開催するというのは、当初の私の予想以上になかなか大変なものであります。
+それでも継続して開催する理由について人からよく聞かれるのですが、いつもあまりしっくりくる答えがおもいつきません。&lt;/p&gt;
+
+&lt;p&gt;ですが、今日はそれについても書いてみます。&lt;/p&gt;
+
+&lt;p&gt;まず前提としてもちろん、単純にScala界隈を盛り上げたいし、Scalaをまだよく知らない人にもおすすめしていきたいという気持ちがあります。また先述の通り、こういう大きいイベントを開催して遠方の方にも来ていただき、関西のScalaエンジニアとのいい交流の場を作りたいという想いがあり、開催をしています。&lt;/p&gt;
+
+&lt;p&gt;Scala自体やScalaに関わるみなさんのことが好きだから盛り上げたい！という気持ちに繋がっているのですが、私の場合更にやや特殊(?)な事情があります。&lt;/p&gt;
+
+&lt;p&gt;私がScalaに興味を持ったのはコミュニティ活動がきっかけです。
+2012年頃、私はJava版のPlayFramework1.2がすごく気にいっていて、勉強会を開催しました。そのときに参加者のみなさんからScalaの話を聞きました。それが私がScalaを勉強しはじめたきっかけです。&lt;/p&gt;
+
+&lt;p&gt;私はフリーランスエンジニアとして個人で開発のお仕事を請けて生活をしているのですが、「Scalaはじめました！」と言ってScalaの仕事がくるわけではありませんでした。それでも不定期で勉強会開催を続けているうちに、Scalaのお仕事をいただけるようになりました。ありがたいことに、この2年はほとんどScalaでお仕事させていただいています。&lt;/p&gt;
+
+&lt;p&gt;コミュニティで繋がった方から案件の話をいただくことが多くなりましたし、私がお請けできなくても他のScalaエンジニアの方を紹介することもできるようになりました。自分だけでは手に余る場合、Scalaエンジニアの方にヘルプを頼むことも可能です。コミュニティ活動は業務の一環となっており、私の事業から切り離せないものになっています。&lt;/p&gt;
+
+&lt;p&gt;つまり私にとってScalaコミュニティは、好きだからやっているという以上に、もはやなくなると困る場なのです。なくなると困るので盛り上げていきたいし、率先して運営をしています。&lt;/p&gt;
+
+&lt;p&gt;あとは単に私がお祭り好きな性格をしているというのも大きいですね。(むしろこっちの方が大きい理由かもしれない・・・)&lt;/p&gt;
+
+&lt;h2 id=&#34;明日について:af1f2a0375fee4195f23ba61de439e57&#34;&gt;明日について&lt;/h2&gt;
+
+&lt;p&gt;最後に。明日のScala関西Summitをどういうイベントにしたいかについても触れておきます。&lt;/p&gt;
+
+&lt;p&gt;まずもちろん、今すでにScalaを活用している人が更にScalaへの造詣を深めたり情報交換する場となってほしいです。
+&lt;a href=&#34;http://summit.scala-kansai.org/index.html#timetable&#34;&gt;タイムテーブル&lt;/a&gt; を見ていただければ分かるように、今年もハイレベルなセッションが盛りだくさんです。
+関西外からもたくさんのエンジニアの方が来てくださいますし、ぜひ色々情報交換していただければと思います。&lt;/p&gt;
+
+&lt;p&gt;そして更に、Scala未経験の方にも得るものがあるイベントにしたいです。先日一部スタッフで飲みに行った際にみんなで「Scalaまだあまり知らないって人に『Scala難しそう』って印象だけ与えるようなイベントにはしたくないよね。」という話をしました。
+去年もそうでしたが、初心者向けのセッションやハンズオンをプログラムに盛り込んでいるのは、Scalaをまだあまりよく知らないという方にも是非来ていただきたいからです。
+ハンズオンは人数がかなり限定されてはしまいますが、去年大変好評でした。
+今年もこれを機にScalaを勉強してみよう！という方がいらっしゃればいいなぁと思います。&lt;/p&gt;
+
+&lt;p&gt;さて。うだうだ長々と書いてしまいましたが、今年も多くの方にご登壇いただき、多くの企業様にご協賛いただき、多くの方々にご参加登録いただき・・・私達スタッフができることは、あとは明日気持ちよく過ごしていただけるように裏からイベントを支えるのみです。私の想いはさておき、あとはもう参加者のみなさん1人1人が好きなように有意義に楽しんでいただければと思います。&lt;/p&gt;
+
+&lt;p&gt;明日のイベントが参加者のみなさんが何らかの形でScalaとの関わりを深める、いいきっかけになれば嬉しいです。&lt;/p&gt;
+
+&lt;p&gt;それでは明日、大阪産業創造館開催「Scala関西Summit 2016」にてお会いいたしましょう！！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2016/7/10 第3回 Scala関西勉強会を開催しました</title>
@@ -676,112 +754,6 @@ Rubyもかなり簡潔に書けるんですね。&lt;/p&gt;
 
 &lt;p&gt;当日の様子はこちら！&lt;br /&gt;
 &lt;a href=&#34;http://togetter.com/li/429443&#34;&gt;Scala関西ビギナーズ第1回 - Togetter&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2012/11/24(土) 第2回 関数型言語勉強会 大阪</title>
-      <link>http://nocono.net/post/2012/12/</link>
-      <pubDate>Wed, 28 Nov 2012 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2012/12/</guid>
-      <description>
-
-&lt;p&gt;2012/11/24(土)&lt;a href=&#34;http://atnd.org/events/33084&#34;&gt;「第2回 関数型言語勉強会 大阪」&lt;/a&gt;でLTやってきました！&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15333411&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Scalaを勉強しはじめるより先にLTをやることが決まっていて、ギリギリになってから焦って手をつけました。&lt;br /&gt;
-こんな筈じゃあなかったんだ・・・！&lt;/p&gt;
-
-&lt;p&gt;1日目は &lt;a href=&#34;http://www.atmarkit.co.jp/fjava/index/index_scala.html&#34;&gt;@ITのScala入門&lt;/a&gt; で基本構文を勉強して、2日目は丸1日必死でコップ本(1〜4章)を読みました。&lt;br /&gt;
-基本構文をある程度勉強していたせいか、コップ本の内容はすんなり頭に入ってきました。&lt;br /&gt;
-前日21時ぐらいまで「明日マジで何発表しよう」状態だったので、何とか形になってよかったです。&lt;/p&gt;
-
-&lt;p&gt;そしてスライド最後の方にある「Scalaビギナーズ」ですが、詳細が決まり次第Twitter&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;@aa7th&lt;/a&gt;の方で告知します。&lt;br /&gt;
-興味がある方はぜひチェックしておいてください。&lt;/p&gt;
-
-&lt;p&gt;噂のコップ本&lt;/p&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=4844330845&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;こちらもお薦めとの噂&lt;/p&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&#34;他の方の発表:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;他の方の発表&lt;/h2&gt;
-
-&lt;h3 id=&#34;daiksy-https-twitter-com-daiksy-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;@daiksy&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15114794&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/daiksy/dev-love-forslideshare&#34; title=&#34;Dev love関西 forslideshare&#34; target=&#34;_blank&#34;&gt;Dev love関西 forslideshare&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/daiksy&#34; target=&#34;_blank&#34;&gt;Daisuke Kasuya&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;先日の&lt;a href=&#34;http://nocono.net/11&#34;&gt;「PlayFrameworkビギナーズ」&lt;/a&gt;でもお話頂いたPlay2+Scala開発事例。&lt;br /&gt;
-朝勉強会+ペアプロがメンバーのスキルアップに役立ったとのこと。&lt;br /&gt;
-スキルの低いメンバーで開発進めるときのお手本のようなプロジェクトだと思います。&lt;/p&gt;
-
-&lt;h3 id=&#34;nakau-https-twitter-com-nakau-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/nakau&#34;&gt;@nakau&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15349081&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/rienakau/ocamlpfff&#34; title=&#34;Ocamlでpfffを拡張した話&#34; target=&#34;_blank&#34;&gt;Ocamlでpfffを拡張した話&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/rienakau&#34; target=&#34;_blank&#34;&gt;Rie Nakau&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;pfffとはコード解析ツールなのだそうです。ぷふ。名前かわいい！！！&lt;br /&gt;
-&lt;strong&gt;「オープンソースプロジェクトはpull requestしなければどうということはない」「エア参加」&lt;/strong&gt;はこの日一番の名言でした・・・！&lt;/p&gt;
-
-&lt;h3 id=&#34;kitora-naoki-https-twitter-com-kitora-naoki-さん-java-から-scala-へ:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/kitora_naoki&#34;&gt;@kitora_naoki&lt;/a&gt;さん 「Java から Scala へ」&lt;/h3&gt;
-
-&lt;p&gt;Scalaの基本など。&lt;br /&gt;
-実際に使っている方のお話はとても参考になります。&lt;br /&gt;
-&lt;a href=&#34;https://www.coursera.org/&#34;&gt;coursera.org&lt;/a&gt;は先日他の方にもお薦めされました。英語読めないけど見てみようと思います。&lt;/p&gt;
-
-&lt;h3 id=&#34;likr-https-twitter-com-likr-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/_likr&#34;&gt;@_likr&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15324283&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/likr/pythonistaocaml&#34; title=&#34;PythonistaがOCamlを実用する方法&#34; target=&#34;_blank&#34;&gt;PythonistaがOCamlを実用する方法&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/likr&#34; target=&#34;_blank&#34;&gt;Yosuke Onoue&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;OCamlは純粋な関数型言語ではないのですね。それならとっつきやすいのかな？&lt;br /&gt;
-C言語並みの処理速度なのだとか。&lt;/p&gt;
-
-&lt;h3 id=&#34;pocketberserker-https-twitter-com-pocketberserker-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/pocketberserker&#34;&gt;@pocketberserker&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15332901&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/pocketberserker/ferlang&#34; title=&#34;F#+Erlangで簡単なシューティングゲームを作ってみている&#34; target=&#34;_blank&#34;&gt;F#+Erlangで簡単なシューティングゲームを作ってみている&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/pocketberserker&#34; target=&#34;_blank&#34;&gt;pocketberserker&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Erlangという言語は初めて聞きました。いろいろあるんだなー。&lt;br /&gt;
-F#はScalaより型推論が強力・・・って言えと誰かに言われたそうです。&lt;br /&gt;
-余談になりますが、偶然にも母校の後輩でした。さがこわくないよ！&lt;/p&gt;
-
-&lt;h3 id=&#34;bleis-https-twitter-com-bleis-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/bleis&#34;&gt;@bleis&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15331934&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/bleistift/better-c&#34; title=&#34;Better C#の脱却を目指して&#34; target=&#34;_blank&#34;&gt;Better C#の脱却を目指して&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/bleistift&#34; target=&#34;_blank&#34;&gt;bleis tift&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;関数型を活用するには壁がある！&lt;br /&gt;
-私も頑張って超えたいです。&lt;br /&gt;
-具体例があってとても参考になりました。&lt;/p&gt;
-
-&lt;h3 id=&#34;kakkun61-https-twitter-com-kakkun61-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/kakkun61&#34;&gt;@kakkun61&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15336937&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/kakkun61/2-lt&#34; title=&#34;第2回関数型言語勉強会 LT 「Haskell 入門書を読んだその後は」&#34; target=&#34;_blank&#34;&gt;第2回関数型言語勉強会 LT 「Haskell 入門書を読んだその後は」&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/kakkun61&#34; target=&#34;_blank&#34;&gt;Kazkuki Oakamoto&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;第1回で参加者全員に関数型への恐怖感を植え付け、第2回では出禁になったとの噂まであったHaskellのお話・・・！&lt;br /&gt;
-Haskell勉強法について。今回は怖くなかったです。&lt;br /&gt;
-最近自分でも主催しているので、勉強会のお話が興味深かったです。&lt;/p&gt;
-
-&lt;h3 id=&#34;s-kozake-https-twitter-com-s-kozake-さん:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/s_kozake&#34;&gt;@s_kozake&lt;/a&gt;さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15327269&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/s_kozake/ss-15327269&#34; title=&#34;たのしい高階関数&#34; target=&#34;_blank&#34;&gt;たのしい高階関数&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/s_kozake&#34; target=&#34;_blank&#34;&gt;信一 小酒&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;高階関数のお話。(1分のOPムービー付き)&lt;br /&gt;
-関数型は関数を値として扱う言語なので、関数自体を引き渡したり戻したりできる！というのは頭では分かるのですが、自分で活用できるようになるにはまだまだ時間がかかりそう・・・。&lt;/p&gt;
-
-&lt;h3 id=&#34;mollifier-https-twitter-com-mollifier-さん-javascriptで関数プログラミング:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;&lt;a href=&#34;https://twitter.com/mollifier&#34;&gt;@mollifier&lt;/a&gt;さん 「Javascriptで関数プログラミング」&lt;/h3&gt;
-
-&lt;p&gt;普及しているJavaScriptで関数型っぽく書いて、関数型流行らせようぜ！というお話。&lt;br /&gt;
-今後JavaScriptを書く時はちょっと意識してみようと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;感想:f8f77b88bd8a459db740f47c2bc9577e&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;第1回のTwitterTLを見て「怖い勉強会」というイメージがあったのですが、怖くなかったです。&lt;br /&gt;
-みんな関数型大好きなんだな！というのが伝わってくる和やかな勉強会でした。&lt;br /&gt;
-第3回までにもっとレベルアップして、また何か発表できればいいな。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/412187&#34;&gt;当日の様子(第二回関数型言語勉強会 #fpstudy)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

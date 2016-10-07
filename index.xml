@@ -6,8 +6,86 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Aug 2016 10:06:28 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Oct 2016 17:18:54 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala関西Summit 2016を明日に控えて</title>
+      <link>http://nocono.net/post/2016/10/scalaks2016eve/</link>
+      <pubDate>Fri, 07 Oct 2016 17:18:54 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/10/scalaks2016eve/</guid>
+      <description>
+
+&lt;p&gt;いよいよ明日10/8(土) &lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2016&lt;/a&gt; 開催となります。&lt;/p&gt;
+
+&lt;p&gt;Scala関西Summitは今年で2回目の開催です。
+本当は去年開催後にいろいろ思いの丈をブログに書きたかったのですが、筆が進まず完全にタイミングを逃してしまいました。&lt;/p&gt;
+
+&lt;p&gt;イベントの話は同じくスタッフの &lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;だいくしー(@daiksy)&lt;/a&gt; さんがブログできれいにまとめて下さっていまして、特に私が書くこともないかな！と感じたというのもあります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://daiksy.hatenablog.jp/entry/2015/08/02/141118&#34;&gt;Scala関西Summit 2015の裏側！ - 大規模カンファレンスの作り方 - - だいくしー(@daiksy)のはてなブログ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;そんなわけで今までこのイベントについてブログで語ったことがないのですが、なんとなく自分のモチベーションをあげるためにも、今更ではありますが去年開催に至った経緯と心意気(?)を書いてみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;開催経緯:af1f2a0375fee4195f23ba61de439e57&#34;&gt;開催経緯&lt;/h2&gt;
+
+&lt;p&gt;まず、去年開催に至った経緯をまとめてみます。&lt;/p&gt;
+
+&lt;p&gt;元々私は2012年から &lt;a href=&#34;https://github.com/SAMMY7th/scala_kb/wiki&#34;&gt;Scalaの勉強会&lt;/a&gt; を不定期で開催しています。&lt;/p&gt;
+
+&lt;p&gt;そんな中2014年には東京で開催されたScalaMatsuriに参加したのですが、その後の懇親会で東京のみなさんが「関西のScalaの人たちってあまり知らないね」「関西にも乗り込んでみたいね」という話をしていました。
+それを聞いて、関西以外の遠方のみなさんにも来ていただけるようなイベントを開催したいと具体的に考えるようになりました。&lt;/p&gt;
+
+&lt;p&gt;以前から懇意にしていたPHPカンファレンス関西のスタッフの人達にその話をしてみたところ、やってみなよ！と言ってもらえました。
+その際に会場選定についてなどのノウハウをいろいろ伺い、PHPカンファレンス関西を参考にすれば実際に開催が可能であると判断しました。&lt;/p&gt;
+
+&lt;p&gt;この話をだいくしーさんに持ちかけたところ、だいくしーさんも乗り気でやってみたい！という話になりました。そこから、普段のScala関西勉強会を手伝ってくれたり、積極的に登壇をしてくれていたメンバーを中心に声をかけてスタッフを増やしていき、去年8月の &lt;a href=&#34;http://summit.scala-kansai.org/2015/index.html&#34;&gt;Scala関西Summit 2015&lt;/a&gt; を開催するに至りました。&lt;/p&gt;
+
+&lt;h2 id=&#34;私がscalaコミュニティを運営する理由:af1f2a0375fee4195f23ba61de439e57&#34;&gt;私がScalaコミュニティを運営する理由&lt;/h2&gt;
+
+&lt;p&gt;スポンサーさんを募って大きいイベントを開催するというのは、当初の私の予想以上になかなか大変なものであります。
+それでも継続して開催する理由について人からよく聞かれるのですが、いつもあまりしっくりくる答えがおもいつきません。&lt;/p&gt;
+
+&lt;p&gt;ですが、今日はそれについても書いてみます。&lt;/p&gt;
+
+&lt;p&gt;まず前提としてもちろん、単純にScala界隈を盛り上げたいし、Scalaをまだよく知らない人にもおすすめしていきたいという気持ちがあります。また先述の通り、こういう大きいイベントを開催して遠方の方にも来ていただき、関西のScalaエンジニアとのいい交流の場を作りたいという想いがあり、開催をしています。&lt;/p&gt;
+
+&lt;p&gt;Scala自体やScalaに関わるみなさんのことが好きだから盛り上げたい！という気持ちに繋がっているのですが、私の場合更にやや特殊(?)な事情があります。&lt;/p&gt;
+
+&lt;p&gt;私がScalaに興味を持ったのはコミュニティ活動がきっかけです。
+2012年頃、私はJava版のPlayFramework1.2がすごく気にいっていて、勉強会を開催しました。そのときに参加者のみなさんからScalaの話を聞きました。それが私がScalaを勉強しはじめたきっかけです。&lt;/p&gt;
+
+&lt;p&gt;私はフリーランスエンジニアとして個人で開発のお仕事を請けて生活をしているのですが、「Scalaはじめました！」と言ってScalaの仕事がくるわけではありませんでした。それでも不定期で勉強会開催を続けているうちに、Scalaのお仕事をいただけるようになりました。ありがたいことに、この2年はほとんどScalaでお仕事させていただいています。&lt;/p&gt;
+
+&lt;p&gt;コミュニティで繋がった方から案件の話をいただくことが多くなりましたし、私がお請けできなくても他のScalaエンジニアの方を紹介することもできるようになりました。自分だけでは手に余る場合、Scalaエンジニアの方にヘルプを頼むことも可能です。コミュニティ活動は業務の一環となっており、私の事業から切り離せないものになっています。&lt;/p&gt;
+
+&lt;p&gt;つまり私にとってScalaコミュニティは、好きだからやっているという以上に、もはやなくなると困る場なのです。なくなると困るので盛り上げていきたいし、率先して運営をしています。&lt;/p&gt;
+
+&lt;p&gt;あとは単に私がお祭り好きな性格をしているというのも大きいですね。(むしろこっちの方が大きい理由かもしれない・・・)&lt;/p&gt;
+
+&lt;h2 id=&#34;明日について:af1f2a0375fee4195f23ba61de439e57&#34;&gt;明日について&lt;/h2&gt;
+
+&lt;p&gt;最後に。明日のScala関西Summitをどういうイベントにしたいかについても触れておきます。&lt;/p&gt;
+
+&lt;p&gt;まずもちろん、今すでにScalaを活用している人が更にScalaへの造詣を深めたり情報交換する場となってほしいです。
+&lt;a href=&#34;http://summit.scala-kansai.org/index.html#timetable&#34;&gt;タイムテーブル&lt;/a&gt; を見ていただければ分かるように、今年もハイレベルなセッションが盛りだくさんです。
+関西外からもたくさんのエンジニアの方が来てくださいますし、ぜひ色々情報交換していただければと思います。&lt;/p&gt;
+
+&lt;p&gt;そして更に、Scala未経験の方にも得るものがあるイベントにしたいです。先日一部スタッフで飲みに行った際にみんなで「Scalaまだあまり知らないって人に『Scala難しそう』って印象だけ与えるようなイベントにはしたくないよね。」という話をしました。
+去年もそうでしたが、初心者向けのセッションやハンズオンをプログラムに盛り込んでいるのは、Scalaをまだあまりよく知らないという方にも是非来ていただきたいからです。
+ハンズオンは人数がかなり限定されてはしまいますが、去年大変好評でした。
+今年もこれを機にScalaを勉強してみよう！という方がいらっしゃればいいなぁと思います。&lt;/p&gt;
+
+&lt;p&gt;さて。うだうだ長々と書いてしまいましたが、今年も多くの方にご登壇いただき、多くの企業様にご協賛いただき、多くの方々にご参加登録いただき・・・私達スタッフができることは、あとは明日気持ちよく過ごしていただけるように裏からイベントを支えるのみです。私の想いはさておき、あとはもう参加者のみなさん1人1人が好きなように有意義に楽しんでいただければと思います。&lt;/p&gt;
+
+&lt;p&gt;明日のイベントが参加者のみなさんが何らかの形でScalaとの関わりを深める、いいきっかけになれば嬉しいです。&lt;/p&gt;
+
+&lt;p&gt;それでは明日、大阪産業創造館開催「Scala関西Summit 2016」にてお会いいたしましょう！！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2016/7/10 第3回 Scala関西勉強会を開催しました</title>
@@ -1512,105 +1590,6 @@ B. ソフトを作るのが好きだからプログラミングをやってい�
 
 &lt;p&gt;他の人がどうされているのかが気になるところです。&lt;br /&gt;
 ぜひ教えてくださいませ！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ScalaMatsuriに行ってきました。 #ScalaMatsuri</title>
-      <link>http://nocono.net/post/2014/33/</link>
-      <pubDate>Mon, 15 Sep 2014 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2014/33/</guid>
-      <description>
-
-&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土)、9/7(日)に開催された、&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri&lt;/a&gt;に参加してきました。&lt;/p&gt;
-
-&lt;h2 id=&#34;なんでわざわざ大阪から:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;なんでわざわざ大阪から？&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://live.nicovideo.jp/watch/lv191315006&#34;&gt;ニコ生中継&lt;/a&gt;もある中、大阪から東京まで行って参加した理由は下記の通りです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自分がやってる勉強会(&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala関西ビギナーズ&lt;/a&gt;。以下、ScalaKB)の宣伝をしたかった。&lt;/li&gt;
-&lt;li&gt;東京コミュニティのみなさんにお会いしてみたかった。&lt;/li&gt;
-&lt;li&gt;去年行くか悩んでいるうちにチケットが完売していて、後悔した。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;9-6-土-1日目:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) 1日目&lt;/h2&gt;
-
-&lt;p&gt;1日目はカンファレンス形式でした。
-Scala設計者であるオダスキー先生の基調講演にはじまり、数々のセッションがありました。&lt;/p&gt;
-
-&lt;p&gt;休憩時間中には、Twitterではやり取りしたことがあったけどお会いしたことが無かった方々とご挨拶することができました。
-また、Scalaに関する質問などにもとても丁寧に答えていただけました。
-本当にありがとうございました。&lt;/p&gt;
-
-&lt;p&gt;懇親会ではLT登壇させていただきました。
-&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;ScalaKB&lt;/a&gt;の宣伝と、みんなも勉強会開催しようぜ！という内容です。
-(自己紹介スライドにフリーランスエンジニアとだけ書いてスキルを書いてなかったので、一部の方にScalaで仕事しているフリーランスだと誤解されてしまいまいた。Scalaで仕事したことないです、ごめんなさい・・・！)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/39084199&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/noconoasami/scala-matsurilt&#34; title=&#34;Introduction of Scala Kansai Beginners (ScalaMatsuri2014LT)&#34; target=&#34;_blank&#34;&gt;Introduction of Scala Kansai Beginners (ScalaMatsuri2014LT)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;ちょっと調子に乗って喋りすぎてしまい、あえなく時間オーバー・・・。
-でも一番言いたかった「初心者でも、自分が学びたければ勉強会開いていいんだよ！」ということを言えたので良しとしたいです。&lt;/p&gt;
-
-&lt;h2 id=&#34;9-7-日-2日目:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;(日) 2日目&lt;/h2&gt;
-
-&lt;p&gt;2日目はアンカンファレンス。
-バラエティに富んだセッションが開催されました。&lt;/p&gt;
-
-&lt;p&gt;参加したものについて、簡単に感想など。&lt;/p&gt;
-
-&lt;h3 id=&#34;skinny-framework:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;Skinny Framework&lt;/h3&gt;
-
-&lt;p&gt;最近チャレンジしはじめたSkinnyFrameworkのワークショップ。
-開発者の &lt;a href=&#34;https://twitter.com/seratch_ja&#34;&gt;@seratch_ja&lt;/a&gt; さんが概要を説明してくださいました。
-限られた時間の中で、ちょっとした注意点などにも触れてくださり勉強になりました。&lt;/p&gt;
-
-&lt;h3 id=&#34;sbt被害者の会:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;sbt被害者の会&lt;/h3&gt;
-
-&lt;p&gt;途中からお邪魔しました。
-酷い名前(笑)ですが、内容としては「今後どんどんよくなっていく筈だよ！」という方向でした。多分。&lt;/p&gt;
-
-&lt;h3 id=&#34;scala-js:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;Scala.js&lt;/h3&gt;
-
-&lt;p&gt;ちょっと前まではネタ扱いでしたが、最近はちらほら実用的になってきた！という噂を聞くScala.js。
-出力されるJSサイズがぐいぐい減っており、改善されているのだとか。今後に期待。&lt;/p&gt;
-
-&lt;h3 id=&#34;the-simple-parts:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;The Simple Parts&lt;/h3&gt;
-
-&lt;p&gt;オダスキー先生のセッション。
-OOPとFPの複合として、新しく「Modular言語」という呼び方を提案したいとのこと。
-Scalaの思想について丁寧に説明してくださいました。&lt;/p&gt;
-
-&lt;h3 id=&#34;playとscala入門:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;PlayとScala入門&lt;/h3&gt;
-
-&lt;p&gt;implicitについて。
-implicitはまだまだ理解が足りないので、とてもありがたかったです。&lt;/p&gt;
-
-&lt;h3 id=&#34;パネルディスカッション:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;パネルディスカッション&lt;/h3&gt;
-
-&lt;p&gt;コンパイル時間は「気にしない」という声が多数・・・みなさん訓練されているなぁと思いました。
-Herokuで時間がかかってコンパイルタイムアウトになるから困るとTwitterで呟いたら、「そもそもHerokuで頑張るのが(現状では)間違っている」というご指摘をうけました。
-えー（´・ω・｀）&lt;/p&gt;
-
-&lt;h2 id=&#34;その他感想:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;その他感想&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2日目夜に東京勢の懇親会に混ぜていただきました。Scala愛が感じられる飲み会でした。楽しかったです。&lt;/li&gt;
-&lt;li&gt;1日目も2日目もお弁当(2日目は朝まで！)が出ましたすごい。&lt;/li&gt;
-&lt;li&gt;東京ではお昼ご飯提供は割とよくあると後で聞きました。東京凄い。&lt;/li&gt;
-&lt;li&gt;東京のScalaの盛り上がりと比較すると、本当に関西まだまだだなと思いました。&lt;/li&gt;
-&lt;li&gt;関西盛り上げていこうと思いました。&lt;/li&gt;
-&lt;li&gt;仕事でScala使えるよう、自身の勉強も普及活動も頑張りたいです。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;東京の熱気にあてられて、モチベーションがかなりあがりました。
-やっぱり現地行ってよかったです！&lt;/p&gt;
-
-&lt;p&gt;ScalaKBを不定期ながらも続けてきたことも、私にとって大きなプラスになっていると実感しました。
-私がScalaをやる気の間は今後も続けていきたいですし、ここで培ったコミュニティ運営スキルを活かして、もっと日本のScalaコミュニティ自体にも貢献できればと思います。&lt;/p&gt;
-
-&lt;p&gt;素晴らしい場を設けてくださった運営スタッフの皆様、スピーカーの皆様、相手してくださった参加者の皆様、本当にありがとうございました！&lt;/p&gt;
 </description>
     </item>
     
