@@ -115,7 +115,7 @@
 &lt;li&gt;Collection再入門(25分)    @amaya&lt;/li&gt;
 &lt;li&gt;Optionとfor式を使いこなしてScala中級者へ - Scala福岡再演 -(25分)    @daiksy&lt;/li&gt;
 &lt;li&gt;モナド入門(15分)    @erin&lt;/li&gt;
-&lt;li&gt;Akka Actot(15分)   @aa7th&lt;/li&gt;
+&lt;li&gt;Akka Actor(15分)   @aa7th&lt;/li&gt;
 &lt;li&gt;Amazon LambdaとAkka HTTPをいい感じに使い分けてみた (15分)    @yoshiyoshifujii&lt;/li&gt;
 &lt;li&gt;ScalaJS で React Native アプリを書いてみた話 (25分)   @hamazy&lt;/li&gt;
 &lt;li&gt;scalaz.\/ Validationが便利だった話 (10分) @tanishiking&lt;/li&gt;
