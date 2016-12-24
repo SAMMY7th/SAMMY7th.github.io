@@ -6,8 +6,59 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Dec 2016 18:50:34 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Dec 2016 22:38:56 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IntelliJ IDEA 自分で設定したショートカット達</title>
+      <link>http://nocono.net/post/2016/12/idea-keymap/</link>
+      <pubDate>Sat, 24 Dec 2016 22:38:56 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2016/12/idea-keymap/</guid>
+      <description>
+
+&lt;p&gt;この記事は &lt;a href=&#34;http://qiita.com/advent-calendar/2016/jetbrains&#34;&gt;JetBrains Advent Calendar 2016 - Qiita&lt;/a&gt; 23日目の記事です。&lt;/p&gt;
+
+&lt;p&gt;私は普段IntelliJ IDEAを利用しているのですが、よく使うのにデフォルトだとショートカットが割り当たっていないため自分でショートカットを設定した機能がいくつかあります。
+今日はその設定を晒してみようとおもいます。&lt;/p&gt;
+
+&lt;p&gt;ちなみにショートカット設定は Preferences -&amp;gt; Keymap で行うことができます。
+私はAndroidStudioを使うこともあるため、こちらも同じ設定にしています。
+他のJetBrainsのIDEも同じように設定することができると思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;clone-caret-above-clone-caret-below:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Clone Caret Above (^⇧↑)、Clone Caret Below (^⇧↓)&lt;/h2&gt;
+
+&lt;p&gt;キャレットを上(もしくは下)に複製し、マルチカーソル機能を使うことができます。
+個人的に、なんでこれにデフォルトでショートカットが割り当たっていないのかわからない機能第1位です。&lt;/p&gt;
+
+&lt;p&gt;例えばですが、こういう操作がキーボードのみで可能となります。
+(こんなコード書かねぇだろ！というツッコミはなしでお願いします・・・)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2016/clonecaret.gif&#34; alt=&#34;Clone Caret&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;あとは複数行のインデントをまとめて変更する場合やコメントアウトするときにも使っています。(こっちは⇧↑で複数行選択すれば済む話ですが、なんとなく・・・。)&lt;/p&gt;
+
+&lt;h2 id=&#34;toggle-presentation-mode-p:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Toggle Presentation mode (^⌘P)&lt;/h2&gt;
+
+&lt;p&gt;プレゼンテーションモードのOnOffです。&lt;/p&gt;
+
+&lt;p&gt;これは正直、割り当てていたことを忘れていました・・・。
+以前プレゼンでIDEAを操作したかった時、スムーズにプレゼンモードへの切り替えを行いたくて割り当てたものと思われます。&lt;/p&gt;
+
+&lt;h2 id=&#34;git-resolve-conflicts-f9:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Git/Resolve Conflicts&amp;hellip; (F9)&lt;/h2&gt;
+
+&lt;p&gt;コンフリクト解消。
+いつもIDEA上で行っているので、他と衝突しないF9に割り当てています。&lt;/p&gt;
+
+&lt;h2 id=&#34;editer-tabs-close-others-w:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Editer Tabs/Close Others (⇧⌘W)&lt;/h2&gt;
+
+&lt;p&gt;エディターで選択中のタブ以外のタブを全て閉じます。
+今開いているソース以外のタブを一旦閉じてしまいたいということがよくあるので割り当てました。&lt;/p&gt;
+
+&lt;p&gt;他にもなんで設定したのかすら思い出せないショートカットがいくつかあったのですが、それはまぁ全く活用していないのだし割愛します。
+IDEAは設定のExport/Import機能もありますし、よく使う機能には積極的にショートカットを当てていきたいですね。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>フリーランスエンジニアと地方単価 【フリーランスの今年とお金の話 Advent Calendar 2016】</title>
@@ -1390,81 +1441,6 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
 &lt;li&gt;「まちづくりの新しい理論」という本が参考になる&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PHPとScalaと私 #phpkansai</title>
-      <link>http://nocono.net/post/2015/36/</link>
-      <pubDate>Wed, 20 May 2015 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2015/36/</guid>
-      <description>
-
-&lt;p&gt;この記事は「&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;PHPカンファレンス関西2015&lt;/a&gt;」のリレーブログのエントリーです。&lt;/p&gt;
-
-&lt;p&gt;「PHPカンファレンス関西2015」の開催日までリレー方式でブログを繋いでいきます。&lt;/p&gt;
-
-&lt;p&gt;昨日のエントリーは、mikakaneさんによる&lt;a href=&#34;http://mkkn.hatenablog.jp/entry/2015/05/19/101654&#34;&gt;PHPカンファレンス関西の楽しみ方 2015&lt;/a&gt;でした。&lt;/p&gt;
-
-&lt;h2 id=&#34;自己紹介:cf14ce910ef7db43192a91992e038019&#34;&gt;自己紹介&lt;/h2&gt;
-
-&lt;p&gt;大阪でフリーランスエンジニアをやっている、きの子こと、あべあさみと申します。
-最近はScalaやAndroidアプリ開発のお仕事を中心にお請けしており、&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala&lt;/a&gt;や&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;Javaのコミュニティ&lt;/a&gt;を主催しています。&lt;/p&gt;
-
-&lt;p&gt;PHPは、去年Yii2 Frameworkでのシステム開発に携わったことがきっかけで、本格的に取り組みはじめました。
-(&lt;a href=&#34;http://qiita.com/aa7th/items/cd226ce22682587fb9ac&#34;&gt;去年書いたYii2アドベントカレンダーの記事&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;PHPカンファレンス関西は、スタッフとしては今年が初参加です。
-参加者としては2年前からお邪魔していて、懇親会LTをやらせていただいたりするなど、いち参加者として楽しんでいました。&lt;/p&gt;
-
-&lt;p&gt;スタッフをやってみたいなーという気持ちは前からあったのですが、そんな中「&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西 Summit 2015&lt;/a&gt;」というScalaの大規模イベントを開催することになりました。
-僭越ながら実行委員長を務めているのですが、私自身に大規模イベントの運営経験が全くなく、
-PHPカンファレンスのスタッフ参加はいい経験になると考え自ら申し出たところ、みんな快く私を迎え入れてくれました。&lt;/p&gt;
-
-&lt;p&gt;私はセッション関連担当として動いているのですが、一番大きな仕事は、
-メイントラック13:00からの「&lt;a href=&#34;http://conference.kphpug.jp/2015/timetable/&#34;&gt;ビッグウェーブ到来！？ – 関数プログラミング導入の要点 –&lt;/a&gt;」の&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;粕谷さん&lt;/a&gt;へ登壇を依頼したことです。
-今日のブログではこちらの依頼の経緯を書きます。&lt;/p&gt;
-
-&lt;h2 id=&#34;なぜphpのイベントでscalaエンジニアのセッションが:cf14ce910ef7db43192a91992e038019&#34;&gt;なぜPHPのイベントでScalaエンジニアのセッションが？&lt;/h2&gt;
-
-&lt;p&gt;粕谷さんは&lt;a href=&#34;http://hatenacorp.jp/&#34;&gt;株式会社はてな&lt;/a&gt;のScalaエンジニアさんで、Scalaコミュニティでとても有名な方です。
-PHPについてはほとんどご存知ないとのこと。
-というわけで、「なぜ粕谷さんがPHPカンファレンス関西で登壇を！？」と驚かれた方もいらっしゃると思います。&lt;/p&gt;
-
-&lt;p&gt;関数プログラミングとは、LispやHaskellなどの関数型言語のプログラミングスタイルです。
-Scalaも関数型言語として注目を集めている言語です。&lt;/p&gt;
-
-&lt;p&gt;PHPは関数型言語ではありませんが、5.3より新機能として&lt;a href=&#34;http://php.net/manual/ja/functions.anonymous.php&#34;&gt;クロージャ&lt;/a&gt;が追加され、関数プログラミングが可能となりました。
-しかし、その手法はまだPHP界隈では浸透していません。
-そのような背景もあり、スタッフ内で「PHPのコンテキストで、関数型プログラミングの話を聞きたい！」という声があがりました。&lt;/p&gt;
-
-&lt;p&gt;その話をしてみたところ、粕谷さんが「面白そう！」と言ってくださったので、登壇をお願いする運びとなりました。
-内容としてはPHPに特化した話ではありませんが、関数プログラミングとは一体なんだろう？という初歩のお話となる予定です。&lt;/p&gt;
-
-&lt;h2 id=&#34;おもうこと:cf14ce910ef7db43192a91992e038019&#34;&gt;おもうこと&lt;/h2&gt;
-
-&lt;p&gt;スタッフになって印象的だったのが、みんなPHP以外の言語の話も聞きたいと言っていることでした。
-打ち合わせ後にスタッフで飲みに行くと、当然PHPの話で盛り上がるのですが、
-「PHPはいろんな言語のよさを取り入れて進化してきたし、これからもそう。だから、他の言語の話も聞きたいよね！」と、PHP以外の言語の話でも盛り上がるのです。&lt;/p&gt;
-
-&lt;p&gt;その言葉の通り、私が参加した2013年、2014年では、PHP以外の言語(RubyやJavaなど)のセッションがありました。
-PHPコミュニティの枠にとらわれることなく、他言語のエッセンスを貪欲に取り入れるため、PHP以外のコミュニティで活躍される方を積極的にお招きする姿勢は、とても素晴らしいと思います。&lt;/p&gt;
-
-&lt;p&gt;今回は、関数プログラミングについてまだよく知らない！という方に向けて。
-Scala(というよりは、関数型言語全般でしょうか)から、関数プログラミングのエッセンスを少しお届けいたします。
-ぜひぜひ取り入れてくださいね。&lt;/p&gt;
-
-&lt;p&gt;もちろん、関数型プログラミングの話だけではなく、PHP7や各種フレームワークのお話etc.etc.
-PHP界隈のみなさまによるPHPのセッションが盛りだくさん！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;PHPカンファレンス関西2015&lt;/a&gt;！
-PHPerなみなさまも、そうでないみなさまも、ぜひお楽しみに！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/timetable/&#34;&gt;タイムテーブルはこちら&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;さて！このリレーブログ、当日までまだまだ続きます！
-明日の担当は&lt;a href=&#34;http://tanakahisateru.hatenablog.jp/&#34;&gt;田中ひさてる&lt;/a&gt;さんでーす！&lt;/p&gt;
 </description>
     </item>
     
