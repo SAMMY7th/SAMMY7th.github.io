@@ -6,8 +6,177 @@
     <description>Recent content in It勉強会 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 19 Dec 2016 23:35:14 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2017 17:44:26 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2017/02/18(土) 開催の下記のイベントで、Riot.jsを紹介するLTをやりました。</title>
+      <link>http://nocono.net/post/2017/02/kanjava/</link>
+      <pubDate>Sun, 19 Feb 2017 17:44:26 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/02/kanjava/</guid>
+      <description>
+
+&lt;p&gt;2017/02/18(土) 開催の下記のイベントで、Riot.jsを紹介するLTをやりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kanjava.connpass.com/event/49104/&#34;&gt;[関ジャバ] フロントエンド初心者勉強会 in 大阪 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://happenapps.com/&#34;&gt;Quiver&lt;/a&gt; のプレゼンモードで発表したためSpeakerdeckなどへのアップロードができないので、発表内容はこの記事に直接載せておきます。&lt;/p&gt;
+
+&lt;h1 id=&#34;riot-js:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;Riot.js&lt;/h1&gt;
+
+&lt;h2 id=&#34;自己紹介:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/44875EB580EDACE98937F4B91D5727F6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Abe Asami “きの子 ”&lt;/li&gt;
+&lt;li&gt;フリーランスプログラマ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nocono.net/&#34;&gt;http://nocono.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@aa7th&lt;/li&gt;
+&lt;li&gt;Scala、Andorid(Java/Kotlin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;今日の内容:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;今日の内容&lt;/h2&gt;
+
+&lt;p&gt;今の案件でRiot.jsを使っているので紹介します。&lt;/p&gt;
+
+&lt;h2 id=&#34;採用の経緯:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;採用の経緯&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webアプリの動的な部品をちょっとだけ作りたい&lt;/li&gt;
+&lt;li&gt;JQueryでゴリゴリ書きたくない&lt;/li&gt;
+&lt;li&gt;大げさなJSフレームワークは使いたくない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;そこで試してみたのがriot-js:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;そこで試してみたのがRiot.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://riotjs.com/&#34;&gt;http://riotjs.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/738E97BB604017FAA09E085CE450E632.png&#34; alt=&#34;スクリーンショット 2017-02-18 16.04.54.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riot-jsとは:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;Riot.jsとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple and elegant component-based UI library (公式サイトより)&lt;/li&gt;
+&lt;li&gt;サイズが小さい
+
+&lt;ul&gt;
+&lt;li&gt;riot.min.js – 10.18KB (gzip)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;例:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;例&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/8A78C21DB0BAFADC12E254416E1A85E6.png&#34; alt=&#34;スクリーンショット 2017-02-18 12.34.51.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/1616D52C258E2435CC07181900805DED.png&#34; alt=&#34;スクリーンショット 2017-02-18 12.34.56.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;カスタムタグ作成:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;カスタムタグ作成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;help.tag&lt;/code&gt;ファイル作成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;help&amp;gt;
+    &amp;lt;button type=&amp;quot;button&amp;quot; onclick=&amp;quot;{toggle}&amp;quot;&amp;gt;
+        {opts.title}&amp;lt;span if=&amp;quot;{!visible}&amp;quot;&amp;gt;を見る&amp;lt;/span&amp;gt;&amp;lt;span if=&amp;quot;{visible}&amp;quot;&amp;gt;を隠す&amp;lt;/span&amp;gt;
+    &amp;lt;/button&amp;gt;
+    &amp;lt;div if=&amp;quot;{visible}&amp;quot; class=&amp;quot;help-contents&amp;quot;&amp;gt;
+        &amp;lt;yield/&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;script&amp;gt;
+        var self = this;
+        self.visible = false;
+        self.toggle = function() {
+            self.visible = !self.visible;
+        };
+    &amp;lt;/script&amp;gt;
+    &amp;lt;style&amp;gt;
+        .help-contents {
+            padding: 10px;
+        }
+    &amp;lt;/style&amp;gt;
+&amp;lt;/help&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;タグを使う:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;タグを使う&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必要なファイルを読み込む -&amp;gt; カスタムタグを記載 -&amp;gt; マウントする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;help title=&amp;quot;説明文の入力例&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;...&amp;quot;&amp;gt;
+      説明文説明文
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/help&amp;gt;
+
+  &amp;lt;script type=&amp;quot;riot/tag&amp;quot; src=&amp;quot;help.tag&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;!-- コンパイラ付き  --&amp;gt;
+  &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/riot/3.2/riot+compiler.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script&amp;gt;riot.mount(&#39;help&#39;);&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;プリコンパイル:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;プリコンパイル&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;riot&lt;/code&gt; コマンドで事前にtagファイルをプリコンパイルすることができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;riot.tag2(&amp;quot;help&amp;quot;,&#39;&amp;lt;button type=&amp;quot;button&amp;quot; onclick=&amp;quot;{toggle}&amp;quot; class=&amp;quot;uk-button uk-button-default uk-button-small&amp;quot;&amp;gt; {opts.title}&amp;lt;span if=&amp;quot;{!visible}&amp;quot;&amp;gt;を見る&amp;lt;/span&amp;gt;&amp;lt;span if=&amp;quot;{visible}&amp;quot;&amp;gt;を隠す&amp;lt;/span&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;div if=&amp;quot;{visible}&amp;quot; class=&amp;quot;help-contents&amp;quot;&amp;gt; &amp;lt;yield&amp;gt;&amp;lt;/yield&amp;gt; &amp;lt;/div&amp;gt;&#39;,&#39;help .help-contents,[data-is=&amp;quot;help&amp;quot;] .help-contents{ padding: 10px; }&#39;,&amp;quot;&amp;quot;,function(e){var t=this;t.visible=!1,t.toggle=function(){t.visible=!t.visible}})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;その他の機能:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;その他の機能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;プリプロセッサの利用が可能
+
+&lt;ul&gt;
+&lt;li&gt;Babel, TypeScript, Less, Pug&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;タグ間連携 (Observable)&lt;/li&gt;
+&lt;li&gt;ルーティング&lt;/li&gt;
+&lt;li&gt;サーバーサイドレンダリング&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;感想:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;感想&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;直感的で使いやすいとおもいました。(小並感)&lt;/li&gt;
+&lt;li&gt;デザイナーさんが「読める！！」と喜んでいた。&lt;/li&gt;
+&lt;li&gt;意外と使っている人がいて、ググると結構情報がでてくる。
+
+&lt;ul&gt;
+&lt;li&gt;Slackチャンネルもある。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot-jp-slackin.herokuapp.com/&#34;&gt;https://riot-jp-slackin.herokuapp.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当日発表した資料は以上となります。&lt;/p&gt;
+
+&lt;h2 id=&#34;補足:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;補足&lt;/h2&gt;
+
+&lt;p&gt;資料中にもある通り、動的な部品だけちょこちょこ作って組み込んでいきたかったというのがまずあります。でもReact.jsだと大げさすぎる気がするしVue.jsを使ってみるのがいいのかなぁと悩んでいたところで目を付けたのがRiot.jsでした。&lt;/p&gt;
+
+&lt;p&gt;公式でもうたっている通り、シンプル&amp;amp;コンパクトで気に入っています。
+今回はタグ間連携やルーティングは利用しておらず、本当に基本の機能だけ活用していますが、それでも十分便利です。そこそこの規模のSPAを作るとなるとRiotでいいかどうか考えないといけないのかも？と思いますが、そうでなければ必要十分であると感じました。今後更に使いこんでいきたいです。&lt;/p&gt;
+
+&lt;p&gt;(ところで正式名称は「Riot」と「Riot.js」のどちらなんだろう。)&lt;/p&gt;
+
+&lt;h2 id=&#34;勉強会自体の感想:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;勉強会自体の感想&lt;/h2&gt;
+
+&lt;p&gt;興味深い発表だらけでしたが、特に@ken_zookieさんの「JSフレームワーク選定の勘所」は「おぉおおなるほどJSフレームワークそんなことになっていたのか」と個人的に面白く感じました。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;b3dc07712f164740b960467e55edf055&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Riot.jsについても私が全く触れる気がなかった大事な部分(コンポーネント指向の説明)をしてくださっていたので、大変助かりました。&lt;/p&gt;
+
+&lt;p&gt;運営のみなさま、会場提供の楽天さん、よい会をありがとうございました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>もくもく会のすすめ - IT勉強会/コミュニティ運営 Advent Calendar 2016</title>
@@ -1388,55 +1557,6 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 
 &lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
 しばらくお待ちください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PlayFrameworkもくもく会第2回(7/6)開催しました #play_kb</title>
-      <link>http://nocono.net/post/2013/27/</link>
-      <pubDate>Wed, 10 Jul 2013 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2013/27/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/25&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会2回目を開催しました。&lt;br /&gt;
-&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
-
-&lt;p&gt;今回は土曜の朝(9:30〜)という早い時間から開催しました。&lt;br /&gt;
-平日よりはみんな参加しやすいかなぁと考えたのですが、そうでもなかったようで・・・。&lt;br /&gt;
-でも土曜朝から集中して勉強するのは、1日を有効活用したような気分になれてとてもいいなと思いました。&lt;br /&gt;
-今後も土曜の朝に定期的に開いていくつもりです。&lt;br /&gt;
-（時間は少し遅くするかも・・・）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;br /&gt;
-↑開催記録、次回開催情報など載せていきます。&lt;br /&gt;
-情報チェックにご活用ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人的にやったことメモ:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
-
-&lt;p&gt;WebSocketにチャレンジしました。&lt;/p&gt;
-
-&lt;p&gt;最初は公式のサンプル(websocket-chat)を参考にしたのですが、Akkaの部分がよくわからず・・・。&lt;br /&gt;
-ひとまずWebSocketだけでシンプルなテストプロジェクトを作りました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play2_websocket_test&#34;&gt;https://github.com/SAMMY7th/play2_websocket_test&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4798125415/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4798125415&amp;linkCode=as2&amp;tag=drunkershigh-22&#34;&gt;Scala逆引きレシピ (PROGRAMMER’S RECiPE)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=drunkershigh-22&amp;l=as2&amp;o=9&amp;a=4798125415&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
-第13章にあるコードを、ほとんどそのまま使わせて頂きました。&lt;/p&gt;
-
-&lt;p&gt;コントローラでいつものActionではなくWebSocketを使って、インプット(Iteratee)とアウトプット（Enumerator）をタプルに詰めて返却してあげれば、あとはいい感じにしてくれるようです。&lt;br /&gt;
-なるほどなー。&lt;/p&gt;
-
-&lt;h3 id=&#34;参照したページや書籍:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;参照したページや書籍&lt;/h3&gt;
-
-&lt;p&gt;今回もお世話になりました。&lt;br /&gt;
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;その他:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;その他&lt;/h3&gt;
-
-&lt;p&gt;・Kindleで100円のScala入門書を買って勉強している方がいました。
-  @ITの連載とほぼほぼ同じようですが、Kindleをお持ちの方にはよさそう。&lt;br /&gt;
-  &lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00BOBYZTQ&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
     </item>
     

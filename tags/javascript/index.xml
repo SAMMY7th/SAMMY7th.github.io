@@ -6,8 +6,177 @@
     <description>Recent content in Javascript on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Jul 2013 17:07:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2017 17:44:26 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2017/02/18(土) 開催の下記のイベントで、Riot.jsを紹介するLTをやりました。</title>
+      <link>http://nocono.net/post/2017/02/kanjava/</link>
+      <pubDate>Sun, 19 Feb 2017 17:44:26 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/02/kanjava/</guid>
+      <description>
+
+&lt;p&gt;2017/02/18(土) 開催の下記のイベントで、Riot.jsを紹介するLTをやりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kanjava.connpass.com/event/49104/&#34;&gt;[関ジャバ] フロントエンド初心者勉強会 in 大阪 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://happenapps.com/&#34;&gt;Quiver&lt;/a&gt; のプレゼンモードで発表したためSpeakerdeckなどへのアップロードができないので、発表内容はこの記事に直接載せておきます。&lt;/p&gt;
+
+&lt;h1 id=&#34;riot-js:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;Riot.js&lt;/h1&gt;
+
+&lt;h2 id=&#34;自己紹介:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/44875EB580EDACE98937F4B91D5727F6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Abe Asami “きの子 ”&lt;/li&gt;
+&lt;li&gt;フリーランスプログラマ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nocono.net/&#34;&gt;http://nocono.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@aa7th&lt;/li&gt;
+&lt;li&gt;Scala、Andorid(Java/Kotlin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;今日の内容:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;今日の内容&lt;/h2&gt;
+
+&lt;p&gt;今の案件でRiot.jsを使っているので紹介します。&lt;/p&gt;
+
+&lt;h2 id=&#34;採用の経緯:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;採用の経緯&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webアプリの動的な部品をちょっとだけ作りたい&lt;/li&gt;
+&lt;li&gt;JQueryでゴリゴリ書きたくない&lt;/li&gt;
+&lt;li&gt;大げさなJSフレームワークは使いたくない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;そこで試してみたのがriot-js:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;そこで試してみたのがRiot.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://riotjs.com/&#34;&gt;http://riotjs.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/738E97BB604017FAA09E085CE450E632.png&#34; alt=&#34;スクリーンショット 2017-02-18 16.04.54.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riot-jsとは:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;Riot.jsとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple and elegant component-based UI library (公式サイトより)&lt;/li&gt;
+&lt;li&gt;サイズが小さい
+
+&lt;ul&gt;
+&lt;li&gt;riot.min.js – 10.18KB (gzip)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;例:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;例&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/8A78C21DB0BAFADC12E254416E1A85E6.png&#34; alt=&#34;スクリーンショット 2017-02-18 12.34.51.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/1616D52C258E2435CC07181900805DED.png&#34; alt=&#34;スクリーンショット 2017-02-18 12.34.56.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;カスタムタグ作成:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;カスタムタグ作成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;help.tag&lt;/code&gt;ファイル作成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;help&amp;gt;
+    &amp;lt;button type=&amp;quot;button&amp;quot; onclick=&amp;quot;{toggle}&amp;quot;&amp;gt;
+        {opts.title}&amp;lt;span if=&amp;quot;{!visible}&amp;quot;&amp;gt;を見る&amp;lt;/span&amp;gt;&amp;lt;span if=&amp;quot;{visible}&amp;quot;&amp;gt;を隠す&amp;lt;/span&amp;gt;
+    &amp;lt;/button&amp;gt;
+    &amp;lt;div if=&amp;quot;{visible}&amp;quot; class=&amp;quot;help-contents&amp;quot;&amp;gt;
+        &amp;lt;yield/&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;script&amp;gt;
+        var self = this;
+        self.visible = false;
+        self.toggle = function() {
+            self.visible = !self.visible;
+        };
+    &amp;lt;/script&amp;gt;
+    &amp;lt;style&amp;gt;
+        .help-contents {
+            padding: 10px;
+        }
+    &amp;lt;/style&amp;gt;
+&amp;lt;/help&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;タグを使う:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;タグを使う&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必要なファイルを読み込む -&amp;gt; カスタムタグを記載 -&amp;gt; マウントする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;help title=&amp;quot;説明文の入力例&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;...&amp;quot;&amp;gt;
+      説明文説明文
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/help&amp;gt;
+
+  &amp;lt;script type=&amp;quot;riot/tag&amp;quot; src=&amp;quot;help.tag&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;!-- コンパイラ付き  --&amp;gt;
+  &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/riot/3.2/riot+compiler.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script&amp;gt;riot.mount(&#39;help&#39;);&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;プリコンパイル:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;プリコンパイル&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;riot&lt;/code&gt; コマンドで事前にtagファイルをプリコンパイルすることができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;riot.tag2(&amp;quot;help&amp;quot;,&#39;&amp;lt;button type=&amp;quot;button&amp;quot; onclick=&amp;quot;{toggle}&amp;quot; class=&amp;quot;uk-button uk-button-default uk-button-small&amp;quot;&amp;gt; {opts.title}&amp;lt;span if=&amp;quot;{!visible}&amp;quot;&amp;gt;を見る&amp;lt;/span&amp;gt;&amp;lt;span if=&amp;quot;{visible}&amp;quot;&amp;gt;を隠す&amp;lt;/span&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;div if=&amp;quot;{visible}&amp;quot; class=&amp;quot;help-contents&amp;quot;&amp;gt; &amp;lt;yield&amp;gt;&amp;lt;/yield&amp;gt; &amp;lt;/div&amp;gt;&#39;,&#39;help .help-contents,[data-is=&amp;quot;help&amp;quot;] .help-contents{ padding: 10px; }&#39;,&amp;quot;&amp;quot;,function(e){var t=this;t.visible=!1,t.toggle=function(){t.visible=!t.visible}})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;その他の機能:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;その他の機能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;プリプロセッサの利用が可能
+
+&lt;ul&gt;
+&lt;li&gt;Babel, TypeScript, Less, Pug&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;タグ間連携 (Observable)&lt;/li&gt;
+&lt;li&gt;ルーティング&lt;/li&gt;
+&lt;li&gt;サーバーサイドレンダリング&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;感想:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;感想&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;直感的で使いやすいとおもいました。(小並感)&lt;/li&gt;
+&lt;li&gt;デザイナーさんが「読める！！」と喜んでいた。&lt;/li&gt;
+&lt;li&gt;意外と使っている人がいて、ググると結構情報がでてくる。
+
+&lt;ul&gt;
+&lt;li&gt;Slackチャンネルもある。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot-jp-slackin.herokuapp.com/&#34;&gt;https://riot-jp-slackin.herokuapp.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当日発表した資料は以上となります。&lt;/p&gt;
+
+&lt;h2 id=&#34;補足:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;補足&lt;/h2&gt;
+
+&lt;p&gt;資料中にもある通り、動的な部品だけちょこちょこ作って組み込んでいきたかったというのがまずあります。でもReact.jsだと大げさすぎる気がするしVue.jsを使ってみるのがいいのかなぁと悩んでいたところで目を付けたのがRiot.jsでした。&lt;/p&gt;
+
+&lt;p&gt;公式でもうたっている通り、シンプル&amp;amp;コンパクトで気に入っています。
+今回はタグ間連携やルーティングは利用しておらず、本当に基本の機能だけ活用していますが、それでも十分便利です。そこそこの規模のSPAを作るとなるとRiotでいいかどうか考えないといけないのかも？と思いますが、そうでなければ必要十分であると感じました。今後更に使いこんでいきたいです。&lt;/p&gt;
+
+&lt;p&gt;(ところで正式名称は「Riot」と「Riot.js」のどちらなんだろう。)&lt;/p&gt;
+
+&lt;h2 id=&#34;勉強会自体の感想:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;勉強会自体の感想&lt;/h2&gt;
+
+&lt;p&gt;興味深い発表だらけでしたが、特に@ken_zookieさんの「JSフレームワーク選定の勘所」は「おぉおおなるほどJSフレームワークそんなことになっていたのか」と個人的に面白く感じました。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;b3dc07712f164740b960467e55edf055&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Riot.jsについても私が全く触れる気がなかった大事な部分(コンポーネント指向の説明)をしてくださっていたので、大変助かりました。&lt;/p&gt;
+
+&lt;p&gt;運営のみなさま、会場提供の楽天さん、よい会をありがとうございました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>【俺聞け5】enchant.jsで作ったゲームのような何かを公開しました</title>

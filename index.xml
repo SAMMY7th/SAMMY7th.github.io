@@ -6,8 +6,177 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Dec 2016 22:38:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2017 17:44:26 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2017/02/18(土) 開催の下記のイベントで、Riot.jsを紹介するLTをやりました。</title>
+      <link>http://nocono.net/post/2017/02/kanjava/</link>
+      <pubDate>Sun, 19 Feb 2017 17:44:26 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/02/kanjava/</guid>
+      <description>
+
+&lt;p&gt;2017/02/18(土) 開催の下記のイベントで、Riot.jsを紹介するLTをやりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kanjava.connpass.com/event/49104/&#34;&gt;[関ジャバ] フロントエンド初心者勉強会 in 大阪 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://happenapps.com/&#34;&gt;Quiver&lt;/a&gt; のプレゼンモードで発表したためSpeakerdeckなどへのアップロードができないので、発表内容はこの記事に直接載せておきます。&lt;/p&gt;
+
+&lt;h1 id=&#34;riot-js:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;Riot.js&lt;/h1&gt;
+
+&lt;h2 id=&#34;自己紹介:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/44875EB580EDACE98937F4B91D5727F6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Abe Asami “きの子 ”&lt;/li&gt;
+&lt;li&gt;フリーランスプログラマ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nocono.net/&#34;&gt;http://nocono.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@aa7th&lt;/li&gt;
+&lt;li&gt;Scala、Andorid(Java/Kotlin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;今日の内容:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;今日の内容&lt;/h2&gt;
+
+&lt;p&gt;今の案件でRiot.jsを使っているので紹介します。&lt;/p&gt;
+
+&lt;h2 id=&#34;採用の経緯:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;採用の経緯&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webアプリの動的な部品をちょっとだけ作りたい&lt;/li&gt;
+&lt;li&gt;JQueryでゴリゴリ書きたくない&lt;/li&gt;
+&lt;li&gt;大げさなJSフレームワークは使いたくない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;そこで試してみたのがriot-js:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;そこで試してみたのがRiot.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://riotjs.com/&#34;&gt;http://riotjs.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/738E97BB604017FAA09E085CE450E632.png&#34; alt=&#34;スクリーンショット 2017-02-18 16.04.54.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riot-jsとは:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;Riot.jsとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple and elegant component-based UI library (公式サイトより)&lt;/li&gt;
+&lt;li&gt;サイズが小さい
+
+&lt;ul&gt;
+&lt;li&gt;riot.min.js – 10.18KB (gzip)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;例:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;例&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/8A78C21DB0BAFADC12E254416E1A85E6.png&#34; alt=&#34;スクリーンショット 2017-02-18 12.34.51.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/02/1616D52C258E2435CC07181900805DED.png&#34; alt=&#34;スクリーンショット 2017-02-18 12.34.56.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;カスタムタグ作成:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;カスタムタグ作成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;help.tag&lt;/code&gt;ファイル作成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;help&amp;gt;
+    &amp;lt;button type=&amp;quot;button&amp;quot; onclick=&amp;quot;{toggle}&amp;quot;&amp;gt;
+        {opts.title}&amp;lt;span if=&amp;quot;{!visible}&amp;quot;&amp;gt;を見る&amp;lt;/span&amp;gt;&amp;lt;span if=&amp;quot;{visible}&amp;quot;&amp;gt;を隠す&amp;lt;/span&amp;gt;
+    &amp;lt;/button&amp;gt;
+    &amp;lt;div if=&amp;quot;{visible}&amp;quot; class=&amp;quot;help-contents&amp;quot;&amp;gt;
+        &amp;lt;yield/&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;script&amp;gt;
+        var self = this;
+        self.visible = false;
+        self.toggle = function() {
+            self.visible = !self.visible;
+        };
+    &amp;lt;/script&amp;gt;
+    &amp;lt;style&amp;gt;
+        .help-contents {
+            padding: 10px;
+        }
+    &amp;lt;/style&amp;gt;
+&amp;lt;/help&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;タグを使う:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;タグを使う&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必要なファイルを読み込む -&amp;gt; カスタムタグを記載 -&amp;gt; マウントする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;help title=&amp;quot;説明文の入力例&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;...&amp;quot;&amp;gt;
+      説明文説明文
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/help&amp;gt;
+
+  &amp;lt;script type=&amp;quot;riot/tag&amp;quot; src=&amp;quot;help.tag&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;!-- コンパイラ付き  --&amp;gt;
+  &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/riot/3.2/riot+compiler.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script&amp;gt;riot.mount(&#39;help&#39;);&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;プリコンパイル:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;プリコンパイル&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;riot&lt;/code&gt; コマンドで事前にtagファイルをプリコンパイルすることができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;riot.tag2(&amp;quot;help&amp;quot;,&#39;&amp;lt;button type=&amp;quot;button&amp;quot; onclick=&amp;quot;{toggle}&amp;quot; class=&amp;quot;uk-button uk-button-default uk-button-small&amp;quot;&amp;gt; {opts.title}&amp;lt;span if=&amp;quot;{!visible}&amp;quot;&amp;gt;を見る&amp;lt;/span&amp;gt;&amp;lt;span if=&amp;quot;{visible}&amp;quot;&amp;gt;を隠す&amp;lt;/span&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;div if=&amp;quot;{visible}&amp;quot; class=&amp;quot;help-contents&amp;quot;&amp;gt; &amp;lt;yield&amp;gt;&amp;lt;/yield&amp;gt; &amp;lt;/div&amp;gt;&#39;,&#39;help .help-contents,[data-is=&amp;quot;help&amp;quot;] .help-contents{ padding: 10px; }&#39;,&amp;quot;&amp;quot;,function(e){var t=this;t.visible=!1,t.toggle=function(){t.visible=!t.visible}})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;その他の機能:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;その他の機能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;プリプロセッサの利用が可能
+
+&lt;ul&gt;
+&lt;li&gt;Babel, TypeScript, Less, Pug&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;タグ間連携 (Observable)&lt;/li&gt;
+&lt;li&gt;ルーティング&lt;/li&gt;
+&lt;li&gt;サーバーサイドレンダリング&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;感想:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;感想&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;直感的で使いやすいとおもいました。(小並感)&lt;/li&gt;
+&lt;li&gt;デザイナーさんが「読める！！」と喜んでいた。&lt;/li&gt;
+&lt;li&gt;意外と使っている人がいて、ググると結構情報がでてくる。
+
+&lt;ul&gt;
+&lt;li&gt;Slackチャンネルもある。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://riot-jp-slackin.herokuapp.com/&#34;&gt;https://riot-jp-slackin.herokuapp.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当日発表した資料は以上となります。&lt;/p&gt;
+
+&lt;h2 id=&#34;補足:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;補足&lt;/h2&gt;
+
+&lt;p&gt;資料中にもある通り、動的な部品だけちょこちょこ作って組み込んでいきたかったというのがまずあります。でもReact.jsだと大げさすぎる気がするしVue.jsを使ってみるのがいいのかなぁと悩んでいたところで目を付けたのがRiot.jsでした。&lt;/p&gt;
+
+&lt;p&gt;公式でもうたっている通り、シンプル&amp;amp;コンパクトで気に入っています。
+今回はタグ間連携やルーティングは利用しておらず、本当に基本の機能だけ活用していますが、それでも十分便利です。そこそこの規模のSPAを作るとなるとRiotでいいかどうか考えないといけないのかも？と思いますが、そうでなければ必要十分であると感じました。今後更に使いこんでいきたいです。&lt;/p&gt;
+
+&lt;p&gt;(ところで正式名称は「Riot」と「Riot.js」のどちらなんだろう。)&lt;/p&gt;
+
+&lt;h2 id=&#34;勉強会自体の感想:1d3feb6472ec7dad5383f78f05f37d2e&#34;&gt;勉強会自体の感想&lt;/h2&gt;
+
+&lt;p&gt;興味深い発表だらけでしたが、特に@ken_zookieさんの「JSフレームワーク選定の勘所」は「おぉおおなるほどJSフレームワークそんなことになっていたのか」と個人的に面白く感じました。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;b3dc07712f164740b960467e55edf055&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Riot.jsについても私が全く触れる気がなかった大事な部分(コンポーネント指向の説明)をしてくださっていたので、大変助かりました。&lt;/p&gt;
+
+&lt;p&gt;運営のみなさま、会場提供の楽天さん、よい会をありがとうございました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>IntelliJ IDEA 自分で設定したショートカット達</title>
@@ -943,503 +1112,6 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
 &lt;li&gt;テーマも使用させていただいております。&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&#34;&gt;Tips for configuring an A record with your DNS provider - User Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>9/5(土) 関西DDD.java スタートアップスペシャルに参加しました #kandddj</title>
-      <link>http://nocono.net/post/2015/37/</link>
-      <pubDate>Sun, 06 Sep 2015 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2015/37/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://kansaiddd.connpass.com/event/17737/&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;(土) 関西DDD.java スタートアップスペシャル&lt;/a&gt; に参加しました。
-会場は楽天株式会社 大阪支社さん。&lt;/p&gt;
-
-&lt;p&gt;内容は、&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/4798121967/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4798121967&amp;linkCode=as2&amp;tag=nocono-22&#34;&gt;エリック・エヴァンスのドメイン駆動設計 (IT Architects’Archive ソフトウェア開発の実践)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=nocono-22&amp;l=as2&amp;o=9&amp;a=4798121967&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
-の各章について、ギルドワークスの増田さん (&lt;a href=&#34;https://twitter.com/masuda220&#34;&gt;@masuda220&lt;/a&gt;) にお話をしていただくというものでした。&lt;/p&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=4798121967&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;予定では16時からは質疑応答でしたが、なんと18時までセッション延長。
-全17章についての概要と、また、増田さんがDDDを実践した中で感じたこともたくさんお話しいただき、とても濃密な内容でした。&lt;/p&gt;
-
-&lt;p&gt;私自身は今、DDDのプロジェクトに参加して3ヶ月程になるのですが、DDD本はまだ読んでおらず・・・。
-仕事でふんわりとDDDがどういうものか体感はしているものの、言葉の大切さ、チーム内全員の共有の大切さなど、恥ずかしながらあまり意識できていなかったので、このタイミングで増田さんのお話をきけて本当によかったです。&lt;/p&gt;
-
-&lt;p&gt;ご登壇者の増田さん、また主催の&lt;a href=&#34;https://twitter.com/haljik&#34;&gt;@haljik&lt;/a&gt;さんをはじめとするスタッフのみなさま、有意義な時間をありがとうございました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/HBt7N8mSnzNLIQ&#34; width=&#34;340&#34; height=&#34;290&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/masuda220/ss-52462322&#34; title=&#34;ドメイン駆動設計」の複雑さに立ち向かう&#34; target=&#34;_blank&#34;&gt;ドメイン駆動設計」の複雑さに立ち向かう&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/masuda220&#34; target=&#34;_blank&#34;&gt;増田 亨&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/870183&#34;&gt;20150915 関西DDD.java スタートアップスペシャル - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;イベント中にとったメモ:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;イベント中にとったメモ&lt;/h2&gt;
-
-&lt;p&gt;セッションを聞きながら取った雑なメモですが、公開します。
-このメモを見返しながら、はりきって購入したDDD本と格闘したいと思います。&lt;/p&gt;
-
-&lt;h3 id=&#34;考え方と背景:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;考え方と背景&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;まえがきだけでも十分&lt;/li&gt;
-&lt;li&gt;ドメイン駆動設計とは
-
-&lt;ul&gt;
-&lt;li&gt;現場の技術者が失敗した・困ったことが載ってる&lt;/li&gt;
-&lt;li&gt;技術者の奮闘の物語&lt;/li&gt;
-&lt;li&gt;格闘して得た教訓の境地。共感できる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;想定読者
-
-&lt;ul&gt;
-&lt;li&gt;オブジェクト指向とエクストリームプログラミングに知識がある人
-
-&lt;ul&gt;
-&lt;li&gt;ハードル高い&lt;/li&gt;
-&lt;li&gt;勉強になった本
-
-&lt;ul&gt;
-&lt;li&gt;エクストリームプログラミング&lt;/li&gt;
-&lt;li&gt;Wabi Sabiをよみとく&lt;/li&gt;
-&lt;li&gt;リファクタリング&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;変化に適応する技術&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;オブジェクト指向の変更容易性
-
-&lt;ul&gt;
-&lt;li&gt;メッセージングはErlang&lt;/li&gt;
-&lt;li&gt;抽象データ型
-
-&lt;ul&gt;
-&lt;li&gt;intとか基本型で日付・・・コンピュータ&lt;/li&gt;
-&lt;li&gt;誕生日とか、人間の発想に近い独自定義クラス。ドメイン。&lt;/li&gt;
-&lt;li&gt;人間の発想・目でないと設計できないメソッドとかをみつけにいくのがドメイン駆動設計&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;適応型の開発
-
-&lt;ul&gt;
-&lt;li&gt;他(予測型や反復型)との違いは着地点
-
-&lt;ul&gt;
-&lt;li&gt;予測型だと厳密だし、反復型だと、反復を繰り返しながら着地点を決めていく&lt;/li&gt;
-&lt;li&gt;適応型はざっくりと定義するけど、最終形は事前に定義したり固定したりしない
-
-&lt;ul&gt;
-&lt;li&gt;リリースして、顧客のフィードバックをうけたりしながら日々変化&lt;/li&gt;
-&lt;li&gt;しょうがなく変化するのではなく、自分達で着地点を探しながら変化&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;エクストリームプログラミング
-
-&lt;ul&gt;
-&lt;li&gt;ギリギリ余計な複雑さをもちこまない
-
-&lt;ul&gt;
-&lt;li&gt;コードによる確認&lt;/li&gt;
-&lt;li&gt;ちょっととなりの人やネットで確認することだってできる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;OO+XPはドメイン駆動設計といってもいいかもしれない&lt;/li&gt;
-&lt;li&gt;ドメイン駆動設計が強調している点
-
-&lt;ul&gt;
-&lt;li&gt;モデルとコードの歩調をあわせる
-
-&lt;ul&gt;
-&lt;li&gt;難しい&lt;/li&gt;
-&lt;li&gt;最初は一致していなくてもいいから、ちょっとずつ改善していく&lt;/li&gt;
-&lt;li&gt;今あるコードがどれぐらいモデルと一致しているか？&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ドキュメントではなく言葉で
-
-&lt;ul&gt;
-&lt;li&gt;コミュニケーション命&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;俯瞰
-
-&lt;ul&gt;
-&lt;li&gt;3部で成果がだせて4部&lt;/li&gt;
-&lt;li&gt;2部は3部・4部の基本。2部だけでは意味がない。成果がでない。&lt;/li&gt;
-&lt;li&gt;1部の内容をチームで共有することがポイント&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;着目のしかた
-
-&lt;ul&gt;
-&lt;li&gt;1章・モデルの成長の様子がストーリーとしてわかりやすい&lt;/li&gt;
-&lt;li&gt;7章・2部まとめ。&lt;/li&gt;
-&lt;li&gt;8・ブレイクするーがおきたときにどういう現象がおきるか？&lt;/li&gt;
-&lt;li&gt;13・深いモデルに向かっていくストーリー&lt;/li&gt;
-&lt;li&gt;15・どういうところから手をつけて、蒸留に向かう様子が段階的に&lt;/li&gt;
-&lt;li&gt;結論・3年後・5年後にヒアリングして、どうかわっていたのか。
-
-&lt;ul&gt;
-&lt;li&gt;ドメイン駆動に向かうエネルギー&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;第1部:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;第1部&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;カタカナ言葉は伝達で問題を起こしやすい
-
-&lt;ul&gt;
-&lt;li&gt;日本語にした方がわかりやすいよね&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ドメイン
-
-&lt;ul&gt;
-&lt;li&gt;ドメインではないもの
-
-&lt;ul&gt;
-&lt;li&gt;私達開発者の活動&lt;/li&gt;
-&lt;li&gt;コンピューターの挙動&lt;/li&gt;
-&lt;li&gt;ソフトウェアを使う人達には関係のないことば&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ユーザーに思いを馳せて言葉をほりにいく。探しにいく。&lt;/li&gt;
-&lt;li&gt;なんでそういう活動をしているのか。関心ごとになるのか。
-
-&lt;ul&gt;
-&lt;li&gt;そういうことを理解しにいってはじめて、わかる&lt;/li&gt;
-&lt;li&gt;そうとう広い範囲&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;例えば受注管理という言葉がある
-
-&lt;ul&gt;
-&lt;li&gt;営業マンにとって、月初と月末の受注は全然ちがうもの&lt;/li&gt;
-&lt;li&gt;会社的に、月末にたてた受注は次の月初にさくっとキャンセルされたらアラートしてほしい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;利用する人達の活動と関心を要約
-
-&lt;ul&gt;
-&lt;li&gt;めっちゃたいへん&lt;/li&gt;
-&lt;li&gt;重要な点にしぼって要約して理解しよう
-
-&lt;ul&gt;
-&lt;li&gt;それがモデリング&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ユーザーがもってる関心を全て抜き出したらたいへん
-
-&lt;ul&gt;
-&lt;li&gt;要約ということが非常に大事&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;膨大な情報をいかにかみくだいて予約するか
-
-&lt;ul&gt;
-&lt;li&gt;要約する力
-
-&lt;ul&gt;
-&lt;li&gt;本質的ではないことを削る
-
-&lt;ul&gt;
-&lt;li&gt;相当な論理力が必要&lt;/li&gt;
-&lt;li&gt;みんなで話し合うと、一人で発見するよりみつけやすい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;重要・重要ではないことにしるしをつけるぐらいはできる
-
-&lt;ul&gt;
-&lt;li&gt;それを説明するの、めっちゃたいへん。ハードル高い
-
-&lt;ul&gt;
-&lt;li&gt;それをチームでチャレンジして共有できたときのパワーすごい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ドメインモデル
-
-&lt;ul&gt;
-&lt;li&gt;本質だけを抜き出したものを表現したもの&lt;/li&gt;
-&lt;li&gt;蒸留して重要な関心ごとを鋭く説明したもの&lt;/li&gt;
-&lt;li&gt;重要な関心毎(ドメインモデル)をコードの骨格としてつかいなさい(3章)&lt;/li&gt;
-&lt;li&gt;各章、浅い理解だと役にたたない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;知識をかみくだく(1章)
-
-&lt;ul&gt;
-&lt;li&gt;1章の読み方は、変化と成長&lt;/li&gt;
-&lt;li&gt;モデルが成長
-
-&lt;ul&gt;
-&lt;li&gt;ストーリーのイメージをチームで共有&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;コードで実験&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;2章
-
-&lt;ul&gt;
-&lt;li&gt;ユビキタス言語
-
-&lt;ul&gt;
-&lt;li&gt;ユビキタスは同一という意味ではない&lt;/li&gt;
-&lt;li&gt;大切なのは、ソフトウェアを利用する人たちと共通の言葉を使うということではない&lt;/li&gt;
-&lt;li&gt;営業マンにとっての受注と、要求設計書での受注は違う意味
-
-&lt;ul&gt;
-&lt;li&gt;失注したときの痛みとか&lt;/li&gt;
-&lt;li&gt;そこに気が付きにいこう&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;同じ意味っぽい別の言葉に敏感に
-
-&lt;ul&gt;
-&lt;li&gt;リクエストとか要請とか依頼とか違う意味。緊急度とか&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ユビキタス言語の中で、特に重要度がたかいものがドメインに&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;声に出してモデリング
-
-&lt;ul&gt;
-&lt;li&gt;記録としゃべってることって違う&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;説明のためのモデル
-
-&lt;ul&gt;
-&lt;li&gt;背景知識をつたえるためのモデル&lt;/li&gt;
-&lt;li&gt;ドメイン駆動としてのモデルではない&lt;/li&gt;
-&lt;li&gt;なんでこれが2章の最後にぽんっとでてくるのかはわからない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;チーム内で、一つの言葉を同じ意味で
-
-&lt;ul&gt;
-&lt;li&gt;チームが同じ意味で同じ言葉を使っているか&lt;/li&gt;
-&lt;li&gt;3部とか4部とかの土台として脈々とでてくる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;言葉のたいせつさ&lt;/li&gt;
-&lt;li&gt;コードを書く人間がどんどん噛み砕いて積極的にユビキタス言語をつくりにいく
-
-&lt;ul&gt;
-&lt;li&gt;ここをさぼると自分の首をしめる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;モデルと実装が一致しない
-
-&lt;ul&gt;
-&lt;li&gt;原因は、優秀な人は頭の中で翻訳しちゃってる
-
-&lt;ul&gt;
-&lt;li&gt;3ヶ月たったら説明できない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;常に、モデルをうまくコードで表現することをがんばらなければならない&lt;/li&gt;
-&lt;li&gt;モデルとコードが一致していないと、ねじれたソフトウェアになっちゃう&lt;/li&gt;
-&lt;li&gt;モデルとコードを一致させるテクニックを学ばなければならない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;3部:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;3部&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;役に立つモデル
-
-&lt;ul&gt;
-&lt;li&gt;とにかくリファクタリング&lt;/li&gt;
-&lt;li&gt;言葉のたいせつさ
-
-&lt;ul&gt;
-&lt;li&gt;言葉でしゃべったときの違和感に敏感になる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;設計自体が変更しにくいと成長しにくい
-
-&lt;ul&gt;
-&lt;li&gt;できるだけ変更しやすいソフトウェアをつくる&lt;/li&gt;
-&lt;li&gt;モデルとコードとの一致性を高めるために、柔軟にしておく。ここが勝負。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;8章 ブレイクスルー
-
-&lt;ul&gt;
-&lt;li&gt;ブレイクスルーの経験を思い出す&lt;/li&gt;
-&lt;li&gt;「理解した」ときの経験&lt;/li&gt;
-&lt;li&gt;感覚を思い出した上でこの本を読むこと
-
-&lt;ul&gt;
-&lt;li&gt;この本からブレイクスルーを理解するのはむずかしいよ！&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;9章 暗黙的な概念を明示的にする
-
-&lt;ul&gt;
-&lt;li&gt;超、肝になる部分&lt;/li&gt;
-&lt;li&gt;言葉について、ちゃんと精査している？&lt;/li&gt;
-&lt;li&gt;業務についての本を読む&lt;/li&gt;
-&lt;li&gt;発見にたいして、何度でも挑戦する&lt;/li&gt;
-&lt;li&gt;9章はとにかく読みこむ&lt;/li&gt;
-&lt;li&gt;制約のなさに便利さではなく気持ち悪さを感じること
-
-&lt;ul&gt;
-&lt;li&gt;たとえば、何億年も前の誕生日が設定できたらおかしいよね&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;10章 しなやかな設計
-
-&lt;ul&gt;
-&lt;li&gt;言語によっては言語仕様の一部
-
-&lt;ul&gt;
-&lt;li&gt;関数型言語だったらイミュータブルあたりまえでしょ？&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Javaは古い設計引きずってる
-
-&lt;ul&gt;
-&lt;li&gt;10章の内容をJavaで実践するには結構がんばらないといけない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Java以外の言語の方が実践しやすい
-
-&lt;ul&gt;
-&lt;li&gt;Kotlinとか、良い言語かどうかじゃなくて。やろうとしていることはすごく勉強になる。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;10章は総合レッスン&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;11章 分析パターン
-
-&lt;ul&gt;
-&lt;li&gt;パターンにあわせにいくのは違うってことがわかればよい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;13章
-
-&lt;ul&gt;
-&lt;li&gt;どういうタイミングで深い取り組みがおこなわれるか&lt;/li&gt;
-&lt;li&gt;リファクタリングのきっかけ
-
-&lt;ul&gt;
-&lt;li&gt;言葉に違和感を感じた時&lt;/li&gt;
-&lt;li&gt;コードの理解が間違っていたと気づいたとき&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;リファクタリングのタイミングを間違えない
-
-&lt;ul&gt;
-&lt;li&gt;動いているコードをなおしにいく&lt;/li&gt;
-&lt;li&gt;選抜チームで取り組む
-
-&lt;ul&gt;
-&lt;li&gt;考え方として大切&lt;/li&gt;
-&lt;li&gt;深いモデルに挑戦する&lt;/li&gt;
-&lt;li&gt;自分と違った知見をもつ人と話すことはすごく勉強になる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ユビキタス言語
-
-&lt;ul&gt;
-&lt;li&gt;言葉で説明できないことを、コードで表現することはまずできない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;3部まとめ
-
-&lt;ul&gt;
-&lt;li&gt;モデルとコードを一致させる
-
-&lt;ul&gt;
-&lt;li&gt;言葉、コード、チーム&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;4部:acc43c69b2f93cc9b18d03bda21a9540&#34;&gt;4部&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;意思決定がむずかしい
-
-&lt;ul&gt;
-&lt;li&gt;チーム間交渉など政治的な要因もある
-
-&lt;ul&gt;
-&lt;li&gt;そういうのも含めて考えなければならない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;巨大で複雑なシステムの成長を続ける
-
-&lt;ul&gt;
-&lt;li&gt;この意識を、チーム間・関係者間でいかに共有するか&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ここでも、言葉をつかった発見を強調
-
-&lt;ul&gt;
-&lt;li&gt;全体的なものを動かすためには、コードを書く人間による言葉によるコミュニケーションがポイント&lt;/li&gt;
-&lt;li&gt;現場でコードを書く人間が中核にかならずいること
-
-&lt;ul&gt;
-&lt;li&gt;そうすれば、戦略がコードに反映される&lt;/li&gt;
-&lt;li&gt;コードをいじる人間が戦略を考えるべき&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;すこしずつ、全体の秩序を改善していく
-
-&lt;ul&gt;
-&lt;li&gt;そうすればブレイクスルーが！！！&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;14章
-
-&lt;ul&gt;
-&lt;li&gt;こういうパターンのときにはこういう設計をしなさいね的なことがかいてあるよ&lt;/li&gt;
-&lt;li&gt;たとえばチーム間の言葉の不整合がおきたときに・・・
-
-&lt;ul&gt;
-&lt;li&gt;言葉の違いを受け入れる？&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;チーム間の力関係&lt;/li&gt;
-&lt;li&gt;受託開発なら、契約先が違うとかも壁
-
-&lt;ul&gt;
-&lt;li&gt;そういうことも考慮して戦略を考えなければならない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;チームが同じ言葉を使っているかどうかということが境界&lt;/li&gt;
-&lt;li&gt;かかわっているひとたちの言葉が一致している？不一致を見つける努力をしている？？
-
-&lt;ul&gt;
-&lt;li&gt;それが継続的な統合&lt;/li&gt;
-&lt;li&gt;ドメイン駆動の文脈で読み取りにいかなければ、エヴァンスが伝えたいことはわからない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;費用対効果など
-
-&lt;ul&gt;
-&lt;li&gt;政治的な問題も含めて、どういうところから手を付ければいいかの助言が載っている&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;こういう問題に対して、コードを書く人間がかかわらなければならない&lt;/li&gt;
-&lt;li&gt;こういうことに、アーキテクトチームが長期的なプランをかいたところで、成果はでない&lt;/li&gt;
-&lt;li&gt;コードを書く人間が中心になることによって、はじめて成果がでる&lt;/li&gt;
-&lt;li&gt;コアドメイン
-
-&lt;ul&gt;
-&lt;li&gt;長期的になったらふくらむ&lt;/li&gt;
-&lt;li&gt;ほんとにコアなところをみつけにいく&lt;/li&gt;
-&lt;li&gt;肝になるのは要約&lt;/li&gt;
-&lt;li&gt;ドメイン駆動設計を読むこと自体がコアドメインを見つける特訓に！！！！！！&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;中核を探す準備&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;16章
-
-&lt;ul&gt;
-&lt;li&gt;規模が大きくなったときに、森を見る力。俯瞰する力。&lt;/li&gt;
-&lt;li&gt;俯瞰しないと、全体的にどうするかという話ができない&lt;/li&gt;
-&lt;li&gt;どんだけ複雑で大きくても、A41枚に収まる範囲までにしぼること
-
-&lt;ul&gt;
-&lt;li&gt;じゃないと俯瞰できない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;メタファはわかりやすいけど危険&lt;/li&gt;
-&lt;li&gt;たとえば、顧客タイプと顧客にわける
-
-&lt;ul&gt;
-&lt;li&gt;もうひとつ上のレイヤにわけたりはする&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;17章
-
-&lt;ul&gt;
-&lt;li&gt;コードを変更する人間が戦略を理解して、実際に実行する&lt;/li&gt;
-&lt;li&gt;コードを書く人間が意思決定すること&lt;/li&gt;
-&lt;li&gt;言葉の違いに敏感にry)&lt;/li&gt;
-&lt;li&gt;「まちづくりの新しい理論」という本が参考になる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
