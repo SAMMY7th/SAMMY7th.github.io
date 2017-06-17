@@ -6,8 +6,90 @@
     <description>Recent content in Posts on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Feb 2017 17:44:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jun 2017 21:23:56 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JJUG CCC 2017 Springに参加&amp;登壇してきました。 #jjug_ccc</title>
+      <link>http://nocono.net/post/2017/06/jjug/</link>
+      <pubDate>Sat, 17 Jun 2017 21:23:56 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/06/jjug/</guid>
+      <description>
+
+&lt;p&gt;2017/05/20(土)開催の &lt;a href=&#34;http://www.java-users.jp/ccc2017spring/&#34;&gt;JJUG CCC 2017 Spring&lt;/a&gt; にて、「JavaエンジニアのためのScala入門」というタイトルで登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;発表資料はこちらです。(&lt;a href=&#34;http://happenapps.com/#quiver&#34;&gt;Quiver&lt;/a&gt; のプレゼンモードで発表しました。)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/SAMMY7th/8780ab78149d7bda287dba607e0f4908&#34;&gt;JavaエンジニアのためのScala入門 #jjug_ccc #ccc_l2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;20分でJavaをやっている方にScalaの話ということで、Javaとは異なる部分で私自身が便利だなと思っているScalaの機能や、最初の頃戸惑ったimplicitなどの説明に絞ってお話をしました。
+でも結局あまり絞りきれず、終わった後スタッフの方に「よく20分でこれだけ詰め込みましたね・・・！」と言われるレベルの詰め込みっぷり・・・。&lt;/p&gt;
+
+&lt;p&gt;めちゃくちゃ駆け足で早口での発表となってしまったので聞いていた方はどう思っただろうとドキドキしていたのですが、アンケートの結果を見ると評判がよく、「Scalaをやってみたくなった」とのご意見もあったのでとても嬉しかったです。
+聞きに来てくださったみなさまありがとうございました&lt;/p&gt;
+
+&lt;h2 id=&#34;補足:77b5add1908cede8c1ecf1928a3a05fd&#34;&gt;補足&lt;/h2&gt;
+
+&lt;p&gt;発表後、Twitterで資料について指摘いただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&amp;quot;処理が1行である場合、波括弧は省略できる&amp;quot; と書くとkmizuさんに怒られますよ(ぇ&lt;a href=&#34;https://t.co/jW65aKl6PG&#34;&gt;https://t.co/jW65aKl6PG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kenji Yoshida (@xuwei_k) &lt;a href=&#34;https://twitter.com/xuwei_k/status/865825429415804928&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらを見て、私自身が最初Scalaの括弧記述のルールで混乱していたのは、式と文について理解をしていなかったことが原因だったことに気づきました。
+Javaとの違いの説明としては式と文について触れる方がよいと思いましたので、機会があればまた同様のテーマで発表リベンジしてみたいです。&lt;/p&gt;
+
+&lt;h2 id=&#34;jjug-ccc全体の感想:77b5add1908cede8c1ecf1928a3a05fd&#34;&gt;JJUG CCC全体の感想&lt;/h2&gt;
+
+&lt;p&gt;ちょうどこの時私自身が数年振りにJava関連のお仕事をしていたので、いろんなセッションを拝見するのを楽しみにしていました。
+ところが、当日ギリギリまで準備に追われていたため、午前のセッションは全く見れなかったっていう・・・&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/tan_go238&#34;&gt;@tan_go238&lt;/a&gt; さんに「あ。(進捗)だめそう」っていわれた&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/865764085509505025&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;いままで見たことない表情のあさみさんがいた&lt;/p&gt;&amp;mdash; いつもありがとうございます。 (@tan_go238) &lt;a href=&#34;https://twitter.com/tan_go238/status/865764024633376768&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;資料は余裕をもって準備しておくべきですよねー・・・。&lt;/p&gt;
+
+&lt;p&gt;自分の出番が終わった後はあちこちセッションを拝見したり、休憩所でたろうさん紙コップが捨てられていく様を眺めたりしていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;おかしいだろw &lt;a href=&#34;https://t.co/EHYWEqNfXT&#34;&gt;pic.twitter.com/EHYWEqNfXT&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/865795955601231872&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;たろーさん、良い奴だったな…。 &lt;a href=&#34;https://t.co/PDgcnhjS7Z&#34;&gt;pic.twitter.com/PDgcnhjS7Z&lt;/a&gt;&lt;/p&gt;&amp;mdash; まめぴか＠☔🐻☔ (@mame_pika) &lt;a href=&#34;https://twitter.com/mame_pika/status/865818687084740608&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://togetter.com/li/1112205&#34;&gt;JJUG CCC 2017 Springで配布されたコーヒーが #jjug_ccc - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;セッションはいくつか拝見したのですが、一番印象に残ったのはCHIIIA12さんの「 &lt;a href=&#34;https://speakerdeck.com/chiiia12/xin-zu-2nian-mu-gaduan-eraretakodorebiyudao-chang-number-jjug-ccc-number-ccc-l3&#34;&gt;新卒2年目が鍛えられたコードレビュー道場 #jjug_ccc #ccc_l3 // Speaker Deck&lt;/a&gt; 」でした。&lt;/p&gt;
+
+&lt;p&gt;新卒2年目の方とは思えないハイレベルな発表でした。
+レビュー道場を開催した先輩の方々はもちろん、道場を通じてCHIIIA12さんがしっかり学び、その経過をしっかりアウトプットしていることが素晴らしく、私もこの姿勢は見習わなければ・・・といい刺激をうけました。&lt;/p&gt;
+
+&lt;p&gt;あと「マチコ&amp;amp;河村の怒り新党 〜真の最終回〜」で地方カンファレンスについての話題の際、ちょっと意見を言わせていただいたり、Scala関西Summitの話をしたりしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;Scala関西Summitというすばらしいカンファレンスがあってだな &lt;a href=&#34;https://t.co/L9Ub0ZZll6&#34;&gt;https://t.co/L9Ub0ZZll6&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/%E3%82%B9%E3%83%86%E3%83%9E?src=hash&#34;&gt;#ステマ&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ccc_c7?src=hash&#34;&gt;#ccc_c7&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/865852493065932800&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Scala関西Sumimt2017は9/9(土)開催ですよろしくね！(ちゃっかり宣伝)&lt;/p&gt;
+
+&lt;h2 id=&#34;懇親会:77b5add1908cede8c1ecf1928a3a05fd&#34;&gt;懇親会&lt;/h2&gt;
+
+&lt;p&gt;LINEさん提供の回転寿司がすごかった・・・！&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;LINEさんからの🍣🍣🍣!！！！　&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://t.co/wF3Q71l7JI&#34;&gt;pic.twitter.com/wF3Q71l7JI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/865864457104244737&#34;&gt;2017年5月20日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://togetter.com/li/1112707&#34;&gt;JJUG CCC 2017 Spring 懇親会で登場した #line_sushi まとめ - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こんな豪華な回転寿司生まれてはじめて見ました。めちゃくちゃおいしかった・・・！！！！！&lt;/p&gt;
+
+&lt;h2 id=&#34;まとめ:77b5add1908cede8c1ecf1928a3a05fd&#34;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;JJUG CCCは今回初参加で初登壇だったのですが、とても楽しく過ごせました。この日の参加人数はなんと1,000人を超えていたとのことです。すごい！運営のみなさま、本当にお疲れ様です。素晴らしい会をありがとうございました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>関Javaのフロントエンド勉強会でRiot.jsの発表をしました。 #kanjava</title>
@@ -1084,34 +1166,6 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://kfug.connpass.com/event/17849/&#34;&gt;[JS/CSS] いまどきのフロントエンド環境構築 - connpass&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://togetter.com/li/879700&#34;&gt;「いまどきのフロントエンド環境構築」のまとめ【俺得】 - Togetterまとめ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>WordPressからHugoに移行しました。</title>
-      <link>http://nocono.net/post/2015/wp-to-hugo/</link>
-      <pubDate>Thu, 10 Dec 2015 16:48:57 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2015/wp-to-hugo/</guid>
-      <description>
-
-&lt;p&gt;当サイトの運用システムを、WordPressから&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Go製の静的サイトジェネレータ)に変更しました。ホスティング先は&lt;a href=&#34;https://pages.github.com/&#34;&gt;GithubPages&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;p&gt;最初は&lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;にしようとしていたのですが、Hugoが記事生成早くていいよと教えていただいたので試しに使って、よさ気だったのでそのまま移行しました。&lt;/p&gt;
-
-&lt;p&gt;コマンドラインで更新作業ができるのはよいですね。
-今年はブログ書かなさすぎたけど、更新も楽になったことだし来年こそはがんばろう・・・。&lt;/p&gt;
-
-&lt;h2 id=&#34;参考にしたサイト:b5edfa6373c50342486587e36ad49b10&#34;&gt;参考にしたサイト&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;Hugo + GitHub Pagesでブログを作る#1 | TANKSUZUKI.COM&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;テーマも使用させていただいております。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&#34;&gt;Tips for configuring an A record with your DNS provider - User Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
