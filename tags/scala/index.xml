@@ -6,8 +6,43 @@
     <description>Recent content in Scala on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Oct 2016 17:18:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jul 2017 18:39:40 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala福岡2017でLT登壇しました</title>
+      <link>http://nocono.net/post/2017/07/scalafukuoka2017/</link>
+      <pubDate>Mon, 31 Jul 2017 18:39:40 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/07/scalafukuoka2017/</guid>
+      <description>&lt;p&gt;2017/7/29開催の &lt;a href=&#34;https://scala.connpass.com/event/57941/&#34;&gt;Scala福岡2017&lt;/a&gt; の懇親会でLT登壇しました。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;bc783c86db4848ea812c7b30c7e0c13d&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Scala関西Summit 2017の全セッションを一言でひたすら紹介していきました。
+28個(!?)あるので5分で紹介はかなり無理があったのですが、懇親会LTだしノリと勢いで喋り通せるやろ！とこの形にしました。時間がないことより、雑な発表なのにみなさん凄く真剣にきいてくださっていたことに少し焦っていたのはここだけの話・・・。&lt;/p&gt;
+
+&lt;p&gt;終わった後いろんな方に「関西のラインナップすごい！行ってみたくなりました！」と声をかけていただけました。よかったです！&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの日、スタッフのみなさんのご厚意で、当日配布されたスポンサー様の資料と一緒にこんな可愛い案内カードを配らせていただいていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;配られたクリアファイルの中にScala関西Summit2017の宣伝カードを入れさせていただいております😀 &lt;a href=&#34;https://twitter.com/hashtag/scalafukuoka?src=hash&#34;&gt;#scalafukuoka&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/scala_ks?src=hash&#34;&gt;#scala_ks&lt;/a&gt; &lt;a href=&#34;https://t.co/SwqjeEWnQO&#34;&gt;pic.twitter.com/SwqjeEWnQO&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/891174777179844608&#34;&gt;2017年7月29日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;デザインは株式会社chatboxの &lt;a href=&#34;https://chatbox-inc.com/member/yasui/&#34;&gt;やすいりさ&lt;/a&gt; さんによるものです。本当にかわいい・・・。&lt;/p&gt;
+
+&lt;p&gt;もちろん勉強会本編も参加していました。
+どのセッションも興味深かったのですが、個人的にはSparkについては完全に素人で前知識がなかったこともあり「Spark＋Mahoutによるレコメンドエンジン開発」が特に面白かったです。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/kTgxnae8WGKfl2&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/piacere_ex/ai2emrsparkmahoutlt&#34; title=&#34;AI入門「第2回：EMR／Scala／Spark／Mahoutでレコメンドエンジンを作る」&#34; target=&#34;_blank&#34;&gt;AI入門「第2回：EMR／Scala／Spark／Mahoutでレコメンドエンジンを作る」&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.slideshare.net/piacere_ex&#34;&gt;fukuoka.ex&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;SparkとMahoutによるレコメンドエンジンの開発について、マーケティングの歴史や小ネタも挟みつつ丁寧に解説してくださいました。&lt;/p&gt;
+
+&lt;p&gt;当日は懇親会3次会(!?)まで参加者のみなさんと飲みに行き、前日は前乗りしていた東京・大阪メンバーやPHP福岡の  &lt;a href=&#34;https://twitter.com/cakephper&#34;&gt;@cakephper&lt;/a&gt; さん達と飲みに行き、たっぷり各地のエンジニアのみなさんと交流することができました。本当に楽しかったです！そして福岡おいしい食べ物がたくさんあるずるい！&lt;/p&gt;
+
+&lt;p&gt;来年も絶対来ます！関係者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Scala関西Summit 2016を明日に控えて</title>
@@ -683,77 +718,6 @@ Scalaビギナーズ第2回、いよいよ開催致します！&lt;br /&gt;
 
 &lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
 しばらくお待ちください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2012/12/22(土) Scala関西ビギナーズ 第1回</title>
-      <link>http://nocono.net/post/2012/13/</link>
-      <pubDate>Thu, 27 Dec 2012 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2012/13/</guid>
-      <description>
-
-&lt;p&gt;2012/12/22(土) &lt;a href=&#34;http://atnd.org/events/34707&#34;&gt;「Scala関西ビギナーズ 第1回」&lt;/a&gt; を開催しました。
-場所は&lt;a href=&#34;http://www.osakan-space.com/&#34;&gt;オオサカンスペース&lt;/a&gt; 。&lt;/p&gt;
-
-&lt;h2 id=&#34;ランチタイム:32ab7b0c6e5c0847de57dbe972bf41b1&#34;&gt;ランチタイム&lt;/h2&gt;
-
-&lt;p&gt;今回は勉強会の前にランチという、ちょっと変わった形になりました。&lt;br /&gt;
-「Scala勉強会の日に &lt;a href=&#34;http://tabelog.com/osaka/A2701/A270106/27010930/&#34;&gt;SCALA&lt;/a&gt; でご飯を食べる！」というネタのためだけに本来やっていない土曜ランチタイムにお店を開けて頂きました・・・！&lt;br /&gt;
-お店の方、本当にありがとうございます・・・！&lt;/p&gt;
-
-&lt;p&gt;このランチのお陰で、空気が温まった状態で勉強会を開始することができました。&lt;br /&gt;
-勉強会前ランチ、超オススメ！！&lt;/p&gt;
-
-&lt;h2 id=&#34;セッション:32ab7b0c6e5c0847de57dbe972bf41b1&#34;&gt;セッション&lt;/h2&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15732106&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/noconoasami/20121222-scala&#34; title=&#34;20121222 scalaビギナーズ&#34; target=&#34;_blank&#34;&gt;20121222 scalaビギナーズ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;私のセッション。&lt;br /&gt;
-Scalaの基礎的な部分を説明しました。&lt;br /&gt;
-後半のコードゴルフは若干やり過ぎなのではとのご意見も・・・。&lt;br /&gt;
-(一応、ここまでやらなくていいよ！という注意書きを追記しておきました。)&lt;br /&gt;
-sum関数の存在はどっかで見た筈なのに、なんで私スライドに盛り込まなかったんだろう・・・。&lt;/p&gt;
-
-&lt;p&gt;セッション、どうも詰め込みすぎてしまう癖があるので、今後は気をつけたいです。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15739543&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/mumoshu/start-scala&#34; title=&#34;[Start] Scala&#34; target=&#34;_blank&#34;&gt;[Start] Scala&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/mumoshu&#34; target=&#34;_blank&#34;&gt;Yusuke KUOKA&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt;さんのセッション。&lt;br /&gt;
-Scalaのコードは本当に短いのか！？&lt;/p&gt;
-
-&lt;p&gt;リストの合計値を出すコードとクラス作成コードを各言語で比較。&lt;br /&gt;
-Rubyもかなり簡潔に書けるんですね。&lt;/p&gt;
-
-&lt;p&gt;短ければいいというものではなく、可読性に気をつけて書くという点にも触れてくださいました。&lt;br /&gt;
-(省略記号やプレースホルダーは分かりにくくなる可能性が・・・)&lt;/p&gt;
-
-&lt;h2 id=&#34;課題:32ab7b0c6e5c0847de57dbe972bf41b1&#34;&gt;課題&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;@daiksy&lt;/a&gt;さんからの課題タイム。&lt;br /&gt;
-&lt;a href=&#34;http://projecteuler.net/&#34;&gt;Project Euler&lt;/a&gt; の問題をScalaコードで書いていきました。&lt;br /&gt;
-問1のみ皆で一斉に解いた後@daiksyさんに解説して頂いて、その後は各自で進めていって分からないところは先生方に質問という形式をとりました。&lt;/p&gt;
-
-&lt;p&gt;みんな黙々とやっていたので若干心配だったのですが、結構楽しんでいたみたいでよかったです。&lt;br /&gt;
-もっと声出していっていいのよ？&lt;/p&gt;
-
-&lt;p&gt;「ビギナーズ」とはいっても全員レベルがバラバラなのが難しいところでして・・・。&lt;br /&gt;
-「難しい」とか「ここがわからない」とかはその場で言って頂けると参考にもなるのでありがたいです。&lt;/p&gt;
-
-&lt;h2 id=&#34;感想:32ab7b0c6e5c0847de57dbe972bf41b1&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;終始とても和やかな雰囲気の勉強会でした。&lt;br /&gt;
-私自身勉強になりましたし、参加者の方々が「楽しかった！」「次も来ます！」と言ってくれたのがとても嬉しかったです。&lt;br /&gt;
-本当に開催してよかった！&lt;/p&gt;
-
-&lt;p&gt;セッション、課題の技術的面でサポートしてくださいました&lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;@daiksy&lt;/a&gt;さん、&lt;a href=&#34;https://twitter.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt; さん、&lt;a href=&#34;https://twitter.com/@kitora_naoki&#34;&gt;@kitora_naoki&lt;/a&gt; さん。&lt;br /&gt;
-運営面でサポートしてくださいました&lt;a href=&#34;https://twitter.com/kamiyam&#34;&gt;@kamiyam&lt;/a&gt; さん、&lt;a href=&#34;https://twitter.com/tenshow&#34;&gt;@tenshow&lt;/a&gt; さん。&lt;br /&gt;
-また、当日の私の手際の悪さを見かねて色々手伝ってくれたオオサカンスペースのみなさん。&lt;br /&gt;
-そして参加者のみなさん、どうもありがとうございました！&lt;/p&gt;
-
-&lt;p&gt;当日の様子はこちら！&lt;br /&gt;
-&lt;a href=&#34;http://togetter.com/li/429443&#34;&gt;Scala関西ビギナーズ第1回 - Togetter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

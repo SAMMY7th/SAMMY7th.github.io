@@ -6,8 +6,43 @@
     <description>Recent content in It勉強会 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Jun 2017 21:23:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jul 2017 18:39:40 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala福岡2017でLT登壇しました</title>
+      <link>http://nocono.net/post/2017/07/scalafukuoka2017/</link>
+      <pubDate>Mon, 31 Jul 2017 18:39:40 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/07/scalafukuoka2017/</guid>
+      <description>&lt;p&gt;2017/7/29開催の &lt;a href=&#34;https://scala.connpass.com/event/57941/&#34;&gt;Scala福岡2017&lt;/a&gt; の懇親会でLT登壇しました。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;bc783c86db4848ea812c7b30c7e0c13d&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Scala関西Summit 2017の全セッションを一言でひたすら紹介していきました。
+28個(!?)あるので5分で紹介はかなり無理があったのですが、懇親会LTだしノリと勢いで喋り通せるやろ！とこの形にしました。時間がないことより、雑な発表なのにみなさん凄く真剣にきいてくださっていたことに少し焦っていたのはここだけの話・・・。&lt;/p&gt;
+
+&lt;p&gt;終わった後いろんな方に「関西のラインナップすごい！行ってみたくなりました！」と声をかけていただけました。よかったです！&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの日、スタッフのみなさんのご厚意で、当日配布されたスポンサー様の資料と一緒にこんな可愛い案内カードを配らせていただいていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;配られたクリアファイルの中にScala関西Summit2017の宣伝カードを入れさせていただいております😀 &lt;a href=&#34;https://twitter.com/hashtag/scalafukuoka?src=hash&#34;&gt;#scalafukuoka&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/scala_ks?src=hash&#34;&gt;#scala_ks&lt;/a&gt; &lt;a href=&#34;https://t.co/SwqjeEWnQO&#34;&gt;pic.twitter.com/SwqjeEWnQO&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/891174777179844608&#34;&gt;2017年7月29日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;デザインは株式会社chatboxの &lt;a href=&#34;https://chatbox-inc.com/member/yasui/&#34;&gt;やすいりさ&lt;/a&gt; さんによるものです。本当にかわいい・・・。&lt;/p&gt;
+
+&lt;p&gt;もちろん勉強会本編も参加していました。
+どのセッションも興味深かったのですが、個人的にはSparkについては完全に素人で前知識がなかったこともあり「Spark＋Mahoutによるレコメンドエンジン開発」が特に面白かったです。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/kTgxnae8WGKfl2&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/piacere_ex/ai2emrsparkmahoutlt&#34; title=&#34;AI入門「第2回：EMR／Scala／Spark／Mahoutでレコメンドエンジンを作る」&#34; target=&#34;_blank&#34;&gt;AI入門「第2回：EMR／Scala／Spark／Mahoutでレコメンドエンジンを作る」&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.slideshare.net/piacere_ex&#34;&gt;fukuoka.ex&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;SparkとMahoutによるレコメンドエンジンの開発について、マーケティングの歴史や小ネタも挟みつつ丁寧に解説してくださいました。&lt;/p&gt;
+
+&lt;p&gt;当日は懇親会3次会(!?)まで参加者のみなさんと飲みに行き、前日は前乗りしていた東京・大阪メンバーやPHP福岡の  &lt;a href=&#34;https://twitter.com/cakephper&#34;&gt;@cakephper&lt;/a&gt; さん達と飲みに行き、たっぷり各地のエンジニアのみなさんと交流することができました。本当に楽しかったです！そして福岡おいしい食べ物がたくさんあるずるい！&lt;/p&gt;
+
+&lt;p&gt;来年も絶対来ます！関係者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>JJUG CCC 2017 Springに参加&amp;登壇してきました。 #jjug_ccc</title>
@@ -1573,48 +1608,6 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 私がScalaをやる気の間は今後も続けていきたいですし、ここで培ったコミュニティ運営スキルを活かして、もっと日本のScalaコミュニティ自体にも貢献できればと思います。&lt;/p&gt;
 
 &lt;p&gt;素晴らしい場を設けてくださった運営スタッフの皆様、スピーカーの皆様、相手してくださった参加者の皆様、本当にありがとうございました！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>第3回 Scala関西ビギナーズを開催しました。</title>
-      <link>http://nocono.net/post/2014/32/</link>
-      <pubDate>Sat, 06 Sep 2014 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2014/32/</guid>
-      <description>&lt;p&gt;2014/02/08 第3回Scala関西ビギナーズを開催いたしました。&lt;/p&gt;
-
-&lt;p&gt;・・・めっちゃ前ですごめんなさい。&lt;/p&gt;
-
-&lt;p&gt;言い訳になりますが、この前後が半端無く忙しく記事を書きそびれておりました。
-が、今更ですが、スライドまとめ記事ぐらいは作っておかねばと思いこの記事を書いています。&lt;/p&gt;
-
-&lt;p&gt;以下、公開されている、この日の発表スライドです。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/31881432&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/noconoasami/scala-31881432&#34; title=&#34;Scala再入門 @2014/02/08 Scala関西ビギナーズ第3回&#34; target=&#34;_blank&#34;&gt;Scala再入門 @2014/02/08 Scala関西ビギナーズ第3回&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Java使いにとっての関数(@amkt922)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30971583&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/amkt922/java-30971583&#34; title=&#34;Java使いにとっての関数&#34; target=&#34;_blank&#34;&gt;Java使いにとっての関数&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/amkt922&#34; target=&#34;_blank&#34;&gt;amkt922&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Scalaでクイックソートを書いてみる(@daiksy)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30968327&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/daiksy/scala-30968327&#34; title=&#34;Scala関西ビギナーズ&#34; target=&#34;_blank&#34;&gt;Scala関西ビギナーズ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/daiksy&#34; target=&#34;_blank&#34;&gt;Daisuke Kasuya&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&#34;&gt;Scala 3分クッキング&lt;/a&gt;(@mumoshu)&lt;br /&gt;
-&lt;a href=&#34;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&#34;&gt;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;sprayについて (@hamazy)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30969524&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/hamazy/spray-intro&#34; title=&#34;Spray intro&#34; target=&#34;_blank&#34;&gt;Spray intro&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/hamazy&#34; target=&#34;_blank&#34;&gt;Suguru Hamazaki&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;この日は何と英語での発表が多いという、ちょっと変わった会になりました。
-当日の模様はTogetterにもまとめられていますので、こちらもご覧になってください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/627137&#34;&gt;第3回Scala関西ビギナーズまとめ - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;さて。もうすでに告知を開始しておりますが、9/20(土)には&lt;a href=&#34;http://connpass.com/event/8127/&#34;&gt;第4回 Scala関西ビギナーズ&lt;/a&gt;を開催したします！
-まだ少し席に空きがありますので、ぜひお越しになってくださいね！&lt;/p&gt;
 </description>
     </item>
     
