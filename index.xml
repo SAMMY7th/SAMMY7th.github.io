@@ -6,8 +6,108 @@
     <description>Recent content on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Jul 2017 18:39:40 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Aug 2017 17:20:42 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scala関西Summit 2017を開催します</title>
+      <link>http://nocono.net/post/2017/08/scala-ks-2017/</link>
+      <pubDate>Sat, 26 Aug 2017 17:20:42 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/08/scala-ks-2017/</guid>
+      <description>
+
+&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;9&lt;/sub&gt;(土) &lt;a href=&#34;http://www.temmacenter.com/tenma/index.php&#34;&gt;天満研修センター&lt;/a&gt; にて「&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2017&lt;/a&gt;」を開催します。
+今年で3回目です。&lt;/p&gt;
+
+&lt;p&gt;すでに参加者募集を開始しており、8/26現在約110名の方が参加登録してくださっています。それ以外の関係者(スポンサー・スタッフ・スピーカー)で約80名の参加を見込んでいるため、参加者数は去年(180人)を上回るとみています。&lt;/p&gt;
+
+&lt;p&gt;気がついたら開催が2週間後に迫っている今年のScala関西Summitについて、少し書いてみようと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;scala関西summit-scala関西-summit:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;Scala関西Summit？ Scala関西 Summit？&lt;/h2&gt;
+
+&lt;p&gt;実はこれまで単語間のスペース有無をきちんと決めていなくて表記揺れが結構あったので、「Scala関西Summit」で統一することにしました。今回は「Scala関西Summit 2017」 です。&lt;/p&gt;
+
+&lt;h2 id=&#34;メインビジュアル:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;メインビジュアル&lt;/h2&gt;
+
+&lt;p&gt;去年から、サイトのメインビジュアルやリーフレットのデザインを株式会社chatboxの &lt;a href=&#34;https://chatbox-inc.com/member/yasui/&#34;&gt;やすいりさ&lt;/a&gt; さんに依頼しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/08/img_hero.svg&#34; alt=&#34;メインビジュアル&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;テーマは「実りの秋」とのことで果物をモチーフに、とても素敵なデザインを作ってくれました。
+このビジュアルができたのはトーク応募締め切りより前なので完全に後付けですが、今回のプログラムの充実振りは「実りの秋」と呼ぶにふさわしいものになっていると思います。&lt;/p&gt;
+
+&lt;p&gt;当日はこちらのデザインのステッカーを参加者全員に配布予定です。お楽しみに！&lt;/p&gt;
+
+&lt;h2 id=&#34;プログラム:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;プログラム&lt;/h2&gt;
+
+&lt;p&gt;例年3トラックで開催していましたが、今年は4トラック構成です。
+うち1トラックは、例年通り初心者向けハンズオンが中心のトラックとなります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://summit.scala-kansai.org/index.html#timetable&#34;&gt;タイムテーブル&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Scala福岡用に作成したセッション紹介資料
+&lt;div style=&#34;max-width:500px;&#34;&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;bc783c86db4848ea812c7b30c7e0c13d&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;今年は例年をはるかに上回る数のトーク応募があり、大変びっくりしました。ご応募いただいた皆様、本当にありがとうございました。
+1トラック増やしても全く枠に収まらず、またどのトークも興味深いものであったため選定は難航しました。(ちなみに「これはもう1トラック増やせるのでは・・・！」と言ったら他スタッフのみんなに「それはやめて！」「全部採択せなあかんわけじゃないから！」と全力で止められました。)&lt;/p&gt;
+
+&lt;p&gt;選定は、まずトークをジャンル毎(事例、関数型、Akka、etc&amp;hellip;)に分類し、スタッフで話し合いながらまんべんなく選んでいきました。&lt;/p&gt;
+
+&lt;p&gt;選定の模様
+&lt;img src=&#34;http://nocono.net/image/2017/08/scalaks20170708.jpg&#34; alt=&#34;選定の模様&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今年は数が多かったこともありまずジャンル分けという方法をとったのですが、結果バランスよく選定することができてよかったのかなと思います。&lt;/p&gt;
+
+&lt;p&gt;ちなみに、今年は私自身もトークに応募して通過したため登壇いたします。
+例年Scala「関西」なのに、前で話ができる関西のScalaエンジニアがスタッフ参加しているためトーク応募を遠慮するという状況になっているのが悩みでした。そのためスタッフに口うるさく「みんなトーク出して！」と言っている手前自分も出した結果、通過して登壇することになりました。&lt;/p&gt;
+
+&lt;p&gt;スタッフほぼ全員(10人強)で集まって数時間話し合った結果ですので私としては胸を張って平等に選定しましたと言いたいのですが、外から見て果たしてそう見えるかというのは少し悩ましいところではあります。トークの選定方法については他カンファレンスのやり方も参考にしながら、今後改善できればいいなぁと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;当日スタッフ募集について:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;当日スタッフ募集について&lt;/h2&gt;
+
+&lt;p&gt;トラック数を増やしたり、スタッフの中からも登壇者が増えたりした関係で、当日のスタッフ数が若干足りないなー・・・ということで当日スタッフを募集しております。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;そして、Scala関西Summit 2017 では当日スタッフを募集中です！  私達と一緒にイベントを裏から支えてくれる方ご応募お待ちしております 😊Scala関西Summit 2017 当日スタッフ応募フォーム &lt;a href=&#34;https://t.co/d1vbQPM86j&#34;&gt;https://t.co/d1vbQPM86j&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/scala_ks?src=hash&#34;&gt;#scala_ks&lt;/a&gt;&lt;/p&gt;&amp;mdash; Scala関西 (@ScalaKansai) &lt;a href=&#34;https://twitter.com/ScalaKansai/status/897675531310825473&#34;&gt;2017年8月16日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;手伝ってもいいよ！という方はぜひご応募ください。お待ちしております！&lt;/p&gt;
+
+&lt;h2 id=&#34;会場:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;会場&lt;/h2&gt;
+
+&lt;p&gt;今年はJR天満駅からすぐの &lt;a href=&#34;http://www.temmacenter.com/tenma/index.php&#34;&gt;天満研修センター&lt;/a&gt; という施設での開催となります。
+最初は去年の大阪産業創造館での開催で検討していたのですが、抽選で落ちてしまったため予約がとれず・・・。
+JR天満駅はJR大阪駅から1駅ですので、アクセスはかなり良いかと思います。&lt;/p&gt;
+
+&lt;p&gt;懇親会は &lt;a href=&#34;https://www.sakura.ad.jp/corporate/corp/profile.html&#34;&gt;さくらインターネット株式会社&lt;/a&gt; さんのオフィスをお借りして開催します。
+こちらはJR大阪駅が最寄り駅となります。&lt;/p&gt;
+
+&lt;h2 id=&#34;参加費:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;参加費&lt;/h2&gt;
+
+&lt;p&gt;本編の参加費は今年も無料です。
+今年は例年より会場費が高いこともあって有料化も検討したのですが、有料にすると軽く顔を出したいという人や「ちょっとやってみようかな」程度の人の参加ハードルがあがってしまうのではという意見があり、今年も無料で実施することになりました。&lt;/p&gt;
+
+&lt;h2 id=&#34;スポンサープラン:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;スポンサープラン&lt;/h2&gt;
+
+&lt;p&gt;上述の通り参加費は据え置き無料、ただしかかる費用はあがることに。そこで、例年Gold、Silver、Bronzeの3プランだったスポンサープランに、上位のPlatinumプランを設けました。(Goldも値上げになっています。)&lt;/p&gt;
+
+&lt;p&gt;Platinumは去年のアンケートでの要望や他カンファレンスを参考に、メインホールのネーミングライツ権や当日参加者にアンケートをとれる権利を特典としてつけています。今年のメインホール名はネーミングライツにより「セプテーニ・オリジナルホール」です。&lt;/p&gt;
+
+&lt;p&gt;ありがたいことに今年も多くの企業様からご支援いただいたお陰で、無事予定通り参加費は無料で開催できることになりました。&lt;/p&gt;
+
+&lt;p&gt;・&lt;br&gt;
+・&lt;br&gt;
+・&lt;/p&gt;
+
+&lt;p&gt;まだまだ裏話は山のようにあるのですが、キリがないですし、何より開催準備に登壇準備もあるので今回はこの辺にしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;会場のキャパシティ的にまだ席に余裕もありますので、周囲にScalaに興味を持っている方がいれば、ぜひ当イベントのことを教えてあげてください。（我々の宣伝力不足のせいではあるのですが、毎年終わった後に「知っていたら参加したかった」と言われて（´・ω・｀）ｼｮﾎﾞｰﾝとすることがあります・・・。）&lt;/p&gt;
+
+&lt;p&gt;あと2週間。よいイベントとなるよう準備をすすめていきますので、みなさまどうぞよろしくお願いいたします！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Scala福岡2017でLT登壇しました</title>
@@ -979,162 +1079,6 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
 これを「絶対」と言い切れる日がやって来ればいいなー。&lt;/p&gt;
 
 &lt;p&gt;次の記事は&lt;a href=&#34;http://www.adventar.org/users/7451&#34;&gt;cocodrips&lt;/a&gt;さん担当です。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>【2015年振り返り】アウトプットしていたら仕事がたくさんやってきた！</title>
-      <link>http://nocono.net/post/2015/freelance/</link>
-      <pubDate>Wed, 16 Dec 2015 03:28:39 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2015/freelance/</guid>
-      <description>
-
-&lt;p&gt;この記事は&lt;a href=&#34;http://www.adventar.org/calendars/780&#34;&gt;フリーランス Advent Calendar 2015 - Adventar&lt;/a&gt;15日目の記事です。
-前の記事はmypacecreatorさんの&lt;a href=&#34;http://mypacecreator.net/blog/archives/2934&#34;&gt;フリーランス ここまでの5年間、ここからの5年間 -フリーランス Advent Calendar 2015 14日目- – マイペースクリエイターの覚え書き&lt;/a&gt;でした。&lt;/p&gt;
-
-&lt;p&gt;16日ですけど15日目です。
-・・・遅刻しましたごめんなさい。＿○／|＿&lt;/p&gt;
-
-&lt;h2 id=&#34;自己紹介:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;自己紹介&lt;/h2&gt;
-
-&lt;p&gt;大阪でフリーランスエンジニアをやっているきの子(&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;@aa7th&lt;/a&gt;)と申します。
-フリーランスAdvent Calendarには去年も参加しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/post/2014/34/&#34;&gt;フリーランスエンジニアになって3年が経ちました | nocono&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こちらの記事が予想よりも色々な方から反響をいただき、驚きました。
-初めてお会いした方に&lt;/p&gt;
-
-&lt;p&gt;「ああ！あの、&lt;strong&gt;フリーランスになって貯金がなくなった方ですか！？&lt;/strong&gt;」&lt;/p&gt;
-
-&lt;p&gt;と言われたりなんてこともありました。&lt;/p&gt;
-
-&lt;p&gt;・・・私どうやら、フリーランスになって貯金がなくなったエンジニアとして知名度を上げてしまったようですね。
-(ノ∀｀)アチャー。&lt;/p&gt;
-
-&lt;p&gt;過去の話！過去の話ですから！！今は大丈夫ですよ！！&lt;/p&gt;
-
-&lt;h2 id=&#34;今日のテーマ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;今日のテーマ&lt;/h2&gt;
-
-&lt;p&gt;特にネタも思い浮かばず、とりあえず今年1年を振り返ってみました。
-その結果、&lt;strong&gt;「積極的に勉強会を開催・登壇(=アウトプット)するようにしていてよかったな」&lt;/strong&gt; と思ったのでそのことを書きます。&lt;/p&gt;
-
-&lt;h2 id=&#34;今年1年やった仕事:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;今年1年やった仕事&lt;/h2&gt;
-
-&lt;p&gt;まずは、いただいた仕事について。&lt;/p&gt;
-
-&lt;h3 id=&#34;scalaによる開発案件:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Scalaによる開発案件&lt;/h3&gt;
-
-&lt;p&gt;今年のメインのお仕事が、&lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt;というプログラミング言語による開発案件のお手伝いでした。&lt;/p&gt;
-
-&lt;p&gt;元々Scalaを始めたのは、&lt;a href=&#34;https://www.playframework.com/&#34;&gt;PlayFramework&lt;/a&gt;1.2/Javaを気に入ったものの、Play2からはScala向けのフレームワークとなり、「Playを使い続けるにはScalaを勉強しないと・・・！」と考えたからでした。
-そのため&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;勉強会を自ら開催したり&lt;/a&gt;、拙いながらも登壇したりして(自分を追い込んで)みたものの、仕事で使うきっかけがなく、少し勉強しては忘れるということを繰り返していました。&lt;/p&gt;
-
-&lt;p&gt;ところが去年末、いつも勉強会に来てくださっている方からScalaのお仕事を頂けることになり、半年間程チームの一員として開発案件に参加。
-はじめて、どっぷりScalaを書くことになりました。&lt;/p&gt;
-
-&lt;p&gt;更にこのお仕事の終わり頃、私がScala勉強会を主催していることを知っていた他の企業様から「Scalaの案件を手伝ってほしい」とお声かけいただき、今度はそちらへジョイン！&lt;/p&gt;
-
-&lt;p&gt;というわけで、今年はようやく念願のScalaでお仕事ができた1年でした。
-これらのお仕事では、Scalaはもちろんスクラムによるチーム開発もはじめて経験し、本当に得るものが多かったです。&lt;/p&gt;
-
-&lt;p&gt;(後者の案件はまだ継続中です。引き続き頑張ります！)&lt;/p&gt;
-
-&lt;h3 id=&#34;android開発者養講座の講師:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Android開発者養講座の講師&lt;/h3&gt;
-
-&lt;p&gt;今年の前半は先述のScala案件と並行し、&lt;a href=&#34;http://techinstitute.jp/&#34;&gt;TechInstitute&lt;/a&gt;というAndroid開発者養成講座に講師の1人として参加していました。&lt;/p&gt;
-
-&lt;p&gt;東京と大阪で開催され、大阪ではシーリスの有山さんをはじめとする関西Andorid界隈で有名なみなさんが講師として参加。
-私は最初の方の基礎講座で担当講師として前に立ち、その後はチューターとして他の先生方のサポートを行っていました。&lt;/p&gt;
-
-&lt;p&gt;なぜそんな豪華講師陣の中に私が呼ばれたのかというと、同じく講師として参加した友人に「よく勉強会で登壇しているし、向いているんじゃない？どう？」と声を掛けてもらったのがきっかけでした。&lt;/p&gt;
-
-&lt;p&gt;講師業ははじめてだったのですが、用意されたテキストを元に生徒のみんなにどう伝えれるのがいいか私なりに考えて授業の準備をしたり、講師陣で今後どう進めるべきか日々チャットで議論をしたりと、普段の開発の仕事とはまた違う経験ができました。
-これも先述のScala案件同様、得るものが多かったです。&lt;/p&gt;
-
-&lt;p&gt;※余談ですが、TechInstituteのテキストは公開されています。Androidの勉強用にいい教材ですので、興味がある方はぜひご覧になってみてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://techinstitute.jp/material/02/&#34;&gt;Tech Institute アプリ開発者養成講座テキスト&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;まとめ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;まとめ&lt;/h2&gt;
-
-&lt;p&gt;というわけで今年は、&lt;strong&gt;念願のScala開発&lt;/strong&gt; と、そして&lt;strong&gt;プログラミング講師&lt;/strong&gt;というこれまた珍しいお仕事をさせていただきました。
-そしてこれらが全て、勉強会を主催したり登壇したりしていたことがきっかけで頂いたお仕事でした。&lt;/p&gt;
-
-&lt;p&gt;勉強会の主催や登壇といったコミュニティ活動はもはや趣味のようなもので、楽しんでやっていることです。
-&lt;strong&gt;営業らしい営業をしているつもりはないのに、なんと立派な営業になっている！&lt;/strong&gt;
-なにこれすごい。&lt;/p&gt;
-
-&lt;p&gt;フリーランスとして、こういった&lt;strong&gt;アウトプットは大事&lt;/strong&gt;だとは元々思っていましたが、それをより実感したのが今年でした。&lt;/p&gt;
-
-&lt;p&gt;来年はコミュニティ活動だけじゃなくて、もっと自学に力をいれて、技術ブログやGithubでアウトプットする頻度をあげて、&lt;strong&gt;インプットとアウトプットのいいサイクルを作る&lt;/strong&gt;ことが目標です。
-アウトプット力をどんどん高めていくぜ！&lt;/p&gt;
-
-&lt;p&gt;Scalaにしろ講師業にしろ、こういった実績のない仕事を頂けると自分のスキル幅が大きく広げることができ、本当にありがたいです。
-こいつに任せて大丈夫だろうかという不安がある中、それでも任せていただけて感謝しております。
-いい経験ができて本当によかったです。関係者のみなさまありがとうございました。&lt;/p&gt;
-
-&lt;h2 id=&#34;おまけ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;おまけ&lt;/h2&gt;
-
-&lt;p&gt;私は元々はあがり症で、昔は人前で話す時めちゃくちゃ緊張して失敗することも多かったのですが、勉強会で登壇を重ねるうちに緊張することも減りました。トークスキルも上がっているようです。嬉しい。
-「登壇なんて自分には無理」と思う人もいるかもしれませんが、何事も経験なので機会があれば手を挙げてやってみるといいと思うよ！&lt;/p&gt;
-
-&lt;h2 id=&#34;質問の回答:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;質問の回答&lt;/h2&gt;
-
-&lt;p&gt;このアドベントカレンダーには質問が用意されていますので、そのうち何個かに答えてみます。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-机やイスにこだわりありますか:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. 机やイスにこだわりありますか？&lt;/h3&gt;
-
-&lt;p&gt;ないです。
-机はIKEAで買ったデスクでちゃんとした物なのですが、椅子はピアノ用に購入したしょぼいやつ・・・。&lt;/p&gt;
-
-&lt;p&gt;こんなの&lt;/p&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B000VSYCUU&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;以前は背もたれ付きのちゃんとしたやつを置いていたのですが、部屋が狭いので邪魔だなと思い捨てました。
-椅子はもう少しこだわった方がいい気がしないでもない・・・。けど、ピアノ椅子に特に不満もないし、もうこれでいいかって気もします。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-これがないと-というお気に入りツール-環境はありますか:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. これがないと！というお気に入りツール・環境はありますか？&lt;/h3&gt;
-
-&lt;h4 id=&#34;just-mobile-lazy-couch:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Just Mobile Lazy Couch&lt;/h4&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B005QFAYBO&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;キーボードに傾斜をつけたくて買いました。
-ノートPCの下に隙間ができるので熱が篭らず、冷却効果も。&lt;/p&gt;
-
-&lt;p&gt;コンパクトで持ち運びしやすく、気に入っています。
-もはやノートPCの下にはこれを置かないと落ち着かない・・・。&lt;/p&gt;
-
-&lt;h4 id=&#34;alfred:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Alfred&lt;/h4&gt;
-
-&lt;p&gt;Mac用のランチャーアプリです。有料版を使っています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.alfredapp.com/&#34;&gt;Alfred - Productivity App for Mac OS X&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一回Spotlight+Flashlightに乗り換えたのですが、Enterで結果コピーができたりと細かい使い心地がこちらの方がよかったので戻ってきました。
-クリップボード履歴機能などもついています。&lt;/p&gt;
-
-&lt;p&gt;AlfredはWorkflowという機能が超便利です。(Workflowについての説明は割愛するので、ご存知ない方はググってみてください。)
-最近は簡単なメモを保存するシェルスクリプトを作って登録したりして、便利な使い方を模索中。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-フリーランスになりたい-と相談されることありますか-また答えは:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. 「フリーランスになりたい」と相談されることありますか？また答えは？&lt;/h3&gt;
-
-&lt;p&gt;たまにありますが、一概に「これが正解！」というのはないので、「やってみたらいいと思います」っていう回答ですね。&lt;/p&gt;
-
-&lt;p&gt;もちろん&lt;a href=&#34;http://nocono.net/post/2014/34/&#34;&gt;去年書いたみたいな感じ&lt;/a&gt;で、自分の経験を元にしたアドバイスはできるんですが、運とかタイミングとかもあるので、やってみないとわからないっていうのはあると思っています。
-そういう意味では、フリーランスになる上で一番必要なのって、度胸なのかもしれないですね。&lt;/p&gt;
-
-&lt;p&gt;・&lt;br /&gt;
-・&lt;br /&gt;
-・&lt;/p&gt;
-
-&lt;p&gt;さて、16日目の記事は・・・うぉおお！もうある！！！
-フィットネスインストラクター青貝夕子ちゃんの記事ですね、どうぞ！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yoga-aogaiyuko.com/2015/12/16/%e3%83%95%e3%83%aa%e3%83%bc%e3%81%ae%e3%83%95%e3%82%a3%e3%83%83%e3%83%88%e3%83%8d%e3%82%b9%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e3%82%84%e3%81%a3%e3%81%a6%e3%81%be/&#34;&gt;フリーのフィットネスインストラクターやってます | ヨガインストラクター青貝夕子&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
