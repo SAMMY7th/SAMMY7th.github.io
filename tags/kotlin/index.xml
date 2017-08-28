@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kotlin on nocono</title>
+    <link>http://nocono.net/tags/kotlin/</link>
+    <description>Recent content in Kotlin on nocono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 28 Aug 2017 21:13:36 +0900</lastBuildDate>
+    <atom:link href="http://nocono.net/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ScalaのOption.mapとKotlinのletの話</title>
+      <link>http://nocono.net/post/2017/08/scala-map-kotlin-let/</link>
+      <pubDate>Mon, 28 Aug 2017 21:13:36 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/08/scala-map-kotlin-let/</guid>
+      <description>&lt;p&gt;先日、&lt;a href=&#34;https://connpass.com/event/62871/&#34;&gt;Scala初心者向けの勉強会&lt;/a&gt; を開催してそこで「OptionのforeachはKotlinのletみたいな使い方をするものですか？」という質問をうけたのですが、そのときKotlinのletをきちんと思い出せないままズレた回答をしてしまったので、とりいそぎブログを書くことにしました。(すみません・・・)
+勢いで書いているので語弊がある部分があればご指摘いただけると幸いです。&lt;/p&gt;
+
+&lt;p&gt;が、foreachは戻り値がUnit型なので比較するならmapかな？と思いますので、map関数の方で似たようなコードを書いてみました。(Kotlinのletは最後の評価値が戻り値となるので。)&lt;/p&gt;
+
+&lt;p&gt;下は、ScalaのOption[String]にmap関数で中の値に文字列を連結、そのあと値をOptionから取り出している例です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;val name: Option[String] = Some(&amp;quot;きの子&amp;quot;)
+val greetOpt = name.map(n =&amp;gt; s&amp;quot;${n}さんこんにちは&amp;quot;)  // greet: Option[String] = Some(きの子さんこんにちは)
+val greet = greetOpt.getOrElse(&amp;quot;なまえがないよ&amp;quot;)  // Optionから値をとりだした。　res1: String = きの子さんこんにちは
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次は、KotlinのNullableのStringに、値がある場合はlet関数で文字列を連結している例になります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;val name: String? = &amp;quot;きの子&amp;quot;
+val greet = name?.let { n -&amp;gt; &amp;quot;${n}さんこんにちは&amp;quot; }  // nameに値が入っている場合にlet関数を適用している
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;やっていることは似たような処理ですが、Scalaの方は &lt;code&gt;name.map(n =&amp;gt; s&amp;quot;${n}さんこんにちは&amp;quot;)&lt;/code&gt; の結果はOption型の値となります。
+値をOption型でラップした状態のまま処理をチェインしていって、最後に値を &lt;code&gt;getOrElse&lt;/code&gt; で取り出すという書き方をよくします。&lt;/p&gt;
+
+&lt;p&gt;一方Kotlinは &lt;code&gt;?.&lt;/code&gt; を利用することでnameに値が入っている場合のみ、その値に &lt;code&gt;let&lt;/code&gt; 関数を適用している形になっています。
+&lt;code&gt;let&lt;/code&gt; は全オブジェクトに生えている標準の拡張関数です。なのでここで呼び出すことができています。&lt;/p&gt;
+
+&lt;p&gt;上記のように、KoltinのletはNullableな値に &lt;code&gt;?.&lt;/code&gt; と組み合わせて、nullではない場合のみ処理を適用という使い方をよくしますし、そういう意味ではScalaのOption.mapと確かににたような使い方をしますが、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ScalaのOption型は値を包んでいるイメージ。値があるときはSomeで値をラップ。nullのときはNone。中の値を使用するときはSomeから値を取り出す必要がある。Option型にはコレクション同様の &lt;code&gt;map&lt;/code&gt; や &lt;code&gt;foreach&lt;/code&gt; といったメソッドがある。&lt;/li&gt;
+&lt;li&gt;KotlinのNullableは値がnullである可能性があることを示す型。 &lt;code&gt;?.&lt;/code&gt; で値がnullではない場合のみ後ろの処理を適用することができる。&lt;code&gt;let&lt;/code&gt; は全オブジェクトに生えている標準の拡張関数。Nullable特有の機能というわけではない。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;要は用途は似ているけど、結構違うよということでした。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
