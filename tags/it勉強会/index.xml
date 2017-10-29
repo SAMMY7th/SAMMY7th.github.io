@@ -6,8 +6,236 @@
     <description>Recent content in It勉強会 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Aug 2017 17:20:42 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 16:44:40 +0900</lastBuildDate>
     <atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>関Javaで「DDD失敗談を話して学んだこと」という発表をしました</title>
+      <link>http://nocono.net/post/2017/10/ddd/</link>
+      <pubDate>Sun, 29 Oct 2017 16:44:40 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2017/10/ddd/</guid>
+      <description>
+
+&lt;p&gt;2017/10/21 開催の関Javaで「DDD失敗談を話して学んだこと」という発表をしました&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kanjava.connpass.com/event/68169/&#34;&gt;関西Javaエンジニアの会(関ジャバ) &amp;lsquo;17 10月度 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;4c6e6dadbdf24f65bc6b75b0aa5a8cd8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;資料中にある通り、この話は 2017/02開催の &lt;a href=&#34;http://2017.scalamatsuri.org/&#34;&gt;ScalaMatsuri2017&lt;/a&gt; アンカンファレンスでやったネタです。
+このとき色々といい学びがあったのにきちんとまとめていなかったので、DDDをテーマに発表者を募集していると聞いてこのような形で発表をしてみました。
+Twitterやはてブで予想以上の反響をいただいて少しびっくりしましたが、それだけみなさん陥りがちな罠なのかなと思いました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;これ実は同じ失敗の仕方をしてるプロジェクトに複数遭遇しているので、こうやって纏めて知見として公開してくれた &lt;a href=&#34;https://twitter.com/aa7th?ref_src=twsrc%5Etfw&#34;&gt;@aa7th&lt;/a&gt; さんには感謝しかない &lt;a href=&#34;https://t.co/xECYH5LAu5&#34;&gt;https://t.co/xECYH5LAu5&lt;/a&gt;&lt;/p&gt;&amp;mdash; がくぞ (@gakuzzzz) &lt;a href=&#34;https://twitter.com/gakuzzzz/status/923843182747467776?ref_src=twsrc%5Etfw&#34;&gt;2017年10月27日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;こう言っていただけると発表した甲斐があります！&lt;/p&gt;
+
+&lt;p&gt;以下、補足です。&lt;/p&gt;
+
+&lt;h2 id=&#34;雑なアーキテクチャ図:0d3c33862721a02fced5dcbe064e4de7&#34;&gt;雑なアーキテクチャ図&lt;/h2&gt;
+
+&lt;p&gt;p14とp15の雑なアーキテクチャ図は当日の朝スタバでiPad ProとApplePencilで書いたものです。
+&lt;a href=&#34;https://www.slideshare.net/masuda220/ss-81080132&#34;&gt;増田さんの発表&lt;/a&gt; 中に「型のアイデアの発見には雑談やラフスケッチが有効」「きれいな図ではなくラフスケッチを書きながら議論をすべきである」とのお話があり、私が資料中にきれいな図ではなくラフスケッチを出したことをすごく褒めていただけました。&lt;/p&gt;
+
+&lt;p&gt;私の図が雑だったのは単に時間がなかったからという理由なので、褒めていただいた時はもうひたすら恐縮していたのですが、雑でもいいからささっと図を書くというのは確かに大事なことだなーと思いました。&lt;/p&gt;
+
+&lt;h2 id=&#34;アナログツールの活用:0d3c33862721a02fced5dcbe064e4de7&#34;&gt;アナログツールの活用&lt;/h2&gt;
+
+&lt;p&gt;パネルディスカッション中に「最初にプロトタイピングツールでワイヤーフレーム(の紙芝居レベル)だけどモックアプリを作った」という話をしたときに「(クライアントと話を詰める手法として)よさそうに思えるのに何が悪かったの？」というご質問をいただき、デジタルツールではなくアナログツールをもっと取り入れた方がよかったと考えていると回答をしました。
+私の方でワイヤーフレームを書いてモックアプリとして作って「こんな感じでどうですか？」と動かしながら見せたり触ってもらったりしたのですが、一見よさそうに見えるので「これでいい」という話になってしまいました。すると後々作り込んでいくうちに「やっぱりまずい」みたいな話がごろごろと出て来る羽目に・・・。&lt;/p&gt;
+
+&lt;p&gt;ペーパープロトや付箋、ホワイトボードなどのアナログツールを用いて、一緒にモデルや画面の図を書きながら議論をするべきだったと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;scalamatsuriアンカンファレンスでのメモ:0d3c33862721a02fced5dcbe064e4de7&#34;&gt;ScalaMatsuriアンカンファレンスでのメモ&lt;/h2&gt;
+
+&lt;p&gt;元ネタであるScalaMatsuriアンカンファレンスでの当日のメモは下記のものになります。&lt;/p&gt;
+
+&lt;p&gt;余談ですがこの日「UUID」をずっと「SSID」と間違って言っていたことに後で気づいてすごく恥ずかしかったです。(さすがにメモは修正しました・・・)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;play2-dddを挫折した話:0d3c33862721a02fced5dcbe064e4de7&#34;&gt;Play2+DDDを挫折した話&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要件概要 (若干ぼかしています)
+
+&lt;ul&gt;
+&lt;li&gt;作りたいもの&lt;/li&gt;
+&lt;li&gt;とある物(例えば部屋)の貸し借りサービス
+
+&lt;ul&gt;
+&lt;li&gt;AirB◯bっぽい感じ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;サービス利用の流れ&lt;/li&gt;
+&lt;li&gt;とある物(例えば部屋)を貸し出したい人が金額や貸したい物の詳細を登録する
+
+&lt;ul&gt;
+&lt;li&gt;タイトル&lt;/li&gt;
+&lt;li&gt;写真(複数枚)&lt;/li&gt;
+&lt;li&gt;金額&lt;/li&gt;
+&lt;li&gt;オプション料金&lt;/li&gt;
+&lt;li&gt;説明文 etc&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;借りたい人がまず仮予約をいれる&lt;/li&gt;
+&lt;li&gt;メッセージをやり取りして、実際の金額と借りる日程を決めてもらう&lt;/li&gt;
+&lt;li&gt;貸す側が予約を確定&lt;/li&gt;
+&lt;li&gt;貸出が終わったら互いに互いをレビューして完了&lt;/li&gt;
+&lt;li&gt;補足&lt;/li&gt;
+&lt;li&gt;スタートアップ
+
+&lt;ul&gt;
+&lt;li&gt;クライアントさんはITに詳しくない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;まずは「最低限」の機能でβ版をリリースし、色んな人に意見を聞きながら改善していこうという方針&lt;/li&gt;
+&lt;li&gt;いずれは大きいサービスにしていきたい&lt;/li&gt;
+&lt;li&gt;期間は3ヶ月半程度。のつもりだった。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;体制
+
+&lt;ul&gt;
+&lt;li&gt;WebでもiOSでもAndroidでも利用できるようにしたいとのことだったので、レスポンシブWebアプリとして作成することに。&lt;/li&gt;
+&lt;li&gt;仲のよいシステム会社さんにサポートをお願いした。&lt;/li&gt;
+&lt;li&gt;インフラ・運用・コードレビュー etc&lt;/li&gt;
+&lt;li&gt;ScalaコードレビューをTech to Valueさんに依頼&lt;/li&gt;
+&lt;li&gt;プロジェクト初期から中盤までレビューしていただいた&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;技術
+
+&lt;ul&gt;
+&lt;li&gt;Play2.5/Scala&lt;/li&gt;
+&lt;li&gt;ScalikeJDBC + SkinnyORM&lt;/li&gt;
+&lt;li&gt;使ったことはなかったけど、周囲の評判から判断&lt;/li&gt;
+&lt;li&gt;MySQL5.7&lt;/li&gt;
+&lt;li&gt;サポート役のシステム会社さんと相談して決定&lt;/li&gt;
+&lt;li&gt;後日都合により5.5にダウングレード&lt;/li&gt;
+&lt;li&gt;さくらのクラウド&lt;/li&gt;
+&lt;li&gt;最初はなるべくランニングコストを抑えたいため&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;DDDでやってみようとした理由
+
+&lt;ul&gt;
+&lt;li&gt;やってみたかった。&lt;/li&gt;
+&lt;li&gt;私のDDD理解レベル&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/sammy7th/dddtutenandarou&#34;&gt;https://speakerdeck.com/sammy7th/dddtutenandarou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;仕様とコードの剥離を少なくできるならその方がよいとおもった。&lt;/li&gt;
+&lt;li&gt;DDDのプロジェクトのお手伝いをした経験があった&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;かくしてPlay2+(なんちゃって)DDDで開発が開始された！&lt;/li&gt;
+&lt;li&gt;そしてやめた！！！
+
+&lt;ul&gt;
+&lt;li&gt;3週間ぐらいで方針転換した&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;最初の構成
+
+&lt;ul&gt;
+&lt;li&gt;j5ik2o/spetstore: Scala+DDDのサンプルとしての実装 &lt;a href=&#34;https://github.com/j5ik2o/spetstore&#34;&gt;https://github.com/j5ik2o/spetstore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;↑参考にさせていただいた&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;やめた理由・その1
+
+&lt;ul&gt;
+&lt;li&gt;実装コストがたかかった&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;やめた理由・その2
+
+&lt;ul&gt;
+&lt;li&gt;「MySQL(RDB)なのによさがいかせてないじゃん」というツッコミがはいった&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;やめた理由・その3
+
+&lt;ul&gt;
+&lt;li&gt;ScalikeJDBCでcase classや独自型へのマッピングが簡単にできる&lt;/li&gt;
+&lt;li&gt;→ あれ？もうこれアプリ層から直接呼べばよくね？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;やめた理由・その4
+
+&lt;ul&gt;
+&lt;li&gt;ユビキタス言語辞典が全然機能しなかった・・・&lt;/li&gt;
+&lt;li&gt;サービス内で使用する言葉が全然決まらなかった&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;みんなに聞きたいこと
+
+&lt;ul&gt;
+&lt;li&gt;みなさんならこのアプリをどう作りますか？&lt;/li&gt;
+&lt;li&gt;いやDDDでできるだろ etc&lt;/li&gt;
+&lt;li&gt;ID設計について&lt;/li&gt;
+&lt;li&gt;今回はうちUUIDを採用した&lt;/li&gt;
+&lt;li&gt;DDDをやっている人はみんなどうしているのだろう&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;みなさんのご意見
+
+&lt;ul&gt;
+&lt;li&gt;モデリング&lt;/li&gt;
+&lt;li&gt;最初からきれいなモデリングをしようとしたのが悪かったのでは？&lt;/li&gt;
+&lt;li&gt;少しずつ進歩していくものだ&lt;/li&gt;
+&lt;li&gt;ちゃんとモデリングしたとき
+
+&lt;ul&gt;
+&lt;li&gt;モデリングだけで何ヶ月も使っちゃう&lt;/li&gt;
+&lt;li&gt;お客さんとモデルをつめるの難しい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;知識の噛み砕きのフェーズをいれないとダメ
+
+&lt;ul&gt;
+&lt;li&gt;1章に書いてるけどみんな覚えてる？&lt;/li&gt;
+&lt;li&gt;ドメインに対する知識が深まっていない&lt;/li&gt;
+&lt;li&gt;わかったつもりになっている&lt;/li&gt;
+&lt;li&gt;知識を噛み砕かず僕のプロジェクトを真似してもだめ byかとじゅん&lt;/li&gt;
+&lt;li&gt;1人ではできない&lt;/li&gt;
+&lt;li&gt;利害関係者とやらないとだけ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;お客さんがどう理解するか
+
+&lt;ul&gt;
+&lt;li&gt;絵にするとか&lt;/li&gt;
+&lt;li&gt;とにかく噛み砕く&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;アイコニックスプロセス
+
+&lt;ul&gt;
+&lt;li&gt;本&lt;/li&gt;
+&lt;li&gt;ドメイン駆動をやるためのプロセス&lt;/li&gt;
+&lt;li&gt;ドメインモデルをラフで作る&lt;/li&gt;
+&lt;li&gt;ユビキタス言語の候補をつくる&lt;/li&gt;
+&lt;li&gt;シナリオを出す&lt;/li&gt;
+&lt;li&gt;最初に作ったドメインモデルにはない言葉がでたりする&lt;/li&gt;
+&lt;li&gt;ドメインモデル図とユースケースモデル図を出して&lt;/li&gt;
+&lt;li&gt;ユースケースモデルのシナリオもだす&lt;/li&gt;
+&lt;li&gt;↑開発リスクが高いところだけ&lt;/li&gt;
+&lt;li&gt;実装に関する設定&lt;/li&gt;
+&lt;li&gt;ロバストネス分析&lt;/li&gt;
+&lt;li&gt;分析を設計におとす前段階&lt;/li&gt;
+&lt;li&gt;最初のドメイン図とユースケースモデル図があってるかのレビューのときにこの&lt;/li&gt;
+&lt;li&gt;コスト高いしバランス難しい&lt;/li&gt;
+&lt;li&gt;クライアントさんもシステムをわかってくる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;短納期低コストだと仕組みがないときびしい
+
+&lt;ul&gt;
+&lt;li&gt;過去に経験があって仕組みがあればできる(かもね)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;DDDじゃなくて単純なCRUDに落とし込んだ方がいい&lt;/li&gt;
+&lt;li&gt;モデル探求渦巻き
+
+&lt;ul&gt;
+&lt;li&gt;モデルの使い方のシナリオ&lt;/li&gt;
+&lt;li&gt;モデルを提案してください&lt;/li&gt;
+&lt;li&gt;モデルを実装してください&lt;/li&gt;
+&lt;li&gt;レビュー&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;よい設計・実装を導くには&lt;/li&gt;
+&lt;li&gt;仕様とコードじゃなくて、頭の中とコードを一致させる&lt;/li&gt;
+&lt;li&gt;そもそもスケールのことは最初は忘れていいんじゃない？
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;関Javaのみなさん、この度はよい機会を作っていただいてありがとうございました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Scala関西Summit 2017を開催します</title>
@@ -1465,150 +1693,6 @@ PHPerなみなさまも、そうでないみなさまも、ぜひお楽しみに
 
 &lt;p&gt;さて！このリレーブログ、当日までまだまだ続きます！
 明日の担当は&lt;a href=&#34;http://tanakahisateru.hatenablog.jp/&#34;&gt;田中ひさてる&lt;/a&gt;さんでーす！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>関西Java女子部を開催しました #javajok #javajo</title>
-      <link>http://nocono.net/post/2014/35/</link>
-      <pubDate>Mon, 08 Dec 2014 00:00:00 +0900</pubDate>
-      
-      <guid>http://nocono.net/post/2014/35/</guid>
-      <description>
-
-&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2014/tech_women&#34;&gt;Tech Women Advent Calendar 2014 8日目&lt;/a&gt;の記事です。&lt;br /&gt;
-昨日は@kanu1102さんの「&lt;a href=&#34;http://kanu.hatenadiary.com/entry/2014/12/07/023845&#34;&gt;この夏わたしはGitに出会い、恋をした&lt;/a&gt;」でした。&lt;/p&gt;
-
-&lt;h2 id=&#34;自己紹介:6371353a5ff48e714176994a59bfdf29&#34;&gt;自己紹介&lt;/h2&gt;
-
-&lt;p&gt;きの子(@aa7th)と申します。&lt;br /&gt;
-大阪でフリーランスエンジニアをやっております。(昨日は「&lt;a href=&#34;http://nocono.net/34&#34;&gt;フリーランスエンジニアになって3年が経ちました&lt;/a&gt;」という記事を投稿しました。)&lt;/p&gt;
-
-&lt;p&gt;今日の記事は、最近はじめた&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;関西Java女子部&lt;/a&gt;(#javajok)というコミュニティの紹介です。&lt;/p&gt;
-
-&lt;h2 id=&#34;関西java女子部とは:6371353a5ff48e714176994a59bfdf29&#34;&gt;関西Java女子部とは&lt;/h2&gt;
-
-&lt;p&gt;今年の1月に東京で発足した「Java女子部 (#javajo)」の関西支部(?)です。&lt;/p&gt;
-
-&lt;p&gt;Java女子部では&lt;a href=&#34;https://www.facebook.com/groups/javajo/&#34;&gt;Facebookグループ&lt;/a&gt;で交流をしています。&lt;br /&gt;
-私は以前の関ジャバでの&lt;a href=&#34;https://twitter.com/skrb&#34;&gt;@skrb&lt;/a&gt;さんによる宣伝がきっかけで参加しました。&lt;br /&gt;
-FBグループには関西の方も結構いらっしゃって「関西でもやりたいね」という話になり、「関西Java女子部」という名前で開催の運びとなりました。&lt;/p&gt;
-
-&lt;p&gt;というわけで、大元は東京の「Java女子部」ではありますが、関西は関西で独自に動いている。そんな感じの運営となっております。&lt;/p&gt;
-
-&lt;h2 id=&#34;11-3-月-祝-第1回-関西java女子部:6371353a5ff48e714176994a59bfdf29&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(月・祝) 第1回 関西Java女子部&lt;/h2&gt;
-
-&lt;p&gt;記念すべき&lt;a href=&#34;http://javajok.connpass.com/event/9511/&#34;&gt;第1回の関西Java女子部 部活&lt;/a&gt;は11/3(月)大阪本町の&lt;a href=&#34;http://www.osakan-space.com/&#34;&gt;オオサカンスペース&lt;/a&gt;様にて開催いたしました。&lt;/p&gt;
-
-&lt;p&gt;内容は「自習」としました。
-各自勉強したいことを時間内に「自習」し、わからないことがあれば教え合うというスタイルです。&lt;/p&gt;
-
-&lt;p&gt;これは私からみなさんに提案し、同意が得られたので採用しました。&lt;br /&gt;
-この形を提案したのは、以下のような理由からです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaといってもJava EE、Java SE、Android・・・興味がある分野はみんな様々&lt;/li&gt;
-&lt;li&gt;レベルもバラバラ&lt;/li&gt;
-&lt;li&gt;発表やハンズオンなど、コンテンツを毎回用意するのはおそらく凄く手間&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;よって、レベルも興味がある分野もバラバラなメンバーで定期的に集まるには、自習形式がよいのでは。と判断しました。&lt;br /&gt;
-(この形式は、私が以前参加していたXcode勉強会関西ビギナーズを参考にしました。)&lt;/p&gt;
-
-&lt;p&gt;この日の参加者は8人。&lt;br /&gt;
-東京のJava女子部からもお二人参加してくださいました。&lt;br /&gt;
-私自身もどんな雰囲気になるか想像できなかったのですが、和気あいあいとした勉強会となりました。&lt;/p&gt;
-
-&lt;p&gt;最初に一人一人自己紹介をし、今日何を勉強するかを共有。&lt;br /&gt;
-この時点ですでに、みなさん積極的に「その内容であれば私、お教えできるかもしれないので何かあれば質問してくださいね。」と手を挙げてくださいました。&lt;/p&gt;
-
-&lt;p&gt;自己紹介後はさっそく、各自自習。&lt;br /&gt;
-時折雑談を交えつつ、困ったときには質問をしながら作業をすすめました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15087135404_4b253243ed_z.jpg&#34; alt=&#34;もくもく会の様子&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;15時にはみんなでおやつを食べました。&lt;br /&gt;
-東京の方々のお土産、おいしかったです！&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521211549_d0305e445b_z.jpg&#34; alt=&#34;おやつ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;おやつを楽しみながらの雑談タイム。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521212219_080692f3db_z.jpg&#34; alt=&#34;もぐもぐ会の様子&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;おやつの後は、自習再開。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521681018_49556752f4_z.jpg&#34; alt=&#34;もくもく会の様子&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最後には、各々作業報告を行いました。&lt;/p&gt;
-
-&lt;p&gt;ちなみに私は、普段やらないJava EEにチャレンジしたものの、そんなに進まなかった・・・というちょっとしょっぱい感じで終わってしまいました・・・。&lt;/p&gt;
-
-&lt;p&gt;他のみなさんは、Java FXで簡単なアプリを動かしたり、Android開発環境を整えた方、次の日の勉強会用のLT資料を作っていた方、本を読んで基礎から勉強されていた方・・・などなど、短い時間の中でみなさん思い思いの作業をされていました。&lt;/p&gt;
-
-&lt;h2 id=&#34;感想:6371353a5ff48e714176994a59bfdf29&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;初めての開催なので不安もあったのですが、特に私の方で気を配らなくとも、みなさんお互い声を掛け合い雑談されていて一安心しました。&lt;br /&gt;
-始終、女子ならではの柔らかい空気の勉強会でした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/741074&#34;&gt;2014/11/3(月) 第1回 関西Java女子部 - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;11-21-金-java-se-8勉強会-関西女子部もラムダ式に挑戦:6371353a5ff48e714176994a59bfdf29&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;(金) ◆Java SE 8勉強会◆関西女子部もラムダ式に挑戦！&lt;/h2&gt;
-
-&lt;p&gt;この後、11/21には@skrbさんを講師にお迎えした、&lt;a href=&#34;http://javajok.connpass.com/event/9772/&#34;&gt;Java SE8ラムダ式ハンズオン&lt;/a&gt;を開催しました。&lt;br /&gt;
-これはこの日元々ご来阪の予定であった@skrbさんから声をかけていただいた事で実現したイベントです。&lt;/p&gt;
-
-&lt;p&gt;ただ、この日は女性限定として席が余ってしまってはもったいないと考え、開催3日前からは参加者の知人限定で男性のエントリーもOKとしました。&lt;br /&gt;
-今後も内容によってはこのように、男性の方にも参加いただけるようにしたいと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;これから:6371353a5ff48e714176994a59bfdf29&#34;&gt;これから&lt;/h2&gt;
-
-&lt;p&gt;このように、東京で発足したJava女子部がきっかけで始まった関西Java女子部。マイペースにやっております。&lt;/p&gt;
-
-&lt;p&gt;普段勉強会へ足を運ばない女子や、男性ばかりの勉強会にはちょっと参加し辛いという方にも、気軽に来てもらえるものを目指したいです。&lt;br /&gt;
-そして既に積極的に色んな勉強会に足を運んでいる女子も何人かいますので、「他の勉強会にも一緒に参加してみようかな？」と思っていただければ、ちょっと嬉しいです。&lt;/p&gt;
-
-&lt;p&gt;参加レベルを問わない自習形式は好評でしたので、しばらくはこの形を基本とするつもりですが、先日のラムダ式ハンズオンのような特別企画もまたできればよいなと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人的な女子部への想い:6371353a5ff48e714176994a59bfdf29&#34;&gt;個人的な女子部への想い&lt;/h2&gt;
-
-&lt;p&gt;ここからは、更に個人的な想いになります。&lt;/p&gt;
-
-&lt;p&gt;私は過去に、2年半の正社員経験、3年間の派遣社員経験があります。&lt;br /&gt;
-でも、その中でIT勉強会というものの存在を聞いたことがありませんでした。&lt;br /&gt;
-同じ職場にはもちろん何人ものプログラマさんがいましたが、参加したことがあるという話を聞いたことがありませんでした。&lt;/p&gt;
-
-&lt;p&gt;勉強会の存在を知ったのは、会社を辞めた後、フリーランスになってからです。&lt;br /&gt;
-土日に有志による勉強会がこんなに開かれ、たくさんの技術者さん達が参加しており、しかも皆楽しそうであることにもの凄い衝撃を覚えました。&lt;/p&gt;
-
-&lt;p&gt;別に勉強会は参加しなければならないものでもありませんし、していれば偉いというものでもありません。&lt;br /&gt;
-が、社外のエンジニアの人達と交流する事はとてもよい刺激になります。&lt;/p&gt;
-
-&lt;p&gt;私はプログラミングが好きでこの職業に就いた割には仕事を面白いと感じられず、でもそういうものだと思いながら会社に通っていました。&lt;br /&gt;
-ですので、もしも会社員時代にこういう場に参加して、社外のエンジニアさん達と交流していたら何か違ったかもなぁ・・・と常々思っています。&lt;br /&gt;
-(逆に、だから今フリーランスなので後悔しているわけではないですが。)&lt;/p&gt;
-
-&lt;p&gt;なので過去の私のような、会社が全てになってしまっている方に。まずは1回だけでいいから、是非勉強会に足を運んでみてほしいという気持ちがあります。&lt;br /&gt;
-ちょっとお節介な想いではありますが。&lt;/p&gt;
-
-&lt;p&gt;女性限定=女性参加の敷居が低いという利点を活かし、昔の私のように悶々と仕事をしている女の子の助けになるようなことがあれば。&lt;br /&gt;
-それはとても素敵なことだなと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;最後に:6371353a5ff48e714176994a59bfdf29&#34;&gt;最後に&lt;/h2&gt;
-
-&lt;p&gt;長くなってしまいましたが、こんな感じでやっております関西Java女子部。&lt;br /&gt;
-ぜひぜひみなさまよろしくお願いします！&lt;br /&gt;
-(時間がせまっていて締めが雑くなった・・・！)&lt;/p&gt;
-
-&lt;p&gt;明日は @hiroponiusさんです！&lt;br /&gt;
-もうあと10分ぐらいで明日だけど！！&lt;/p&gt;
-
-&lt;h2 id=&#34;関連リンク:6371353a5ff48e714176994a59bfdf29&#34;&gt;関連リンク&lt;/h2&gt;
-
-&lt;p&gt;今後の開催状況などはこちらでチェックしてくださいね。&lt;br /&gt;
-&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;関西Java女子部 - connpass&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/groups/javajo/&#34;&gt;Java女子部 FBグループ&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

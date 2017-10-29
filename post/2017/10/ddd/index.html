@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    関Javaで「DDD失敗談を話して学んだこと」という発表をしました | nocono
+  </title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta name="description" content="2017/10/21 開催の関Javaで「DDD失敗談を話して学んだこと」という発表をしました
+">
+  <meta name="keywords" content="IT勉強会,DDD,">
+
+
+  <meta property="og:title" content="関Javaで「DDD失敗談を話して学んだこと」という発表をしました | nocono">
+
+  <meta property="og:type" content="article">
+  <meta name="og:description" content="2017/10/21 開催の関Javaで「DDD失敗談を話して学んだこと」という発表をしました
+">
+  <meta name="keywords" content="IT勉強会,DDD,">
+  <meta property="og:url" content="http://nocono.net/post/2017/10/ddd/">
+
+  <meta property="og:image" content="/images/thumbnail.png">
+  <meta property="og:site_name" content="nocono">
+  <meta property="fb:app_id" content="170143633116841">
+  <meta property="fb:page_id" content="386921578022414">
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nocono.net/post/2017/10/ddd/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  
+  <link href="http://nocono.net/index.xml" rel="alternate" type="application/rss+xml" title="nocono" />
+  <link href="http://nocono.net/index.xml" rel="feed" type="application/rss+xml" title="nocono" />
+
+  
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "2b9fffc6-b3fe-4988-a0ef-4f9dcce98eaa", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="http://nocono.net/"><img src="/images/logo.png" class="logo"></a></h1>
+        
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://twitter.com/aa7th" target="_blank">Twitter</a></li>
+          
+          <li><a href="https://github.com/SAMMY7th" target="_blank">GitHub</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>関Javaで「DDD失敗談を話して学んだこと」という発表をしました</h1>
+      <div class="meta">
+        2017/10/29 &nbsp;
+        
+          #<a href="/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A">IT勉強会</a>&nbsp;
+        
+          #<a href="/tags/ddd">DDD</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      
+
+<p>2017/10/21 開催の関Javaで「DDD失敗談を話して学んだこと」という発表をしました</p>
+
+<p><a href="https://kanjava.connpass.com/event/68169/">関西Javaエンジニアの会(関ジャバ) &lsquo;17 10月度 - connpass</a></p>
+
+<script async class="speakerdeck-embed" data-id="4c6e6dadbdf24f65bc6b75b0aa5a8cd8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p>資料中にある通り、この話は 2017/02開催の <a href="http://2017.scalamatsuri.org/">ScalaMatsuri2017</a> アンカンファレンスでやったネタです。
+このとき色々といい学びがあったのにきちんとまとめていなかったので、DDDをテーマに発表者を募集していると聞いてこのような形で発表をしてみました。
+Twitterやはてブで予想以上の反響をいただいて少しびっくりしましたが、それだけみなさん陥りがちな罠なのかなと思いました。</p>
+
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これ実は同じ失敗の仕方をしてるプロジェクトに複数遭遇しているので、こうやって纏めて知見として公開してくれた <a href="https://twitter.com/aa7th?ref_src=twsrc%5Etfw">@aa7th</a> さんには感謝しかない <a href="https://t.co/xECYH5LAu5">https://t.co/xECYH5LAu5</a></p>&mdash; がくぞ (@gakuzzzz) <a href="https://twitter.com/gakuzzzz/status/923843182747467776?ref_src=twsrc%5Etfw">2017年10月27日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>こう言っていただけると発表した甲斐があります！</p>
+
+<p>以下、補足です。</p>
+
+<h2 id="雑なアーキテクチャ図:0d3c33862721a02fced5dcbe064e4de7">雑なアーキテクチャ図</h2>
+
+<p>p14とp15の雑なアーキテクチャ図は当日の朝スタバでiPad ProとApplePencilで書いたものです。
+<a href="https://www.slideshare.net/masuda220/ss-81080132">増田さんの発表</a> 中に「型のアイデアの発見には雑談やラフスケッチが有効」「きれいな図ではなくラフスケッチを書きながら議論をすべきである」とのお話があり、私が資料中にきれいな図ではなくラフスケッチを出したことをすごく褒めていただけました。</p>
+
+<p>私の図が雑だったのは単に時間がなかったからという理由なので、褒めていただいた時はもうひたすら恐縮していたのですが、雑でもいいからささっと図を書くというのは確かに大事なことだなーと思いました。</p>
+
+<h2 id="アナログツールの活用:0d3c33862721a02fced5dcbe064e4de7">アナログツールの活用</h2>
+
+<p>パネルディスカッション中に「最初にプロトタイピングツールでワイヤーフレーム(の紙芝居レベル)だけどモックアプリを作った」という話をしたときに「(クライアントと話を詰める手法として)よさそうに思えるのに何が悪かったの？」というご質問をいただき、デジタルツールではなくアナログツールをもっと取り入れた方がよかったと考えていると回答をしました。
+私の方でワイヤーフレームを書いてモックアプリとして作って「こんな感じでどうですか？」と動かしながら見せたり触ってもらったりしたのですが、一見よさそうに見えるので「これでいい」という話になってしまいました。すると後々作り込んでいくうちに「やっぱりまずい」みたいな話がごろごろと出て来る羽目に・・・。</p>
+
+<p>ペーパープロトや付箋、ホワイトボードなどのアナログツールを用いて、一緒にモデルや画面の図を書きながら議論をするべきだったと思います。</p>
+
+<h2 id="scalamatsuriアンカンファレンスでのメモ:0d3c33862721a02fced5dcbe064e4de7">ScalaMatsuriアンカンファレンスでのメモ</h2>
+
+<p>元ネタであるScalaMatsuriアンカンファレンスでの当日のメモは下記のものになります。</p>
+
+<p>余談ですがこの日「UUID」をずっと「SSID」と間違って言っていたことに後で気づいてすごく恥ずかしかったです。(さすがにメモは修正しました・・・)</p>
+
+<hr />
+
+<h3 id="play2-dddを挫折した話:0d3c33862721a02fced5dcbe064e4de7">Play2+DDDを挫折した話</h3>
+
+<ul>
+<li>要件概要 (若干ぼかしています)
+
+<ul>
+<li>作りたいもの</li>
+<li>とある物(例えば部屋)の貸し借りサービス
+
+<ul>
+<li>AirB◯bっぽい感じ</li>
+</ul></li>
+<li>サービス利用の流れ</li>
+<li>とある物(例えば部屋)を貸し出したい人が金額や貸したい物の詳細を登録する
+
+<ul>
+<li>タイトル</li>
+<li>写真(複数枚)</li>
+<li>金額</li>
+<li>オプション料金</li>
+<li>説明文 etc</li>
+</ul></li>
+<li>借りたい人がまず仮予約をいれる</li>
+<li>メッセージをやり取りして、実際の金額と借りる日程を決めてもらう</li>
+<li>貸す側が予約を確定</li>
+<li>貸出が終わったら互いに互いをレビューして完了</li>
+<li>補足</li>
+<li>スタートアップ
+
+<ul>
+<li>クライアントさんはITに詳しくない</li>
+</ul></li>
+<li>まずは「最低限」の機能でβ版をリリースし、色んな人に意見を聞きながら改善していこうという方針</li>
+<li>いずれは大きいサービスにしていきたい</li>
+<li>期間は3ヶ月半程度。のつもりだった。</li>
+</ul></li>
+<li>体制
+
+<ul>
+<li>WebでもiOSでもAndroidでも利用できるようにしたいとのことだったので、レスポンシブWebアプリとして作成することに。</li>
+<li>仲のよいシステム会社さんにサポートをお願いした。</li>
+<li>インフラ・運用・コードレビュー etc</li>
+<li>ScalaコードレビューをTech to Valueさんに依頼</li>
+<li>プロジェクト初期から中盤までレビューしていただいた</li>
+</ul></li>
+<li>技術
+
+<ul>
+<li>Play2.5/Scala</li>
+<li>ScalikeJDBC + SkinnyORM</li>
+<li>使ったことはなかったけど、周囲の評判から判断</li>
+<li>MySQL5.7</li>
+<li>サポート役のシステム会社さんと相談して決定</li>
+<li>後日都合により5.5にダウングレード</li>
+<li>さくらのクラウド</li>
+<li>最初はなるべくランニングコストを抑えたいため</li>
+</ul></li>
+<li>DDDでやってみようとした理由
+
+<ul>
+<li>やってみたかった。</li>
+<li>私のDDD理解レベル</li>
+<li><a href="https://speakerdeck.com/sammy7th/dddtutenandarou">https://speakerdeck.com/sammy7th/dddtutenandarou</a></li>
+<li>仕様とコードの剥離を少なくできるならその方がよいとおもった。</li>
+<li>DDDのプロジェクトのお手伝いをした経験があった</li>
+</ul></li>
+<li>かくしてPlay2+(なんちゃって)DDDで開発が開始された！</li>
+<li>そしてやめた！！！
+
+<ul>
+<li>3週間ぐらいで方針転換した</li>
+</ul></li>
+<li>最初の構成
+
+<ul>
+<li>j5ik2o/spetstore: Scala+DDDのサンプルとしての実装 <a href="https://github.com/j5ik2o/spetstore">https://github.com/j5ik2o/spetstore</a></li>
+<li>↑参考にさせていただいた</li>
+</ul></li>
+<li>やめた理由・その1
+
+<ul>
+<li>実装コストがたかかった</li>
+</ul></li>
+<li>やめた理由・その2
+
+<ul>
+<li>「MySQL(RDB)なのによさがいかせてないじゃん」というツッコミがはいった</li>
+</ul></li>
+<li>やめた理由・その3
+
+<ul>
+<li>ScalikeJDBCでcase classや独自型へのマッピングが簡単にできる</li>
+<li>→ あれ？もうこれアプリ層から直接呼べばよくね？</li>
+</ul></li>
+<li>やめた理由・その4
+
+<ul>
+<li>ユビキタス言語辞典が全然機能しなかった・・・</li>
+<li>サービス内で使用する言葉が全然決まらなかった</li>
+</ul></li>
+<li>みんなに聞きたいこと
+
+<ul>
+<li>みなさんならこのアプリをどう作りますか？</li>
+<li>いやDDDでできるだろ etc</li>
+<li>ID設計について</li>
+<li>今回はうちUUIDを採用した</li>
+<li>DDDをやっている人はみんなどうしているのだろう</li>
+</ul></li>
+<li>みなさんのご意見
+
+<ul>
+<li>モデリング</li>
+<li>最初からきれいなモデリングをしようとしたのが悪かったのでは？</li>
+<li>少しずつ進歩していくものだ</li>
+<li>ちゃんとモデリングしたとき
+
+<ul>
+<li>モデリングだけで何ヶ月も使っちゃう</li>
+<li>お客さんとモデルをつめるの難しい</li>
+</ul></li>
+<li>知識の噛み砕きのフェーズをいれないとダメ
+
+<ul>
+<li>1章に書いてるけどみんな覚えてる？</li>
+<li>ドメインに対する知識が深まっていない</li>
+<li>わかったつもりになっている</li>
+<li>知識を噛み砕かず僕のプロジェクトを真似してもだめ byかとじゅん</li>
+<li>1人ではできない</li>
+<li>利害関係者とやらないとだけ</li>
+</ul></li>
+<li>お客さんがどう理解するか
+
+<ul>
+<li>絵にするとか</li>
+<li>とにかく噛み砕く</li>
+</ul></li>
+<li>アイコニックスプロセス
+
+<ul>
+<li>本</li>
+<li>ドメイン駆動をやるためのプロセス</li>
+<li>ドメインモデルをラフで作る</li>
+<li>ユビキタス言語の候補をつくる</li>
+<li>シナリオを出す</li>
+<li>最初に作ったドメインモデルにはない言葉がでたりする</li>
+<li>ドメインモデル図とユースケースモデル図を出して</li>
+<li>ユースケースモデルのシナリオもだす</li>
+<li>↑開発リスクが高いところだけ</li>
+<li>実装に関する設定</li>
+<li>ロバストネス分析</li>
+<li>分析を設計におとす前段階</li>
+<li>最初のドメイン図とユースケースモデル図があってるかのレビューのときにこの</li>
+<li>コスト高いしバランス難しい</li>
+<li>クライアントさんもシステムをわかってくる</li>
+</ul></li>
+<li>短納期低コストだと仕組みがないときびしい
+
+<ul>
+<li>過去に経験があって仕組みがあればできる(かもね)</li>
+</ul></li>
+<li>DDDじゃなくて単純なCRUDに落とし込んだ方がいい</li>
+<li>モデル探求渦巻き
+
+<ul>
+<li>モデルの使い方のシナリオ</li>
+<li>モデルを提案してください</li>
+<li>モデルを実装してください</li>
+<li>レビュー</li>
+</ul></li>
+<li>よい設計・実装を導くには</li>
+<li>仕様とコードじゃなくて、頭の中とコードを一致させる</li>
+<li>そもそもスケールのことは最初は忘れていいんじゃない？
+&mdash;</li>
+</ul></li>
+</ul>
+
+<p>関Javaのみなさん、この度はよい機会を作っていただいてありがとうございました。</p>
+
+      <div id="ninja_buttons" class="ninja_onebutton">
+      <script type="text/javascript">
+      
+      (function(d){
+      if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1)=='undefined'){
+          document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/51cc7b75f814fac5b641e2eec46683c1'><\/sc"+"ript>");
+      }else{
+          window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1.ONETAGButton_Load();}
+      })(document);
+      
+      </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+      </div>
+    </article>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:300px;height:250px"
+         data-ad-client="ca-pub-4146428227434718"
+         data-ad-slot="7830002008"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    
+ <aside><div id="disqus_thread"></div></aside> 
+
+<script type="text/javascript">
+     
+    var disqus_shortname = 'nocono';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </main>
+
+  <nav class="pagination">
+    
+      <span class="previous">&larr; <a href="http://nocono.net/post/2017/08/scala-map-kotlin-let/" rel="prev">ScalaのOption.mapとKotlinのletの話</a></span>
+    
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      <img src="/images/profile.png" width="64" height="64"><br>
+      Written by きの子
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39000940-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
