@@ -6,8 +6,11 @@
     <description>Recent content in Vagrant on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <copyright>Written by きの子</copyright>
     <lastBuildDate>Tue, 24 Dec 2013 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://nocono.net/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://nocono.net/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Vagrant1.4.0 &#43; CentOS でprivate_networkがエラーになった</title>
@@ -20,23 +23,7 @@
 &lt;p&gt;・・・したところ、見事エラーに。
 原因はVagrant1.4.0のバグでした。&lt;/p&gt;
 
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;いまこれにひっかかっていた Vagrant 1.4.0 で private_network を指定しているとエラーになる件 - akishin999の日記 (id:akishin999 / &lt;a href=&#34;https://twitter.com/akishin&#34;&gt;@akishin&lt;/a&gt;) &lt;a href=&#34;http://t.co/WEod6vz4E0&#34;&gt;http://t.co/WEod6vz4E0&lt;/a&gt;
-
-— SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/statuses/412879410392358912&#34;&gt;2013, 12月 17&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;CentOSだけダメだったみたいです。
-最新版にこだわりはなかったので、とりあえずダウングレードして対応しました。&lt;/p&gt;
-
-&lt;p&gt;・・・が、2日後には直ってた。
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;ja&#34;&gt;Vagrant 1.4.1 has been released. Bug fixes with one big improvement: Docker provisioner works on RedHat guests! &lt;a href=&#34;http://t.co/EmB5qlwpBa&#34;&gt;http://t.co/EmB5qlwpBa&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;— Mitchell Hashimoto (@mitchellh) &lt;a href=&#34;https://twitter.com/mitchellh/statuses/413373337889275904&#34;&gt;2013, 12月 18&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;チャレンジした日が悪かった。何か悔しい。&lt;/p&gt;
-
-&lt;p&gt;Vagrantはバージョンによる落とし穴が結構あるそうで、VirtualBoxのバージョンの組み合わせによっても色々あるという噂が・・・。
-バージョンアップは慎重に行った方がよさそう。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

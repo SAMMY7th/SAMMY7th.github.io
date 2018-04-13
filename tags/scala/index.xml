@@ -6,8 +6,23 @@
     <description>Recent content in Scala on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Aug 2017 21:13:36 +0900</lastBuildDate>
-    <atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Written by きの子</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 13:30:40 +0900</lastBuildDate>
+    
+	<atom:link href="http://nocono.net/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OSSに初貢献した話 - ScalaMatsuri2018レポートその1 #ScalaMatsuri</title>
+      <link>http://nocono.net/post/2018/04/scalamatsuri1/</link>
+      <pubDate>Fri, 13 Apr 2018 13:30:40 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2018/04/scalamatsuri1/</guid>
+      <description>&lt;p&gt;3/16〜3/18 3日間に渡って開催された &lt;a href=&#34;https://2018.scalamatsuri.org/&#34;&gt;ScalaMatsuri2018&lt;/a&gt; に参加してきました。
+すっかり遅くなってしまったのですが、感想ブログを書いていこうと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ScalaのOption.mapとKotlinのletの話</title>
@@ -18,36 +33,7 @@
       <description>&lt;p&gt;先日、&lt;a href=&#34;https://connpass.com/event/62871/&#34;&gt;Scala初心者向けの勉強会&lt;/a&gt; を開催してそこで「OptionのforeachはKotlinのletみたいな使い方をするものですか？」という質問をうけたのですが、そのときKotlinのletをきちんと思い出せないままズレた回答をしてしまったので、とりいそぎブログを書くことにしました。(すみません・・・)
 勢いで書いているので語弊がある部分があればご指摘いただけると幸いです。&lt;/p&gt;
 
-&lt;p&gt;が、foreachは戻り値がUnit型なので比較するならmapかな？と思いますので、map関数の方で似たようなコードを書いてみました。(Kotlinのletは最後の評価値が戻り値となるので。)&lt;/p&gt;
-
-&lt;p&gt;下は、ScalaのOption[String]にmap関数で中の値に文字列を連結、そのあと値をOptionから取り出している例です。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;val name: Option[String] = Some(&amp;quot;きの子&amp;quot;)
-val greetOpt = name.map(n =&amp;gt; s&amp;quot;${n}さんこんにちは&amp;quot;)  // greet: Option[String] = Some(きの子さんこんにちは)
-val greet = greetOpt.getOrElse(&amp;quot;なまえがないよ&amp;quot;)  // Optionから値をとりだした。　res1: String = きの子さんこんにちは
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;次は、KotlinのNullableのStringに、値がある場合はlet関数で文字列を連結している例になります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;val name: String? = &amp;quot;きの子&amp;quot;
-val greet = name?.let { n -&amp;gt; &amp;quot;${n}さんこんにちは&amp;quot; }  // nameに値が入っている場合にlet関数を適用している
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;やっていることは似たような処理ですが、Scalaの方は &lt;code&gt;name.map(n =&amp;gt; s&amp;quot;${n}さんこんにちは&amp;quot;)&lt;/code&gt; の結果はOption型の値となります。
-値をOption型でラップした状態のまま処理をチェインしていって、最後に値を &lt;code&gt;getOrElse&lt;/code&gt; で取り出すという書き方をよくします。&lt;/p&gt;
-
-&lt;p&gt;一方Kotlinは &lt;code&gt;?.&lt;/code&gt; を利用することでnameに値が入っている場合のみ、その値に &lt;code&gt;let&lt;/code&gt; 関数を適用している形になっています。
-&lt;code&gt;let&lt;/code&gt; は全オブジェクトに生えている標準の拡張関数です。なのでここで呼び出すことができています。&lt;/p&gt;
-
-&lt;p&gt;上記のように、KoltinのletはNullableな値に &lt;code&gt;?.&lt;/code&gt; と組み合わせて、nullではない場合のみ処理を適用という使い方をよくしますし、そういう意味ではScalaのOption.mapと確かににたような使い方をしますが、&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ScalaのOption型は値を包んでいるイメージ。値があるときはSomeで値をラップ。nullのときはNone。中の値を使用するときはSomeから値を取り出す必要がある。Option型にはコレクション同様の &lt;code&gt;map&lt;/code&gt; や &lt;code&gt;foreach&lt;/code&gt; といったメソッドがある。&lt;/li&gt;
-&lt;li&gt;KotlinのNullableは値がnullである可能性があることを示す型。 &lt;code&gt;?.&lt;/code&gt; で値がnullではない場合のみ後ろの処理を適用することができる。&lt;code&gt;let&lt;/code&gt; は全オブジェクトに生えている標準の拡張関数。Nullable特有の機能というわけではない。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;要は用途は似ているけど、結構違うよということでした。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,98 +42,14 @@ val greet = name?.let { n -&amp;gt; &amp;quot;${n}さんこんにちは&amp;quot
       <pubDate>Sat, 26 Aug 2017 17:20:42 +0900</pubDate>
       
       <guid>http://nocono.net/post/2017/08/scala-ks-2017/</guid>
-      <description>
-
-&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;9&lt;/sub&gt;(土) &lt;a href=&#34;http://www.temmacenter.com/tenma/index.php&#34;&gt;天満研修センター&lt;/a&gt; にて「&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2017&lt;/a&gt;」を開催します。
+      <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;9&lt;/sub&gt;(土) &lt;a href=&#34;http://www.temmacenter.com/tenma/index.php&#34;&gt;天満研修センター&lt;/a&gt; にて「&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2017&lt;/a&gt;」を開催します。
 今年で3回目です。&lt;/p&gt;
 
 &lt;p&gt;すでに参加者募集を開始しており、8/26現在約110名の方が参加登録してくださっています。それ以外の関係者(スポンサー・スタッフ・スピーカー)で約80名の参加を見込んでいるため、参加者数は去年(180人)を上回るとみています。&lt;/p&gt;
 
 &lt;p&gt;気がついたら開催が2週間後に迫っている今年のScala関西Summitについて、少し書いてみようと思います。&lt;/p&gt;
 
-&lt;h2 id=&#34;scala関西summit-scala関西-summit:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;Scala関西Summit？ Scala関西 Summit？&lt;/h2&gt;
-
-&lt;p&gt;実はこれまで単語間のスペース有無をきちんと決めていなくて表記揺れが結構あったので、「Scala関西Summit」で統一することにしました。今回は「Scala関西Summit 2017」 です。&lt;/p&gt;
-
-&lt;h2 id=&#34;メインビジュアル:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;メインビジュアル&lt;/h2&gt;
-
-&lt;p&gt;去年から、サイトのメインビジュアルやリーフレットのデザインを株式会社chatboxの &lt;a href=&#34;https://chatbox-inc.com/member/yasui/&#34;&gt;やすいりさ&lt;/a&gt; さんに依頼しています。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2017/08/img_hero.svg&#34; alt=&#34;メインビジュアル&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;テーマは「実りの秋」とのことで果物をモチーフに、とても素敵なデザインを作ってくれました。
-このビジュアルができたのはトーク応募締め切りより前なので完全に後付けですが、今回のプログラムの充実振りは「実りの秋」と呼ぶにふさわしいものになっていると思います。&lt;/p&gt;
-
-&lt;p&gt;当日はこちらのデザインのステッカーを参加者全員に配布予定です。お楽しみに！&lt;/p&gt;
-
-&lt;h2 id=&#34;プログラム:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;プログラム&lt;/h2&gt;
-
-&lt;p&gt;例年3トラックで開催していましたが、今年は4トラック構成です。
-うち1トラックは、例年通り初心者向けハンズオンが中心のトラックとなります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://summit.scala-kansai.org/index.html#timetable&#34;&gt;タイムテーブル&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Scala福岡用に作成したセッション紹介資料
-&lt;div style=&#34;max-width:500px;&#34;&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;bc783c86db4848ea812c7b30c7e0c13d&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;今年は例年をはるかに上回る数のトーク応募があり、大変びっくりしました。ご応募いただいた皆様、本当にありがとうございました。
-1トラック増やしても全く枠に収まらず、またどのトークも興味深いものであったため選定は難航しました。(ちなみに「これはもう1トラック増やせるのでは・・・！」と言ったら他スタッフのみんなに「それはやめて！」「全部採択せなあかんわけじゃないから！」と全力で止められました。)&lt;/p&gt;
-
-&lt;p&gt;選定は、まずトークをジャンル毎(事例、関数型、Akka、etc&amp;hellip;)に分類し、スタッフで話し合いながらまんべんなく選んでいきました。&lt;/p&gt;
-
-&lt;p&gt;選定の模様
-&lt;img src=&#34;http://nocono.net/image/2017/08/scalaks20170708.jpg&#34; alt=&#34;選定の模様&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;今年は数が多かったこともありまずジャンル分けという方法をとったのですが、結果バランスよく選定することができてよかったのかなと思います。&lt;/p&gt;
-
-&lt;p&gt;ちなみに、今年は私自身もトークに応募して通過したため登壇いたします。
-例年Scala「関西」なのに、前で話ができる関西のScalaエンジニアがスタッフ参加しているためトーク応募を遠慮するという状況になっているのが悩みでした。そのためスタッフに口うるさく「みんなトーク出して！」と言っている手前自分も出した結果、通過して登壇することになりました。&lt;/p&gt;
-
-&lt;p&gt;スタッフほぼ全員(10人強)で集まって数時間話し合った結果ですので私としては胸を張って平等に選定しましたと言いたいのですが、外から見て果たしてそう見えるかというのは少し悩ましいところではあります。トークの選定方法については他カンファレンスのやり方も参考にしながら、今後改善できればいいなぁと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;当日スタッフ募集について:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;当日スタッフ募集について&lt;/h2&gt;
-
-&lt;p&gt;トラック数を増やしたり、スタッフの中からも登壇者が増えたりした関係で、当日のスタッフ数が若干足りないなー・・・ということで当日スタッフを募集しております。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;そして、Scala関西Summit 2017 では当日スタッフを募集中です！  私達と一緒にイベントを裏から支えてくれる方ご応募お待ちしております 😊Scala関西Summit 2017 当日スタッフ応募フォーム &lt;a href=&#34;https://t.co/d1vbQPM86j&#34;&gt;https://t.co/d1vbQPM86j&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/scala_ks?src=hash&#34;&gt;#scala_ks&lt;/a&gt;&lt;/p&gt;&amp;mdash; Scala関西 (@ScalaKansai) &lt;a href=&#34;https://twitter.com/ScalaKansai/status/897675531310825473&#34;&gt;2017年8月16日&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;手伝ってもいいよ！という方はぜひご応募ください。お待ちしております！&lt;/p&gt;
-
-&lt;h2 id=&#34;会場:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;会場&lt;/h2&gt;
-
-&lt;p&gt;今年はJR天満駅からすぐの &lt;a href=&#34;http://www.temmacenter.com/tenma/index.php&#34;&gt;天満研修センター&lt;/a&gt; という施設での開催となります。
-最初は去年の大阪産業創造館での開催で検討していたのですが、抽選で落ちてしまったため予約がとれず・・・。
-JR天満駅はJR大阪駅から1駅ですので、アクセスはかなり良いかと思います。&lt;/p&gt;
-
-&lt;p&gt;懇親会は &lt;a href=&#34;https://www.sakura.ad.jp/corporate/corp/profile.html&#34;&gt;さくらインターネット株式会社&lt;/a&gt; さんのオフィスをお借りして開催します。
-こちらはJR大阪駅が最寄り駅となります。&lt;/p&gt;
-
-&lt;h2 id=&#34;参加費:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;参加費&lt;/h2&gt;
-
-&lt;p&gt;本編の参加費は今年も無料です。
-今年は例年より会場費が高いこともあって有料化も検討したのですが、有料にすると軽く顔を出したいという人や「ちょっとやってみようかな」程度の人の参加ハードルがあがってしまうのではという意見があり、今年も無料で実施することになりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;スポンサープラン:6bc90df72f8650f4332c2f25b6b1e694&#34;&gt;スポンサープラン&lt;/h2&gt;
-
-&lt;p&gt;上述の通り参加費は据え置き無料、ただしかかる費用はあがることに。そこで、例年Gold、Silver、Bronzeの3プランだったスポンサープランに、上位のPlatinumプランを設けました。(Goldも値上げになっています。)&lt;/p&gt;
-
-&lt;p&gt;Platinumは去年のアンケートでの要望や他カンファレンスを参考に、メインホールのネーミングライツ権や当日参加者にアンケートをとれる権利を特典としてつけています。今年のメインホール名はネーミングライツにより「セプテーニ・オリジナルホール」です。&lt;/p&gt;
-
-&lt;p&gt;ありがたいことに今年も多くの企業様からご支援いただいたお陰で、無事予定通り参加費は無料で開催できることになりました。&lt;/p&gt;
-
-&lt;p&gt;・&lt;br&gt;
-・&lt;br&gt;
-・&lt;/p&gt;
-
-&lt;p&gt;まだまだ裏話は山のようにあるのですが、キリがないですし、何より開催準備に登壇準備もあるので今回はこの辺にしたいと思います。&lt;/p&gt;
-
-&lt;p&gt;会場のキャパシティ的にまだ席に余裕もありますので、周囲にScalaに興味を持っている方がいれば、ぜひ当イベントのことを教えてあげてください。（我々の宣伝力不足のせいではあるのですが、毎年終わった後に「知っていたら参加したかった」と言われて（´・ω・｀）ｼｮﾎﾞｰﾝとすることがあります・・・。）&lt;/p&gt;
-
-&lt;p&gt;あと2週間。よいイベントとなるよう準備をすすめていきますので、みなさまどうぞよろしくお願いいたします！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -158,31 +60,7 @@ JR天満駅はJR大阪駅から1駅ですので、アクセスはかなり良い
       <guid>http://nocono.net/post/2017/07/scalafukuoka2017/</guid>
       <description>&lt;p&gt;2017/7/29開催の &lt;a href=&#34;https://scala.connpass.com/event/57941/&#34;&gt;Scala福岡2017&lt;/a&gt; の懇親会でLT登壇しました。&lt;/p&gt;
 
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;bc783c86db4848ea812c7b30c7e0c13d&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Scala関西Summit 2017の全セッションを一言でひたすら紹介していきました。
-28個(!?)あるので5分で紹介はかなり無理があったのですが、懇親会LTだしノリと勢いで喋り通せるやろ！とこの形にしました。時間がないことより、雑な発表なのにみなさん凄く真剣にきいてくださっていたことに少し焦っていたのはここだけの話・・・。&lt;/p&gt;
-
-&lt;p&gt;終わった後いろんな方に「関西のラインナップすごい！行ってみたくなりました！」と声をかけていただけました。よかったです！&lt;/p&gt;
-
-&lt;p&gt;ちなみにこの日、スタッフのみなさんのご厚意で、当日配布されたスポンサー様の資料と一緒にこんな可愛い案内カードを配らせていただいていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;配られたクリアファイルの中にScala関西Summit2017の宣伝カードを入れさせていただいております😀 &lt;a href=&#34;https://twitter.com/hashtag/scalafukuoka?src=hash&#34;&gt;#scalafukuoka&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/scala_ks?src=hash&#34;&gt;#scala_ks&lt;/a&gt; &lt;a href=&#34;https://t.co/SwqjeEWnQO&#34;&gt;pic.twitter.com/SwqjeEWnQO&lt;/a&gt;&lt;/p&gt;&amp;mdash; SAMMY(きの子) (@aa7th) &lt;a href=&#34;https://twitter.com/aa7th/status/891174777179844608&#34;&gt;2017年7月29日&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;デザインは株式会社chatboxの &lt;a href=&#34;https://chatbox-inc.com/member/yasui/&#34;&gt;やすいりさ&lt;/a&gt; さんによるものです。本当にかわいい・・・。&lt;/p&gt;
-
-&lt;p&gt;もちろん勉強会本編も参加していました。
-どのセッションも興味深かったのですが、個人的にはSparkについては完全に素人で前知識がなかったこともあり「Spark＋Mahoutによるレコメンドエンジン開発」が特に面白かったです。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/kTgxnae8WGKfl2&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/piacere_ex/ai2emrsparkmahoutlt&#34; title=&#34;AI入門「第2回：EMR／Scala／Spark／Mahoutでレコメンドエンジンを作る」&#34; target=&#34;_blank&#34;&gt;AI入門「第2回：EMR／Scala／Spark／Mahoutでレコメンドエンジンを作る」&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.slideshare.net/piacere_ex&#34;&gt;fukuoka.ex&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;SparkとMahoutによるレコメンドエンジンの開発について、マーケティングの歴史や小ネタも挟みつつ丁寧に解説してくださいました。&lt;/p&gt;
-
-&lt;p&gt;当日は懇親会3次会(!?)まで参加者のみなさんと飲みに行き、前日は前乗りしていた東京・大阪メンバーやPHP福岡の  &lt;a href=&#34;https://twitter.com/cakephper&#34;&gt;@cakephper&lt;/a&gt; さん達と飲みに行き、たっぷり各地のエンジニアのみなさんと交流することができました。本当に楽しかったです！そして福岡おいしい食べ物がたくさんあるずるい！&lt;/p&gt;
-
-&lt;p&gt;来年も絶対来ます！関係者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -191,76 +69,9 @@ JR天満駅はJR大阪駅から1駅ですので、アクセスはかなり良い
       <pubDate>Fri, 07 Oct 2016 17:18:54 +0900</pubDate>
       
       <guid>http://nocono.net/post/2016/10/scalaks2016eve/</guid>
-      <description>
+      <description>&lt;p&gt;いよいよ明日10/8(土) &lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2016&lt;/a&gt; 開催となります。&lt;/p&gt;
 
-&lt;p&gt;いよいよ明日10/8(土) &lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西Summit 2016&lt;/a&gt; 開催となります。&lt;/p&gt;
-
-&lt;p&gt;Scala関西Summitは今年で2回目の開催です。
-本当は去年開催後にいろいろ思いの丈をブログに書きたかったのですが、筆が進まず完全にタイミングを逃してしまいました。&lt;/p&gt;
-
-&lt;p&gt;イベントの話は同じくスタッフの &lt;a href=&#34;https://twitter.com/daiksy&#34;&gt;だいくしー(@daiksy)&lt;/a&gt; さんがブログできれいにまとめて下さっていまして、特に私が書くこともないかな！と感じたというのもあります。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://daiksy.hatenablog.jp/entry/2015/08/02/141118&#34;&gt;Scala関西Summit 2015の裏側！ - 大規模カンファレンスの作り方 - - だいくしー(@daiksy)のはてなブログ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;そんなわけで今までこのイベントについてブログで語ったことがないのですが、なんとなく自分のモチベーションをあげるためにも、今更ではありますが去年開催に至った経緯と心意気(?)を書いてみます。&lt;/p&gt;
-
-&lt;h2 id=&#34;開催経緯:af1f2a0375fee4195f23ba61de439e57&#34;&gt;開催経緯&lt;/h2&gt;
-
-&lt;p&gt;まず、去年開催に至った経緯をまとめてみます。&lt;/p&gt;
-
-&lt;p&gt;元々私は2012年から &lt;a href=&#34;https://github.com/SAMMY7th/scala_kb/wiki&#34;&gt;Scalaの勉強会&lt;/a&gt; を不定期で開催しています。&lt;/p&gt;
-
-&lt;p&gt;そんな中2014年には東京で開催されたScalaMatsuriに参加したのですが、その後の懇親会で東京のみなさんが「関西のScalaの人たちってあまり知らないね」「関西にも乗り込んでみたいね」という話をしていました。
-それを聞いて、関西以外の遠方のみなさんにも来ていただけるようなイベントを開催したいと具体的に考えるようになりました。&lt;/p&gt;
-
-&lt;p&gt;以前から懇意にしていたPHPカンファレンス関西のスタッフの人達にその話をしてみたところ、やってみなよ！と言ってもらえました。
-その際に会場選定についてなどのノウハウをいろいろ伺い、PHPカンファレンス関西を参考にすれば実際に開催が可能であると判断しました。&lt;/p&gt;
-
-&lt;p&gt;この話をだいくしーさんに持ちかけたところ、だいくしーさんも乗り気でやってみたい！という話になりました。そこから、普段のScala関西勉強会を手伝ってくれたり、積極的に登壇をしてくれていたメンバーを中心に声をかけてスタッフを増やしていき、去年8月の &lt;a href=&#34;http://summit.scala-kansai.org/2015/index.html&#34;&gt;Scala関西Summit 2015&lt;/a&gt; を開催するに至りました。&lt;/p&gt;
-
-&lt;h2 id=&#34;私がscalaコミュニティを運営する理由:af1f2a0375fee4195f23ba61de439e57&#34;&gt;私がScalaコミュニティを運営する理由&lt;/h2&gt;
-
-&lt;p&gt;スポンサーさんを募って大きいイベントを開催するというのは、当初の私の予想以上になかなか大変なものであります。
-それでも継続して開催する理由について人からよく聞かれるのですが、いつもあまりしっくりくる答えがおもいつきません。&lt;/p&gt;
-
-&lt;p&gt;ですが、今日はそれについても書いてみます。&lt;/p&gt;
-
-&lt;p&gt;まず前提としてもちろん、単純にScala界隈を盛り上げたいし、Scalaをまだよく知らない人にもおすすめしていきたいという気持ちがあります。また先述の通り、こういう大きいイベントを開催して遠方の方にも来ていただき、関西のScalaエンジニアとのいい交流の場を作りたいという想いがあり、開催をしています。&lt;/p&gt;
-
-&lt;p&gt;Scala自体やScalaに関わるみなさんのことが好きだから盛り上げたい！という気持ちに繋がっているのですが、私の場合更にやや特殊(?)な事情があります。&lt;/p&gt;
-
-&lt;p&gt;私がScalaに興味を持ったのはコミュニティ活動がきっかけです。
-2012年頃、私はJava版のPlayFramework1.2がすごく気にいっていて、勉強会を開催しました。そのときに参加者のみなさんからScalaの話を聞きました。それが私がScalaを勉強しはじめたきっかけです。&lt;/p&gt;
-
-&lt;p&gt;私はフリーランスエンジニアとして個人で開発のお仕事を請けて生活をしているのですが、「Scalaはじめました！」と言ってScalaの仕事がくるわけではありませんでした。それでも不定期で勉強会開催を続けているうちに、Scalaのお仕事をいただけるようになりました。ありがたいことに、この2年はほとんどScalaでお仕事させていただいています。&lt;/p&gt;
-
-&lt;p&gt;コミュニティで繋がった方から案件の話をいただくことが多くなりましたし、私がお請けできなくても他のScalaエンジニアの方を紹介することもできるようになりました。自分だけでは手に余る場合、Scalaエンジニアの方にヘルプを頼むことも可能です。コミュニティ活動は業務の一環となっており、私の事業から切り離せないものになっています。&lt;/p&gt;
-
-&lt;p&gt;つまり私にとってScalaコミュニティは、好きだからやっているという以上に、もはやなくなると困る場なのです。なくなると困るので盛り上げていきたいし、率先して運営をしています。&lt;/p&gt;
-
-&lt;p&gt;あとは単に私がお祭り好きな性格をしているというのも大きいですね。(むしろこっちの方が大きい理由かもしれない・・・)&lt;/p&gt;
-
-&lt;h2 id=&#34;明日について:af1f2a0375fee4195f23ba61de439e57&#34;&gt;明日について&lt;/h2&gt;
-
-&lt;p&gt;最後に。明日のScala関西Summitをどういうイベントにしたいかについても触れておきます。&lt;/p&gt;
-
-&lt;p&gt;まずもちろん、今すでにScalaを活用している人が更にScalaへの造詣を深めたり情報交換する場となってほしいです。
-&lt;a href=&#34;http://summit.scala-kansai.org/index.html#timetable&#34;&gt;タイムテーブル&lt;/a&gt; を見ていただければ分かるように、今年もハイレベルなセッションが盛りだくさんです。
-関西外からもたくさんのエンジニアの方が来てくださいますし、ぜひ色々情報交換していただければと思います。&lt;/p&gt;
-
-&lt;p&gt;そして更に、Scala未経験の方にも得るものがあるイベントにしたいです。先日一部スタッフで飲みに行った際にみんなで「Scalaまだあまり知らないって人に『Scala難しそう』って印象だけ与えるようなイベントにはしたくないよね。」という話をしました。
-去年もそうでしたが、初心者向けのセッションやハンズオンをプログラムに盛り込んでいるのは、Scalaをまだあまりよく知らないという方にも是非来ていただきたいからです。
-ハンズオンは人数がかなり限定されてはしまいますが、去年大変好評でした。
-今年もこれを機にScalaを勉強してみよう！という方がいらっしゃればいいなぁと思います。&lt;/p&gt;
-
-&lt;p&gt;さて。うだうだ長々と書いてしまいましたが、今年も多くの方にご登壇いただき、多くの企業様にご協賛いただき、多くの方々にご参加登録いただき・・・私達スタッフができることは、あとは明日気持ちよく過ごしていただけるように裏からイベントを支えるのみです。私の想いはさておき、あとはもう参加者のみなさん1人1人が好きなように有意義に楽しんでいただければと思います。&lt;/p&gt;
-
-&lt;p&gt;明日のイベントが参加者のみなさんが何らかの形でScalaとの関わりを深める、いいきっかけになれば嬉しいです。&lt;/p&gt;
-
-&lt;p&gt;それでは明日、大阪産業創造館開催「Scala関西Summit 2016」にてお会いいたしましょう！！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -269,9 +80,7 @@ JR天満駅はJR大阪駅から1駅ですので、アクセスはかなり良い
       <pubDate>Thu, 04 Aug 2016 10:06:28 +0900</pubDate>
       
       <guid>http://nocono.net/post/2016/08/scalakb3/</guid>
-      <description>
-
-&lt;p&gt;2016/7/10 第3回 Scala関西勉強会を開催しました。&lt;/p&gt;
+      <description>&lt;p&gt;2016/7/10 第3回 Scala関西勉強会を開催しました。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://connpass.com/event/32061/&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;(日) 第3回 Scala関西勉強会 - connpass&lt;/a&gt;&lt;/li&gt;
@@ -282,48 +91,7 @@ JR天満駅はJR大阪駅から1駅ですので、アクセスはかなり良い
 場所は新大阪の &lt;a href=&#34;http://www.motex.co.jp&#34;&gt;MOTEX株式会社&lt;/a&gt; 様。
 なんと &lt;a href=&#34;http://www.motex.co.jp/company/base/&#34;&gt;200人収容のホール&lt;/a&gt; をお借りして開催しました。&lt;/p&gt;
 
-&lt;h2 id=&#34;内容:6d3180e585dda91efb9b6acbc286f3de&#34;&gt;内容&lt;/h2&gt;
-
-&lt;p&gt;プログラムは次の通りです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Leaning Scalaの5章目まで(20分)  @ryu1_okd&lt;/li&gt;
-&lt;li&gt;Collection再入門(25分)    @amaya&lt;/li&gt;
-&lt;li&gt;Optionとfor式を使いこなしてScala中級者へ - Scala福岡再演 -(25分)    @daiksy&lt;/li&gt;
-&lt;li&gt;モナド入門(15分)    @erin&lt;/li&gt;
-&lt;li&gt;Akka Actor(15分)   @aa7th&lt;/li&gt;
-&lt;li&gt;Amazon LambdaとAkka HTTPをいい感じに使い分けてみた (15分)    @yoshiyoshifujii&lt;/li&gt;
-&lt;li&gt;ScalaJS で React Native アプリを書いてみた話 (25分)   @hamazy&lt;/li&gt;
-&lt;li&gt;scalaz.\/ Validationが便利だった話 (10分) @tanishiking&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;そして最後に、@nstym さんによるAkkaについてのLTがありました。&lt;/p&gt;
-
-&lt;p&gt;資料一覧はこちら。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://connpass.com/event/32061/presentation/&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;(日) 第3回 Scala関西勉強会 - 資料一覧 - connpass&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今回セッションは全てご応募いただいたもので、私の方から「こういう内容で話してほしい」とお願いしたわけではないのですが、見事に初心者向けから上級者向けまで取り揃えたセッション構成となりました。
-順番は私の方でタイトルで判断して難易度順(言語自体の基礎〜応用、周辺ライブラリの話、Scalaz)に並べました。前後のセッションがお互い補完しあい、アンケート結果を見ても全体的にScala未経験の方でもとっつきやすい内容であったようです。&lt;/p&gt;
-
-&lt;p&gt;いつもは後半は座談会やワークショップの時間としており、セッション形式で丸1日やったのは実ははじめてでしたが、登壇者のみなさまのおかげでとても充実したイベントとなりました。ありがとうございました。&lt;/p&gt;
-
-&lt;h2 id=&#34;自分の発表:6d3180e585dda91efb9b6acbc286f3de&#34;&gt;自分の発表&lt;/h2&gt;
-
-&lt;p&gt;Akka Actor というテーマで発表をしました。&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;20d5474697b7484da04c385ecf32c8d6&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Actorの簡単な説明をした後、チュートリアル &lt;a href=&#34;http://www.lightbend.com/activator/template/hello-akka&#34;&gt;Hello Akka!&lt;/a&gt; のコードを出して解説をしました。&lt;/p&gt;
-
-&lt;p&gt;素晴らしい発表が揃う中、雑な発表をして申し訳ない・・・。
-Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&gt;
-
-&lt;p&gt;去年は &lt;a href=&#34;http://summit.scala-kansai.org&#34;&gt;Scala関西Summit&lt;/a&gt; に気を取られて開催をサボり気味だった Scala関西勉強会ですが、私自身もいまやすっかりScalaでお仕事しておりますので、積極的に開催したいところ。
-改めまして、登壇者・参加者のみなさまありがとうございました。今後共よろしくお願いします！&lt;/p&gt;
-
-&lt;p&gt;P.S. 月1開催の &lt;a href=&#34;Scala・PlayFramework関西勉強会 - connpass http://connpass.com/series/515/&#34;&gt;Scalaもくもく会&lt;/a&gt; もよろしくね！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -332,31 +100,12 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
       <pubDate>Wed, 29 Jun 2016 11:11:27 +0900</pubDate>
       
       <guid>http://nocono.net/post/2016/06/scalaks2016/</guid>
-      <description>
-
-&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;(土)、関西のScala大規模カンファレンス「Scala関西Summit2016」を開催します。
+      <description>&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;(土)、関西のScala大規模カンファレンス「Scala関西Summit2016」を開催します。
 場所は &lt;a href=&#34;https://www.sansokan.jp&#34;&gt;大阪産業創造館&lt;/a&gt; です。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://summit.scala-kansai.org/&#34;&gt;Scala関西 Summit 2016 - 関西のScala大規模イベント10/8(土)開催&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;当イベントの開催は今年で2回目です。
-初開催である去年の &lt;a href=&#34;http://summit.scala-kansai.org/2015/&#34;&gt;Scala関西Summit2015&lt;/a&gt;  は関係者含め160人の方にご参加いただきました。
-初開催にも関わらず、関西だけではなく関東から九州まで幅広い地域の方がお越しくださり、盛況のうちに幕を閉じました。&lt;/p&gt;
-
-&lt;p&gt;今年も、Scalaにまだチャレンジしたことがない方にも、もうすでに活用している方にとっても有意義なイベントとなるよう、開催に向けて準備を進めております。ご期待ください！&lt;/p&gt;
-
-&lt;p&gt;また現在、スポンサー企業様、スピーカー様を募集中です。
-&lt;a href=&#34;http://summit.scala-kansai.org#sponsors&#34;&gt;スポンサー募集&lt;/a&gt; は7/15(水)、 &lt;a href=&#34;http://summit.scala-kansai.org#speakers&#34;&gt;スピーカー募集&lt;/a&gt; は7/31(日)が締め切りとなっております。
-ぜひ奮ってご応募くださいませ！&lt;/p&gt;
-
-&lt;h2 id=&#34;おまけ:be405929ffe8bde1b8f8f5598ac5c5bf&#34;&gt;おまけ&lt;/h2&gt;
-
-&lt;p&gt;Scala関西Summitとは別イベントですが、7/10(日)にはScala関西勉強会も開催します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://connpass.com/event/32061/&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;(日) 第3回 Scala関西勉強会 - connpass&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;初心者〜上級者向けまで揃った、なかなか充実したプログラムとなっております。まだまだ参加者募集中ですので、お気軽にどうぞ！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -365,24 +114,9 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
       <pubDate>Sun, 29 May 2016 19:31:16 +0900</pubDate>
       
       <guid>http://nocono.net/post/2016/05/scala_fukuoka/</guid>
-      <description>
+      <description>&lt;p&gt;2016/05/28(土)、Scala福岡に参加、LT登壇してきました。&lt;/p&gt;
 
-&lt;p&gt;2016/05/28(土)、Scala福岡に参加、LT登壇してきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/8toJdBcukeUkth&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalabacklogbot&#34; title=&#34;ScalaでBacklogの通知bot作ったで&#34; target=&#34;_blank&#34;&gt;ScalaでBacklogの通知bot作ったで&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;最後ネタとしてGASをおすすめされた話をいれましたが、AWS Lambdaの使い方さえ覚えてしまえば、ちょっとしたbotをScalaで作ってAWS Lambdaで運用するのは全然アリだと思います。
-コードを見せての説明をもっとちゃんとしたかったけど、準備不足感が否めなかった・・・。
-でもScalaまだチャレンジしたことないという方も多かったみたいなので、ちょっとでも雰囲気が伝わったなら幸いです。&lt;/p&gt;
-
-&lt;h2 id=&#34;scala福岡-感想:d0e8cfd9014d01d4e958bd2e06c01141&#34;&gt;Scala福岡 感想&lt;/h2&gt;
-
-&lt;p&gt;Scala福岡アツかった！
-登録数83人という参加人数はもちろんですが、Scalaへの注目度の高さや、すでにScalaを使っている人の熱量とか勢いがすごいなぁと感じました。&lt;/p&gt;
-
-&lt;p&gt;Scala福岡は主催のnulab 懸さんがScala関西Summitの盛り上がりを見て福岡もやりたい！と思ってくださったのきっかけとのことで、「Scala関西SummitがあったからScala福岡開催できました。ありがとうございます。」と言ってくださったのが嬉しかったです。
-今回は逆に私が福岡の盛り上がりを見て刺激を受けました。スタッフ・登壇者のみなさま、素晴らしい会をありがとうございました！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -391,49 +125,11 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
       <pubDate>Fri, 05 Feb 2016 15:46:38 +0900</pubDate>
       
       <guid>http://nocono.net/post/2016/02/scala_matsuri_lt/</guid>
-      <description>
-
-&lt;p&gt;2016/01/30(土)、31(日)の二日間に渡って開催されたScalaMatsuri2016に参加しました。&lt;/p&gt;
+      <description>&lt;p&gt;2016/01/30(土)、31(日)の二日間に渡って開催されたScalaMatsuri2016に参加しました。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri 2016｜日本最大級の Scala のカンファレンス&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lt登壇しました:1198ee0537586b806bea60f246a1a08f&#34;&gt;LT登壇しました&lt;/h2&gt;
-
-&lt;p&gt;31日のアンカンファレンスのコミュニティLTで、関西のScalaコミュニティについてお話させていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/9O9SO1J8rxQbdV&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/scalamatsuri2016scala&#34; title=&#34;【ScalaMatsuri2016】関西のScalaコミュニティ紹介&#34; target=&#34;_blank&#34;&gt;【ScalaMatsuri2016】関西のScalaコミュニティ紹介&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;スライド中にもある通り、Scala関西Summit2016やります！
-時期は9月か10月を予定しています。(8月暑かったからね！)&lt;/p&gt;
-
-&lt;p&gt;この日は色んな方から「また行きます」「今度はいきたい！」とお声かけいただきました。
-ご期待に沿えるようなイベントになるよう頑張ります。&lt;/p&gt;
-
-&lt;p&gt;そしてなんと、福岡でもScala勉強会が開催されるとのこと！
-去年Scala関西Summitで登壇してくださった懸さんが、Scala関西の盛り上がりを見て福岡でもやりたいねという話になったとおっしゃってくださって、とても嬉しかったです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://scala.connpass.com/event/26674/&#34;&gt;Scala福岡2016 - connpass&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;私も参加させていただきます！楽しみ！！(福岡は親戚の家があって長期滞在が可能な上に、元々その時期に行く予定があったので即参加を決めました。)&lt;/p&gt;
-
-&lt;h2 id=&#34;イベント自体の感想:1198ee0537586b806bea60f246a1a08f&#34;&gt;イベント自体の感想&lt;/h2&gt;
-
-&lt;p&gt;めちゃくちゃ盛りだくさんでした。内容の感想はメモや資料を振り返りながら別途まとめたいです。&lt;/p&gt;
-
-&lt;p&gt;内容と関係ないところだと、プロの方による同時通訳がすごかった・・・！
-私の発表も同時通訳で英訳してくれていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;同時通訳の人、きの子さんの「わいわいやってる」とか「ゆるゆるしてる」みたいなのをそれっぽく翻訳しててすごかった&lt;/p&gt;&amp;mdash; だいくしー@忍者 (@daiksy) &lt;a href=&#34;https://twitter.com/daiksy/status/693639985686138881&#34;&gt;2016, 1月 31&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;これを聞けなかったのが心残りです。&lt;/p&gt;
-
-&lt;p&gt;2日目終了後は、おえさんに誘っていただいて海外ゲストのみなさんとの懇親会にも参加してすごく良い刺激をいっぱい受けました。本当に貴重で、有意義な機会を頂きました。&lt;/p&gt;
-
-&lt;p&gt;すばらしいイベントをありがとうございました。スタッフのみなさんお疲れ様でした！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -442,97 +138,9 @@ Actor がどんな感じか少しでも伝わったなら幸いです。&lt;/p&g
       <pubDate>Mon, 15 Sep 2014 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2014/33/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土)、9/7(日)に開催された、&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri&lt;/a&gt;に参加してきました。&lt;/p&gt;
 
-&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土)、9/7(日)に開催された、&lt;a href=&#34;http://scalamatsuri.org/&#34;&gt;ScalaMatsuri&lt;/a&gt;に参加してきました。&lt;/p&gt;
-
-&lt;h2 id=&#34;なんでわざわざ大阪から:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;なんでわざわざ大阪から？&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://live.nicovideo.jp/watch/lv191315006&#34;&gt;ニコ生中継&lt;/a&gt;もある中、大阪から東京まで行って参加した理由は下記の通りです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自分がやってる勉強会(&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;Scala関西ビギナーズ&lt;/a&gt;。以下、ScalaKB)の宣伝をしたかった。&lt;/li&gt;
-&lt;li&gt;東京コミュニティのみなさんにお会いしてみたかった。&lt;/li&gt;
-&lt;li&gt;去年行くか悩んでいるうちにチケットが完売していて、後悔した。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;9-6-土-1日目:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) 1日目&lt;/h2&gt;
-
-&lt;p&gt;1日目はカンファレンス形式でした。
-Scala設計者であるオダスキー先生の基調講演にはじまり、数々のセッションがありました。&lt;/p&gt;
-
-&lt;p&gt;休憩時間中には、Twitterではやり取りしたことがあったけどお会いしたことが無かった方々とご挨拶することができました。
-また、Scalaに関する質問などにもとても丁寧に答えていただけました。
-本当にありがとうございました。&lt;/p&gt;
-
-&lt;p&gt;懇親会ではLT登壇させていただきました。
-&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;ScalaKB&lt;/a&gt;の宣伝と、みんなも勉強会開催しようぜ！という内容です。
-(自己紹介スライドにフリーランスエンジニアとだけ書いてスキルを書いてなかったので、一部の方にScalaで仕事しているフリーランスだと誤解されてしまいまいた。Scalaで仕事したことないです、ごめんなさい・・・！)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/39084199&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/noconoasami/scala-matsurilt&#34; title=&#34;Introduction of Scala Kansai Beginners (ScalaMatsuri2014LT)&#34; target=&#34;_blank&#34;&gt;Introduction of Scala Kansai Beginners (ScalaMatsuri2014LT)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;ちょっと調子に乗って喋りすぎてしまい、あえなく時間オーバー・・・。
-でも一番言いたかった「初心者でも、自分が学びたければ勉強会開いていいんだよ！」ということを言えたので良しとしたいです。&lt;/p&gt;
-
-&lt;h2 id=&#34;9-7-日-2日目:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;(日) 2日目&lt;/h2&gt;
-
-&lt;p&gt;2日目はアンカンファレンス。
-バラエティに富んだセッションが開催されました。&lt;/p&gt;
-
-&lt;p&gt;参加したものについて、簡単に感想など。&lt;/p&gt;
-
-&lt;h3 id=&#34;skinny-framework:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;Skinny Framework&lt;/h3&gt;
-
-&lt;p&gt;最近チャレンジしはじめたSkinnyFrameworkのワークショップ。
-開発者の &lt;a href=&#34;https://twitter.com/seratch_ja&#34;&gt;@seratch_ja&lt;/a&gt; さんが概要を説明してくださいました。
-限られた時間の中で、ちょっとした注意点などにも触れてくださり勉強になりました。&lt;/p&gt;
-
-&lt;h3 id=&#34;sbt被害者の会:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;sbt被害者の会&lt;/h3&gt;
-
-&lt;p&gt;途中からお邪魔しました。
-酷い名前(笑)ですが、内容としては「今後どんどんよくなっていく筈だよ！」という方向でした。多分。&lt;/p&gt;
-
-&lt;h3 id=&#34;scala-js:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;Scala.js&lt;/h3&gt;
-
-&lt;p&gt;ちょっと前まではネタ扱いでしたが、最近はちらほら実用的になってきた！という噂を聞くScala.js。
-出力されるJSサイズがぐいぐい減っており、改善されているのだとか。今後に期待。&lt;/p&gt;
-
-&lt;h3 id=&#34;the-simple-parts:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;The Simple Parts&lt;/h3&gt;
-
-&lt;p&gt;オダスキー先生のセッション。
-OOPとFPの複合として、新しく「Modular言語」という呼び方を提案したいとのこと。
-Scalaの思想について丁寧に説明してくださいました。&lt;/p&gt;
-
-&lt;h3 id=&#34;playとscala入門:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;PlayとScala入門&lt;/h3&gt;
-
-&lt;p&gt;implicitについて。
-implicitはまだまだ理解が足りないので、とてもありがたかったです。&lt;/p&gt;
-
-&lt;h3 id=&#34;パネルディスカッション:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;パネルディスカッション&lt;/h3&gt;
-
-&lt;p&gt;コンパイル時間は「気にしない」という声が多数・・・みなさん訓練されているなぁと思いました。
-Herokuで時間がかかってコンパイルタイムアウトになるから困るとTwitterで呟いたら、「そもそもHerokuで頑張るのが(現状では)間違っている」というご指摘をうけました。
-えー（´・ω・｀）&lt;/p&gt;
-
-&lt;h2 id=&#34;その他感想:00deeae7fd3ddd4442ef68db593a6bc7&#34;&gt;その他感想&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2日目夜に東京勢の懇親会に混ぜていただきました。Scala愛が感じられる飲み会でした。楽しかったです。&lt;/li&gt;
-&lt;li&gt;1日目も2日目もお弁当(2日目は朝まで！)が出ましたすごい。&lt;/li&gt;
-&lt;li&gt;東京ではお昼ご飯提供は割とよくあると後で聞きました。東京凄い。&lt;/li&gt;
-&lt;li&gt;東京のScalaの盛り上がりと比較すると、本当に関西まだまだだなと思いました。&lt;/li&gt;
-&lt;li&gt;関西盛り上げていこうと思いました。&lt;/li&gt;
-&lt;li&gt;仕事でScala使えるよう、自身の勉強も普及活動も頑張りたいです。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;東京の熱気にあてられて、モチベーションがかなりあがりました。
-やっぱり現地行ってよかったです！&lt;/p&gt;
-
-&lt;p&gt;ScalaKBを不定期ながらも続けてきたことも、私にとって大きなプラスになっていると実感しました。
-私がScalaをやる気の間は今後も続けていきたいですし、ここで培ったコミュニティ運営スキルを活かして、もっと日本のScalaコミュニティ自体にも貢献できればと思います。&lt;/p&gt;
-
-&lt;p&gt;素晴らしい場を設けてくださった運営スタッフの皆様、スピーカーの皆様、相手してくださった参加者の皆様、本当にありがとうございました！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -543,38 +151,7 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
       <guid>http://nocono.net/post/2014/32/</guid>
       <description>&lt;p&gt;2014/02/08 第3回Scala関西ビギナーズを開催いたしました。&lt;/p&gt;
 
-&lt;p&gt;・・・めっちゃ前ですごめんなさい。&lt;/p&gt;
-
-&lt;p&gt;言い訳になりますが、この前後が半端無く忙しく記事を書きそびれておりました。
-が、今更ですが、スライドまとめ記事ぐらいは作っておかねばと思いこの記事を書いています。&lt;/p&gt;
-
-&lt;p&gt;以下、公開されている、この日の発表スライドです。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/31881432&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/noconoasami/scala-31881432&#34; title=&#34;Scala再入門 @2014/02/08 Scala関西ビギナーズ第3回&#34; target=&#34;_blank&#34;&gt;Scala再入門 @2014/02/08 Scala関西ビギナーズ第3回&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Java使いにとっての関数(@amkt922)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30971583&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/amkt922/java-30971583&#34; title=&#34;Java使いにとっての関数&#34; target=&#34;_blank&#34;&gt;Java使いにとっての関数&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/amkt922&#34; target=&#34;_blank&#34;&gt;amkt922&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Scalaでクイックソートを書いてみる(@daiksy)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30968327&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/daiksy/scala-30968327&#34; title=&#34;Scala関西ビギナーズ&#34; target=&#34;_blank&#34;&gt;Scala関西ビギナーズ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/daiksy&#34; target=&#34;_blank&#34;&gt;Daisuke Kasuya&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&#34;&gt;Scala 3分クッキング&lt;/a&gt;(@mumoshu)&lt;br /&gt;
-&lt;a href=&#34;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&#34;&gt;https://mumoshu.atlassian.net/wiki/pages/viewpage.action?pageId=5931010&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;sprayについて (@hamazy)&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30969524&#34; width=&#34;342&#34; height=&#34;291&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/hamazy/spray-intro&#34; title=&#34;Spray intro&#34; target=&#34;_blank&#34;&gt;Spray intro&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/hamazy&#34; target=&#34;_blank&#34;&gt;Suguru Hamazaki&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;この日は何と英語での発表が多いという、ちょっと変わった会になりました。
-当日の模様はTogetterにもまとめられていますので、こちらもご覧になってください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/627137&#34;&gt;第3回Scala関西ビギナーズまとめ - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;さて。もうすでに告知を開始しておりますが、9/20(土)には&lt;a href=&#34;http://connpass.com/event/8127/&#34;&gt;第4回 Scala関西ビギナーズ&lt;/a&gt;を開催したします！
-まだ少し席に空きがありますので、ぜひお越しになってくださいね！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -588,17 +165,7 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
 
 &lt;p&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(土) 13:30〜17:30 オオサカンスペースさんにて。&lt;/p&gt;
 
-&lt;p&gt;詳細及び参加登録&lt;br /&gt;
- &lt;a href=&#34;http://www.zusaar.com/event/891003&#34;&gt;http://www.zusaar.com/event/891003&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;そしてScalaビギナーズですっかりお馴染みランチ会も開催します。&lt;br /&gt;
-&lt;a href=&#34;http://www.zusaar.com/event/897004&#34;&gt;http://www.zusaar.com/event/897004&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;内容はまだ固まっていないのですが、Scalaビギナーズ同様、セッション・LT数本とハンズオンの時間にする予定です。&lt;/p&gt;
-
-&lt;p&gt;詳細は決まり次第、上記イベントページにアップします。&lt;br /&gt;
-しばらくお待ちください。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -607,47 +174,10 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
       <pubDate>Wed, 10 Jul 2013 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2013/27/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/25&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会2回目を開催しました。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://nocono.net/25&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会2回目を開催しました。&lt;br /&gt;
 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;(土) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
 
-&lt;p&gt;今回は土曜の朝(9:30〜)という早い時間から開催しました。&lt;br /&gt;
-平日よりはみんな参加しやすいかなぁと考えたのですが、そうでもなかったようで・・・。&lt;br /&gt;
-でも土曜朝から集中して勉強するのは、1日を有効活用したような気分になれてとてもいいなと思いました。&lt;br /&gt;
-今後も土曜の朝に定期的に開いていくつもりです。&lt;br /&gt;
-（時間は少し遅くするかも・・・）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;br /&gt;
-↑開催記録、次回開催情報など載せていきます。&lt;br /&gt;
-情報チェックにご活用ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人的にやったことメモ:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
-
-&lt;p&gt;WebSocketにチャレンジしました。&lt;/p&gt;
-
-&lt;p&gt;最初は公式のサンプル(websocket-chat)を参考にしたのですが、Akkaの部分がよくわからず・・・。&lt;br /&gt;
-ひとまずWebSocketだけでシンプルなテストプロジェクトを作りました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play2_websocket_test&#34;&gt;https://github.com/SAMMY7th/play2_websocket_test&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4798125415/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4798125415&amp;linkCode=as2&amp;tag=drunkershigh-22&#34;&gt;Scala逆引きレシピ (PROGRAMMER’S RECiPE)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=drunkershigh-22&amp;l=as2&amp;o=9&amp;a=4798125415&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
-第13章にあるコードを、ほとんどそのまま使わせて頂きました。&lt;/p&gt;
-
-&lt;p&gt;コントローラでいつものActionではなくWebSocketを使って、インプット(Iteratee)とアウトプット（Enumerator）をタプルに詰めて返却してあげれば、あとはいい感じにしてくれるようです。&lt;br /&gt;
-なるほどなー。&lt;/p&gt;
-
-&lt;h3 id=&#34;参照したページや書籍:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;参照したページや書籍&lt;/h3&gt;
-
-&lt;p&gt;今回もお世話になりました。&lt;br /&gt;
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;その他:3be577d4993d98e747a8ec4f59d565cb&#34;&gt;その他&lt;/h3&gt;
-
-&lt;p&gt;・Kindleで100円のScala入門書を買って勉強している方がいました。
-  @ITの連載とほぼほぼ同じようですが、Kindleをお持ちの方にはよさそう。&lt;br /&gt;
-  &lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00BOBYZTQ&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -656,20 +186,14 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
       <pubDate>Fri, 05 Jul 2013 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2013/25/</guid>
-      <description>&lt;p&gt;前回盛り上がりましたPlayFrameworkもくもく会、早速2回目を開催します〜！&lt;/p&gt;
-
-&lt;p&gt;2013/07/06 9:30〜12:00、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
-
-&lt;p&gt;平日夜だと会社員の方が参加しづらいし、かといって土曜午後はいろんな勉強会が集中しているし、日曜はおうちでゴロゴロしたいし・・・と悩んだ結果、土曜朝開催にしてみました。&lt;/p&gt;
-
-&lt;p&gt;参加登録はこちから&lt;br /&gt;
-&lt;a href=&#34;http://www.zusaar.com/event/879003&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第2回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今後、もくもく会開催のお知らせは以下のページにて行います。&lt;br /&gt;
-興味がある方は是非チェックしておいてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFramework関西ビギナーズまとめwiki&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>前回盛り上がりましたPlayFrameworkもくもく会、早速2回目を開催します〜！
+2013/07/06 9:30〜12:00、オオサカンスペースにて開催！！
+平日夜だと会社員の方が参加しづらいし、かといって土曜午後はいろんな勉強会が集中しているし、日曜はおうちでゴロゴロしたいし・・・と悩んだ結果、土曜朝開催にしてみました。
+参加登録はこちから
+PlayFramework関西ビギナーズ もくもく会 第2回 #play_kb : ATND
+今後、もくもく会開催のお知らせは以下のページにて行います。
+興味がある方は是非チェックしておいてください。
+PlayFramework関西ビギナーズまとめwiki</description>
     </item>
     
     <item>
@@ -678,52 +202,10 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
       <pubDate>Thu, 20 Jun 2013 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2013/24/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/23&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会を開催しました。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://nocono.net/23&#34;&gt;先日お知らせした&lt;/a&gt;PlayFrameworkもくもく会を開催しました。&lt;br /&gt;
 &lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;(水) &lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて。&lt;/p&gt;
 
-&lt;p&gt;2時間各自で自主勉強の後、30分成果報告の時間を設けました。&lt;br /&gt;
-情報交換をする事ができて、とても有意義な時間となりました。&lt;br /&gt;
-参加者のみなさんありがとうございました！&lt;/p&gt;
-
-&lt;p&gt;こんなライトな感じで定期的に開いていきたいなぁと思っています。&lt;br /&gt;
-平日よりも土日の方がみなさん参加しやすいかもですが、他の勉強会とのブッキングも多くなっちゃう気もするしどっちがいいんだろう？&lt;br /&gt;
-まぁその辺は様子見ながら決めていきたいです。&lt;/p&gt;
-
-&lt;p&gt;実はこっそりまとめwiki作りました。&lt;br /&gt;
-&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki&#34;&gt;PlayFrameworkビギナーズ まとめwiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;開催記録、次回開催情報など載せていきます。&lt;br /&gt;
-情報チェックにご活用ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人的にやったことメモ:be552971788e8adf422dae2567065c29&#34;&gt;個人的にやったことメモ&lt;/h2&gt;
-
-&lt;p&gt;公式マニュアルを参考にTwitterのOAuth認証処理を実装しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.playframework-ja.org/documentation/2.0.4/ScalaOAuth&#34;&gt;Documentation: ScalaOAuth — Playframework&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;処理自体はサンプルコードをコピペすれば動くのですが、文法的に分からないところを調べていたらあっさり2時間経過・・・。&lt;/p&gt;
-
-&lt;h3 id=&#34;参照したページや書籍:be552971788e8adf422dae2567065c29&#34;&gt;参照したページや書籍&lt;/h3&gt;
-
-&lt;p&gt;大分お世話になりました。&lt;br /&gt;
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00DIM65HE&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;・暗黙の引数(inplict)&lt;br /&gt;
-&lt;a href=&#34;http://www.ne.jp/asahi/hishidama/home/tech/scala/def.html#h_implicit_parameter&#34;&gt;Scalaメソッド定義メモ(Hishidama&amp;rsquo;s Scala def Memo) &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;・flatMap&lt;br /&gt;
-&lt;a href=&#34;http://d.hatena.ne.jp/PvP/20110427/1303882687&#34;&gt;map と flatMap の違い - PvP&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;・例外処理&lt;br /&gt;
-&lt;a href=&#34;http://yuroyoro.hatenablog.com/entry/20100719/1279519961&#34;&gt;Scalaでの例外処理 - Either,Option,util.control.Exception - ( ꒪⌓꒪) ゆるよろ日記&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;その他:be552971788e8adf422dae2567065c29&#34;&gt;その他&lt;/h3&gt;
-
-&lt;p&gt;・&lt;a href=&#34;http://slick.typesafe.com/&#34;&gt;Slick&lt;/a&gt;というDBアクセスラッパーを教えて頂きました！&lt;br /&gt;
-・報告時点でOAuth認証がこけていたのですが、Twitter側のコールバックURL設定していなかっただけでした・・・。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -732,15 +214,61 @@ Herokuで時間がかかってコンパイルタイムアウトになるから�
       <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2013/23/</guid>
-      <description>&lt;p&gt;あの幻のPlayFramework関西ビギナーズがもくもく会になって帰ってきた！&lt;/p&gt;
+      <description>あの幻のPlayFramework関西ビギナーズがもくもく会になって帰ってきた！
+2013/06/19 19:00〜21:30、オオサカンスペースにて開催！！
+参加登録はこちから
+PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND
+1ヶ月に1〜2回のペースで開きたいなぁ。</description>
+    </item>
+    
+    <item>
+      <title>Scala関西ビギナーズ第2回を開催しました #scala_kb</title>
+      <link>http://nocono.net/post/2013/22/</link>
+      <pubDate>Thu, 06 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/22/</guid>
+      <description>&lt;p&gt;2013/4/13(土)、&lt;a href=&#34;http://atnd.org/events/37820&#34;&gt;Scala関西ビギナーズ第2回&lt;/a&gt;を開催しました。&lt;br /&gt;
+場所は第1回目と同じくオオサカンスペースさん。&lt;/p&gt;
 
-&lt;p&gt;2013/06/19 19:00〜21:30、&lt;a href=&#34;http://www.osakan-space.com&#34;&gt;オオサカンスペース&lt;/a&gt;にて開催！！&lt;/p&gt;
+&lt;p&gt;この日は早朝に大きい地震が発生したのですが、昼頃には交通機関も復旧して無事に開催することができました。&lt;/p&gt;
 
-&lt;p&gt;参加登録はこちから&lt;br /&gt;
-&lt;a href=&#34;http://atnd.org/events/40379&#34;&gt;PlayFramework関西ビギナーズ もくもく会 第1回 #play_kb : ATND&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scalaビギナーズ第2回 開催のお知らせ</title>
+      <link>http://nocono.net/post/2013/20/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2013/20/</guid>
+      <description>&lt;p&gt;お待たせしました・・・！&lt;br /&gt;
+Scalaビギナーズ第2回、いよいよ開催致します！&lt;br /&gt;
+&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt;(土) 13:30〜17:30 オオサカンスペースさんにて。&lt;/p&gt;
 
-&lt;p&gt;1ヶ月に1〜2回のペースで開きたいなぁ。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2012/12/22(土) Scala関西ビギナーズ 第1回</title>
+      <link>http://nocono.net/post/2012/13/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/13/</guid>
+      <description>&lt;p&gt;2012/12/22(土) &lt;a href=&#34;http://atnd.org/events/34707&#34;&gt;「Scala関西ビギナーズ 第1回」&lt;/a&gt; を開催しました。
+場所は&lt;a href=&#34;http://www.osakan-space.com/&#34;&gt;オオサカンスペース&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2012/11/24(土) 第2回 関数型言語勉強会 大阪</title>
+      <link>http://nocono.net/post/2012/12/</link>
+      <pubDate>Wed, 28 Nov 2012 00:00:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2012/12/</guid>
+      <description>&lt;p&gt;2012/11/24(土)&lt;a href=&#34;http://atnd.org/events/33084&#34;&gt;「第2回 関数型言語勉強会 大阪」&lt;/a&gt;でLTやってきました！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

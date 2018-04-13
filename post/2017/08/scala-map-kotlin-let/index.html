@@ -13,6 +13,7 @@
 
   <meta name="description" content="先日、Scala初心者向けの勉強会 を開催してそこで「OptionのforeachはKotlinのletみたいな使い方をするものですか？」という質問をうけたのですが、そのときKotlinのletをきちんと思い出せないままズレた回答をしてしまったので、とりいそぎブログを書くことにしました。(すみません・・・)
 勢いで書いているので語弊がある部分があればご指摘いただけると幸いです。
+
 ">
   <meta name="keywords" content="Scala,Kotlin,">
 
@@ -22,6 +23,7 @@
   <meta property="og:type" content="article">
   <meta name="og:description" content="先日、Scala初心者向けの勉強会 を開催してそこで「OptionのforeachはKotlinのletみたいな使い方をするものですか？」という質問をうけたのですが、そのときKotlinのletをきちんと思い出せないままズレた回答をしてしまったので、とりいそぎブログを書くことにしました。(すみません・・・)
 勢いで書いているので語弊がある部分があればご指摘いただけると幸いです。
+
 ">
   <meta name="keywords" content="Scala,Kotlin,">
   <meta property="og:url" content="http://nocono.net/post/2017/08/scala-map-kotlin-let/">
@@ -98,6 +100,8 @@
       <p>先日、<a href="https://connpass.com/event/62871/">Scala初心者向けの勉強会</a> を開催してそこで「OptionのforeachはKotlinのletみたいな使い方をするものですか？」という質問をうけたのですが、そのときKotlinのletをきちんと思い出せないままズレた回答をしてしまったので、とりいそぎブログを書くことにしました。(すみません・・・)
 勢いで書いているので語弊がある部分があればご指摘いただけると幸いです。</p>
 
+<p></p>
+
 <p>が、foreachは戻り値がUnit型なので比較するならmapかな？と思いますので、map関数の方で似たようなコードを書いてみました。(Kotlinのletは最後の評価値が戻り値となるので。)</p>
 
 <p>下は、ScalaのOption[String]にmap関数で中の値に文字列を連結、そのあと値をOptionから取り出している例です。</p>
@@ -127,7 +131,6 @@ val greet = name?.let { n -&gt; &quot;${n}さんこんにちは&quot; }  // name
 </ul>
 
 <p>要は用途は似ているけど、結構違うよということでした。</p>
-
       <div id="ninja_buttons" class="ninja_onebutton">
       <script type="text/javascript">
       

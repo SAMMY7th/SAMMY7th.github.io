@@ -6,8 +6,11 @@
     <description>Recent content in Java女子部 on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <copyright>Written by きの子</copyright>
     <lastBuildDate>Wed, 30 Dec 2015 18:41:15 +0900</lastBuildDate>
-    <atom:link href="http://nocono.net/tags/java%E5%A5%B3%E5%AD%90%E9%83%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://nocono.net/tags/java%E5%A5%B3%E5%AD%90%E9%83%A8/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>関西Java女子部「Javaでwebアプリケーション入門」を開催しました #javajok</title>
@@ -15,93 +18,14 @@
       <pubDate>Wed, 30 Dec 2015 18:41:15 +0900</pubDate>
       
       <guid>http://nocono.net/post/2015/javajok/</guid>
-      <description>
-
-&lt;p&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;(日)、関西Java女子部主催で「Javaでwebアプリケーション入門」を開催しました。
+      <description>&lt;p&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;(日)、関西Java女子部主催で「Javaでwebアプリケーション入門」を開催しました。
 場所は &lt;a href=&#34;http://corp.rakuten.co.jp/about/map/index__p6.html&#34;&gt;楽天株式会社 大阪支社さん&lt;/a&gt; 。&lt;/p&gt;
 
 &lt;p&gt;・・・もう1ヶ月以上前ですね。時間が経つのは早いなぁ・・・。&lt;/p&gt;
 
 &lt;p&gt;開催記録を残しておきたいので、今更感はありますが記事を書いておきます。&lt;/p&gt;
 
-&lt;h2 id=&#34;開催概要:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;開催概要&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://javajok.connpass.com/event/22044/&#34;&gt;【大阪】Javaでwebアプリケーション入門【女性も男性もOK】 - connpass&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;参加人数は20名ほど。
-女性10名、男性10名と男女別々に募集をかけました。(理由は後述。)&lt;/p&gt;
-
-&lt;p&gt;内容は簡単なWebアプリ作成(Twitter「風」アプリ)のハンズオンで、ライブコーディングを &lt;a href=&#34;https://twitter.com/irof&#34;&gt;いろふ(@irof)さん&lt;/a&gt;  に担当していただき、 &lt;a href=&#34;https://twitter.com/backpaper0&#34;&gt;うらがみ(@backpaper0)さん&lt;/a&gt; 、&lt;a href=&#34;https://twitter.com/ihcomega&#34;&gt;よこな(@ihcomega)さん&lt;/a&gt; 、&lt;a href=&#34;https://twitter.com/yukieen&#34;&gt;ゆきーん(@yukieen)さん&lt;/a&gt; 、 &lt;a href=&#34;https://twitter.com/haljik&#34;&gt;はるじっく(@haljik)さん&lt;/a&gt;  にチューターとしてハンズオンのサポートをしていただきました。
-そして合間合間に、私の方でJava/Webアプリ開発の基礎を講義形式で説明しました。&lt;/p&gt;
-
-&lt;h3 id=&#34;twitter風webアプリサンプルコード:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;Twitter風Webアプリサンプルコード&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/javajok/simpletter&#34;&gt;javajok/simpletter&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;講義資料:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;講義資料&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/1ZyWlI6SZa55ZB&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/20151115-javaweb&#34; title=&#34;2015/11/15 Javaでwebアプリケーション入門&#34; target=&#34;_blank&#34;&gt;2015/11/15 Javaでwebアプリケーション入門&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://irof.hateblo.jp/entry/2015/11/16/235913&#34;&gt;いろいろトラブルもあり&lt;/a&gt;  残念ながら自習の時間を取ることはできませんでしたが、ハンズオン・講義共に準備していた説明を全て行うことができました。&lt;/p&gt;
-
-&lt;h2 id=&#34;開催に至った経緯:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;開催に至った経緯&lt;/h2&gt;
-
-&lt;p&gt;関西Java女子部では基本的に月1ペースでもくもく会を開催しています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/post/2014/35/&#34;&gt;関西Java女子部を開催しました #javajok #javajo | nocono&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;毎月大体4〜5人と参加人数は多くはないものの、ほぼ毎回初参加の方が1人は来てくださいます。(ありがたや)。
-その中には「他の勉強会には参加したことがないけど来てみました。」という方も多いです。そういう方に参加理由を聞くと、ほぼみなさん「他のIT勉強会はどれも内容が難しそうで自分が参加してもついていけなさそうで・・・。だけど自習なら大丈夫だと思って。」とおっしゃいます。「ついていけないと迷惑をかける。」と思っている方も結構いらっしゃるようです。(もちろんそれは誤解なので、そんなことはないですよと言ってはいます。)&lt;/p&gt;
-
-&lt;p&gt;この意見を受けて、普段のもくもく会以外に、内容的にハードルが高くない初心者向け勉強会を、IT勉強会に興味はあるけど敷居が高いと感じている方向けに開催してみたいなぁと何となく考えていました。&lt;/p&gt;
-
-&lt;p&gt;そんな中最近の参加者さんで、プログラミング未経験でSEを目指してJava/Webアプリ開発の勉強をしているけど苦戦している方がいて、ちょうど良いので彼女のような人(Java/Webアプリ開発に携わっている・携わりたいけど基礎が怪しい人)をターゲットとして勉強会を開こうと考えました。&lt;/p&gt;
-
-&lt;p&gt;Java初心者向け勉強会は珍しく、せっかくのいい機会だし女性以外の初心者の方も来てほしかったので、女性限定にはしませんでした。
-かといって普通に募集をかけるとほぼ男性ばかりになることが予想されたので、男性枠・女性枠を分ける形をとりました。&lt;/p&gt;
-
-&lt;p&gt;この形で開催したいとJava女子部ボスのよこなさんに話を持ちかけ、&lt;a href=&#34;http://kanjava.connpass.com/&#34;&gt;関Java&lt;/a&gt; のいろふさん、うらがみさんにも一緒にやろうと声を掛けました。
-そしてハンズオン形式にすることが決まった後、更にゆきーんさん、はるじっくさんにお手伝いをお願いしました。
-このメンバーにプラス、先述のSE見習い &lt;a href=&#34;https://twitter.com/ar_keyaki&#34;&gt;はしもと(@ar_keyaki)さん&lt;/a&gt; にも運営を手伝っていただきました。&lt;/p&gt;
-
-&lt;h2 id=&#34;開始準備:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;開始準備&lt;/h2&gt;
-
-&lt;p&gt;最初はTwitterAPIを利用したWEBアプリにしようという話になったのですが、TwiterAPIだとアカウント準備などの手間がいるので、じゃあもういっそ自分達でTwitter「風」APIを作ろうということになりました。
-フレームワークは手軽であるという理由でSpringBootを選択。&lt;/p&gt;
-
-&lt;p&gt;方向性が決まると、いろふさんとうらがみさんが凄いスピードでAPIとハンズオンのサンプルコードを作ってくれました。さすがです。&lt;/p&gt;
-
-&lt;p&gt;ハンズオン準備はお二人に任せ、私はJava/Webアプリ開発基礎説明の準備を行いました。
-私自身も新人の頃、よくわからないままにStrutsの仕事をしていた経験があるので、当時自分がもっと早く理解しておくべきだったと感じた事柄を思い返しながら、説明する内容を考えました。&lt;/p&gt;
-
-&lt;h2 id=&#34;感想:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;参加者のみなさんからのアンケート結果もよく、開催した甲斐がありました。&lt;/p&gt;
-
-&lt;p&gt;お手伝いしてくれたみなさんも、大変だったけどそれ以上に楽しかった！またやりたい！！と言ってくれていて本当によかったなーと思います。
-私も楽しかったしまたやりたいです。またやりましょう。&lt;/p&gt;
-
-&lt;p&gt;最後になりましたが、運営のみんな、会場担当として当日参加してくださった  &lt;a href=&#34;https://twitter.com/bufferingsさん&#34;&gt;@bufferingsさん&lt;/a&gt; 、素振り会に付き合ってくれたhoge駆動のみんな、そして参加者のみなさま、本当にありがとうございました！&lt;/p&gt;
-
-&lt;h2 id=&#34;関連記事:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;関連記事&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://backpaper0.github.io/2015/11/15/javajok.html&#34;&gt;関西Java女子部主催「Javaでwebアプリケーション入門」をお手伝いしてきました #javajok — 裏紙&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://irof.hateblo.jp/entry/2015/11/16/235913&#34;&gt;ハンズオンイベントに潜む悪魔（黒猫） - 日々常々&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;この日、いろふさんガチで凹んでいました。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;告知:9abe309efa768e0a3bd46cdf638bac3b&#34;&gt;告知&lt;/h2&gt;
-
-&lt;p&gt;次回Java女子部イベントはこちら！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://javajok.connpass.com/event/24419/&#34;&gt;【関東/関西/九州同時開催】女性エンジニア大集合!新春LT×座談会@大阪 - connpass&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;まだ席ありますよろしくね！&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -110,142 +34,10 @@
       <pubDate>Mon, 08 Dec 2014 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2014/35/</guid>
-      <description>
-
-&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2014/tech_women&#34;&gt;Tech Women Advent Calendar 2014 8日目&lt;/a&gt;の記事です。&lt;br /&gt;
+      <description>&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2014/tech_women&#34;&gt;Tech Women Advent Calendar 2014 8日目&lt;/a&gt;の記事です。&lt;br /&gt;
 昨日は@kanu1102さんの「&lt;a href=&#34;http://kanu.hatenadiary.com/entry/2014/12/07/023845&#34;&gt;この夏わたしはGitに出会い、恋をした&lt;/a&gt;」でした。&lt;/p&gt;
 
-&lt;h2 id=&#34;自己紹介:6371353a5ff48e714176994a59bfdf29&#34;&gt;自己紹介&lt;/h2&gt;
-
-&lt;p&gt;きの子(@aa7th)と申します。&lt;br /&gt;
-大阪でフリーランスエンジニアをやっております。(昨日は「&lt;a href=&#34;http://nocono.net/34&#34;&gt;フリーランスエンジニアになって3年が経ちました&lt;/a&gt;」という記事を投稿しました。)&lt;/p&gt;
-
-&lt;p&gt;今日の記事は、最近はじめた&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;関西Java女子部&lt;/a&gt;(#javajok)というコミュニティの紹介です。&lt;/p&gt;
-
-&lt;h2 id=&#34;関西java女子部とは:6371353a5ff48e714176994a59bfdf29&#34;&gt;関西Java女子部とは&lt;/h2&gt;
-
-&lt;p&gt;今年の1月に東京で発足した「Java女子部 (#javajo)」の関西支部(?)です。&lt;/p&gt;
-
-&lt;p&gt;Java女子部では&lt;a href=&#34;https://www.facebook.com/groups/javajo/&#34;&gt;Facebookグループ&lt;/a&gt;で交流をしています。&lt;br /&gt;
-私は以前の関ジャバでの&lt;a href=&#34;https://twitter.com/skrb&#34;&gt;@skrb&lt;/a&gt;さんによる宣伝がきっかけで参加しました。&lt;br /&gt;
-FBグループには関西の方も結構いらっしゃって「関西でもやりたいね」という話になり、「関西Java女子部」という名前で開催の運びとなりました。&lt;/p&gt;
-
-&lt;p&gt;というわけで、大元は東京の「Java女子部」ではありますが、関西は関西で独自に動いている。そんな感じの運営となっております。&lt;/p&gt;
-
-&lt;h2 id=&#34;11-3-月-祝-第1回-関西java女子部:6371353a5ff48e714176994a59bfdf29&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;(月・祝) 第1回 関西Java女子部&lt;/h2&gt;
-
-&lt;p&gt;記念すべき&lt;a href=&#34;http://javajok.connpass.com/event/9511/&#34;&gt;第1回の関西Java女子部 部活&lt;/a&gt;は11/3(月)大阪本町の&lt;a href=&#34;http://www.osakan-space.com/&#34;&gt;オオサカンスペース&lt;/a&gt;様にて開催いたしました。&lt;/p&gt;
-
-&lt;p&gt;内容は「自習」としました。
-各自勉強したいことを時間内に「自習」し、わからないことがあれば教え合うというスタイルです。&lt;/p&gt;
-
-&lt;p&gt;これは私からみなさんに提案し、同意が得られたので採用しました。&lt;br /&gt;
-この形を提案したのは、以下のような理由からです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaといってもJava EE、Java SE、Android・・・興味がある分野はみんな様々&lt;/li&gt;
-&lt;li&gt;レベルもバラバラ&lt;/li&gt;
-&lt;li&gt;発表やハンズオンなど、コンテンツを毎回用意するのはおそらく凄く手間&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;よって、レベルも興味がある分野もバラバラなメンバーで定期的に集まるには、自習形式がよいのでは。と判断しました。&lt;br /&gt;
-(この形式は、私が以前参加していたXcode勉強会関西ビギナーズを参考にしました。)&lt;/p&gt;
-
-&lt;p&gt;この日の参加者は8人。&lt;br /&gt;
-東京のJava女子部からもお二人参加してくださいました。&lt;br /&gt;
-私自身もどんな雰囲気になるか想像できなかったのですが、和気あいあいとした勉強会となりました。&lt;/p&gt;
-
-&lt;p&gt;最初に一人一人自己紹介をし、今日何を勉強するかを共有。&lt;br /&gt;
-この時点ですでに、みなさん積極的に「その内容であれば私、お教えできるかもしれないので何かあれば質問してくださいね。」と手を挙げてくださいました。&lt;/p&gt;
-
-&lt;p&gt;自己紹介後はさっそく、各自自習。&lt;br /&gt;
-時折雑談を交えつつ、困ったときには質問をしながら作業をすすめました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15087135404_4b253243ed_z.jpg&#34; alt=&#34;もくもく会の様子&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;15時にはみんなでおやつを食べました。&lt;br /&gt;
-東京の方々のお土産、おいしかったです！&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521211549_d0305e445b_z.jpg&#34; alt=&#34;おやつ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;おやつを楽しみながらの雑談タイム。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521212219_080692f3db_z.jpg&#34; alt=&#34;もぐもぐ会の様子&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;おやつの後は、自習再開。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2014/15521681018_49556752f4_z.jpg&#34; alt=&#34;もくもく会の様子&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最後には、各々作業報告を行いました。&lt;/p&gt;
-
-&lt;p&gt;ちなみに私は、普段やらないJava EEにチャレンジしたものの、そんなに進まなかった・・・というちょっとしょっぱい感じで終わってしまいました・・・。&lt;/p&gt;
-
-&lt;p&gt;他のみなさんは、Java FXで簡単なアプリを動かしたり、Android開発環境を整えた方、次の日の勉強会用のLT資料を作っていた方、本を読んで基礎から勉強されていた方・・・などなど、短い時間の中でみなさん思い思いの作業をされていました。&lt;/p&gt;
-
-&lt;h2 id=&#34;感想:6371353a5ff48e714176994a59bfdf29&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;初めての開催なので不安もあったのですが、特に私の方で気を配らなくとも、みなさんお互い声を掛け合い雑談されていて一安心しました。&lt;br /&gt;
-始終、女子ならではの柔らかい空気の勉強会でした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/741074&#34;&gt;2014/11/3(月) 第1回 関西Java女子部 - Togetterまとめ&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;11-21-金-java-se-8勉強会-関西女子部もラムダ式に挑戦:6371353a5ff48e714176994a59bfdf29&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;(金) ◆Java SE 8勉強会◆関西女子部もラムダ式に挑戦！&lt;/h2&gt;
-
-&lt;p&gt;この後、11/21には@skrbさんを講師にお迎えした、&lt;a href=&#34;http://javajok.connpass.com/event/9772/&#34;&gt;Java SE8ラムダ式ハンズオン&lt;/a&gt;を開催しました。&lt;br /&gt;
-これはこの日元々ご来阪の予定であった@skrbさんから声をかけていただいた事で実現したイベントです。&lt;/p&gt;
-
-&lt;p&gt;ただ、この日は女性限定として席が余ってしまってはもったいないと考え、開催3日前からは参加者の知人限定で男性のエントリーもOKとしました。&lt;br /&gt;
-今後も内容によってはこのように、男性の方にも参加いただけるようにしたいと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;これから:6371353a5ff48e714176994a59bfdf29&#34;&gt;これから&lt;/h2&gt;
-
-&lt;p&gt;このように、東京で発足したJava女子部がきっかけで始まった関西Java女子部。マイペースにやっております。&lt;/p&gt;
-
-&lt;p&gt;普段勉強会へ足を運ばない女子や、男性ばかりの勉強会にはちょっと参加し辛いという方にも、気軽に来てもらえるものを目指したいです。&lt;br /&gt;
-そして既に積極的に色んな勉強会に足を運んでいる女子も何人かいますので、「他の勉強会にも一緒に参加してみようかな？」と思っていただければ、ちょっと嬉しいです。&lt;/p&gt;
-
-&lt;p&gt;参加レベルを問わない自習形式は好評でしたので、しばらくはこの形を基本とするつもりですが、先日のラムダ式ハンズオンのような特別企画もまたできればよいなと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人的な女子部への想い:6371353a5ff48e714176994a59bfdf29&#34;&gt;個人的な女子部への想い&lt;/h2&gt;
-
-&lt;p&gt;ここからは、更に個人的な想いになります。&lt;/p&gt;
-
-&lt;p&gt;私は過去に、2年半の正社員経験、3年間の派遣社員経験があります。&lt;br /&gt;
-でも、その中でIT勉強会というものの存在を聞いたことがありませんでした。&lt;br /&gt;
-同じ職場にはもちろん何人ものプログラマさんがいましたが、参加したことがあるという話を聞いたことがありませんでした。&lt;/p&gt;
-
-&lt;p&gt;勉強会の存在を知ったのは、会社を辞めた後、フリーランスになってからです。&lt;br /&gt;
-土日に有志による勉強会がこんなに開かれ、たくさんの技術者さん達が参加しており、しかも皆楽しそうであることにもの凄い衝撃を覚えました。&lt;/p&gt;
-
-&lt;p&gt;別に勉強会は参加しなければならないものでもありませんし、していれば偉いというものでもありません。&lt;br /&gt;
-が、社外のエンジニアの人達と交流する事はとてもよい刺激になります。&lt;/p&gt;
-
-&lt;p&gt;私はプログラミングが好きでこの職業に就いた割には仕事を面白いと感じられず、でもそういうものだと思いながら会社に通っていました。&lt;br /&gt;
-ですので、もしも会社員時代にこういう場に参加して、社外のエンジニアさん達と交流していたら何か違ったかもなぁ・・・と常々思っています。&lt;br /&gt;
-(逆に、だから今フリーランスなので後悔しているわけではないですが。)&lt;/p&gt;
-
-&lt;p&gt;なので過去の私のような、会社が全てになってしまっている方に。まずは1回だけでいいから、是非勉強会に足を運んでみてほしいという気持ちがあります。&lt;br /&gt;
-ちょっとお節介な想いではありますが。&lt;/p&gt;
-
-&lt;p&gt;女性限定=女性参加の敷居が低いという利点を活かし、昔の私のように悶々と仕事をしている女の子の助けになるようなことがあれば。&lt;br /&gt;
-それはとても素敵なことだなと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;最後に:6371353a5ff48e714176994a59bfdf29&#34;&gt;最後に&lt;/h2&gt;
-
-&lt;p&gt;長くなってしまいましたが、こんな感じでやっております関西Java女子部。&lt;br /&gt;
-ぜひぜひみなさまよろしくお願いします！&lt;br /&gt;
-(時間がせまっていて締めが雑くなった・・・！)&lt;/p&gt;
-
-&lt;p&gt;明日は @hiroponiusさんです！&lt;br /&gt;
-もうあと10分ぐらいで明日だけど！！&lt;/p&gt;
-
-&lt;h2 id=&#34;関連リンク:6371353a5ff48e714176994a59bfdf29&#34;&gt;関連リンク&lt;/h2&gt;
-
-&lt;p&gt;今後の開催状況などはこちらでチェックしてくださいね。&lt;br /&gt;
-&lt;a href=&#34;http://javajok.connpass.com/&#34;&gt;関西Java女子部 - connpass&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/groups/javajo/&#34;&gt;Java女子部 FBグループ&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

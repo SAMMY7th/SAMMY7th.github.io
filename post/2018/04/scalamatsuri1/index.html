@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    OSSに初貢献した話 - ScalaMatsuri2018レポートその1 #ScalaMatsuri | nocono
+  </title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta name="description" content="3/16〜3/18 3日間に渡って開催された ScalaMatsuri2018 に参加してきました。
+すっかり遅くなってしまったのですが、感想ブログを書いていこうと思います。
+
+">
+  <meta name="keywords" content="IT勉強会,Scala,">
+
+
+  <meta property="og:title" content="OSSに初貢献した話 - ScalaMatsuri2018レポートその1 #ScalaMatsuri | nocono">
+
+  <meta property="og:type" content="article">
+  <meta name="og:description" content="3/16〜3/18 3日間に渡って開催された ScalaMatsuri2018 に参加してきました。
+すっかり遅くなってしまったのですが、感想ブログを書いていこうと思います。
+
+">
+  <meta name="keywords" content="IT勉強会,Scala,">
+  <meta property="og:url" content="http://nocono.net/post/2018/04/scalamatsuri1/">
+
+  <meta property="og:image" content="/images/thumbnail.png">
+  <meta property="og:site_name" content="nocono">
+  <meta property="fb:app_id" content="170143633116841">
+  <meta property="fb:page_id" content="386921578022414">
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nocono.net/post/2018/04/scalamatsuri1/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  
+  <link href="http://nocono.net/index.xml" rel="alternate" type="application/rss+xml" title="nocono" />
+  <link href="http://nocono.net/index.xml" rel="feed" type="application/rss+xml" title="nocono" />
+
+  
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "2b9fffc6-b3fe-4988-a0ef-4f9dcce98eaa", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="http://nocono.net/"><img src="/images/logo.png" class="logo"></a></h1>
+        
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://twitter.com/aa7th" target="_blank">Twitter</a></li>
+          
+          <li><a href="https://github.com/SAMMY7th" target="_blank">GitHub</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>OSSに初貢献した話 - ScalaMatsuri2018レポートその1 #ScalaMatsuri</h1>
+      <div class="meta">
+        2018/04/13 &nbsp;
+        
+          #<a href="/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A">IT勉強会</a>&nbsp;
+        
+          #<a href="/tags/scala">Scala</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      <p>3/16〜3/18 3日間に渡って開催された <a href="https://2018.scalamatsuri.org/">ScalaMatsuri2018</a> に参加してきました。
+すっかり遅くなってしまったのですが、感想ブログを書いていこうと思います。</p>
+
+<p></p>
+
+<h2 id="3-16-1日目-ossハッカソン"><sup>3</sup>&frasl;<sub>16</sub> 1日目 OSSハッカソン</h2>
+
+<p>1日目のトレーニングDayでは <a href="http://blog.scalamatsuri.org/entry/2018/02/05/130033">OSSハッカソン</a> に参加しました。</p>
+
+<p>私はScalikeJDBC, Skinny Frameworkの瀬良さん( <a href="https://twitter.com/seratch">@seratch</a>, <a href="https://twitter.com/seratch_ja">@seratch_ja</a> ) のチームに参加しました。
+ScalikeJDBCを利用したことがあるのと、瀬良さんにはいつもScala関西Summitでハンズオンを開催いただいたりご登壇いただいたりと大変お世話になっているので、少しでも貢献できたら・・・と思い、第1希望にしていました。</p>
+
+<p>他の参加者の方々との軽い自己紹介のあと早速作業を開始することに。</p>
+
+<p>私はOSSにPRを出したことがなく、最初「OSS PR マナー」でググりながら「す、すみませんそもそもissue着手するときって勝手にやっていいもんなんですか(震え声)」みたいな質問をするという状態でした。(※ よいそうです。)</p>
+
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">OSSにPR出したことなくて、そもそもの出し方からおそわってるなう <a href="https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;ref_src=twsrc%5Etfw">#ScalaMatsuri</a></p>&mdash; SAMMY(きの子) (@aa7th) <a href="https://twitter.com/aa7th/status/974516230815080448?ref_src=twsrc%5Etfw">2018年3月16日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>そして「これ多分簡単ですよ」とおすすめされたissueに着手。瀬良さんの超手厚いサポートのお陰で、2つPRを出すことに成功！無事マージもされました！！</p>
+
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">3rd pull requests to me at <a href="https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;ref_src=twsrc%5Etfw">#ScalaMatsuri</a> OSS hack-a-thon has been merged. Thanks .<a href="https://twitter.com/aa7th?ref_src=twsrc%5Etfw">@aa7th</a>! <a href="https://t.co/vcfZMoGY0i">https://t.co/vcfZMoGY0i</a></p>&mdash; Kazuhiro Sera (@seratch) <a href="https://twitter.com/seratch/status/974545229146570752?ref_src=twsrc%5Etfw">2018年3月16日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ScalikeJDBCのコントリビューターになりました 🙌<br><br> <a href="https://t.co/F9wsLKw9lw">https://t.co/F9wsLKw9lw</a></p>&mdash; SAMMY(きの子) (@aa7th) <a href="https://twitter.com/aa7th/status/974545679396687872?ref_src=twsrc%5Etfw">2018年3月16日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>「2つPR出してマージされた」と言ったら色んな人に「すごい！！！！！！」とと褒めて頂けたんですが、事前に瀬良さんが簡単なissueを用意してくれていた上に、自己解決できずにほぼほぼ瀬良さんに聞きながらやったので、なんかもう褒められると申し訳ない気持ちになるレベル・・・。おいしいところだけもってっちゃってすみませんすみません。</p>
+
+<h2 id="参加して本当によかった">参加して本当によかった！</h2>
+
+<p>参加してまじでよかったという感想しかありません。</p>
+
+<ul>
+<li>メンテナの方のサポートを受けながらとはいえ、PRを出す経験をすることにより、OSSへPRを出すことの心理的障壁が大分下がった。</li>
+<li>質問したときにいただいたアドバイス(sbtプラグイン情報などなど)が勉強になった。</li>
+<li>瀬良さんの作業の速さをみて、私ももっと速度とか効率とかをあげていかないといけないよな・・・って思った。(いい刺激になった)</li>
+</ul>
+
+<p>いい機会をいただけましたし、1日目の時点で「大阪からはるばる来た甲斐あったわぁ・・・」ってなりました。</p>
+
+<p>関係者のみなさま、本当にありがとうございました。</p>
+
+<p>ところで！実は！！4/21(土) その瀬良さんが大阪にいらっしゃいます！！！</p>
+
+<h2 id="4-21-土-scalamatsuri-2018-osakaサテライト"><sup>4</sup>&frasl;<sub>21</sub>(土) ScalaMatsuri 2018 Osakaサテライト</h2>
+
+<p>ScalaMatsuri 2018 Osakaサテライト - connpass <a href="https://connpass.com/event/82566/">https://connpass.com/event/82566/</a></p>
+
+<p>ScalaMatsuri 2018 プログラムの中から 瀬良さん、粕谷さん ( <a href="https://twitter.com/daiksy">@daiksy</a> ) に セッションをご再演いただきます。また、数本のセッション録画動画を視聴する予定です。
+場所は新大阪のMOTEX株式会社さん。</p>
+
+<p>終了後は <a href="https://connpass.com/event/83947/">ビアバッシュ</a> も開催予定です。(申し込みページが別なのでご注意を)</p>
+
+<p>瀬良さんのご登壇内容は「Scala OSS プロジェクトを 6 年以上続けるために必要なこと」と、OSSについてのお話です。
+ビアバッシュもあるので、せっかくのこの機会に、ぜひぜひ瀬良さんとお話してみてください。とても気さくな方です。</p>
+
+<p>OSS貢献に興味がある方、OSSだけじゃなくてとにかくScalaの話をしたいぜ聞きたいぜという方、ぜひぜひ4/21イベントお越し下さいませ。お待ちしております！</p>
+      <div id="ninja_buttons" class="ninja_onebutton">
+      <script type="text/javascript">
+      
+      (function(d){
+      if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1)=='undefined'){
+          document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/51cc7b75f814fac5b641e2eec46683c1'><\/sc"+"ript>");
+      }else{
+          window.NINJA_CO_JP_ONETAG_BUTTON_51cc7b75f814fac5b641e2eec46683c1.ONETAGButton_Load();}
+      })(document);
+      
+      </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+      </div>
+    </article>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:300px;height:250px"
+         data-ad-client="ca-pub-4146428227434718"
+         data-ad-slot="7830002008"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    
+ <aside><div id="disqus_thread"></div></aside> 
+
+<script type="text/javascript">
+     
+    var disqus_shortname = 'nocono';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </main>
+
+  <nav class="pagination">
+    
+      <span class="previous">&larr; <a href="http://nocono.net/post/2017/10/ddd/" rel="prev">関Javaで「DDD失敗談を話して学んだこと」という発表をしました</a></span>
+    
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      <img src="/images/profile.png" width="64" height="64"><br>
+      Written by きの子
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39000940-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

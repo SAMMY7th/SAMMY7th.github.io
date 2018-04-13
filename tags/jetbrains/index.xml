@@ -6,8 +6,11 @@
     <description>Recent content in Jetbrains on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <copyright>Written by きの子</copyright>
     <lastBuildDate>Sat, 24 Dec 2016 22:38:56 +0900</lastBuildDate>
-    <atom:link href="http://nocono.net/tags/jetbrains/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://nocono.net/tags/jetbrains/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>IntelliJ IDEA 自分で設定したショートカット達</title>
@@ -15,49 +18,12 @@
       <pubDate>Sat, 24 Dec 2016 22:38:56 +0900</pubDate>
       
       <guid>http://nocono.net/post/2016/12/idea-keymap/</guid>
-      <description>
-
-&lt;p&gt;この記事は &lt;a href=&#34;http://qiita.com/advent-calendar/2016/jetbrains&#34;&gt;JetBrains Advent Calendar 2016 - Qiita&lt;/a&gt; 23日目の記事です。&lt;/p&gt;
+      <description>&lt;p&gt;この記事は &lt;a href=&#34;http://qiita.com/advent-calendar/2016/jetbrains&#34;&gt;JetBrains Advent Calendar 2016 - Qiita&lt;/a&gt; 23日目の記事です。&lt;/p&gt;
 
 &lt;p&gt;私は普段IntelliJ IDEAを利用しているのですが、よく使うのにデフォルトだとショートカットが割り当たっていないため自分でショートカットを設定した機能がいくつかあります。
 今日はその設定を晒してみようとおもいます。&lt;/p&gt;
 
-&lt;p&gt;ちなみにショートカット設定は Preferences -&amp;gt; Keymap で行うことができます。
-私はAndroidStudioを使うこともあるため、こちらも同じ設定にしています。
-他のJetBrainsのIDEも同じように設定することができると思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;clone-caret-above-clone-caret-below:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Clone Caret Above (^⇧↑)、Clone Caret Below (^⇧↓)&lt;/h2&gt;
-
-&lt;p&gt;キャレットを上(もしくは下)に複製し、マルチカーソル機能を使うことができます。
-個人的に、なんでこれにデフォルトでショートカットが割り当たっていないのかわからない機能第1位です。&lt;/p&gt;
-
-&lt;p&gt;例えばですが、こういう操作がキーボードのみで可能となります。
-(こんなコード書かねぇだろ！というツッコミはなしでお願いします・・・)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nocono.net/image/2016/clonecaret.gif&#34; alt=&#34;Clone Caret&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;あとは複数行のインデントをまとめて変更する場合やコメントアウトするときにも使っています。(こっちは⇧↑で複数行選択すれば済む話ですが、なんとなく・・・。)&lt;/p&gt;
-
-&lt;h2 id=&#34;toggle-presentation-mode-p:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Toggle Presentation mode (^⌘P)&lt;/h2&gt;
-
-&lt;p&gt;プレゼンテーションモードのOnOffです。&lt;/p&gt;
-
-&lt;p&gt;これは正直、割り当てていたことを忘れていました・・・。
-以前プレゼンでIDEAを操作したかった時、スムーズにプレゼンモードへの切り替えを行いたくて割り当てたものと思われます。&lt;/p&gt;
-
-&lt;h2 id=&#34;git-resolve-conflicts-f9:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Git/Resolve Conflicts&amp;hellip; (F9)&lt;/h2&gt;
-
-&lt;p&gt;コンフリクト解消。
-いつもIDEA上で行っているので、他と衝突しないF9に割り当てています。&lt;/p&gt;
-
-&lt;h2 id=&#34;editer-tabs-close-others-w:e2a9b4b1b7e1ddc833c6a6808e4d1b78&#34;&gt;Editer Tabs/Close Others (⇧⌘W)&lt;/h2&gt;
-
-&lt;p&gt;エディターで選択中のタブ以外のタブを全て閉じます。
-今開いているソース以外のタブを一旦閉じてしまいたいということがよくあるので割り当てました。&lt;/p&gt;
-
-&lt;p&gt;他にもなんで設定したのかすら思い出せないショートカットがいくつかあったのですが、それはまぁ全く活用していないのだし割愛します。
-IDEAは設定のExport/Import機能もありますし、よく使う機能には積極的にショートカットを当てていきたいですね。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

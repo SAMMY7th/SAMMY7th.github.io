@@ -6,8 +6,11 @@
     <description>Recent content in Nocono on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <copyright>Written by きの子</copyright>
     <lastBuildDate>Wed, 16 Dec 2015 03:28:39 +0900</lastBuildDate>
-    <atom:link href="http://nocono.net/tags/nocono/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://nocono.net/tags/nocono/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>【2015年振り返り】アウトプットしていたら仕事がたくさんやってきた！</title>
@@ -15,154 +18,10 @@
       <pubDate>Wed, 16 Dec 2015 03:28:39 +0900</pubDate>
       
       <guid>http://nocono.net/post/2015/freelance/</guid>
-      <description>
-
-&lt;p&gt;この記事は&lt;a href=&#34;http://www.adventar.org/calendars/780&#34;&gt;フリーランス Advent Calendar 2015 - Adventar&lt;/a&gt;15日目の記事です。
+      <description>&lt;p&gt;この記事は&lt;a href=&#34;http://www.adventar.org/calendars/780&#34;&gt;フリーランス Advent Calendar 2015 - Adventar&lt;/a&gt;15日目の記事です。
 前の記事はmypacecreatorさんの&lt;a href=&#34;http://mypacecreator.net/blog/archives/2934&#34;&gt;フリーランス ここまでの5年間、ここからの5年間 -フリーランス Advent Calendar 2015 14日目- – マイペースクリエイターの覚え書き&lt;/a&gt;でした。&lt;/p&gt;
 
-&lt;p&gt;16日ですけど15日目です。
-・・・遅刻しましたごめんなさい。＿○／|＿&lt;/p&gt;
-
-&lt;h2 id=&#34;自己紹介:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;自己紹介&lt;/h2&gt;
-
-&lt;p&gt;大阪でフリーランスエンジニアをやっているきの子(&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;@aa7th&lt;/a&gt;)と申します。
-フリーランスAdvent Calendarには去年も参加しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/post/2014/34/&#34;&gt;フリーランスエンジニアになって3年が経ちました | nocono&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こちらの記事が予想よりも色々な方から反響をいただき、驚きました。
-初めてお会いした方に&lt;/p&gt;
-
-&lt;p&gt;「ああ！あの、&lt;strong&gt;フリーランスになって貯金がなくなった方ですか！？&lt;/strong&gt;」&lt;/p&gt;
-
-&lt;p&gt;と言われたりなんてこともありました。&lt;/p&gt;
-
-&lt;p&gt;・・・私どうやら、フリーランスになって貯金がなくなったエンジニアとして知名度を上げてしまったようですね。
-(ノ∀｀)アチャー。&lt;/p&gt;
-
-&lt;p&gt;過去の話！過去の話ですから！！今は大丈夫ですよ！！&lt;/p&gt;
-
-&lt;h2 id=&#34;今日のテーマ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;今日のテーマ&lt;/h2&gt;
-
-&lt;p&gt;特にネタも思い浮かばず、とりあえず今年1年を振り返ってみました。
-その結果、&lt;strong&gt;「積極的に勉強会を開催・登壇(=アウトプット)するようにしていてよかったな」&lt;/strong&gt; と思ったのでそのことを書きます。&lt;/p&gt;
-
-&lt;h2 id=&#34;今年1年やった仕事:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;今年1年やった仕事&lt;/h2&gt;
-
-&lt;p&gt;まずは、いただいた仕事について。&lt;/p&gt;
-
-&lt;h3 id=&#34;scalaによる開発案件:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Scalaによる開発案件&lt;/h3&gt;
-
-&lt;p&gt;今年のメインのお仕事が、&lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt;というプログラミング言語による開発案件のお手伝いでした。&lt;/p&gt;
-
-&lt;p&gt;元々Scalaを始めたのは、&lt;a href=&#34;https://www.playframework.com/&#34;&gt;PlayFramework&lt;/a&gt;1.2/Javaを気に入ったものの、Play2からはScala向けのフレームワークとなり、「Playを使い続けるにはScalaを勉強しないと・・・！」と考えたからでした。
-そのため&lt;a href=&#34;http://bit.ly/scala_kb&#34;&gt;勉強会を自ら開催したり&lt;/a&gt;、拙いながらも登壇したりして(自分を追い込んで)みたものの、仕事で使うきっかけがなく、少し勉強しては忘れるということを繰り返していました。&lt;/p&gt;
-
-&lt;p&gt;ところが去年末、いつも勉強会に来てくださっている方からScalaのお仕事を頂けることになり、半年間程チームの一員として開発案件に参加。
-はじめて、どっぷりScalaを書くことになりました。&lt;/p&gt;
-
-&lt;p&gt;更にこのお仕事の終わり頃、私がScala勉強会を主催していることを知っていた他の企業様から「Scalaの案件を手伝ってほしい」とお声かけいただき、今度はそちらへジョイン！&lt;/p&gt;
-
-&lt;p&gt;というわけで、今年はようやく念願のScalaでお仕事ができた1年でした。
-これらのお仕事では、Scalaはもちろんスクラムによるチーム開発もはじめて経験し、本当に得るものが多かったです。&lt;/p&gt;
-
-&lt;p&gt;(後者の案件はまだ継続中です。引き続き頑張ります！)&lt;/p&gt;
-
-&lt;h3 id=&#34;android開発者養講座の講師:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Android開発者養講座の講師&lt;/h3&gt;
-
-&lt;p&gt;今年の前半は先述のScala案件と並行し、&lt;a href=&#34;http://techinstitute.jp/&#34;&gt;TechInstitute&lt;/a&gt;というAndroid開発者養成講座に講師の1人として参加していました。&lt;/p&gt;
-
-&lt;p&gt;東京と大阪で開催され、大阪ではシーリスの有山さんをはじめとする関西Andorid界隈で有名なみなさんが講師として参加。
-私は最初の方の基礎講座で担当講師として前に立ち、その後はチューターとして他の先生方のサポートを行っていました。&lt;/p&gt;
-
-&lt;p&gt;なぜそんな豪華講師陣の中に私が呼ばれたのかというと、同じく講師として参加した友人に「よく勉強会で登壇しているし、向いているんじゃない？どう？」と声を掛けてもらったのがきっかけでした。&lt;/p&gt;
-
-&lt;p&gt;講師業ははじめてだったのですが、用意されたテキストを元に生徒のみんなにどう伝えれるのがいいか私なりに考えて授業の準備をしたり、講師陣で今後どう進めるべきか日々チャットで議論をしたりと、普段の開発の仕事とはまた違う経験ができました。
-これも先述のScala案件同様、得るものが多かったです。&lt;/p&gt;
-
-&lt;p&gt;※余談ですが、TechInstituteのテキストは公開されています。Androidの勉強用にいい教材ですので、興味がある方はぜひご覧になってみてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://techinstitute.jp/material/02/&#34;&gt;Tech Institute アプリ開発者養成講座テキスト&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;まとめ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;まとめ&lt;/h2&gt;
-
-&lt;p&gt;というわけで今年は、&lt;strong&gt;念願のScala開発&lt;/strong&gt; と、そして&lt;strong&gt;プログラミング講師&lt;/strong&gt;というこれまた珍しいお仕事をさせていただきました。
-そしてこれらが全て、勉強会を主催したり登壇したりしていたことがきっかけで頂いたお仕事でした。&lt;/p&gt;
-
-&lt;p&gt;勉強会の主催や登壇といったコミュニティ活動はもはや趣味のようなもので、楽しんでやっていることです。
-&lt;strong&gt;営業らしい営業をしているつもりはないのに、なんと立派な営業になっている！&lt;/strong&gt;
-なにこれすごい。&lt;/p&gt;
-
-&lt;p&gt;フリーランスとして、こういった&lt;strong&gt;アウトプットは大事&lt;/strong&gt;だとは元々思っていましたが、それをより実感したのが今年でした。&lt;/p&gt;
-
-&lt;p&gt;来年はコミュニティ活動だけじゃなくて、もっと自学に力をいれて、技術ブログやGithubでアウトプットする頻度をあげて、&lt;strong&gt;インプットとアウトプットのいいサイクルを作る&lt;/strong&gt;ことが目標です。
-アウトプット力をどんどん高めていくぜ！&lt;/p&gt;
-
-&lt;p&gt;Scalaにしろ講師業にしろ、こういった実績のない仕事を頂けると自分のスキル幅が大きく広げることができ、本当にありがたいです。
-こいつに任せて大丈夫だろうかという不安がある中、それでも任せていただけて感謝しております。
-いい経験ができて本当によかったです。関係者のみなさまありがとうございました。&lt;/p&gt;
-
-&lt;h2 id=&#34;おまけ:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;おまけ&lt;/h2&gt;
-
-&lt;p&gt;私は元々はあがり症で、昔は人前で話す時めちゃくちゃ緊張して失敗することも多かったのですが、勉強会で登壇を重ねるうちに緊張することも減りました。トークスキルも上がっているようです。嬉しい。
-「登壇なんて自分には無理」と思う人もいるかもしれませんが、何事も経験なので機会があれば手を挙げてやってみるといいと思うよ！&lt;/p&gt;
-
-&lt;h2 id=&#34;質問の回答:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;質問の回答&lt;/h2&gt;
-
-&lt;p&gt;このアドベントカレンダーには質問が用意されていますので、そのうち何個かに答えてみます。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-机やイスにこだわりありますか:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. 机やイスにこだわりありますか？&lt;/h3&gt;
-
-&lt;p&gt;ないです。
-机はIKEAで買ったデスクでちゃんとした物なのですが、椅子はピアノ用に購入したしょぼいやつ・・・。&lt;/p&gt;
-
-&lt;p&gt;こんなの&lt;/p&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B000VSYCUU&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;以前は背もたれ付きのちゃんとしたやつを置いていたのですが、部屋が狭いので邪魔だなと思い捨てました。
-椅子はもう少しこだわった方がいい気がしないでもない・・・。けど、ピアノ椅子に特に不満もないし、もうこれでいいかって気もします。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-これがないと-というお気に入りツール-環境はありますか:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. これがないと！というお気に入りツール・環境はありますか？&lt;/h3&gt;
-
-&lt;h4 id=&#34;just-mobile-lazy-couch:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Just Mobile Lazy Couch&lt;/h4&gt;
-
-&lt;iframe src=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=nocono-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B005QFAYBO&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;キーボードに傾斜をつけたくて買いました。
-ノートPCの下に隙間ができるので熱が篭らず、冷却効果も。&lt;/p&gt;
-
-&lt;p&gt;コンパクトで持ち運びしやすく、気に入っています。
-もはやノートPCの下にはこれを置かないと落ち着かない・・・。&lt;/p&gt;
-
-&lt;h4 id=&#34;alfred:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Alfred&lt;/h4&gt;
-
-&lt;p&gt;Mac用のランチャーアプリです。有料版を使っています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.alfredapp.com/&#34;&gt;Alfred - Productivity App for Mac OS X&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一回Spotlight+Flashlightに乗り換えたのですが、Enterで結果コピーができたりと細かい使い心地がこちらの方がよかったので戻ってきました。
-クリップボード履歴機能などもついています。&lt;/p&gt;
-
-&lt;p&gt;AlfredはWorkflowという機能が超便利です。(Workflowについての説明は割愛するので、ご存知ない方はググってみてください。)
-最近は簡単なメモを保存するシェルスクリプトを作って登録したりして、便利な使い方を模索中。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-フリーランスになりたい-と相談されることありますか-また答えは:adc374a1111dadcbecaeae3fb3afd20b&#34;&gt;Q. 「フリーランスになりたい」と相談されることありますか？また答えは？&lt;/h3&gt;
-
-&lt;p&gt;たまにありますが、一概に「これが正解！」というのはないので、「やってみたらいいと思います」っていう回答ですね。&lt;/p&gt;
-
-&lt;p&gt;もちろん&lt;a href=&#34;http://nocono.net/post/2014/34/&#34;&gt;去年書いたみたいな感じ&lt;/a&gt;で、自分の経験を元にしたアドバイスはできるんですが、運とかタイミングとかもあるので、やってみないとわからないっていうのはあると思っています。
-そういう意味では、フリーランスになる上で一番必要なのって、度胸なのかもしれないですね。&lt;/p&gt;
-
-&lt;p&gt;・&lt;br /&gt;
-・&lt;br /&gt;
-・&lt;/p&gt;
-
-&lt;p&gt;さて、16日目の記事は・・・うぉおお！もうある！！！
-フィットネスインストラクター青貝夕子ちゃんの記事ですね、どうぞ！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yoga-aogaiyuko.com/2015/12/16/%e3%83%95%e3%83%aa%e3%83%bc%e3%81%ae%e3%83%95%e3%82%a3%e3%83%83%e3%83%88%e3%83%8d%e3%82%b9%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e3%82%84%e3%81%a3%e3%81%a6%e3%81%be/&#34;&gt;フリーのフィットネスインストラクターやってます | ヨガインストラクター青貝夕子&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,26 +30,9 @@
       <pubDate>Thu, 10 Dec 2015 16:48:57 +0900</pubDate>
       
       <guid>http://nocono.net/post/2015/wp-to-hugo/</guid>
-      <description>
+      <description>&lt;p&gt;当サイトの運用システムを、WordPressから&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Go製の静的サイトジェネレータ)に変更しました。ホスティング先は&lt;a href=&#34;https://pages.github.com/&#34;&gt;GithubPages&lt;/a&gt;です。&lt;/p&gt;
 
-&lt;p&gt;当サイトの運用システムを、WordPressから&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Go製の静的サイトジェネレータ)に変更しました。ホスティング先は&lt;a href=&#34;https://pages.github.com/&#34;&gt;GithubPages&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;p&gt;最初は&lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;にしようとしていたのですが、Hugoが記事生成早くていいよと教えていただいたので試しに使って、よさ気だったのでそのまま移行しました。&lt;/p&gt;
-
-&lt;p&gt;コマンドラインで更新作業ができるのはよいですね。
-今年はブログ書かなさすぎたけど、更新も楽になったことだし来年こそはがんばろう・・・。&lt;/p&gt;
-
-&lt;h2 id=&#34;参考にしたサイト:b5edfa6373c50342486587e36ad49b10&#34;&gt;参考にしたサイト&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;Hugo + GitHub Pagesでブログを作る#1 | TANKSUZUKI.COM&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;テーマも使用させていただいております。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&#34;&gt;Tips for configuring an A record with your DNS provider - User Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -199,56 +41,11 @@
       <pubDate>Tue, 07 Jan 2014 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2014/31/</guid>
-      <description>
-
-&lt;p&gt;もう7日になってしまいましたが、あけましておめでとうございます。&lt;/p&gt;
+      <description>&lt;p&gt;もう7日になってしまいましたが、あけましておめでとうございます。&lt;/p&gt;
 
 &lt;p&gt;新年1発目のエントリーということで、2013年振り返りと2014年抱負を書いてみます。&lt;/p&gt;
 
-&lt;h2 id=&#34;2013年振り返り:ea8492b34791ddaedc8373ecd6020d2d&#34;&gt;2013年振り返り&lt;/h2&gt;
-
-&lt;p&gt;去年始めに&lt;a href=&#34;http://nocono.net/15&#34;&gt;2013年の抱負&lt;/a&gt;を書いたものの、残念ながら胸を張って「守れた！」とは言えない結果に・・・。&lt;/p&gt;
-
-&lt;p&gt;勉強会については、&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/17&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt; 第二回 JetBrainsユーザーグループ in 大阪&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://nocono.net/22&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt; Scala関西ビギナーズ第2回&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/SAMMY7th/play_kb/wiki/play_kb_2&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; PlayFramework関西ビギナーズ第2回&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;に加え、ScalaやPlayのもくもく会を数回開催しました。&lt;br /&gt;
-登壇者の方はもちろん、参加者みなさんのおかげでどれも充実した勉強会となりました。&lt;/p&gt;
-
-&lt;p&gt;アウトプット云々に関しては、最近やっと、このブログに技術記事を書くようになりました。&lt;br /&gt;
-ダイエットもちょっと守れたよ！1kg減ったからね！(年始で戻った気がしますが。)&lt;/p&gt;
-
-&lt;p&gt;一番ダメだったのは「効率良く仕事をする」でしょうか。&lt;br /&gt;
-時間の使い方に関しては今後も大きな課題です。&lt;/p&gt;
-
-&lt;p&gt;例年から大きく変わったことと言えば、2013年後半はAndroidアプリ開発のお仕事が中心だったことです。&lt;br /&gt;
-以前からやっていたJavaをもとに、スキルを広げることができたことは大きな収穫でした。&lt;br /&gt;
-仕事を任せてくださったクライアント様に心から感謝。&lt;/p&gt;
-
-&lt;h2 id=&#34;2014年抱負:ea8492b34791ddaedc8373ecd6020d2d&#34;&gt;2014年抱負&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;技術力の向上。&lt;/li&gt;
-&lt;li&gt;時間の使い方を改善する。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;技術力の向上なんて抱負に挙げるまでもなく目指すべきなのですが、敢えて書きました。&lt;br /&gt;
-周囲のエンジニアの方々に比べて、自分のスキルの低さが恥ずかしいなぁという思いが最近特に強いからです。&lt;br /&gt;
-色々手を付けすぎて知識が広く浅い状態になっているので、Java/Scala(Web、Androidアプリ)を中心として改めてスキルアップを図っていきたいと思います。&lt;/p&gt;
-
-&lt;p&gt;そのためにも時間の使い方についてはもっと考えないと・・・！&lt;br /&gt;
-というわけで、とりあえずRedmineでタスク管理することにしました。&lt;br /&gt;
-続かない気がするので、並行してもっといいツールを探していきたいです。&lt;/p&gt;
-
-&lt;p&gt;おかげさまで何とフリーランス生活も3年目に突入です。&lt;br /&gt;
-本当に周囲の方々のおかげです。ありがとうございます！&lt;br /&gt;
-より一層精進いたしますので、今後ともどうぞよろしくお願いします。&lt;/p&gt;
-
-&lt;p&gt;あべ あさみ&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -260,15 +57,7 @@
       <description>&lt;p&gt;当ページのCMSを&lt;a href=&#34;http://lokka.org&#34;&gt;Lokka&lt;/a&gt;から&lt;a href=&#34;http://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;に変更しました。&lt;br /&gt;
 &lt;a href=&#34;http://nocono.net/15&#34;&gt;前からやろうやろうと思っていたのですが&lt;/a&gt;、ついつい後回しに・・・。&lt;/p&gt;
 
-&lt;p&gt;Lokkaを使っていたのはHerokuでお金かけずにブログ運営したかったからです。&lt;br /&gt;
-Lokkaはシンプルでカスタマイズがしやすく名前も可愛い。&lt;br /&gt;
-・・・といいところもたくさんあるのですが、使い勝手の良さはWordPressの方が上。&lt;br /&gt;
-というわけで乗り換えてしまいました。&lt;br /&gt;
-サーバーもHerokuからさくらVPSにお引っ越し。&lt;/p&gt;
-
-&lt;p&gt;これを期に、今度こそ更新頻度を上げていきたいな・・・！&lt;br /&gt;
-がんばります。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -277,50 +66,11 @@ Lokkaはシンプルでカスタマイズがしやすく名前も可愛い。&lt
       <pubDate>Fri, 04 Jan 2013 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2013/15/</guid>
-      <description>
-
-&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
+      <description>&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
 
 &lt;p&gt;年始なので、今年の抱負でも書いてみます。&lt;/p&gt;
 
-&lt;h2 id=&#34;効率良く仕事をする:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;効率良く仕事をする&lt;/h2&gt;
-
-&lt;p&gt;ついダラダラやりがちなので、ちゃんとメリハリ付けてこなして行きたいです。&lt;/p&gt;
-
-&lt;h2 id=&#34;勉強をする:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;勉強をする&lt;/h2&gt;
-
-&lt;p&gt;毎日ちょっとずつでも技術書読んだり、FizzBuzz解いたりする時間を作りたい。&lt;br /&gt;
-なかなか難しいですが。&lt;/p&gt;
-
-&lt;p&gt;去年始めた勉強会開催は、私自身得るものが多いので今年も続けていきたいです。&lt;br /&gt;
-「勉強会を開く事」が目的とならないように気をつけます。&lt;/p&gt;
-
-&lt;h2 id=&#34;ブログを更新する:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;ブログを更新する&lt;/h2&gt;
-
-&lt;p&gt;イベント参加記録になりつつあるこのブログ・・・。&lt;br /&gt;
-もっと色々書きたいです。&lt;br /&gt;
-アウトプット大事。&lt;/p&gt;
-
-&lt;p&gt;それよりWordPressで作り替えるのが先かなー・・・。&lt;/p&gt;
-
-&lt;h2 id=&#34;早寝早起き:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;早寝早起き&lt;/h2&gt;
-
-&lt;p&gt;お肌のためにも。&lt;br /&gt;
-早起きというより、エンジンかかるのが遅いのを何とかしたいです。&lt;/p&gt;
-
-&lt;h2 id=&#34;ダイエット:33c5139a5c41b47d8e98d1b80005b3ab&#34;&gt;ダイエット&lt;/h2&gt;
-
-&lt;p&gt;去年は6Kg痩せたけど2Kg戻りました。&lt;br /&gt;
-最近増加傾向にあるのでこのままだとマズい・・・。&lt;/p&gt;
-
-&lt;p&gt;お菓子減らせばいいだけなんですけどね・・・うん・・・・。&lt;br /&gt;
-(お菓子食べながら)&lt;/p&gt;
-
-&lt;p&gt;要するに「規則正しい生活を送る」ってことですね。&lt;/p&gt;
-
-&lt;p&gt;今年は去年以上に実りのある年にするよう精進していきます。&lt;br /&gt;
-どうぞよろしくお願いします。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -329,101 +79,9 @@ Lokkaはシンプルでカスタマイズがしやすく名前も可愛い。&lt
       <pubDate>Mon, 31 Dec 2012 00:00:00 +0900</pubDate>
       
       <guid>http://nocono.net/post/2012/14/</guid>
-      <description>
-
-&lt;p&gt;早いもので2012年がもうすぐ終わります。&lt;br /&gt;
-今年は私にとって激動の年でした。&lt;/p&gt;
-
-&lt;h3 id=&#34;1月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;1月&lt;/h3&gt;
-
-&lt;p&gt;フリーエンジニアとなり、業務委託でお仕事。&lt;br /&gt;
-常駐だったので仕事自体は派遣時代と大差はなかったです。&lt;br /&gt;
-とはいえ契約書作成など初めてのことも多く、いい経験になりました。&lt;/p&gt;
-
-&lt;h3 id=&#34;2月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;2月&lt;/h3&gt;
-
-&lt;p&gt;のんびり。&lt;br /&gt;
-明日こそ掃除しようと思いながら漫画を読んだりゲームをしたりする日々。&lt;/p&gt;
-
-&lt;h3 id=&#34;3月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;3月&lt;/h3&gt;
-
-&lt;p&gt;なんとか家を片付ける。&lt;br /&gt;
-ぼちぼち勉強開始。&lt;br /&gt;
-GAEでTwitterBOTを作ったりして遊ぶ。&lt;br /&gt;
-herokuやPlayFramework、Scalaを知ったのはこの頃。&lt;/p&gt;
-
-&lt;h3 id=&#34;4月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;4月&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/5&#34;&gt;プログラマーズナイト&lt;/a&gt;に参加。&lt;br /&gt;
-世間では勉強会というものが頻繁に開かれていて、積極的に参加しているエンジニアさん達がいることを初めて知る。&lt;br /&gt;
-&lt;a href=&#34;http://geragera.jp/&#34;&gt;ゲラゲラ&lt;/a&gt;開発開始。&lt;/p&gt;
-
-&lt;h3 id=&#34;5月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;5月&lt;/h3&gt;
-
-&lt;p&gt;引き続きゲラゲラ開発。&lt;br /&gt;
-PlayFrameworkよりjQueryやCSSに苦戦。&lt;br /&gt;
-「nocono」(このサイト)開設。&lt;br /&gt;
-つてでWordPressカスタマイズの案件をちらほら頂く。&lt;br /&gt;
-&lt;a href=&#34;http://nocono.net/6&#34;&gt;プレゼン勉強会&lt;/a&gt;に参加。&lt;br /&gt;
-これが私の運命を大きく変えることに。&lt;/p&gt;
-
-&lt;h3 id=&#34;6月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;6月&lt;/h3&gt;
-
-&lt;p&gt;ゲラゲラ公開。&lt;br /&gt;
-プレゼン勉強会と同じく@msngさん主催の俺聞けに参加。&lt;br /&gt;
-コワーキングスペースの存在を知る。&lt;br /&gt;
-6末には勢いでこのスペースに通い始める。&lt;/p&gt;
-
-&lt;h3 id=&#34;7月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;7月&lt;/h3&gt;
-
-&lt;p&gt;コワーキングスペースのお陰で交流範囲が一気に広がる。&lt;br /&gt;
-楽しくて仕方が無い日々のはじまりはじまり。&lt;br /&gt;
-しかし浮かれすぎて、7末に酔っぱらって机を蹴って骨折。&lt;/p&gt;
-
-&lt;h3 id=&#34;8月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;8月&lt;/h3&gt;
-
-&lt;p&gt;自宅療養・・・。&lt;br /&gt;
-業務委託のお仕事を開始する予定だったのが延期。&lt;br /&gt;
-WordPressの案件を自宅で進める日々。&lt;/p&gt;
-
-&lt;h3 id=&#34;9月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;9月&lt;/h3&gt;
-
-&lt;p&gt;日常生活に支障ない範囲まで回復。&lt;br /&gt;
-コワーキングスペースに再び通い始める。&lt;/p&gt;
-
-&lt;h3 id=&#34;10月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;10月&lt;/h3&gt;
-
-&lt;p&gt;怪我が全治。&lt;br /&gt;
-お仕事はあるけど生活できる程ではなく、貯金を崩す状態が続く。&lt;br /&gt;
-まぁなんとかなるだろう。&lt;/p&gt;
-
-&lt;h3 id=&#34;11月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;11月&lt;/h3&gt;
-
-&lt;p&gt;・・・って、なんとかならねぇーーーー！！！！！&lt;br /&gt;
-流石に焦り始める。&lt;br /&gt;
-そんな中、初めての勉強会主催。&lt;br /&gt;
-&lt;a href=&#34;http://nocono.net/11&#34;&gt;PlayFramework関西ビギナーズ&lt;/a&gt;開催。&lt;br /&gt;
-&lt;a href=&#34;http://nocono.net/12&#34;&gt;関数型言語勉強会&lt;/a&gt;にてLTをさせて頂く。&lt;br /&gt;
-11月末、無事に長期お仕事を頂き、ほっと一安心。&lt;/p&gt;
-
-&lt;h3 id=&#34;12月:76e8ecb8f550946cd307b4b297270d30&#34;&gt;12月&lt;/h3&gt;
-
-&lt;p&gt;2月以降、一番仕事した月。&lt;br /&gt;
-&lt;a href=&#34;http://nocono.net/13&#34;&gt;Scala関西ビギナーズ&lt;/a&gt;主催。&lt;/p&gt;
-
-&lt;p&gt;本日12/31、今年出会った仲間達と一緒に年越しパーティー中！&lt;/p&gt;
-
-&lt;p&gt;勢いではじめてしまったフリーランス生活。&lt;br /&gt;
-想像以上にとても楽しく、幸せな年になりました。&lt;br /&gt;
-これも一重に周囲の皆さんのお陰です。いや本当に！&lt;/p&gt;
-
-&lt;p&gt;なんかもっと色々書きたいことがあった気がするのですが、そろそろ周りの騒ぎに混ざってきます。&lt;/p&gt;
-
-&lt;p&gt;今年私に関わってくださった皆様に感謝！&lt;br /&gt;
-来年もどうぞよろしくお願いします！！&lt;/p&gt;
-
-&lt;p&gt;あべ あさみ&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;早いもので2012年がもうすぐ終わります。&lt;br /&gt;
+今年は私にとって激動の年でした。
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -435,25 +93,7 @@ WordPressの案件を自宅で進める日々。&lt;/p&gt;
       <description>&lt;p&gt;はじめまして！
 「nocono」という名義でエンジニア活動を行っている、SAMMYと申します。&lt;/p&gt;
 
-&lt;p&gt;先日までSI業界にてお仕事していたのですが、コンシューマ向けのシステム開発に携わりたいと会社を辞め、しかも思い切って独立してみました・・・！
-つい勢いだけでやってしまったのですが、何といくつかWEB制作などのお仕事をお請けすることができ、フリーランスとしては順調に活動しているところです。
-(ほんと、ありがたいお話です。)&lt;/p&gt;
-
-&lt;p&gt;また一方で現在、個人でWEBサービス・スマホアプリ(主にiOS向け)を開発中です。
-格好の悪いことに、まだ何もお見せできるものが無いのですが・・・(汗)&lt;/p&gt;
-
-&lt;p&gt;何かちゃんとした「商品」が出来上がってから所謂「公式サイト」を作成しようと考えていたのですが、お仕事をお請けする際に屋号・ドメインが無いと不便だなぁと思い、とりあえずこのようなサイトを作ってみました。&lt;/p&gt;
-
-&lt;p&gt;しかし不手際で、一部の方々にまだサイト開設もメール設定も終わっていない状態で名刺をお渡しするという事態に・・・。
-本当に失礼を致しました・・・。現在、メールも届くようになっております。&lt;/p&gt;
-
-&lt;p&gt;さて、このサイトでは、開発した物の紹介、開発中の技術メモ、また全然関係ない日常のことetc.を書いて行こうかと思っています。要するに普通のブログですね(笑)
-あまり気張らずマイペースに書いていければと思います。&lt;/p&gt;
-
-&lt;p&gt;それでは、まだまだ未熟者ではありますが、どうぞよろしくお願いします！&lt;/p&gt;
-
-&lt;p&gt;m(_ _)m&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

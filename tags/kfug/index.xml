@@ -6,8 +6,11 @@
     <description>Recent content in Kfug on nocono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <copyright>Written by きの子</copyright>
     <lastBuildDate>Thu, 10 Dec 2015 23:23:54 +0900</lastBuildDate>
-    <atom:link href="http://nocono.net/tags/kfug/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://nocono.net/tags/kfug/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>「いまどきのフロントエンド環境構築」でmakeについてのLTをした話</title>
@@ -15,65 +18,11 @@
       <pubDate>Thu, 10 Dec 2015 23:23:54 +0900</pubDate>
       
       <guid>http://nocono.net/post/2015/kfug-makefile/</guid>
-      <description>
-
-&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kfug&#34;&gt;関西フロントエンドUG Advent Calendar 2015 - Qiita&lt;/a&gt; 10日目の記事です。&lt;/p&gt;
+      <description>&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kfug&#34;&gt;関西フロントエンドUG Advent Calendar 2015 - Qiita&lt;/a&gt; 10日目の記事です。&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;26&lt;/sub&gt; 関西フロントエンドUG開催の&lt;a href=&#34;http://kfug.connpass.com/event/17849/&#34;&gt;[JS/CSS] いまどきのフロントエンド環境構築&lt;/a&gt;という勉強会でmakeについての発表をしました。&lt;/p&gt;
 
-&lt;h2 id=&#34;発表資料:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;発表資料&lt;/h2&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/rFwL1kVFpB8tuw&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/noconoasami/make-56010270&#34; title=&#34;makeのススメ&#34; target=&#34;_blank&#34;&gt;makeのススメ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/noconoasami&#34; target=&#34;_blank&#34;&gt;Asami Abe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;発表することになった経緯:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;発表することになった経緯&lt;/h2&gt;
-
-&lt;p&gt;去年末、仕事をしていたチームで「Gruntを使ってみよう」という話になり、フロント側のタスクをGruntfileにせっせと記述する係をやっていました。&lt;/p&gt;
-
-&lt;p&gt;プロジェクトではTypeScriptを採用していたので、Gruntプラグインを使用してTypeScriptのビルドタスクを作成しました。ところがtscコマンドを直に叩くと正常にコンパイルできるのに、作成したGruntタスクを実行するとコンパイルエラーとなる現象が発生。(バージョンの問題？)&lt;/p&gt;
-
-&lt;p&gt;エラーを解消できず、しかも元々必要なコマンドは最終的に全てMakefileに集約する方針だったため、結局tscコマンドをMakefileに直に書くことに。
-その時「そもそも最初からMakefileに書けばよかったんやなこれ・・・」と思い、その後はフロント側のタスクもなるべくGruntfileには書かずに直接Makefileに書いていました。&lt;/p&gt;
-
-&lt;p&gt;・・・という話を飲み会でしたら、&lt;a href=&#34;http://qiita.com/mikakane&#34;&gt;主催の人&lt;/a&gt;に「そのネタでLTやってください」って言われて発表することになりました。(しかもトリ)&lt;/p&gt;
-
-&lt;p&gt;「いまどきのフロントエンド環境構築」ってタイトルの勉強会のトリでmakeの話をするとかちょっとロックすぎないか？と心配でしたが、意外と「私もMakefileに書いています」なんて方もいて安心(?)しました。&lt;/p&gt;
-
-&lt;h2 id=&#34;フロントエンド技術の流行り廃りの激しさが辛い:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;フロントエンド技術の流行り廃りの激しさが辛い&lt;/h2&gt;
-
-&lt;p&gt;そもそも去年末の時点で「最近Grunt使いはじめた。」という話をしたら「えっ！いまさらGrunt！？Gulpじゃなくて！？」みたいな話になり、その話を他の人にしたら「え。Gulpももう遅れてる空気じゃない？」みたいなことを言われて&lt;em&gt;何使ったらいいんだようわぁああああああ！！！&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;・・・っていう感じで恐ろしく流行り廃りが激しいじゃないですか。タスクランナーに限らずフロントエンドって。&lt;/p&gt;
-
-&lt;p&gt;実際この日も「Gulpもう疲れた」とか「Gulpプラグインがメンテされていないの多くて辛い」みたいな声が結構あったのが印象的でした。&lt;/p&gt;
-
-&lt;p&gt;「最近流行っているらしい」と聞くとついつい手を出したくなるところではありますが、&lt;strong&gt;本当に採用が妥当かどうか、周囲の盛り上がりに流されず判断する力が特に要求される&lt;/strong&gt;のがこの界隈なんだなーと、今年個人的に身を以て体感したのでした。&lt;/p&gt;
-
-&lt;h2 id=&#34;私とフロントエンド-この1年:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;私とフロントエンド この1年&lt;/h2&gt;
-
-&lt;p&gt;以前は仕事でフロント側の技術に触れる機会がほとんどなかったのですが、今年は&lt;a href=&#34;http://gruntjs.com/&#34;&gt;Grunt&lt;/a&gt;や&lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;TypeScript&lt;/a&gt;、&lt;a href=&#34;http://knockoutjs.com/&#34;&gt;knockout.js&lt;/a&gt;、&lt;a href=&#34;http://casperjs.org/&#34;&gt;CasperJS&lt;/a&gt;を先述の案件で使用し、また自身が開催した&lt;a href=&#34;summit.scala-kansai.org&#34;&gt;Scala関西Summitのサイト&lt;/a&gt;で&lt;a href=&#34;http://semantic-ui.com/&#34;&gt;SemanticUI&lt;/a&gt;や&lt;a href=&#34;http://gulpjs.com/&#34;&gt;Gulp&lt;/a&gt;を活用、そして今日はこのサイトを&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;に移行したりと、一気にいろんなフロントエンド技術にどっぷり浸かった1年でした。
-付いて行くのはしんどいものの、フロントエンドは結果が派手というか、動きがあったり綺麗なUIが短いコードでできあがったりするので楽しいですね。&lt;/p&gt;
-
-&lt;h2 id=&#34;私と関西フロントエンドug-この1年:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;私と関西フロントエンドUG この1年&lt;/h2&gt;
-
-&lt;p&gt;そんなフロントエンドの移り変わりの激しさに負けないためにも！と、&lt;a href=&#34;http://kfug.connpass.com/&#34;&gt;関西フロントエンドUG(KFUG)&lt;/a&gt;にはちょくちょく顔を出し、何回か登壇の機会もいただきました。ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;KFUGはまだスタートして1年ですがいろんな人が参加していて、なかなか楽しいコミュニティです。
-2016/03/05にはなんと&lt;a href=&#34;http://frontconf2016.webflow.io/&#34;&gt;frontend conference 2016&lt;/a&gt;開催ということで、こちらも楽しみ。&lt;/p&gt;
-
-&lt;p&gt;来年も引き続きちょくちょく顔を出していくつもりですので、みなさまよろしくお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;さて、そんな盛り上がっている筈のKFUGですが、なんと&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kfug&#34;&gt;アドベントカレンダー&lt;/a&gt;が埋まっていないではないか！
-ということでネタはいくつかあるので、気が向いたらまた何か書きたいなと思います。&lt;/p&gt;
-
-&lt;p&gt;とりあえず、現時点での次は明後日の&lt;a href=&#34;http://qiita.com/shima_x_o&#34;&gt;shima_x_o&lt;/a&gt;ですね！お楽しみに〜！&lt;/p&gt;
-
-&lt;h2 id=&#34;関連サイト:c51f277c36f44c9fd904e6a607584cf3&#34;&gt;関連サイト&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://kfug.connpass.com/event/17849/&#34;&gt;[JS/CSS] いまどきのフロントエンド環境構築 - connpass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://togetter.com/li/879700&#34;&gt;「いまどきのフロントエンド環境構築」のまとめ【俺得】 - Togetterまとめ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
