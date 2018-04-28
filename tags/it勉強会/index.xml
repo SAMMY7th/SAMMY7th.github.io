@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by きの子</copyright>
-    <lastBuildDate>Fri, 13 Apr 2018 13:30:40 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Apr 2018 16:05:32 +0900</lastBuildDate>
     
 	<atom:link href="http://nocono.net/tags/it%E5%8B%89%E5%BC%B7%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>5/9(水)「大正GeekNight」開催します！ #TaishoGeek</title>
+      <link>http://nocono.net/post/2018/04/taishogeek/</link>
+      <pubDate>Sat, 28 Apr 2018 16:05:32 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2018/04/taishogeek/</guid>
+      <description>&lt;p&gt;&lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;9&lt;/sub&gt;(水) 大正GeekNightというイベントを開催します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://taisho-geek.connpass.com/event/85508/&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;9&lt;/sub&gt;(水) 大正GeekNight Vol.1 - connpass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;場所はJR大正駅近くのゲストハウス &lt;a href=&#34;https://www.facebook.com/Hostel-Nagayado-OSAKA-573054036360727/&#34;&gt;Hostel Nagayado OSAKA&lt;/a&gt; さんのイベントスペースです。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>OSSに初貢献した話 - ScalaMatsuri2018レポートその1 #ScalaMatsuri</title>
