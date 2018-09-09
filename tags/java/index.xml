@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by きの子</copyright>
-    <lastBuildDate>Sat, 17 Jun 2017 21:23:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Sep 2018 19:40:00 +0900</lastBuildDate>
     
 	<atom:link href="http://nocono.net/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JJUG CCC 2018 Spring「JavaエンジニアのためのDocker入門」というタイトルで登壇しました</title>
+      <link>http://nocono.net/post/2018/09/jjug-ccc-docker/</link>
+      <pubDate>Sun, 09 Sep 2018 19:40:00 +0900</pubDate>
+      
+      <guid>http://nocono.net/post/2018/09/jjug-ccc-docker/</guid>
+      <description>&lt;p&gt;2018年5月26日（土） &lt;a href=&#34;http://www.java-users.jp/ccc2018spring/#/&#34;&gt;JJUG CCC 2018 Spring&lt;/a&gt; にて 「JavaエンジニアのためのDocker入門」というタイトルで登壇しました。もう大分日が経っているのですが、こういうのブログに残さないのよくない・・・と思い今更ながら記事を書いています。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>JJUG CCC 2017 Springに参加&amp;登壇してきました。 #jjug_ccc</title>
